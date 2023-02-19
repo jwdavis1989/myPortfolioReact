@@ -1,23 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import { Routes, Route } from "react-router-dom"
+import { Header } from './components/Header';
+import { Dashboard } from './pages/Dashboard';
+import { DungeonsAndDragonsOverhaul } from './pages/DungeonsAndDragonsOverhaul';
+import { VideoGamePrototypes } from './pages/VideoGamePrototypes';
+import { DesignExercises } from './pages/DesignExercises';
+import { MapGenerator } from './pages/MapGenerator';
+import { Resume } from './pages/Resume';
+import { AboutMe } from './pages/AboutMe';
+import { MuiThemeProvider, createTheme } from '@material-ui/core/styles';
+import { DungeonsAndDragonsContent } from './pages/DungeonsAndDragonsContent';
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#666666'
+    }
+  }
+});
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MuiThemeProvider theme={theme}>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/PublishedDnDContent" element={<DungeonsAndDragonsContent />} />
+          <Route path="/SWWLevelingOverhaul" element={<DungeonsAndDragonsOverhaul />} />
+          <Route path="/MapGenerator" element={<MapGenerator />} />
+          <Route path="/VideoGamePrototypes" element={<VideoGamePrototypes />} />
+          <Route path="/DesignExercises" element={<DesignExercises />} />
+          <Route path="/Resume" element={<Resume />} />
+          <Route path="/AboutMe" element={<AboutMe />} />
+        </Routes>
+      </MuiThemeProvider>
     </div>
   );
 }
