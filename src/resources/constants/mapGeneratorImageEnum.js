@@ -1,9 +1,30 @@
+import hallway_floor_stone_left from "../images/map_generator/hallway_floor_stone_left_0.png";
+import hallway_floor_stone_right from "../images/map_generator/hallway_floor_stone_right_0.png";
+import hallway_floor_stone_up from "../images/map_generator/hallway_floor_stone_up_0.png";
+import hallway_floor_stone_down from "../images/map_generator/hallway_floor_stone_down_0.png";
+
+import hallway_floor_stone_left_down from "../images/map_generator/hallway_floor_stone_left_down_0.png";
+import hallway_floor_stone_left_right from "../images/map_generator/hallway_floor_stone_left_right_0.png";
+import hallway_floor_stone_left_right_down from "../images/map_generator/hallway_floor_stone_left_right_down_0.png";
+import hallway_floor_stone_left_right_up from "../images/map_generator/hallway_floor_stone_left_right_up_0.png";
+
+import hallway_floor_stone_left_right_up_down from "../images/map_generator/hallway_floor_stone_left_right_up_down_0.png";
+import hallway_floor_stone_left_up from "../images/map_generator/hallway_floor_stone_left_up_0.png";
+import hallway_floor_stone_left_up_down from "../images/map_generator/hallway_floor_stone_left_up_down_0.png";
+import hallway_floor_stone_right_down from "../images/map_generator/hallway_floor_stone_right_down_0.png";
+
+import hallway_floor_stone_right_up from "../images/map_generator/hallway_floor_stone_right_up_0.png";
+import hallway_floor_stone_right_up_down from "../images/map_generator/hallway_floor_stone_right_up_down_0.png";
+import hallway_floor_stone_up_down from "../images/map_generator/hallway_floor_stone_up_down_0.png";
+import square_floor_stone from "../images/map_generator/square_floor_stone_0.png";
+
+
 //Container for metadata of images
 const MAP_GENERATOR_ART_LIST = 
 [
   //Stone Hallway Floors
   {
-    image: "../resources/images/map_generator/hallway_floor_stone_left_0.png",
+    image: hallway_floor_stone_left,
     theme: "stone",
     left: 1,
     right: 0,
@@ -13,7 +34,7 @@ const MAP_GENERATOR_ART_LIST =
     hallway: 1
   },
   {
-    image: "../resources/images/map_generator/hallway_floor_stone_right_0.png",
+    image: hallway_floor_stone_right,
     theme: "stone",
     left: 0,
     right: 1,
@@ -23,7 +44,7 @@ const MAP_GENERATOR_ART_LIST =
     hallway: 1
   },
   {
-    image: "../resources/images/map_generator/hallway_floor_stone_up_0.png",
+    image: hallway_floor_stone_up,
     theme: "stone",
     left: 0,
     right: 0,
@@ -33,19 +54,9 @@ const MAP_GENERATOR_ART_LIST =
     hallway: 1
   },
   {
-    image: "../resources/images/map_generator/hallway_floor_stone_down_0.png",
+    image: hallway_floor_stone_down,
     theme: "stone",
     left: 0,
-    right: 0,
-    up: 0,
-    down: 1,
-    floor: 1,
-    hallway: 1
-  },
-  {
-    image: "../resources/images/map_generator/hallway_floor_stone_left_down_0.png",
-    theme: "stone",
-    left: 1,
     right: 0,
     up: 0,
     down: 1,
@@ -53,7 +64,17 @@ const MAP_GENERATOR_ART_LIST =
     hallway: 1
   },
   {
-    image: "../resources/images/map_generator/hallway_floor_stone_left_right_0.png",
+    image: hallway_floor_stone_left_down,
+    theme: "stone",
+    left: 1,
+    right: 0,
+    up: 0,
+    down: 1,
+    floor: 1,
+    hallway: 1
+  },
+  {
+    image: hallway_floor_stone_left_right,
     theme: "stone",
     left: 1,
     right: 1,
@@ -63,7 +84,7 @@ const MAP_GENERATOR_ART_LIST =
     hallway: 1
   },
   {
-    image: "../resources/images/map_generator/hallway_floor_stone_left_right_down_0.png",
+    image: hallway_floor_stone_left_right_down,
     theme: "stone",
     left: 1,
     right: 1,
@@ -73,7 +94,7 @@ const MAP_GENERATOR_ART_LIST =
     hallway: 1
   },
   {
-    image: "../resources/images/map_generator/hallway_floor_stone_left_right_up_0.png",
+    image: hallway_floor_stone_left_right_up,
     theme: "stone",
     left: 1,
     right: 1,
@@ -83,7 +104,7 @@ const MAP_GENERATOR_ART_LIST =
     hallway: 1
   },
   {
-    image: "../resources/images/map_generator/hallway_floor_stone_left_right_up_down_0.png",
+    image: hallway_floor_stone_left_right_up_down,
     theme: "stone",
     left: 1,
     right: 1,
@@ -93,7 +114,7 @@ const MAP_GENERATOR_ART_LIST =
     hallway: 1
   },
   {
-    image: "../resources/images/map_generator/hallway_floor_stone_left_up_0.png",
+    image: hallway_floor_stone_left_up,
     theme: "stone",
     left: 1,
     right: 0,
@@ -103,7 +124,7 @@ const MAP_GENERATOR_ART_LIST =
     hallway: 1
   },
   {
-    image: "../resources/images/map_generator/hallway_floor_stone_left_up_down_0.png",
+    image: hallway_floor_stone_left_up_down,
     theme: "stone",
     left: 1,
     right: 0,
@@ -113,7 +134,7 @@ const MAP_GENERATOR_ART_LIST =
     hallway: 1
   },
   {
-    image: "../resources/images/map_generator/hallway_floor_stone_right_down_0.png",
+    image: hallway_floor_stone_right_down,
     theme: "stone",
     left: 0,
     right: 1,
@@ -123,7 +144,7 @@ const MAP_GENERATOR_ART_LIST =
     hallway: 1
   },
   {
-    image: "../resources/images/map_generator/hallway_floor_stone_right_up_0.png",
+    image: hallway_floor_stone_right_up,
     theme: "stone",
     left: 0,
     right: 1,
@@ -133,7 +154,7 @@ const MAP_GENERATOR_ART_LIST =
     hallway: 1
   },
   {
-    image: "../resources/images/map_generator/hallway_floor_stone_right_up_down_0.png",
+    image: hallway_floor_stone_right_up_down,
     theme: "stone",
     left: 0,
     right: 1,
@@ -143,7 +164,7 @@ const MAP_GENERATOR_ART_LIST =
     hallway: 1
   },
   {
-    image: "../resources/images/map_generator/hallway_floor_stone_up_down_0.png",
+    image: hallway_floor_stone_up_down,
     theme: "stone",
     left: 0,
     right: 0,
@@ -156,7 +177,7 @@ const MAP_GENERATOR_ART_LIST =
   //Stone Room Floors
   {
     //left
-    image: "../resources/images/map_generator/square_floor_stone_0.png",
+    image: square_floor_stone,
     theme: "stone",
     left: 1,
     right: 0,

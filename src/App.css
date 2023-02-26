@@ -1,10 +1,21 @@
-body {
-  background-color: #282c34;
+a {
   color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
 }
 
 .App {
   text-align: center;
+}
+
+body {
+  background-color: #282c34;
+  color: white;
+  background-image: url("./resources/images/DarkerSpookyMetalBackground.png");
+  background-size: cover;
 }
 
 .CogLogo {
@@ -13,42 +24,38 @@ body {
   padding-right: 10px;
 }
 
-.HeaderTitleRight {
-  text-align: right;
-  align-self: right;
-  align-content: right;
-  font-family:'Times New Roman', Times, serif;
-  width: 35vw;
-  font-size: larger;
+.commonButton {
+  color: white;
+  background-color: green;
+  padding: 100px;
+}
+
+.DualPageLayout {
+  text-align: left;
+  width: 50%;
+  padding-left: 25%;
 }
 
 .HeaderTitle {
-  text-align: center;
-  align-self: center;
-  font-family:'Times New Roman', Times, serif;
-  font-size: larger;
-}
-
-.NavBarButtonGroup {
-  width: 100vw;
-  background-color: darkgray;
-  padding: 10px;
   text-align: left;
+  align-self: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  margin-left: 25%;
+  margin-right: 24%;
+  padding: 0.5%;
+  margin-bottom: 12px;
+  color: white;
+  background-color: rgb(66, 66, 66);
+  outline-style: outset;
+  outline-width: 6px;
+  outline-color: darkgray;
 }
 
-.SWWBanner {
-  width:25vw;
-  offset-anchor: 25vw;
-  padding: 10px;
-}
-
-a {
-  color:white;
-  text-decoration: none;
-}
-
-a:hover {
-  color:red;
+.HeaderTitle:hover {
+  color: red;
+  margin-left: 24%;
+  margin-right: 23%;
 }
 
 .MapGeneratorSelectionInput {
@@ -60,8 +67,21 @@ a:hover {
   margin-left: 45vw;
 }
 
-.commonButton {
-  color: white;
-  background-color: green;
-  padding:100px;
+.NavBarButtonGroup {
+  width: 100vw;
+  background-color: darkgray;
+  padding: 10px;
+  text-align: left;
+}
+
+.NormalPageLayout {
+  text-align: left;
+  width: 50%;
+  padding-left: 25%;
+}
+
+.SWWBanner {
+  width: 25vw;
+  offset-anchor: 25vw;
+  padding: 10px;
 }

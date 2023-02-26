@@ -1,4 +1,4 @@
-import { Button } from '@material-ui/core';
+import { Button, ButtonGroup } from '@material-ui/core';
 import Select from 'react-select';
 import { MAP_GENERATOR_ART_LIST } from "../resources/constants/mapGeneratorImageEnum";
 
@@ -26,41 +26,49 @@ function MapGenerator() {
         { label: "Titanic", value: 8 },
         { label: "Why?", value: 16 }
     ];
-    var ArtList = MAP_GENERATOR_ART_LIST;
+    console.log(MAP_GENERATOR_ART_LIST);
     return (
         <div className="MapGeneratorPage">
             <link rel="stylesheet" href="./map_generator.css" />
             <p className="HeaderTitle">
-            TABLETOP RPG MAP GENERATOR
+                MAP GENERATOR
             </p>
             <div onLoad="">
+
+                {/*<!-- Header -->*/}
+                <div class="mapGenBanner" id="myHeader">
+                    <h1>DnDone Map Generator</h1>
+                </div>
 
                 {/*<!-- Map Grid -->*/}
                 <table width="100%" class="mapBorder">
                     <tbody>
                         <tr>
                             <div className="MapGeneratorSelectionInputs">
-                                Interior Theme: <Select className="MapGeneratorSelectionInput" options={interiorThemes} id="theme" name="theme" />
-                                Exterior Theme: <Select className="MapGeneratorSelectionInput" options={exteriorThemes} id="outside" name="outside" />
-                                Size:           <Select className="MapGeneratorSelectionInput" options={mapSizes} id="size" name="size" />
+                                Interior Theme: <Select className="MapGeneratorSelectionInput" options={interiorThemes} id="theme" name="theme"/>
+                                Exterior Theme: <Select className="MapGeneratorSelectionInput" options={exteriorThemes} id="outside" name="outside"/>
+                                Size:           <Select className="MapGeneratorSelectionInput" options={mapSizes} id="size" name="size"/>
                             </div>
-                            <p /><Button variant='contained' className="commonButton">
+                            <p/><Button onClick={run()} variant='contained' className="commonButton">
                                 Generate Map
                             </Button>
                         </tr>
                         <tr>
                             {/*<!-- This is the Beginning Of the Javascript-generated HTML-->*/}
                             <div id="mapGrid">
-                                <img src={ArtList[0].image} alt=""></img>
-                                <img src={ArtList[1].image} alt=""></img>
-                                <img src={ArtList[2].image} alt=""></img>
-                                <img src={ArtList[3].image} alt=""></img>
                             </div>
+                            {/*<!-- This is the End Of the Javascript-generated HTML-->*/}
+                        </tr>
+                        <tr>
+                            <br /><a href="./portfolio.html#Software Engineering Map Generator"><input type="button" value="Return to Portfolio" /></a>
                         </tr>
                     </tbody>
                 </table>
 
 
+                {/*<!-- Main Display Logic -->*/}
+                {/* Old Script: <script src="../components/map_generator_resources/map_generator_script.js"></script>*/}
+                
             </div>
         </div>
     );

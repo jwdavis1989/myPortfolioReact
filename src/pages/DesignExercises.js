@@ -1,8 +1,10 @@
+import EngineeringSharpIcon from '@mui/icons-material/EngineeringSharp';
+
 function DesignExercises() {
     return (
-        <div className="DesignExercisesPage">
+        <div className="NormalPageLayout">
             <p className="HeaderTitle">
-                DESIGN EXERCISES
+                <EngineeringSharpIcon fontSize='inherit'/> DESIGN EXERCISES
             </p>
         </div>
     );

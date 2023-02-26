@@ -1,6 +1,6 @@
 function DungeonsAndDragonsOverhaul() {
     return (
-        <div className="DungeonsAndDragonsPage">
+        <div className="NormalPageLayout">
             <p className="HeaderTitle">
                 DND OVERHAUL
             </p>

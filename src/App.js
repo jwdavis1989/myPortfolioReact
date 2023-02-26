@@ -10,6 +10,7 @@ import { Resume } from './pages/Resume';
 import { AboutMe } from './pages/AboutMe';
 import { MuiThemeProvider, createTheme } from '@material-ui/core/styles';
 import { DungeonsAndDragonsContent } from './pages/DungeonsAndDragonsContent';
+import { ContactMe } from './pages/ContactMe';
 
 const theme = createTheme({
   palette: {
@@ -33,6 +34,7 @@ function App() {
           <Route path="/DesignExercises" element={<DesignExercises />} />
           <Route path="/Resume" element={<Resume />} />
           <Route path="/AboutMe" element={<AboutMe />} />
+          <Route path="/ContactMe" element={<ContactMe />} />
         </Routes>
       </MuiThemeProvider>
     </div>

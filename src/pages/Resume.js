@@ -1,8 +1,10 @@
+import ArticleSharpIcon from '@mui/icons-material/ArticleSharp';
+
 function Resume() {
     return (
-        <div className="ResumePage">
+        <div className="NormalPageLayout">
             <p className="HeaderTitle">
-                RESUME
+                <ArticleSharpIcon fontSize='inherit'/> RESUME
             </p>
         </div>
     );
