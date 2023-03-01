@@ -3,7 +3,7 @@ import GamesSharpIcon from '@mui/icons-material/GamesSharp';
 function VideoGamePrototypes() {
     return (
         <div className="NormalPageLayout">
-            <p className="HeaderTitle">
+            <p className="HeaderTitleNoHover">
             <GamesSharpIcon fontSize='inherit'/> VIDEO GAME PROTOTYPES
             </p>
         </div>

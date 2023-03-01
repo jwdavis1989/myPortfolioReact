@@ -1,7 +1,7 @@
 function DungeonsAndDragonsOverhaul() {
     return (
         <div className="NormalPageLayout">
-            <p className="HeaderTitle">
+            <p className="HeaderTitleNoHover">
                 D&D SKILL TREES & LEVELING OVERHAUL
             </p>
         </div>

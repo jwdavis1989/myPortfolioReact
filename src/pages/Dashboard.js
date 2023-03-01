@@ -15,24 +15,26 @@ function Dashboard() {
                 </Grid>
                 <Grid item xs={4}>
                     <br />
-                    <p className="HeaderTitle">
-                        <DashboardSharpIcon fontSize='inherit' /> JEREMY DAVIS
+                    <p className="HeaderTitleNoHover">
+                        <p>
+                            <DashboardSharpIcon fontSize='inherit' /> JEREMY DAVIS
+                        </p>
                     </p>
-                    <div className="NormalPageLayout">
+                    <div className="NormalPageLayoutLeft">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </div>
                 </Grid>
                 <Grid item xs={4}>
                     <br /><br />
-                    <img className='ImageBorder' src={profilePicture} width="60%" alt="Profile" />
+                    <img className='ProfileImage' src={profilePicture} width="60%" alt="Profile" />
                 </Grid>
                 <Grid item xs={12}>
                     <br />
-                    <p className="HeaderTitle">
+                    <p className="HeaderTitleNoHover">
                         <DashboardSharpIcon fontSize='inherit' /> MISSION STATEMENT
                     </p>
-                    <div className="NormalPageLayout">
+                    <div className="NormalPageLayoutLeft">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </div>

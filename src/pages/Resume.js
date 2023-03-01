@@ -3,7 +3,7 @@ import ArticleSharpIcon from '@mui/icons-material/ArticleSharp';
 function Resume() {
     return (
         <div className="NormalPageLayout">
-            <p className="HeaderTitle">
+            <p className="HeaderTitleNoHover">
                 <ArticleSharpIcon fontSize='inherit'/> RESUME
             </p>
         </div>

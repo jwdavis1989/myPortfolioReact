@@ -53,6 +53,23 @@ body {
   margin-right: 4%;
 }
 
+.HeaderTitleNoHover {
+  text-align: center;
+  align-self: center;
+  font-family: 'PixelFont';
+  font-size: larger;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  margin-bottom: 12px;
+  color: white;
+  background-color: rgb(66, 66, 66);
+  outline-style: outset;
+  outline-width: 6px;
+  outline-color: darkgray;
+}
+
 .ImageBorder {
   margin-left: 0%;
   margin-right: 10%;
@@ -92,7 +109,25 @@ body {
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.moveLeft25 {
+  margin-left: -25%;
+}
+
+.moveLeft35 {
   margin-left: -35%;
+}
+
+.ProfileImage {
+  margin-left: -25%;
+  margin-right: 10%;
+  padding: 0.5%;
+  margin-bottom: 12px;
+  background-color: rgb(66, 66, 66);
+  outline-style: outset;
+  outline-width: 6px;
+  outline-color: darkgray;
 }
 
 .SWWBanner {
