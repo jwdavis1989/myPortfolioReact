@@ -119,11 +119,33 @@ body {
   margin-left: -35%;
 }
 
+.moveLeft45 {
+  margin-left: -45%;
+}
+
 .ProfileImage {
   margin-left: -25%;
   margin-right: 10%;
   padding: 0.5%;
   margin-bottom: 12px;
+  background-color: rgb(66, 66, 66);
+  outline-style: outset;
+  outline-width: 6px;
+  outline-color: darkgray;
+}
+
+.SmallHeaderTitleNoHover {
+  text-align: center;
+  align-self: center;
+  font-family: 'PixelFont';
+  font-size: larger;
+  margin-left: -35%;
+  margin-right: 40%;
+  margin-bottom: 12px;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  padding-top: 5px;
+  color: white;
   background-color: rgb(66, 66, 66);
   outline-style: outset;
   outline-width: 6px;
