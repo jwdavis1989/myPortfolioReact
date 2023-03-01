@@ -30,19 +30,14 @@ body {
   padding: 100px;
 }
 
-.DualPageLayout {
-  text-align: left;
-  width: 50%;
-  padding-left: 25%;
-}
-
 .HeaderTitle {
-  text-align: left;
+  text-align: center;
   align-self: center;
   font-family: 'Times New Roman', Times, serif;
+  font-family: 'PixelFont';
   font-size: larger;
-  margin-left: 25%;
-  margin-right: 24%;
+  margin-left: 10%;
+  margin-right: 10%;
   padding: 0.5%;
   margin-bottom: 12px;
   color: white;
@@ -54,8 +49,19 @@ body {
 
 .HeaderTitle:hover {
   color: red;
-  margin-left: 24%;
-  margin-right: 23%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.ImageBorder {
+  margin-left: 0%;
+  margin-right: 10%;
+  padding: 0.5%;
+  margin-bottom: 12px;
+  background-color: rgb(66, 66, 66);
+  outline-style: outset;
+  outline-width: 6px;
+  outline-color: darkgray;
 }
 
 .MapGeneratorSelectionInput {
@@ -75,9 +81,18 @@ body {
 }
 
 .NormalPageLayout {
+  text-align: center;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.NormalPageLayoutLeft {
   text-align: left;
-  width: 50%;
-  padding-left: 25%;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: -35%;
 }
 
 .SWWBanner {

@@ -2,7 +2,7 @@ function DungeonsAndDragonsOverhaul() {
     return (
         <div className="NormalPageLayout">
             <p className="HeaderTitle">
-                DND OVERHAUL
+                D&D SKILL TREES & LEVELING OVERHAUL
             </p>
         </div>
     );
