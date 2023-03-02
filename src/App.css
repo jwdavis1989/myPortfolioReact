@@ -14,8 +14,8 @@ a:hover {
 body {
   background-color: #282c34;
   color: white;
-  background-image: url("./resources/images/DarkerSpookyMetalBackground.png");
-  background-size: cover;
+  background-image: url("./resources/images/AbstractCubesBackground.png");
+  background-size: auto;
 }
 
 .CogLogo {

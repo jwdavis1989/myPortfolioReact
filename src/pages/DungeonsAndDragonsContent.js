@@ -118,6 +118,7 @@ function DungeonsAndDragonsContent() {
                                 <li>Dozens of New Artifacts of Various Qualities</li>
                                 <li>Loot Roll Tables</li>
                                 <li>New Item Artwork</li>
+                                <li>Compatibility with both D&D 5e and our Skill Tree & Leveling Overhaul</li>
                             </ul>
                         </div>
                     </Grid>

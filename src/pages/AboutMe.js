@@ -40,6 +40,7 @@ function AboutMe() {
                         Global Agile Developer Certification
                         <br />
                         Cobalt Cloud Certification
+                        <br /> Infosys React JS Certification
                     </Grid>
                 </Grid>
             </div>
