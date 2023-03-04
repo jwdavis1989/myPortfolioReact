@@ -29,7 +29,7 @@ function DungeonsAndDragonsContent() {
                         </Link>
                     </Grid>
                     <Grid item xs={3}>
-                        <p className="SmallHeaderTitleNoHover">
+                        <p className="SmallHeaderTitleNoHover moveLeft35">
                             <b>SUMMARY:</b>
                         </p>
                         <div className="NormalPageLayoutLeft moveLeft35">
@@ -40,7 +40,7 @@ function DungeonsAndDragonsContent() {
                         </div>
                     </Grid>
                     <Grid item xs={3}>
-                        <p className="SmallHeaderTitleNoHover">
+                        <p className="SmallHeaderTitleNoHover moveLeft35">
                             <b>INCLUDES:</b>
                         </p>
                         <div className="NormalPageLayoutLeft moveLeft35">
@@ -95,7 +95,7 @@ function DungeonsAndDragonsContent() {
                         </Link>
                     </Grid>
                     <Grid item xs={3}>
-                        <p className="SmallHeaderTitleNoHover">
+                        <p className="SmallHeaderTitleNoHover moveLeft35">
                             <b>SUMMARY:</b>
                         </p>
                         <div className="NormalPageLayoutLeft moveLeft35">
@@ -110,7 +110,7 @@ function DungeonsAndDragonsContent() {
                         </div>
                     </Grid>
                     <Grid item xs={3}>
-                        <p className="SmallHeaderTitleNoHover">
+                        <p className="SmallHeaderTitleNoHover moveLeft35">
                             <b>INCLUDES:</b>
                         </p>
                         <div className="NormalPageLayoutLeft moveLeft35">

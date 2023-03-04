@@ -7,6 +7,15 @@ a:hover {
   color: red;
 }
 
+.AbilityDescriptionSection {
+  height:100%;
+  outline-style:ridge;
+  outline-width: 12px;
+  outline-color: rgb(44, 44, 44);
+  background-color: black;
+  padding-top: 12px;
+}
+
 .App {
   text-align: center;
 }
@@ -41,7 +50,7 @@ body {
   padding: 0.5%;
   margin-bottom: 12px;
   color: white;
-  background-color: rgb(66, 66, 66);
+  background-color: rgb(44, 44, 44);
   outline-style: outset;
   outline-width: 6px;
   outline-color: darkgray;
@@ -64,7 +73,22 @@ body {
   padding-right: 0.5%;
   margin-bottom: 12px;
   color: white;
-  background-color: rgb(66, 66, 66);
+  background-color: rgb(44, 44, 44);
+  outline-style: outset;
+  outline-width: 6px;
+  outline-color: darkgray;
+}
+
+.HeaderTitleWide {
+  text-align: center;
+  align-self: center;
+  font-family: 'PixelFont';
+  font-size: larger;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  margin-bottom: 12px;
+  color: white;
+  background-color: rgb(44, 44, 44);
   outline-style: outset;
   outline-width: 6px;
   outline-color: darkgray;
@@ -75,11 +99,31 @@ body {
   margin-right: 10%;
   padding: 0.5%;
   margin-bottom: 12px;
-  background-color: rgb(66, 66, 66);
+  background-color: rgb(44, 44, 44);
   outline-style: outset;
   outline-width: 6px;
   outline-color: darkgray;
 }
+
+.ImageLogo {
+  width: 50%;
+}
+
+.ImageLogo:hover {
+  width: 50%;
+  outline-style: outset;
+  outline-width: 6px;
+  outline-color:rgb(44, 44, 44);
+  outline-color: white;
+}
+
+.ImageLogoSelected {
+  width: 50%;
+  outline-style: inset;
+  outline-width: 6px;
+  outline-color:red;
+}
+
 
 .MapGeneratorSelectionInput {
   width: 200px;
@@ -128,7 +172,23 @@ body {
   margin-right: 10%;
   padding: 0.5%;
   margin-bottom: 12px;
-  background-color: rgb(66, 66, 66);
+  background-color: rgb(44, 44, 44);
+  outline-style: outset;
+  outline-width: 6px;
+  outline-color: darkgray;
+}
+.SmallHeaderBox {
+  text-align: center;
+  align-self: center;
+  font-family: 'PixelFont';
+  font-size: larger;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-left: -15%;
+  color: white;
+  background-color: rgb(44, 44, 44);
   outline-style: outset;
   outline-width: 6px;
   outline-color: darkgray;
@@ -139,14 +199,13 @@ body {
   align-self: center;
   font-family: 'PixelFont';
   font-size: larger;
-  margin-left: -35%;
   margin-right: 40%;
   margin-bottom: 12px;
   padding-left: 0.5%;
   padding-right: 0.5%;
   padding-top: 5px;
   color: white;
-  background-color: rgb(66, 66, 66);
+  background-color: rgb(44, 44, 44);
   outline-style: outset;
   outline-width: 6px;
   outline-color: darkgray;
@@ -156,4 +215,28 @@ body {
   width: 25vw;
   offset-anchor: 25vw;
   padding: 10px;
+}
+
+.textColorGreen {
+  color: green;
+}
+
+.textColorIndigo {
+  color: rgb(80, 26, 228);
+}
+
+.textColorOrange {
+  color: orange;
+}
+
+.textColorYellow {
+  color: yellow;
+}
+
+.textColorCyan {
+  color: cyan;
+}
+
+.textFontPixel {
+  font-family: 'PixelFont';
 }

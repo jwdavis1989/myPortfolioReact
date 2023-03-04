@@ -31,9 +31,6 @@ function AboutMe() {
                         <br />
                         Graduated with Cum Laude
                         <br />
-                        Placed in the 96th Percentile in Mathematics on the
-                        ACT
-                        <br />
                     </Grid>
                     <Grid item xs={3} />
                     <Grid item xs={4}>
