@@ -8,12 +8,34 @@ a:hover {
 }
 
 .AbilityDescriptionSection {
-  height:100%;
-  outline-style:ridge;
+  height: 100%;
+  outline-style: ridge;
   outline-width: 12px;
   outline-color: rgb(44, 44, 44);
   background-color: black;
   padding-top: 12px;
+}
+
+.AbilityHeader {
+  font-family: 'PixelFont';
+  font-size: xx-large;
+  outline-style: inset;
+  outline-width: 6px;
+  outline-color: rgb(44, 44, 44);
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-left: 4px;
+  margin-left: -25%;
+}
+
+.AbilityCooldown {
+  font-family: 'PixelFont';
+  text-align: left;
+  font-size: larger;
+  padding-top: 18px;
+  padding-right: 4px;
+  padding-left: 4px;
+  margin-left: 0%;
 }
 
 .App {
@@ -50,10 +72,10 @@ body {
   padding: 0.5%;
   margin-bottom: 12px;
   color: white;
-  background-color: rgb(44, 44, 44);
+  background-color: black;
   outline-style: outset;
   outline-width: 6px;
-  outline-color: darkgray;
+  outline-color: rgb(44, 44, 44);
 }
 
 .HeaderTitle:hover {
@@ -73,10 +95,11 @@ body {
   padding-right: 0.5%;
   margin-bottom: 12px;
   color: white;
-  background-color: rgb(44, 44, 44);
+  background-color: black;
   outline-style: outset;
+  outline-style:ridge;
   outline-width: 6px;
-  outline-color: darkgray;
+  outline-color: rgb(44, 44, 44);
 }
 
 .HeaderTitleWide {
@@ -88,10 +111,11 @@ body {
   padding-right: 0.5%;
   margin-bottom: 12px;
   color: white;
-  background-color: rgb(44, 44, 44);
+  background-color: black;
   outline-style: outset;
+  outline-style:ridge;
   outline-width: 6px;
-  outline-color: darkgray;
+  outline-color: rgb(44, 44, 44);
 }
 
 .ImageBorder {
@@ -99,29 +123,29 @@ body {
   margin-right: 10%;
   padding: 0.5%;
   margin-bottom: 12px;
-  background-color: rgb(44, 44, 44);
+  background-color: black;
   outline-style: outset;
   outline-width: 6px;
-  outline-color: darkgray;
+  outline-color: rgb(44, 44, 44);
 }
 
 .ImageLogo {
-  width: 50%;
+  width: 100%;
 }
 
 .ImageLogo:hover {
-  width: 50%;
+  width: 100%;
   outline-style: outset;
   outline-width: 6px;
-  outline-color:rgb(44, 44, 44);
+  outline-color: rgb(44, 44, 44);
   outline-color: white;
 }
 
 .ImageLogoSelected {
-  width: 50%;
+  width: 100%;
   outline-style: inset;
   outline-width: 6px;
-  outline-color:red;
+  outline-color: red;
 }
 
 
@@ -172,11 +196,12 @@ body {
   margin-right: 10%;
   padding: 0.5%;
   margin-bottom: 12px;
-  background-color: rgb(44, 44, 44);
+  background-color: black;
   outline-style: outset;
   outline-width: 6px;
-  outline-color: darkgray;
+  outline-color: rgb(44, 44, 44);
 }
+
 .SmallHeaderBox {
   text-align: center;
   align-self: center;
@@ -206,9 +231,11 @@ body {
   padding-top: 5px;
   color: white;
   background-color: rgb(44, 44, 44);
-  outline-style: outset;
+  background-color: black;
+  outline-style: inset;
   outline-width: 6px;
   outline-color: darkgray;
+  outline-color: rgb(44, 44, 44);
 }
 
 .SWWBanner {
@@ -217,6 +244,9 @@ body {
   padding: 10px;
 }
 
+.textAlignCenter {
+    text-align: center;
+}
 .textColorGreen {
   color: green;
 }

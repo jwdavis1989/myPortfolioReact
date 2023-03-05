@@ -12,8 +12,11 @@ function DungeonsAndDragonsContent() {
         <div>
             <div className="NormalPageLayout">
                 <p className="HeaderTitleNoHover">
-                    <CasinoSharpIcon fontSize='inherit' /> PUBLISHED DUNGEONS AND DRAGONS CONTENT
+                    <CasinoSharpIcon fontSize='inherit' /> DUNGEONS AND DRAGONS CONTENT
                 </p>
+                <h1 className="textFontPixel">
+                    PUBLISHED CONTENT
+                </h1>
                 <Grid container spacing={0}>
                     <Grid item xs={1} />
                     <Grid item xs={10}>
@@ -75,11 +78,11 @@ function DungeonsAndDragonsContent() {
                 </Grid>
             </div>
             {/*In Development Section*/}
-            <br/><br/>
+            <br /><br />
             <div className="NormalPageLayout">
-                <p className="HeaderTitleNoHover">
-                    <ConstructionIcon fontSize='inherit' /> CRAFTING NEW BLUEPRINTS . . .
-                </p>
+                <h1 className="textFontPixel">
+                    CRAFTING NEW BLUEPRINTS . . .
+                </h1>
                 <Grid container spacing={0}>
                     <Grid item xs={1} />
                     <Grid item xs={10}>
@@ -99,12 +102,12 @@ function DungeonsAndDragonsContent() {
                             <b>SUMMARY:</b>
                         </p>
                         <div className="NormalPageLayoutLeft moveLeft35">
-                            Coming soon to Roll20, Silverwind Workshop's Vault of Artifacts 
+                            Coming soon to Roll20, Silverwind Workshop's Vault of Artifacts
                             is overflowing with new, interesting, and powerful magical items
                             for your players to discover!
                             <p>
-                                Unsure of how rare an item should be? 
-                                That's okay because we've included loot rolling tables 
+                                Unsure of how rare an item should be?
+                                That's okay because we've included loot rolling tables
                                 that are weighted based on the rarity of items!
                             </p>
                         </div>
@@ -132,7 +135,7 @@ function DungeonsAndDragonsContent() {
                     </Grid>
                 </Grid>
             </div>
-            <br/><br/>
+            <br /><br />
         </div >
     );
 }
