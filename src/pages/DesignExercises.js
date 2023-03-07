@@ -5,11 +5,8 @@ import AbilityJadeReachIcon from '../resources/images/designExercise/AbilityJade
 import AbilityVengefulLeapIcon from '../resources/images/designExercise/AbilityVengefulLeap.png';
 import AbilityInsatiableTouchIcon from '../resources/images/designExercise/AbilityInsatiableTouch.png';
 import AbilityMoonlightCurseIcon from '../resources/images/designExercise/AbilityMoonlightCurse.png';
-import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
-import ZoomInIcon from '@mui/icons-material/ZoomIn';
 import { Grid } from '@material-ui/core';
-import { Link } from "react-router-dom";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { QiSiphonTemplate } from '../components/designAbilityTemplates/QiSiphonTemplate';
 import { JadeReachTemplate } from '../components/designAbilityTemplates/JadeReachTemplate';
 import { ResentfulLungeTemplate } from '../components/designAbilityTemplates/ResentfulLungeTemplate';
@@ -17,38 +14,59 @@ import { InsatiableTouchTemplate } from '../components/designAbilityTemplates/In
 import { MoonlitCurseTemplate } from '../components/designAbilityTemplates/MoonlitCurseTemplate';
 
 function DesignExercises() {
-    const [abilityDescription, setAbilityDescription] = useState(true);
+    const [abilityDescription, setAbilityDescription] = useState(0);
+    const [designInsightsVisible, setDesignInsightsVisible] = useState(true);
+
+    useEffect(() => {
+        setAbilityDescription(false);
+        setDesignInsightsVisible(false);
+    }, []);
 
     function resetJiangshiAbilityHighlight() {
         document.getElementById("passiveQiButton").className = "ImageLogo";
         document.getElementById("jadeReachButton").className = "ImageLogo";
-        document.getElementById("vengefulLeapButton").className = "ImageLogo";
+        document.getElementById("resentfulLungeButton").className = "ImageLogo";
         document.getElementById("insatiableTouchButton").className = "ImageLogo";
         document.getElementById("moonlightCurseButton").className = "ImageLogo";
     }
 
-    function RenderJiangshiQDescription(props) {
+    function RenderJiangshiDescription(props) {
         let description = "";
         resetJiangshiAbilityHighlight();
-        if (props.slot === 0) {
-            document.getElementById("passiveQiButton").className = "ImageLogoSelected";
-            description = <QiSiphonTemplate />
-        }
         if (props.slot === 1) {
-            document.getElementById("jadeReachButton").className = "ImageLogoSelected";
-            description = <JadeReachTemplate />
+            document.getElementById("passiveQiButton").className = "ImageLogoSelected";
+            if (!designInsightsVisible) {
+                description = <QiSiphonTemplate />
+            }
+            else description = "DESIGN TEMPLATE PLACEHOLDER"
         }
-        else if (props.slot === 2) {
-            document.getElementById("vengefulLeapButton").className = "ImageLogoSelected";
-            description = <ResentfulLungeTemplate />
+        if (props.slot === 2) {
+            document.getElementById("jadeReachButton").className = "ImageLogoSelected";
+            if (!designInsightsVisible) {
+                description = <JadeReachTemplate />
+            }
+            else description = "DESIGN TEMPLATE PLACEHOLDER"
         }
         else if (props.slot === 3) {
-            document.getElementById("insatiableTouchButton").className = "ImageLogoSelected";
-            description = <InsatiableTouchTemplate />
+            document.getElementById("resentfulLungeButton").className = "ImageLogoSelected";
+            if (!designInsightsVisible) {
+                description = <ResentfulLungeTemplate />
+            }
+            else description = "DESIGN TEMPLATE PLACEHOLDER"
         }
         else if (props.slot === 4) {
+            document.getElementById("insatiableTouchButton").className = "ImageLogoSelected";
+            if (!designInsightsVisible) {
+                description = <InsatiableTouchTemplate />
+            }
+            else description = "DESIGN TEMPLATE PLACEHOLDER"
+        }
+        else if (props.slot === 5) {
             document.getElementById("moonlightCurseButton").className = "ImageLogoSelected";
-            description = <MoonlitCurseTemplate />
+            if (!designInsightsVisible) {
+                description = <MoonlitCurseTemplate />
+            }
+            else description = "DESIGN TEMPLATE PLACEHOLDER"
         }
         return description;
     }
@@ -98,62 +116,49 @@ function DesignExercises() {
                     </Grid>
                 </Grid>
                 <Grid id="Row 2 Ability Icons" container spacing={1}>
-                    <Grid item xs={4} />
-                    <Grid item xs={1}>
-                        <img onClick={() => setAbilityDescription(0)}
-                            className="ImageLogo" src={AbilityPassiveQiIcon}
-                            id="passiveQiButton" alt="Jade Reach"></img>
-                    </Grid>
+                    <Grid item xs={3} />
                     <Grid item xs={1}>
                         <img onClick={() => setAbilityDescription(1)}
+                            className="ImageLogo" src={AbilityPassiveQiIcon}
+                            id="passiveQiButton" alt="Qi Siphon"></img>
+                    </Grid>
+                    <Grid item xs={1}>
+                        <img onClick={() => setAbilityDescription(2)}
                             className="ImageLogo" src={AbilityJadeReachIcon}
                             id="jadeReachButton" alt="Jade Reach"></img>
                     </Grid>
                     <Grid item xs={1}>
-                        <img onClick={() => setAbilityDescription(2)}
+                        <img onClick={() => setAbilityDescription(3)}
                             className="ImageLogo" src={AbilityVengefulLeapIcon}
-                            id="vengefulLeapButton" alt="Resentful Lunge"></img>
+                            id="resentfulLungeButton" alt="Resentful Lunge"></img>
                     </Grid>
                     <Grid item xs={1}>
-                        <img onClick={() => setAbilityDescription(3)}
+                        <img onClick={() => setAbilityDescription(4)}
                             className="ImageLogo" src={AbilityInsatiableTouchIcon}
                             id="insatiableTouchButton" alt="Insatiable Touch"></img>
                     </Grid>
                     <Grid item xs={1}>
-                        <img onClick={() => setAbilityDescription(4)}
+                        <img onClick={() => setAbilityDescription(5)}
                             className="ImageLogo" src={AbilityMoonlightCurseIcon}
                             id="moonlightCurseButton" alt="Moonlight Curse"></img>
+                    </Grid>
+                    <Grid item xs={1}>
+                        {abilityDescription ?
+                            <div className="DesignInsightButton" onClick={() => setDesignInsightsVisible(!designInsightsVisible)}>
+                                Toggle<br />Design<br />Insights
+                            </div> :
+                            ""
+                        }
                     </Grid>
                 </Grid>
                 <Grid id="Row 3 Ability Descriptions" container spacing={0}>
                     <Grid item xs={12}>
                         <br /><br />
                         <div id="JiangshiAbilityDescription" className="NormalPageLayoutLeft AbilityDescriptionSection">
-                            {abilityDescription !== 0 &&
-                                abilityDescription !== 1 &&
-                                abilityDescription !== 2 &&
-                                abilityDescription !== 3 &&
-                                abilityDescription !== 4 ?
+                            {!abilityDescription >= 1 ?
                                 <h3 className="textFontPixel textAlignCenter">CLICK AN ABILITY ICON TO SEE ITS DESCRIPTION
-                                <br /><br /><br /><br /><br /><br /></h3> : <RenderJiangshiQDescription slot={abilityDescription} />}
-                            
+                                    <br /><br /><br /><br /><br /><br /></h3> : <RenderJiangshiDescription slot={abilityDescription} />}
                         </div>
-                    </Grid>
-                </Grid>
-                <br /><br /><br />
-                <Grid id="Row 4 WIP" container spacing={0}>
-                    <Grid item xs={4} />
-                    <Grid item xs={4}>
-                        <Link to='/SWWLevelingOverhaul'>
-                            <p className="HeaderTitle">
-                                <ZoomInIcon fontSize='inherit' /> Click to Learn More
-                            </p>
-                        </Link>
-                        <p className="HeaderTitle">
-                            <a href="https://marketplace.roll20.net/browse/gameaddon/14629/silverwind-workshops-skill-trees-and-leveling-overhaul" target="_blank" rel="noreferrer">
-                                <LocalGroceryStoreIcon fontSize='inherit' /> Link to Store Page
-                            </a>
-                        </p>
                     </Grid>
                 </Grid>
             </div>

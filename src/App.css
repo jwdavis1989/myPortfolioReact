@@ -61,6 +61,31 @@ body {
   padding: 100px;
 }
 
+.DesignInsightButton {
+  text-align: center;
+  align-self: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-family: 'PixelFont';
+  font-size: larger;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0.5%;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  margin-bottom: 12px;
+  color: white;
+  background-color: black;
+  outline-style: outset;
+  outline-width: 6px;
+  outline-color: rgb(44, 44, 44);
+}
+
+.DesignInsightButton:hover {
+  color: red;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
 .HeaderTitle {
   text-align: center;
   align-self: center;
