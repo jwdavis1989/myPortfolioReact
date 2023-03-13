@@ -5,7 +5,7 @@ function MoonlitCurseTemplate() {
         <div>
             <Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">MOONLIGHT CURSE</b>
+                    <b className="AbilityHeader">MOONLIT CURSE</b>
                 </Grid>
                 <Grid item xs={6}>
                     <span className="AbilityCooldown">COOLDOWN: 120 / 100 / 80 seconds</span><br /><br />

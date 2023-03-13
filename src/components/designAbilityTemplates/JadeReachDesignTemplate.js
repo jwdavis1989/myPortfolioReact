@@ -19,7 +19,8 @@ function JadeReachDesignTemplate() {
                     <b className="AbilityHeader">WHY GAIN QI ONLY ON CHAMPIONS?</b>
                 </Grid>
             </Grid>
-            <br /> Jade Reach, and much of her kit, is not meant to be good at pushing minions as the main design concern for this champion
+            <br /> 
+            Jade Reach, and much of her kit, is not meant to be good at pushing minions as the main design concern for this champion
             is to make sure she is a powerful support without making her an unbalanced solo lane champion. 
             This is also why her ability power scaling is lower than your average mage.
             <br /> 
@@ -28,6 +29,16 @@ function JadeReachDesignTemplate() {
             short ranged ability and balances the fact that it is not a skillshot. 
             <br />
             (Skillshots are abilities that must be aimed and fire a projectile in your mouse's direction and do not guarantee a successful hit.)
+            <br /><br /><Grid container spacing={0}>
+                <Grid item xs={6}>
+                    <b className="AbilityHeader">THEMING</b>
+                </Grid>
+            </Grid>
+            <br /> 
+            Jade Reach references the lifeforce stealing abilities and the hunger of Jiangshi, also known as Chinese Vampires.
+            <br /> 
+            This ability also further reinforces her being a magical/supernatural being by allowing her to steal Qi 
+            at a distance with glowing Jade magic.
             <br /><br />
         </div>
     )

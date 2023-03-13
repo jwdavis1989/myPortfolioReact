@@ -26,6 +26,21 @@ function ResentfulLungeDesignTemplate() {
             She could choose to empower her Resentful Lunge to get in and then use the free secondary charge to get out, but then 
             she wouldn't be able to use it on her Jade Reach or Insatiable Touch, denying her either significant healing or the 
             ability to supercharge her ally.
+            <br /><br /><Grid container spacing={0}>
+                <Grid item xs={6}>
+                    <b className="AbilityHeader">THEMING</b>
+                </Grid>
+            </Grid>
+            <br /> 
+            Jiangshi, are also known as "Hopping Vampires". This ability is meant 
+            to evoke that same concept of a supernatural being moving in ways that seem
+            unnatural and uncanny. Imagine for a moment, the difference between American 
+            and Japanese horror movies. American horror is usually relatively grounded and 
+            explained by the end, while Japanese horror monsters are beings that do not 
+            play by the same rules as mortals, moving and teleporting in nightmarish ways. 
+            <br /> 
+            This ability also further reinforces her being a magical/supernatural being by allowing her to steal Qi 
+            at a distance with glowing Jade magic.
             <br /><br />
         </div>
     )

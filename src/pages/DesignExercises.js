@@ -19,6 +19,8 @@ import { JadeReachDesignTemplate } from '../components/designAbilityTemplates/Ja
 import { QiSiphonDesignTemplate } from '../components/designAbilityTemplates/QiSiphonDesignTemplate';
 import { ResentfulLungeDesignTemplate } from '../components/designAbilityTemplates/ResentfulLungeDesignTemplate';
 import { InsatiableTouchDesignTemplate } from '../components/designAbilityTemplates/InsatiableTouchDesignTemplate';
+import { MoonlitCurseDesignTemplate } from '../components/designAbilityTemplates/MoonlitCurseDesignTemplate';
+
 
 function DesignExercises() {
     const [abilityDescription, setAbilityDescription] = useState(0);
@@ -73,7 +75,7 @@ function DesignExercises() {
             if (!designInsightsVisible) {
                 description = <MoonlitCurseTemplate />
             }
-            else description = "DESIGN TEMPLATE PLACEHOLDER"
+            else description = <MoonlitCurseDesignTemplate />
         }
         return description;
     }

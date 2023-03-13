@@ -33,6 +33,16 @@ function InsatiableTouchDesignTemplate() {
             (Minions are NPCs, Non-Player Characters, that serve as the basic military units for your team's base. 
             They spawn at your base and march along one of three lanes where gameplay primarily takes place. They 
             are plentiful and weak, however killing them is the safest way to earn Gold to buy equipment.)
+            <br /><br /><Grid container spacing={0}>
+                <Grid item xs={6}>
+                    <b className="AbilityHeader">THEMING</b>
+                </Grid>
+            </Grid>
+            <br /> 
+            Insatiable Touch allows her to temporarily share her Qi stealing power with an ally. This makes them 
+            ravenous for lifeforce, with the empowered version causing them to sprint towards their prey.
+            <br /> 
+            Afterall, sharing is caring.
             <br /><br />
         </div>
     )
