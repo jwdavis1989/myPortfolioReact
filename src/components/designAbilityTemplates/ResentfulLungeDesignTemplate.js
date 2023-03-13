@@ -32,7 +32,7 @@ function ResentfulLungeDesignTemplate() {
                 </Grid>
             </Grid>
             <br /> 
-            Jiangshi, are also known as "Hopping Vampires". This ability is meant 
+            Jiangshi are also known as "Hopping Vampires". This ability is meant 
             to evoke that same concept of a supernatural being moving in ways that seem
             unnatural and uncanny. Imagine for a moment, the difference between American 
             and Japanese horror movies. American horror is usually relatively grounded and 
