@@ -119,9 +119,21 @@ function DesignExercises() {
                         <div className="SmallHeaderTitleNoHover moveLeft35">
                             ROLE
                         </div>
-                        <div className="SmallHeaderTitleNoHover moveLeft35">
-                            Agressive <br /> Enchanter <br /> Support
+                        <div className="NormalPageLayoutLeft moveLeft35">
+                            Agressive Enchanter Support
                         </div>
+                        <br />
+                        <div className="SmallHeaderTitleNoHover moveLeft35">
+                            ARTWORK BY:
+                        </div>
+                        <div className="NormalPageLayoutLeft moveLeft35">
+                            Ruo Yu <br />
+                        </div>
+                            <p className="SmallHeaderTitleNoHover moveLeft35">
+                            <a href='https://www.chenruoyu.com/' target="_blank" rel="noreferrer">
+                                Ruo Yu's Portfolio
+                            </a>
+                        </p>
                     </Grid>
                 </Grid>
                 <Grid id="Row 2 Ability Icons" container spacing={1}>
