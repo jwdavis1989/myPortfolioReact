@@ -18,7 +18,7 @@ function JadeReachTemplate() {
                     <b className="AbilityHeader">EMPOWERED</b>
                 </Grid>
             </Grid>
-            <br /> Jade Reach now also heals Yingyue for 40/80/120/160/200<span className="textColorGreen"> (+5 % missing health)</span>.
+            <br /> Jade Reach now also heals Yingyue for 40/80/120/160/200<span className="textColorGreen"> (+5 % missing health)</span> if it damages an enemy champion..
             <br /><br />
         </div>
     )

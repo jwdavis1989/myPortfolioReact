@@ -1,3 +1,6 @@
+import { Grid } from '@material-ui/core';
+import React, { useState, useEffect } from 'react';
+
 import EngineeringSharpIcon from '@mui/icons-material/EngineeringSharp';
 import ChineseVampireImage from '../resources/images/designExercise/ChineseVampireLeagueChampionPortrait.png';
 import AbilityPassiveQiIcon from '../resources/images/designExercise/AbilityPassiveQi.png';
@@ -5,13 +8,17 @@ import AbilityJadeReachIcon from '../resources/images/designExercise/AbilityJade
 import AbilityVengefulLeapIcon from '../resources/images/designExercise/AbilityVengefulLeap.png';
 import AbilityInsatiableTouchIcon from '../resources/images/designExercise/AbilityInsatiableTouch.png';
 import AbilityMoonlightCurseIcon from '../resources/images/designExercise/AbilityMoonlightCurse.png';
-import { Grid } from '@material-ui/core';
-import React, { useState, useEffect } from 'react';
+
+
 import { QiSiphonTemplate } from '../components/designAbilityTemplates/QiSiphonTemplate';
 import { JadeReachTemplate } from '../components/designAbilityTemplates/JadeReachTemplate';
 import { ResentfulLungeTemplate } from '../components/designAbilityTemplates/ResentfulLungeTemplate';
 import { InsatiableTouchTemplate } from '../components/designAbilityTemplates/InsatiableTouchTemplate';
 import { MoonlitCurseTemplate } from '../components/designAbilityTemplates/MoonlitCurseTemplate';
+import { JadeReachDesignTemplate } from '../components/designAbilityTemplates/JadeReachDesignTemplate';
+import { QiSiphonDesignTemplate } from '../components/designAbilityTemplates/QiSiphonDesignTemplate';
+import { ResentfulLungeDesignTemplate } from '../components/designAbilityTemplates/ResentfulLungeDesignTemplate';
+import { InsatiableTouchDesignTemplate } from '../components/designAbilityTemplates/InsatiableTouchDesignTemplate';
 
 function DesignExercises() {
     const [abilityDescription, setAbilityDescription] = useState(0);
@@ -38,28 +45,28 @@ function DesignExercises() {
             if (!designInsightsVisible) {
                 description = <QiSiphonTemplate />
             }
-            else description = "DESIGN TEMPLATE PLACEHOLDER"
+            else description = <QiSiphonDesignTemplate />
         }
         if (props.slot === 2) {
             document.getElementById("jadeReachButton").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
                 description = <JadeReachTemplate />
             }
-            else description = "DESIGN TEMPLATE PLACEHOLDER"
+            else description = <JadeReachDesignTemplate />
         }
         else if (props.slot === 3) {
             document.getElementById("resentfulLungeButton").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
                 description = <ResentfulLungeTemplate />
             }
-            else description = "DESIGN TEMPLATE PLACEHOLDER"
+            else description = <ResentfulLungeDesignTemplate />
         }
         else if (props.slot === 4) {
             document.getElementById("insatiableTouchButton").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
                 description = <InsatiableTouchTemplate />
             }
-            else description = "DESIGN TEMPLATE PLACEHOLDER"
+            else description = <InsatiableTouchDesignTemplate />
         }
         else if (props.slot === 5) {
             document.getElementById("moonlightCurseButton").className = "ImageLogoSelected";
@@ -162,6 +169,7 @@ function DesignExercises() {
                     </Grid>
                 </Grid>
             </div>
+            <br /><br /><br /><br /><br /><br />
         </div>
     );
 }

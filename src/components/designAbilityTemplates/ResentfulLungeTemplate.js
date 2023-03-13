@@ -21,7 +21,7 @@ function ResentfulLungeTemplate() {
                 </Grid>
             </Grid>
             <br />Resentful Lunge can be used a second time within 3 seconds for free.
-            Additionally, the second use of Resentful Lunge also knocks the target up for 1 second,
+            The second use of Resentful Lunge doesn't provide a stack of Qi, knocks the target up for 1 second,
             and afterwards slows them by 60% for 1.5 seconds.
         </div>
     )

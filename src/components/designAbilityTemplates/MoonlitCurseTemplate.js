@@ -13,7 +13,7 @@ function MoonlitCurseTemplate() {
             </Grid>
             Yingyue temporarily shares her curse in an area within 950 range.
             After a 0.627 second delay, any enemy champions still in the zone
-            take 100/200/300<span className="textColorIndigo"> (+40% AP)</span> Magic Damage, are slowed by 80% decaying
+            take 150/250/350<span className="textColorIndigo"> (+60% AP)</span> Magic Damage, are slowed by 80% decaying
             over 4 seconds, and if they die within the next 2/4/6 seconds they
             are brought back as a zombie with rapidly decaying health that will
             attack the nearest enemy champions for up to 15 seconds. Whenever

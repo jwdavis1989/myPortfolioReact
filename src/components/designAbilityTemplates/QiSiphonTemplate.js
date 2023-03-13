@@ -11,7 +11,7 @@ function QiSiphonTemplate() {
                     <span className="AbilityCooldown">PASSIVE</span><br /><br />
                 </Grid>
             </Grid>
-            Every time Yingyue damages a champion with Jade Reach,
+            Every time Yingyue damages a champion with Jade Reach or Resentful Lunge,
             she gains a stack of Qi. When she reaches 3 stacks of Qi,
             her next ability is empowered. She can hold up to 3 Qi at
             a time and all are expended when an empowered ability is cast.
