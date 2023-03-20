@@ -131,7 +131,7 @@ function DesignExercises() {
                         </div>
                             <p className="SmallHeaderTitleNoHover moveLeft35">
                             <a href='https://www.chenruoyu.com/' target="_blank" rel="noreferrer">
-                                Ruo Yu's Portfolio
+                                View Ruo Yu's Portfolio
                             </a>
                         </p>
                     </Grid>
