@@ -28,6 +28,18 @@ a:hover {
   margin-left: -25%;
 }
 
+.AbilityHeaderSmall {
+  font-family: 'PixelFont';
+  font-size: larger;
+  outline-style: inset;
+  outline-width: 6px;
+  outline-color: rgb(44, 44, 44);
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-left: 4px;
+  margin-left: -25%;
+}
+
 .AbilityCooldown {
   font-family: 'PixelFont';
   text-align: left;
@@ -202,6 +214,14 @@ body {
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.moveLeft15 {
+  margin-left: -15%;
+}
+
+.moveLeft20 {
+  margin-left: -20%;
 }
 
 .moveLeft25 {

@@ -13,6 +13,14 @@ import Tier12Icon from '../../resources/images/talentTreesImages/Tier12Icon.png'
 import Tier15Icon from '../../resources/images/talentTreesImages/Tier15Icon.png';
 import Tier18Icon from '../../resources/images/talentTreesImages/Tier18Icon.png';
 
+import { LeadershipPlusOneTemplate } from './OverhaulSkillTreeTemplates/leadershipTemplates/LeadershipPlusOneTemplate';
+import { LeadershipTier3Template } from   './OverhaulSkillTreeTemplates/leadershipTemplates/LeadershipTier3Template';
+import { LeadershipTier6Template } from   './OverhaulSkillTreeTemplates/leadershipTemplates/LeadershipTier6Template';
+import { LeadershipTier9Template } from   './OverhaulSkillTreeTemplates/leadershipTemplates/LeadershipTier9Template';
+import { LeadershipTier12Template } from   './OverhaulSkillTreeTemplates/leadershipTemplates/LeadershipTier12Template';
+import { LeadershipTier15Template } from   './OverhaulSkillTreeTemplates/leadershipTemplates/LeadershipTier15Template';
+import { LeadershipTier18Template } from   './OverhaulSkillTreeTemplates/leadershipTemplates/LeadershipTier18Template';
+
 function TalentTreeComponent(props) {
     const [abilityDescription, setAbilityDescription] = useState(0);
     const [designInsightsVisible, setDesignInsightsVisible] = useState(true);
@@ -38,49 +46,49 @@ function TalentTreeComponent(props) {
         if (props.slot === 1) {
             document.getElementById("plusOneTalent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = "+1 EFFECT"
+                description = <LeadershipPlusOneTemplate/>
             }
             else description = "+1 EFFECT INSIGHT"
         }
         if (props.slot === 2) {
             document.getElementById("t3Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = "T3"
+                description = <LeadershipTier3Template/>
             }
             else description = "T3 INSIGHT"
         }
         else if (props.slot === 3) {
             document.getElementById("t6Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = "T6"
+                description = <LeadershipTier6Template/>
             }
             else description = "T6 INSIGHT"
         }
         else if (props.slot === 4) {
             document.getElementById("t9Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = "T9"
+                description = <LeadershipTier9Template/>
             }
             else description = "T9 INSIGHT"
         }
         else if (props.slot === 5) {
             document.getElementById("t12Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = "T12"
+                description = <LeadershipTier12Template/>
             }
             else description = "T12 INSIGHT"
         }
         else if (props.slot === 6) {
             document.getElementById("t15Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = "T15"
+                description = <LeadershipTier15Template/>
             }
             else description = "T15 INSIGHT"
         }
         else if (props.slot === 7) {
             document.getElementById("t18Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = "T18"
+                description = <LeadershipTier18Template/>
             }
             else description = "T18 INSIGHT"
         }
@@ -89,53 +97,46 @@ function TalentTreeComponent(props) {
 
     return (
         <div className="NormalPageLayout">
-            <Grid id="Row 0 Yingyue Title" container spacing={0}>
-                <Grid item xs={1} />
-                <Grid item xs={10}>
+            <Grid id="Row 0 Leadership Title" container spacing={0}>
+                <Grid item xs={12}>
                     <p className="HeaderTitleWide">
-                        <CasinoSharpIcon fontSize='inherit' /> SKILL TREE 1
+                        <CasinoSharpIcon fontSize='inherit' /> LEADERSHIP
                     </p>
                 </Grid>
             </Grid>
-            <Grid id="Row 1 Yingyue Art" container spacing={0}>
+            <Grid id="Row 1 Leadership Art and Summary" container spacing={1}>
                 <Grid item xs={6}>
-                    <img src={LeadershipIcon} width="100%" alt="Leadership Tree" className="SWWBanner" />
+                    <img src={LeadershipIcon} height="auto" alt="Leadership Tree" className="SWWBanner" />
                 </Grid>
-                <Grid item xs={3}>
+                <Grid item xs={4}>
+                    <div className="SmallHeaderTitleNoHover moveLeft15">
+                        SUMMARY
+                    </div>
+                    <div className="NormalPageLayoutLeft moveLeft25">
+                        Leadership is born from the image of the heroic leader, 
+                        waving their banner in the air as they inspire their allies 
+                        with glowing charisma and infuriate their opponents with their tactical wit. 
+                        Leadership offers several commands you may issue allies to grant them potent buffs
+                        to shape the battlefield to your advantage.
+                    </div>
+                </Grid>
+                <Grid item xs={2}>
                     <div className="SmallHeaderTitleNoHover moveLeft35">
-                        LORE
+                        TYPE
                     </div>
                     <div className="NormalPageLayoutLeft moveLeft35">
-                        Yingyue was an Ionian priestess killed during the Noxian invasion of Ionia.
-                        Her spirit was never put to rest, and remained trapped in her
-                        corpse for years.
-                        When her jade eyes finally opened, she had become a Jiangshi, a Vampiric Lifestealer
-                        of Qi energy that stalks the moonlit hours.
-                        Now she hunts the Noxians that cursed her.
+                        Utility
                     </div>
-                </Grid>
-                <Grid item xs={3}>
+                    <br />
                     <div className="SmallHeaderTitleNoHover moveLeft35">
                         ROLE
                     </div>
                     <div className="NormalPageLayoutLeft moveLeft35">
-                        Agressive Enchanter Support
+                        Battlefield Tactician & Leader
                     </div>
-                    <br />
-                    <div className="SmallHeaderTitleNoHover moveLeft35">
-                        ARTWORK BY:
-                    </div>
-                    <div className="NormalPageLayoutLeft moveLeft35">
-                        Ruo Yu <br />
-                    </div>
-                    <p className="SmallHeaderTitleNoHover moveLeft35">
-                        <a href='https://www.chenruoyu.com/' target="_blank" rel="noreferrer">
-                            View Ruo Yu's Portfolio
-                        </a>
-                    </p>
                 </Grid>
             </Grid>
-            <Grid id="Row 2 Ability Icons" container spacing={1}>
+            <Grid id="Row 2 Leadership Talent Icons" container spacing={1}>
                 <Grid item xs={2} />
                 <Grid item xs={1}>
                     <img onClick={() => setAbilityDescription(1)}
@@ -183,16 +184,15 @@ function TalentTreeComponent(props) {
             </Grid>
             <Grid id="Row 3 Ability Descriptions" container spacing={0}>
                 <Grid item xs={12}>
-                    <br /><br />
+                    <br />
                     <div id="TalentTreeDescription" className="NormalPageLayoutLeft AbilityDescriptionSection">
                         {!abilityDescription >= 1 ?
-                            <h3 className="textFontPixel textAlignCenter">CLICK AN ABILITY ICON TO SEE ITS DESCRIPTION
+                            <h3 className="textFontPixel textAlignCenter">CLICK A TALENT ICON TO SEE ITS DESCRIPTION
                                 <br /><br /><br /><br /><br /><br /></h3> : <RenderTalentDescription slot={abilityDescription} />}
                     </div>
                     <br /><br /><br />
                 </Grid>
             </Grid>
-            <br /><br /><br /><br /><br /><br />
         </div >
     );
 }

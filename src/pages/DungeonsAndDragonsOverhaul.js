@@ -11,10 +11,10 @@ function DungeonsAndDragonsOverhaul() {
             <Grid item xs={1}/>
                 <Grid item xs={10}>
                     <p className="HeaderTitleWide">
-                        WHAT PROBLEMS DOES THIS SYSTEM SOLVE?
+                        <CasinoSharpIcon fontSize='inherit' /> OVERVIEW
                     </p>
                     <p className="HeaderTitleWide">
-                        <CasinoSharpIcon fontSize='inherit' /> OVERVIEW
+                        WHAT PROBLEMS DOES THIS SYSTEM SOLVE?
                     </p>
                     <p>
                         <TalentTreeComponent />
