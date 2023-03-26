@@ -12,7 +12,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { DungeonsAndDragonsContent } from './pages/DungeonsAndDragonsContent';
 import { ContactMe } from './pages/ContactMe';
 
-const theme = createTheme({   palette: {     primary: {main: '#666666'},   }, });
+const theme = createTheme({ palette: { primary: { main: '#666666' }, }, });
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
           <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/ContactMe" element={<ContactMe />} />
         </Routes>
-        </ThemeProvider>
+      </ThemeProvider>
     </div>
   );
 }
