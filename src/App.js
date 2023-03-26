@@ -8,22 +8,16 @@ import { DesignExercises } from './pages/DesignExercises';
 import { MapGenerator } from './pages/MapGenerator';
 import { Resume } from './pages/Resume';
 import { AboutMe } from './pages/AboutMe';
-import { MuiThemeProvider, createTheme } from '@material-ui/core/styles';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { DungeonsAndDragonsContent } from './pages/DungeonsAndDragonsContent';
 import { ContactMe } from './pages/ContactMe';
 
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: '#666666'
-    }
-  }
-});
+const theme = createTheme({   palette: {     primary: {main: '#666666'},   }, });
 
 function App() {
   return (
     <div className="App">
-      <MuiThemeProvider theme={theme}>
+      <ThemeProvider theme={theme}>
         <Header />
         <Routes>
           <Route path="/" element={<Dashboard />} />
@@ -36,7 +30,7 @@ function App() {
           <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/ContactMe" element={<ContactMe />} />
         </Routes>
-      </MuiThemeProvider>
+        </ThemeProvider>
     </div>
   );
 }

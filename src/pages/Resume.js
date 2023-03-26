@@ -1,6 +1,6 @@
 import ArticleSharpIcon from '@mui/icons-material/ArticleSharp';
 import DownloadIcon from '@mui/icons-material/Download';
-import { Grid } from '@material-ui/core';
+import { Grid } from '@mui/material';
 import resumePDF from "../resources/handouts/Jeremy_Davis_Resume_2023.pdf";
 
 function Resume() {

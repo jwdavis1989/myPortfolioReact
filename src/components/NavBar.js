@@ -1,4 +1,4 @@
-import { Button, ButtonGroup } from '@material-ui/core';
+import { Button, ButtonGroup } from '@mui/material';
 import { Link } from "react-router-dom";
 import spinningLogo2 from "../resources/images/spinningCogAnimation/spinningCogAnimation.gif";
 import CasinoSharpIcon from '@mui/icons-material/CasinoSharp';

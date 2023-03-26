@@ -1,4 +1,4 @@
-import { Button, ButtonGroup } from '@material-ui/core';
+import { Button, ButtonGroup } from '@mui/material';
 import Select from 'react-select';
 import { MAP_GENERATOR_ART_LIST } from "../resources/constants/mapGeneratorImageEnum";
 

@@ -1,7 +1,7 @@
 import swwOverhaulLogo from "../resources/images/SW Skill Tree Logo Final 1024px.png";
 import { Link } from "react-router-dom";
 import CasinoSharpIcon from '@mui/icons-material/CasinoSharp';
-import { Grid } from '@material-ui/core';
+import { Grid } from '@mui/material';
 import SWArtifactsPicture from '../resources/images/SWVaultOfArtifactsLogo2.png'
 import ConstructionIcon from '@mui/icons-material/Construction';
 import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';

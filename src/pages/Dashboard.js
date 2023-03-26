@@ -1,7 +1,7 @@
 import DashboardSharpIcon from '@mui/icons-material/DashboardSharp';
 import profilePicture from '../resources/images/Jerry_Davis_Portrait_2020.png';
 import SWPicture from '../resources/images/SWCreatorLogo.png';
-import { Grid } from '@material-ui/core';
+import { Grid } from '@mui/material';
 
 function Dashboard() {
     return (

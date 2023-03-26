@@ -1,7 +1,7 @@
 import SchoolIcon from '@mui/icons-material/School';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
-import { Grid } from '@material-ui/core';
+import { Grid } from '@mui/material';
 
 function AboutMe() {
     return (

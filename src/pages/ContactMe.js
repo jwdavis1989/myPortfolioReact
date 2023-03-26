@@ -1,5 +1,5 @@
 import LeakAddSharpIcon from '@mui/icons-material/LeakAddSharp';
-import { Grid } from '@material-ui/core';
+import { Grid } from '@mui/material';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import EmailIcon from '@mui/icons-material/Email';
 
