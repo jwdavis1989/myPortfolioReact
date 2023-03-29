@@ -68,7 +68,7 @@ function DungeonsAndDragonsContent() {
                     <Grid item xs={4}>
                         <Link to='/SWWLevelingOverhaul'>
                             <p className="HeaderTitle">
-                                <ZoomInIcon fontSize='inherit' /> Click to Learn More
+                                <ZoomInIcon fontSize='inherit' /> Design Insights
                             </p>
                         </Link>
                         <p className="HeaderTitle">

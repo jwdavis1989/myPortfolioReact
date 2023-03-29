@@ -287,6 +287,19 @@ body {
   outline-color: rgb(44, 44, 44);
 }
 
+.SpellListTable, th, tr {
+  text-align: left;
+  border: 2px outset white;
+  background-image: linear-gradient(black, gray);
+}
+
+td {
+  text-align:center;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-image: linear-gradient(blue, black);
+}
+
 .SWWBanner {
   width: 25vw;
   offset-anchor: 25vw;
