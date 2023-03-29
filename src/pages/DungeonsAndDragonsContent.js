@@ -6,6 +6,8 @@ import SWArtifactsPicture from '../resources/images/SWVaultOfArtifactsLogo2.png'
 import ConstructionIcon from '@mui/icons-material/Construction';
 import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
 import ZoomInIcon from '@mui/icons-material/ZoomIn';
+import patchNotes from "../resources/handouts/Silverwind_Workshop_Skill_Tree_Change_Logs.rtf";
+import DownloadIcon from '@mui/icons-material/Download';
 
 function DungeonsAndDragonsContent() {
     return (
@@ -72,6 +74,11 @@ function DungeonsAndDragonsContent() {
                         <p className="HeaderTitle">
                             <a href="https://marketplace.roll20.net/browse/gameaddon/14629/silverwind-workshops-skill-trees-and-leveling-overhaul" target="_blank" rel="noreferrer">
                                 <LocalGroceryStoreIcon fontSize='inherit' /> Link to Store Page
+                            </a>
+                        </p>
+                        <p className="HeaderTitle">
+                            <a href={patchNotes} target="_blank" rel="noreferrer">
+                                <DownloadIcon fontSize='inherit' /> View Patch Notes
                             </a>
                         </p>
                     </Grid>
