@@ -65,10 +65,15 @@ Button {
   background-image: radial-gradient(rgb(44, 44, 44), black);
 }
 
+Button:hover {
+  background-image: linear-gradient(black, rgb(44, 44, 44));
+}
+
 .CogLogo {
-  height: 3.5vw;
-  width: 3.5vw;
-  padding: 10px;
+  height: 2vw;
+  width: 2vw;
+  padding-right: 2px;
+  padding-top: 4px;
   background-image: radial-gradient(rgb(44, 44, 44), black);
 }
 
@@ -160,6 +165,16 @@ Button {
   outline-color: rgb(44, 44, 44);
 }
 
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0px);}
+}
+
+@keyframes leftSlide {
+  0% {transform: translateX(10vw);}
+  100% {transform: translateX(0vw);}
+}
+
 .ImageBorder {
   margin-left: 0%;
   margin-right: 10%;
@@ -202,6 +217,7 @@ Button {
 
 .NavBarButtonGroup {
   padding: 0px;
+  height: 5vh;
   text-align: left;
   outline-style: double;
   outline-width: 1px;
@@ -213,6 +229,8 @@ Button {
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
+  animation-name: fadeIn;
+  animation-duration: 1s;
 }
 
 .NormalPageLayoutLeft {
@@ -220,6 +238,8 @@ Button {
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
+  animation-name: fadeIn;
+  animation-duration: 1s;
 }
 
 .NormalPageLayoutLeftSmaller {
