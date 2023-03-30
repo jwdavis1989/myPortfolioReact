@@ -18,7 +18,7 @@ a:hover {
 
 .AbilityHeader {
   font-family: 'PixelFont';
-  font-size: xx-large;
+  font-size: x-large;
   outline-style: inset;
   outline-width: 6px;
   outline-color: rgb(44, 44, 44);
@@ -61,10 +61,15 @@ body {
   background-size: auto;
 }
 
+Button {
+  background-image: radial-gradient(rgb(44, 44, 44), black);
+}
+
 .CogLogo {
-  height: 1%;
-  width: 1%;
-  padding-right: 10px;
+  height: 3.5vw;
+  width: 3.5vw;
+  padding: 10px;
+  background-image: radial-gradient(rgb(44, 44, 44), black);
 }
 
 .commonButton {
@@ -196,10 +201,11 @@ body {
 }
 
 .NavBarButtonGroup {
-  width: 100vw;
-  background-color: darkgray;
-  padding: 10px;
+  padding: 0px;
   text-align: left;
+  outline-style: double;
+  outline-width: 1px;
+  outline-color: rgb(100, 100, 100);
 }
 
 .NormalPageLayout {
@@ -214,6 +220,14 @@ body {
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.NormalPageLayoutLeftSmaller {
+  text-align: left;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: small;
 }
 
 .moveLeft15 {
@@ -287,6 +301,23 @@ body {
   outline-color: rgb(44, 44, 44);
 }
 
+.SpellListTable, th, tr {
+  text-align: left;
+  border: 2px outset white;
+  background-image: linear-gradient(black, gray);
+}
+
+.TalentImage {
+  width:10vw;
+}
+
+td {
+  text-align:center;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-image: linear-gradient(red, black);
+}
+
 .SWWBanner {
   width: 25vw;
   offset-anchor: 25vw;
@@ -314,6 +345,10 @@ body {
 
 .textColorCyan {
   color: cyan;
+}
+
+.textColorRed {
+  color: red;
 }
 
 .textFontPixel {

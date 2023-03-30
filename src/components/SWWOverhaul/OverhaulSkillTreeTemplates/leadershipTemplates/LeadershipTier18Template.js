@@ -17,8 +17,10 @@ function LeadershipTier18Template() {
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
-            <br />
-            You gain an extra Bonus Action every turn that may only be used on Commands, however you cannot use the same command twice in one turn.
+            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+                <br />
+                You gain an extra Bonus Action every turn that may only be used on Commands, however you cannot use the same command twice in one turn.
+            </div>
         </div>
     )
 }

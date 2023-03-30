@@ -17,11 +17,12 @@ function ShieldedCombatTier12Template() {
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
-            <br />
-            Your Shield Slam ability now forces creatures that fail the Dexterity Saving Throw to roll the resulting Constitution Saving Throw to maintain their concentration with disadvantage.
+            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+                <br />
+                Your Shield Slam ability now forces creatures that fail the Dexterity Saving Throw to roll the resulting Constitution Saving Throw to maintain their concentration with disadvantage.
 
-            <p/>Additionally, creatures that fail the save gain Disadvantage on their next attack roll.
-
+                <p />Additionally, creatures that fail the save gain Disadvantage on their next attack roll.
+            </div>
         </div>
     )
 }

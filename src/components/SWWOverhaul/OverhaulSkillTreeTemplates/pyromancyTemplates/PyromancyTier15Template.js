@@ -1,17 +1,16 @@
 import { Grid } from '@mui/material';
 
-function LeadershipTier15Template() {
+function PyromancyTier15Template() {
     return (
         <div>
             <Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">PHALANX</b>
+                    <b className="AbilityHeader">WILDFIRE</b>
                 </Grid>
                 <Grid item xs={6}>
-                    <span className="AbilityCooldown">LEADERSHIP TIER 15 TALENT</span><br /><br />
+                    <span className="AbilityCooldown">PYROMANCY TIER 15 TALENT</span><br /><br />
                 </Grid>
             </Grid>
-            <br />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
                     <b className="AbilityHeaderSmall">EFFECT</b>
@@ -19,10 +18,11 @@ function LeadershipTier15Template() {
             </Grid>
             <div className="NormalPageLayoutLeftSmaller moveLeft20">
                 <br />
-                All friendly creatures within hearing range gain +1 AC when in at least Half-Cover.
+                When you use your Ignition talent, you may choose to increase the size of area of effect spells by either 5ft or 10ft in all dimensions.
+                <br /><br />
             </div>
         </div>
     )
 }
 
-export { LeadershipTier15Template };
+export { PyromancyTier15Template };

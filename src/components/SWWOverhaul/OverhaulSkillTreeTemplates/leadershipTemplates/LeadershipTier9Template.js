@@ -17,10 +17,12 @@ function LeadershipTier9Template() {
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
-            <br />
-            Once per long rest, when you roll initiative, you may choose to give all friendly creatures that can hear you the ability to move up to their movement speed before combat begins and they gain the effects of <b>Command - Promotion.</b>
+            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+                <br />
+                Once per long rest, when you roll initiative, you may choose to give all friendly creatures that can hear you the ability to move up to their movement speed before combat begins and they gain the effects of <b>Command - Promotion.</b>
 
-            <p/>A creature cannot gain the benefits of Bishop's Opening again until they finish a Long Rest.
+                <p />A creature cannot gain the benefits of Bishop's Opening again until they finish a Long Rest.
+            </div>
         </div>
     )
 }

@@ -14,12 +14,12 @@ import Tier15Icon from '../../resources/images/talentTreesImages/Tier15Icon.png'
 import Tier18Icon from '../../resources/images/talentTreesImages/Tier18Icon.png';
 
 import { ShieldedCombatPlusOneTemplate } from './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatPlusOneTemplate';
-import { ShieldedCombatTier3Template } from   './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier3Template';
-import { ShieldedCombatTier6Template } from   './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier6Template';
-import { ShieldedCombatTier9Template } from   './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier9Template';
-import { ShieldedCombatTier12Template } from   './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier12Template';
-import { ShieldedCombatTier15Template } from   './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier15Template';
-import { ShieldedCombatTier18Template } from   './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier18Template';
+import { ShieldedCombatTier3Template } from './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier3Template';
+import { ShieldedCombatTier6Template } from './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier6Template';
+import { ShieldedCombatTier9Template } from './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier9Template';
+import { ShieldedCombatTier12Template } from './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier12Template';
+import { ShieldedCombatTier15Template } from './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier15Template';
+import { ShieldedCombatTier18Template } from './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier18Template';
 
 function ShieldedCombatTalentTreeComponent(props) {
     const [abilityDescription, setAbilityDescription] = useState(0);
@@ -46,49 +46,49 @@ function ShieldedCombatTalentTreeComponent(props) {
         if (props.slot === 1) {
             document.getElementById("shieldedCombatPlusOneTalent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = <ShieldedCombatPlusOneTemplate/>
+                description = <ShieldedCombatPlusOneTemplate />
             }
             else description = "+1 EFFECT INSIGHT"
         }
         if (props.slot === 2) {
             document.getElementById("shieldedCombatT3Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = <ShieldedCombatTier3Template/>
+                description = <ShieldedCombatTier3Template />
             }
             else description = "T3 INSIGHT"
         }
         else if (props.slot === 3) {
             document.getElementById("shieldedCombatT6Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = <ShieldedCombatTier6Template/>
+                description = <ShieldedCombatTier6Template />
             }
             else description = "T6 INSIGHT"
         }
         else if (props.slot === 4) {
             document.getElementById("shieldedCombatT9Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = <ShieldedCombatTier9Template/>
+                description = <ShieldedCombatTier9Template />
             }
             else description = "T9 INSIGHT"
         }
         else if (props.slot === 5) {
             document.getElementById("shieldedCombatT12Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = <ShieldedCombatTier12Template/>
+                description = <ShieldedCombatTier12Template />
             }
             else description = "T12 INSIGHT"
         }
         else if (props.slot === 6) {
             document.getElementById("shieldedCombatT15Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = <ShieldedCombatTier15Template/>
+                description = <ShieldedCombatTier15Template />
             }
             else description = "T15 INSIGHT"
         }
         else if (props.slot === 7) {
             document.getElementById("shieldedCombatT18Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = <ShieldedCombatTier18Template/>
+                description = <ShieldedCombatTier18Template />
             }
             else description = "T18 INSIGHT"
         }
@@ -105,39 +105,40 @@ function ShieldedCombatTalentTreeComponent(props) {
                 </Grid>
             </Grid>
             <Grid id="Row 1 shieldedCombat Art and Summary" container spacing={1}>
-                <Grid item xs={6}>
-                    <img src={ShieldedCombatIcon} height="auto" alt="shieldedCombat Tree" className="SWWBanner" />
+                <Grid item xs={4}>
+                    <img src={ShieldedCombatIcon} height="auto" alt="shieldedCombat Tree" className="TalentImage" />
                 </Grid>
                 <Grid item xs={4}>
                     <div className="SmallHeaderTitleNoHover moveLeft15">
                         SUMMARY
                     </div>
-                    <div className="NormalPageLayoutLeft moveLeft25">
-                        Shielded Combat evokes the idea of the stalwart defender. 
-                        A skilled Shieldmaster who tactically chooses the best time to 
-                        block powerful attacks while able to safeguard nearby allies with 
-                        that same ability. A Shielded Combatant may also fight with their 
-                        shield as if it were a weapon and punish their enemies when their 
-                        blades fail against the Shieldmaster's shield. A Shielded Combatant 
+                    <div className="NormalPageLayoutLeftSmaller moveLeft25">
+                        Shielded Combat evokes the idea of the stalwart defender.
+                        A skilled Shieldmaster who tactically chooses the best time to
+                        block powerful attacks while able to safeguard nearby allies with
+                        that same ability. A Shielded Combatant may also fight with their
+                        shield as if it were a weapon and punish their enemies when their
+                        blades fail against the Shieldmaster's shield. A Shielded Combatant
                         is a powerful and reliable backbone to build a team around.
                     </div>
                 </Grid>
-                <Grid item xs={2}>
+                <Grid item xs={4}>
                     <div className="SmallHeaderTitleNoHover moveLeft35">
                         TYPE
                     </div>
-                    <div className="NormalPageLayoutLeft moveLeft35">
+                    <div className="NormalPageLayoutLeftSmaller moveLeft35">
                         Martial
                     </div>
                     <br />
                     <div className="SmallHeaderTitleNoHover moveLeft35">
                         ROLE
                     </div>
-                    <div className="NormalPageLayoutLeft moveLeft35">
+                    <div className="NormalPageLayoutLeftSmaller moveLeft35">
                         Defender
                     </div>
                 </Grid>
             </Grid>
+            <p />
             <Grid id="Row 2 shieldedCombat Talent Icons" container spacing={1}>
                 <Grid item xs={2} />
                 <Grid item xs={1}>
@@ -190,11 +191,11 @@ function ShieldedCombatTalentTreeComponent(props) {
                     <div id="TalentTreeDescription" className="NormalPageLayoutLeft AbilityDescriptionSection">
                         {!abilityDescription >= 1 ?
                             <h3 className="textFontPixel textAlignCenter">CLICK A TALENT ICON TO SEE ITS DESCRIPTION
-                                </h3> : <RenderTalentDescription slot={abilityDescription} />}
+                            </h3> : <RenderTalentDescription slot={abilityDescription} />}
                     </div>
                     <br /><br /><br />
                 </Grid>
-            </Grid> 
+            </Grid>
         </div >
     );
 }

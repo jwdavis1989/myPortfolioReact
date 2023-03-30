@@ -3,6 +3,7 @@ import CasinoSharpIcon from '@mui/icons-material/CasinoSharp';
 
 import { LeadershipTalentTreeComponent } from '../components/SWWOverhaul/LeadershipTalentTreeComponent';
 import { ShieldedCombatTalentTreeComponent } from '../components/SWWOverhaul/ShieldedCombatTalentTreeComponent';
+import { PyromancyTalentTreeComponent } from '../components/SWWOverhaul/PyromancyTalentTreeComponent';
 
 function DungeonsAndDragonsOverhaul() {
 
@@ -17,18 +18,27 @@ function DungeonsAndDragonsOverhaul() {
                     <p className="HeaderTitleWide">
                         WHAT PROBLEMS DOES THIS SYSTEM SOLVE?
                     </p>
+                    <p className="HeaderTitleWide">
+                        EXAMPLE TREES
+                    </p>
                     <p>
                         <LeadershipTalentTreeComponent />
                         <br />
                     </p>
+                    <p />
+                    <p />
                     <p>
                         <ShieldedCombatTalentTreeComponent />
                         <br />
                     </p>
+                    <p />
+                    <p />
                     <p>
-                        <LeadershipTalentTreeComponent />
+                        <PyromancyTalentTreeComponent />
                         <br />
                     </p>
+                    <p />
+                    <p />
                 </Grid>
             </Grid>
         </div>

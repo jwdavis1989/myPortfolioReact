@@ -17,11 +17,12 @@ function ShieldedCombatTier18Template() {
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
-            <br />
-            You gain an additional Reaction every round that can only be used for activating Reactive Block.
+            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+                <br />
+                You gain an additional Reaction every round that can only be used for activating Reactive Block.
 
-            <p />Additionally, you gain +1AC and +1 to Dexterity Saving Throws while wielding a shield.
-
+                <p />Additionally, you gain +1AC and +1 to Dexterity Saving Throws while wielding a shield.
+            </div>
         </div>
     )
 }

@@ -17,12 +17,14 @@ function ShieldedCombatTier6Template() {
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
+            <div className="NormalPageLayoutLeftSmaller moveLeft20">
             <br />
             If you have successfully blocked an enemy's attack within the last round, your Shield's attack is replaced with a powerful Shield Slam.
 
             <p />All creatures within a 10ft adjacent square must make a Dexterity Save equal to 8 + Your Proficiency + Your Strength Modifier or they take the Shield attack's full damage.
 
             <p />On a successful save, they instead take half damage.
+            </div>
         </div>
     )
 }
