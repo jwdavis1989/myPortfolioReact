@@ -25,14 +25,20 @@ function DungeonsAndDragonsOverhaul() {
                         <LeadershipTalentTreeComponent />
                         <br />
                     </p>
+                    <p />
+                    <p />
                     <p>
                         <ShieldedCombatTalentTreeComponent />
                         <br />
                     </p>
+                    <p />
+                    <p />
                     <p>
                         <PyromancyTalentTreeComponent />
                         <br />
                     </p>
+                    <p />
+                    <p />
                 </Grid>
             </Grid>
         </div>

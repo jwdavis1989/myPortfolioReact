@@ -17,26 +17,34 @@ function LeadershipPlusOneTemplate() {
                     <b className="AbilityHeaderSmall">TREE COMPLEXITY</b>
                 </Grid>
             </Grid>
+            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+
+                <br />
+                Moderate-to-High
+            </div>
             <br />
-            Moderate-to-High
-            <br /><br />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
-            <br />
-            You increase the Initiative of all friendly creatures (including yourself) within hearing distance by <b>+1 Bonus Initiative</b> for every 3 points spent in Leadership.
+            <div className="NormalPageLayoutLeftSmaller moveLeft20">
 
-            Creatures can not gain this benefit from more than 1 source.
-            <br /><br />
+                <br />
+                You increase the Initiative of all friendly creatures (including yourself) within hearing distance by <b>+1 Bonus Initiative</b> for every 3 points spent in Leadership.
+
+                Creatures can not gain this benefit from more than 1 source.
+            </div>
+            <br />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
                     <b className="AbilityHeaderSmall">PROFICIENCY</b>
                 </Grid>
             </Grid>
-            <br />
-            You gain proficiency in Persuasion and Insight.
+            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+                <br />
+                You gain proficiency in Persuasion and Insight.
+            </div>
         </div>
     )
 }

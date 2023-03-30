@@ -17,27 +17,33 @@ function ShieldedCombatPlusOneTemplate() {
                     <b className="AbilityHeaderSmall">TREE COMPLEXITY</b>
                 </Grid>
             </Grid>
+            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+                <br />
+                Moderate-to-High
+            </div>
             <br />
-            Moderate-to-High
-            <br /><br />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
-            <br />
-            You may now choose to use your Shield as a weapon that deals 1d4 + Strength modifier damage when performing the attack action and you are proficient with it.
+            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+                <br />
+                You may now choose to use your Shield as a weapon that deals 1d4 + Strength modifier damage when performing the attack action and you are proficient with it.
 
-            <p/>You may also throw the shield at a target at up to a range of 5ft + <b>5ft per 2</b> points spent in Shielded Combat.
-            The shield will automatically return to you after your throw unless your attack is a critical failure.
-            <br /><br />
+                <p />You may also throw the shield at a target at up to a range of 5ft + <b>5ft per 2</b> points spent in Shielded Combat.
+                The shield will automatically return to you after your throw unless your attack is a critical failure.
+            </div>
+            <br />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
                     <b className="AbilityHeaderSmall">PROFICIENCY</b>
                 </Grid>
             </Grid>
-            <br />
-            You gain proficiency with Shields, Flails, Cat o' Nine Tails, Morningstars, and Warpicks.
+            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+                <br />
+                You gain proficiency with Shields, Flails, Cat o' Nine Tails, Morningstars, and Warpicks.
+            </div>
         </div>
     )
 }

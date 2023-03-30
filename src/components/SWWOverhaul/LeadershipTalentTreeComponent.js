@@ -105,14 +105,14 @@ function LeadershipTalentTreeComponent(props) {
                 </Grid>
             </Grid>
             <Grid id="Row 1 Leadership Art and Summary" container spacing={1}>
-                <Grid item xs={6}>
-                    <img src={LeadershipIcon} height="auto" alt="Leadership Tree" className="SWWBanner" />
+                <Grid item xs={4}>
+                    <img src={LeadershipIcon} height="auto" alt="Leadership Tree" className="TalentImage" />
                 </Grid>
                 <Grid item xs={4}>
                     <div className="SmallHeaderTitleNoHover moveLeft15">
                         SUMMARY
                     </div>
-                    <div className="NormalPageLayoutLeft moveLeft25">
+                    <div className="NormalPageLayoutLeftSmaller moveLeft25">
                         Leadership is born from the image of the heroic leader, 
                         waving their banner in the air as they inspire their allies 
                         with glowing charisma and infuriate their opponents with their tactical wit. 
@@ -120,22 +120,23 @@ function LeadershipTalentTreeComponent(props) {
                         to shape the battlefield to your advantage.
                     </div>
                 </Grid>
-                <Grid item xs={2}>
+                <Grid item xs={4}>
                     <div className="SmallHeaderTitleNoHover moveLeft35">
                         TYPE
                     </div>
-                    <div className="NormalPageLayoutLeft moveLeft35">
+                    <div className="NormalPageLayoutLeftSmaller moveLeft35">
                         Utility
                     </div>
                     <br />
                     <div className="SmallHeaderTitleNoHover moveLeft35">
                         ROLE
                     </div>
-                    <div className="NormalPageLayoutLeft moveLeft35">
+                    <div className="NormalPageLayoutLeftSmaller moveLeft35">
                         Battlefield Tactician & Leader
                     </div>
                 </Grid>
             </Grid>
+            <p />
             <Grid id="Row 2 Leadership Talent Icons" container spacing={1}>
                 <Grid item xs={2} />
                 <Grid item xs={1}>

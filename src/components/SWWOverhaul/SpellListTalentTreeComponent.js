@@ -189,7 +189,7 @@ function SpellListTalentTreeComponent(props) {
                     </tr>
                 </tbody>
             </table>
-            <p /><br /><br /><br />
+            <p /><br /><br />
         </div >
     );
 }

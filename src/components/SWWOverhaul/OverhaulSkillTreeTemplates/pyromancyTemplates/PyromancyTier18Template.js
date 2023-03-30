@@ -1,17 +1,16 @@
 import { Grid } from '@mui/material';
 
-function LeadershipTier15Template() {
+function PyromancyTier18Template() {
     return (
         <div>
             <Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">PHALANX</b>
+                    <b className="AbilityHeader">ARMAGEDDON</b>
                 </Grid>
                 <Grid item xs={6}>
-                    <span className="AbilityCooldown">LEADERSHIP TIER 15 TALENT</span><br /><br />
+                    <span className="AbilityCooldown">PYROMANCY TIER 18 TALENT</span><br /><br />
                 </Grid>
             </Grid>
-            <br />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
                     <b className="AbilityHeaderSmall">EFFECT</b>
@@ -19,10 +18,11 @@ function LeadershipTier15Template() {
             </Grid>
             <div className="NormalPageLayoutLeftSmaller moveLeft20">
                 <br />
-                All friendly creatures within hearing range gain +1 AC when in at least Half-Cover.
+                Combustion may now be used up to 3 times per long rest. 
+                <br /><br />
             </div>
         </div>
     )
 }
 
-export { LeadershipTier15Template };
+export { PyromancyTier18Template };

@@ -14,6 +14,12 @@ import Tier15Icon from '../../resources/images/talentTreesImages/Tier15Icon.png'
 import Tier18Icon from '../../resources/images/talentTreesImages/Tier18Icon.png';
 
 import { PyromancyPlusOneTemplate } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyPlusOneTemplate';
+import { PyromancyTier3Template } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyTier3Template';
+import { PyromancyTier6Template } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyTier6Template';
+import { PyromancyTier9Template } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyTier9Template';
+import { PyromancyTier12Template } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyTier12Template';
+import { PyromancyTier15Template } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyTier15Template';
+import { PyromancyTier18Template } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyTier18Template';
 
 function PyromancyTalentTreeComponent(props) {
     const [abilityDescription, setAbilityDescription] = useState(0);
@@ -40,49 +46,49 @@ function PyromancyTalentTreeComponent(props) {
         if (props.slot === 1) {
             document.getElementById("pyromancyPlusOneTalent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = <PyromancyPlusOneTemplate/>
+                description = <PyromancyPlusOneTemplate />
             }
             else description = "+1 EFFECT INSIGHT"
         }
         if (props.slot === 2) {
             document.getElementById("pyromancyT3Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = ""
+                description = <PyromancyTier3Template />
             }
             else description = "T3 INSIGHT"
         }
         else if (props.slot === 3) {
             document.getElementById("pyromancyT6Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = ""
+                description = <PyromancyTier6Template />
             }
             else description = "T6 INSIGHT"
         }
         else if (props.slot === 4) {
             document.getElementById("pyromancyT9Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = ""
+                description = <PyromancyTier9Template />
             }
             else description = "T9 INSIGHT"
         }
         else if (props.slot === 5) {
             document.getElementById("pyromancyT12Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = ""
+                description = <PyromancyTier12Template />
             }
             else description = "T12 INSIGHT"
         }
         else if (props.slot === 6) {
             document.getElementById("pyromancyT15Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = ""
+                description = <PyromancyTier15Template />
             }
             else description = "T15 INSIGHT"
         }
         else if (props.slot === 7) {
             document.getElementById("pyromancyT18Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
-                description = ""
+                description = <PyromancyTier18Template />
             }
             else description = "T18 INSIGHT"
         }
@@ -99,33 +105,45 @@ function PyromancyTalentTreeComponent(props) {
                 </Grid>
             </Grid>
             <Grid id="Row 1 pyromancy Art and Summary" container spacing={1}>
-                <Grid item xs={6}>
-                    <img src={PyromancyIcon} height="auto" alt="pyromancy Tree" className="SWWBanner" />
+                <Grid item xs={4}>
+                    <img src={PyromancyIcon} height="auto" alt="pyromancy Tree" className="TalentImage" />
                 </Grid>
                 <Grid item xs={4}>
                     <div className="SmallHeaderTitleNoHover moveLeft15">
                         SUMMARY
                     </div>
-                    <div className="NormalPageLayoutLeft moveLeft25">
-                        Shielded Pyromancy Summary sdfnsldnflsk
+                    <div className="NormalPageLayoutLeftSmaller moveLeft25">
+                        <i>
+                            "Will your fire ignite the world?
+                            <br />Will you raise magma to destroy entire swathes of terrain?
+                            <br />Will you become the walking inferno?"
+                        </i>
+                        <p />Pyromancy embodies the concept of a pure fire mage. Its destructive potential is
+                        unmatched in large encounters, and it is unparalleled in its ability to shutdown large areas of the map through
+                        a mix of tactical wit and expanded area of effect sizes.
+                        <p />
+                        <i>
+                            "So what if your friends get a little crispy?"
+                        </i>
                     </div>
                 </Grid>
-                <Grid item xs={2}>
+                <Grid item xs={4}>
                     <div className="SmallHeaderTitleNoHover moveLeft35">
                         TYPE
                     </div>
-                    <div className="NormalPageLayoutLeft moveLeft35">
+                    <div className="NormalPageLayoutLeftSmaller moveLeft35">
                         Magic
                     </div>
                     <br />
                     <div className="SmallHeaderTitleNoHover moveLeft35">
                         ROLE
                     </div>
-                    <div className="NormalPageLayoutLeft moveLeft35">
-                        Multi-target Damage & Area Control
+                    <div className="NormalPageLayoutLeftSmaller moveLeft35">
+                        Multi-Target Damage & Area Control
                     </div>
                 </Grid>
             </Grid>
+            <p />
             <Grid id="Row 2 pyromancy Talent Icons" container spacing={1}>
                 <Grid item xs={2} />
                 <Grid item xs={1}>
@@ -178,11 +196,11 @@ function PyromancyTalentTreeComponent(props) {
                     <div id="TalentTreeDescription" className="NormalPageLayoutLeft AbilityDescriptionSection">
                         {!abilityDescription >= 1 ?
                             <h3 className="textFontPixel textAlignCenter">CLICK A TALENT ICON TO SEE ITS DESCRIPTION
-                                </h3> : <RenderTalentDescription slot={abilityDescription} />}
+                            </h3> : <RenderTalentDescription slot={abilityDescription} />}
                     </div>
                     <br /><br /><br />
                 </Grid>
-            </Grid> 
+            </Grid>
         </div >
     );
 }
