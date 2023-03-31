@@ -124,14 +124,14 @@ function LeadershipTalentTreeComponent(props) {
                     <div className="SmallHeaderTitleNoHover moveLeft35">
                         TYPE
                     </div>
-                    <div className="NormalPageLayoutLeftSmaller moveLeft35">
+                    <div className="NormalPageLayoutLeftSmaller moveLeft35 textAlignCenter">
                         Utility
                     </div>
                     <br />
                     <div className="SmallHeaderTitleNoHover moveLeft35">
                         ROLE
                     </div>
-                    <div className="NormalPageLayoutLeftSmaller moveLeft35">
+                    <div className="NormalPageLayoutLeftSmaller moveLeft35 textAlignCenter">
                         Battlefield Tactician & Leader
                     </div>
                 </Grid>
