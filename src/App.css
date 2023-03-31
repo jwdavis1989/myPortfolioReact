@@ -8,12 +8,12 @@ a:hover {
 }
 
 .AbilityDescriptionSection {
-  height: 90%;
   outline-style: ridge;
   outline-width: 12px;
   outline-color: rgb(44, 44, 44);
   background-color: black;
   padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .AbilityHeader {
@@ -50,8 +50,24 @@ a:hover {
   margin-left: 0%;
 }
 
+.animationLeadershipIconFadeIn {
+  animation: treeLeadershipFadeIn 1s;
+}
+
+.animationPyromancyIconFadeIn {
+  animation: treePyromancyFadeIn 2s;
+}
+
+.animationShieldedCombatIconFadeIn {
+  animation: treeShieldedCombatFadeIn 3s;
+}
+
 .App {
   text-align: center;
+}
+
+.backgroundColorBlack {
+  background-color: black;
 }
 
 body {
@@ -101,6 +117,7 @@ Button:hover {
   outline-style: outset;
   outline-width: 6px;
   outline-color: rgb(44, 44, 44);
+  background-image: radial-gradient(rgb(44, 44, 44), black);
 }
 
 .DesignInsightButton:hover {
@@ -175,6 +192,24 @@ Button:hover {
 @keyframes leftSlide {
   0% {transform: translateX(10vw);}
   100% {transform: translateX(0vw);}
+}
+
+@keyframes treeLeadershipFadeIn {
+  0% { opacity: 0; transform: translateX(20px); }
+  10% { opacity: 0; transform: translateX(20px); }
+  100% { opacity: 1; transform: translateY(0px);}
+}
+
+@keyframes treePyromancyFadeIn {
+  0% { opacity: 0; transform: translateX(20px); }
+  20% { opacity: 0; transform: translateX(20px); }
+  100% { opacity: 1; transform: translateX(0px);}
+}
+
+@keyframes treeShieldedCombatFadeIn {
+  0% { opacity: 0; transform: translateX(20px); }
+  25% { opacity: 0; transform: translateX(20px); }
+  100% { opacity: 1; transform: translateX(0px);}
 }
 
 .ImageBorder {
@@ -315,11 +350,9 @@ Button:hover {
   padding-right: 0.5%;
   padding-top: 5px;
   color: white;
-  background-color: rgb(44, 44, 44);
   background-color: black;
   outline-style: inset;
   outline-width: 6px;
-  outline-color: darkgray;
   outline-color: rgb(44, 44, 44);
 }
 
@@ -340,6 +373,20 @@ td {
   background-image: linear-gradient(red, black);
 }
 
+.TreeNametag {
+  text-align: center;
+  align-self: center;
+  font-family: 'PixelFont';
+  font-size: larger;
+  padding-top: 5px;
+  color: white;
+  background-color: black;
+  outline-style: inset;
+  outline-width: 6px;
+  outline-color: rgb(44, 44, 44);
+  writing-mode: vertical-rl;
+  display: inline-block;
+}
 .SWWBanner {
   width: 25vw;
   offset-anchor: 25vw;
@@ -375,4 +422,8 @@ td {
 
 .textFontPixel {
   font-family: 'PixelFont';
+}
+
+.width100 {
+  width: 100%;
 }
