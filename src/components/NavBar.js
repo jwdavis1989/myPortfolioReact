@@ -10,46 +10,46 @@ import AccountBoxSharpIcon from '@mui/icons-material/AccountBoxSharp';
 import LeakAddSharpIcon from '@mui/icons-material/LeakAddSharp';
 
 function NavBar() {
-    const buttonSize = "small";
+    const buttonSize = "1.75vh";
     return (
         <div>
             <ButtonGroup variant="contained" className='NavBarButtonGroup' orientation='horizontal' fullWidth>
                 <img src={glowingEyeLogo} alt="Glowing Eye Icon" className='CogLogo' />
-                <Button color="primary" className='NavBarButton' style={{ fontSize: buttonSize }}>
-                    <Link to='/'>
+                <Link to='/'>
+                    <Button color="primary" className='NavBarButton' style={{ fontSize: buttonSize }}>
                         <DashboardSharpIcon fontSize='inherit' /> Dashboard
-                    </Link>
-                </Button>
-                <Button color="primary" className='NavBarButton' style={{ fontSize: buttonSize }}>
-                    <Link to='/PublishedDnDContent'>
+                    </Button>
+                </Link>
+                <Link to='/PublishedDnDContent'>
+                    <Button color="primary" className='NavBarButton' style={{ fontSize: buttonSize }}>
                         <CasinoSharpIcon fontSize='inherit' /> Published D&D Content
-                    </Link>
-                </Button>
-                <Button color="primary" className='NavBarButton' style={{ fontSize: buttonSize }}>
-                    <Link to='/VideoGamePrototypes'>
+                    </Button>
+                </Link>
+                <Link to='/VideoGamePrototypes'>
+                    <Button color="primary" className='NavBarButton' style={{ fontSize: buttonSize }}>
                         <GamesSharpIcon fontSize='inherit' /> Video Game Prototypes
-                    </Link>
-                </Button>
-                <Button color="primary" className='NavBarButton' style={{ fontSize: buttonSize }}>
-                    <Link to='/DesignExercises'>
+                    </Button>
+                </Link>
+                <Link to='/DesignExercises'>
+                    <Button color="primary" className='NavBarButton' style={{ fontSize: buttonSize }}>
                         <EngineeringSharpIcon fontSize='inherit' /> Design Exercises
-                    </Link>
-                </Button>
-                <Button color="primary" className='NavBarButton' style={{ fontSize: buttonSize }}>
-                    <Link to='/Resume'>
+                    </Button>
+                </Link>
+                <Link to='/Resume'>
+                    <Button color="primary" className='NavBarButton' style={{ fontSize: buttonSize }}>
                         <ArticleSharpIcon fontSize='inherit' /> Resume
-                    </Link>
-                </Button>
-                <Button color="primary" className='NavBarButton' style={{ fontSize: buttonSize }}>
-                    <Link to='/AboutMe'>
+                    </Button>
+                </Link>
+                <Link to='/AboutMe'>
+                    <Button color="primary" className='NavBarButton' style={{ fontSize: buttonSize }}>
                         <AccountBoxSharpIcon fontSize='inherit' /> About Me
-                    </Link>
-                </Button>
-                <Button color="primary" className='NavBarButton' style={{ fontSize: buttonSize }}>
-                    <Link to='/ContactMe'>
+                    </Button>
+                </Link>
+                <Link to='/ContactMe'>
+                    <Button color="primary" className='NavBarButton' style={{ fontSize: buttonSize }}>
                         <LeakAddSharpIcon fontSize='inherit' /> Contact Me
-                    </Link>
-                </Button>
+                    </Button>
+                </Link>
             </ButtonGroup>
         </div>
     );

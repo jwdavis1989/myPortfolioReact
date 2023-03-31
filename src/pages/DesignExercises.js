@@ -119,14 +119,14 @@ function DesignExercises() {
                         <div className="SmallHeaderTitleNoHover moveLeft35">
                             ROLE
                         </div>
-                        <div className="NormalPageLayoutLeft moveLeft35">
+                        <div className="NormalPageLayoutLeft moveLeft35 textAlignCenter">
                             Agressive Enchanter Support
                         </div>
                         <br />
                         <div className="SmallHeaderTitleNoHover moveLeft35">
                             ARTWORK BY:
                         </div>
-                        <div className="NormalPageLayoutLeft moveLeft35">
+                        <div className="NormalPageLayoutLeft moveLeft35 textAlignCenter">
                             Ruo Yu <br />
                         </div>
                             <p className="SmallHeaderTitleNoHover moveLeft35">
