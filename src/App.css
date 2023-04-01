@@ -374,6 +374,16 @@ td {
 }
 
 .TreeNametag {
+  width: 100%;
+  text-align: center;
+  align-self: center;
+  font-family: 'PixelFont';
+  margin-bottom: 12px;
+  padding-top: 5px;
+  color: white;
+}
+
+.TreeNametagVertical {
   text-align: center;
   align-self: center;
   font-family: 'PixelFont';
@@ -387,6 +397,7 @@ td {
   writing-mode: vertical-rl;
   display: inline-block;
 }
+
 .SWWBanner {
   width: 25vw;
   offset-anchor: 25vw;
