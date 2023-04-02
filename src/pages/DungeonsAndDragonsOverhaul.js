@@ -66,41 +66,36 @@ function DungeonsAndDragonsOverhaul() {
             </Grid>
             <Grid container spacing={0} id="Row 3 Example Tree Icons">
                 <Grid item xs={1} />
-                <Grid item xs={2}>
-                    <Grid container spacing={2} id="Row 4 Example Tree Labels">
-                        <Grid item xs={6}>
-                            <img onClick={() => setSelectedTree(1)}
-                                className="ImageLogo animationLeadershipIconFadeIn" src={LeadershipIcon}
-                                id="LeadershipTreeLogo" alt="Leadership Icon"></img>
-                            <p>
-                                <br />
-                                <img onClick={() => setSelectedTree(2)}
-                                    className="ImageLogo animationPyromancyIconFadeIn" src={PyromancyIcon}
-                                    id="PyromancyLogo" alt="Pyromancy Icon"></img>
-                            </p>
-                            <p>
-                                <br />
-                                <img onClick={() => setSelectedTree(3)}
-                                    className="ImageLogo animationShieldedCombatIconFadeIn" src={ShieldedCombatIcon}
-                                    id="ShieldedCombatLogo" alt="Shielded Combat Icon"></img>
-                            </p>
-                        </Grid>
-                        <Grid item xs={1}>
-                            <div className="TreeNametag">
-                                LEADERSHIP
-                            </div>
-                            <p/>
-                            <div className="TreeNametag">
-                                PYROMANCY
-                            </div>
-                            <p/>
-                            <div className="TreeNametag">
-                                SHIELDED COMBAT
-                            </div>
-                        </Grid>
-                    </Grid>
+                <Grid item xs={1}>
+                    <p>
+                        <img onClick={() => setSelectedTree(1)}
+                            className="ImageLogo animationLeadershipIconFadeIn" src={LeadershipIcon}
+                            id="LeadershipTreeLogo" alt="Leadership Icon"></img>
+                        <div className="TreeNametag">
+                            LEADERSHIP
+                        </div>
+                    </p>
+                    <p>
+                        <br />
+                        <img onClick={() => setSelectedTree(2)}
+                            className="ImageLogo animationPyromancyIconFadeIn" src={PyromancyIcon}
+                            id="PyromancyLogo" alt="Pyromancy Icon"></img>
+                        <div className="TreeNametag">
+                            PYROMANCY
+                        </div>
+                    </p>
+                    <p>
+                        <br />
+                        <img onClick={() => setSelectedTree(3)}
+                            className="ImageLogo animationShieldedCombatIconFadeIn" src={ShieldedCombatIcon}
+                            id="ShieldedCombatLogo" alt="Shielded Combat Icon"></img>
+                        <div className="TreeNametag">
+                            SHIELDED COMBAT
+                        </div>
+                    </p>
                 </Grid>
-                <Grid item xs={9}>
+                <Grid item xs={1} />
+                <Grid item xs={8}>
                     <div id="SelectedTreeDescription" className="NormalPageLayoutLeft moveLeft15 width100">
                         {!selectedTree >= 1 ?
                             <h3 className="textFontPixel textAlignCenter">CHOOSE AN EXAMPLE TREE ICON TO SEE ITS DESCRIPTION
