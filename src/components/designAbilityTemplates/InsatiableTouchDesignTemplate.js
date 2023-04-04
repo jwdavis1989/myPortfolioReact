@@ -5,7 +5,10 @@ function InsatiableTouchDesignTemplate() {
         <div>
             <Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">INSATIABLE TOUCH: DESIGN INSIGHTS</b>
+                    <b className="AbilityHeader">INSATIABLE TOUCH</b>
+                </Grid>
+                <Grid item xs={6}>
+                    <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
             <br />

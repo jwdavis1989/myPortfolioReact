@@ -5,7 +5,10 @@ function MoonlitCurseDesignTemplate() {
         <div>
             <Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">MOONLIT CURSE: DESIGN INSIGHTS</b>
+                    <b className="AbilityHeader">MOONLIT CURSE</b>
+                </Grid>
+                <Grid item xs={6}>
+                    <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
             <br />

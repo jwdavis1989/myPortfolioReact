@@ -18,7 +18,6 @@ function LeadershipPlusOneTemplate() {
                 </Grid>
             </Grid>
             <div className="NormalPageLayoutLeftSmaller moveLeft20">
-
                 <br />
                 Moderate-to-High
             </div>

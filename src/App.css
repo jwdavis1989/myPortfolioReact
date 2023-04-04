@@ -108,7 +108,8 @@ Button:hover {
   font-size: large;
   margin-left: 10%;
   margin-right: 10%;
-  padding: 0.5%;
+  width: 300%;
+  padding: 5%;
   padding-bottom: 20%;
   padding-top: 20%;
   margin-bottom: 12px;
@@ -162,7 +163,7 @@ Button:hover {
   color: white;
   background-color: black;
   outline-style: outset;
-  outline-style:ridge;
+  outline-style: ridge;
   outline-width: 6px;
   outline-color: rgb(44, 44, 44);
 }
@@ -178,38 +179,101 @@ Button:hover {
   color: white;
   background-color: black;
   outline-style: outset;
-  outline-style:ridge;
+  outline-style: ridge;
   outline-width: 6px;
   outline-color: rgb(44, 44, 44);
 }
 
+html::-webkit-scrollbar {
+  width: 20px; 
+}
+
+html::-webkit-scrollbar-track {
+background-color: rgb(44, 44, 44);
+background-image: linear-gradient(rgb(44, 44, 44), black);
+}
+
+html::-webkit-scrollbar-thumb {
+background: white;
+border-radius: 25px;
+}
+
 @keyframes fadeIn {
-  0% { opacity: 0; transform: translateY(-20px); }
-  10% { opacity: 0; transform: translateY(-20px); }
-  100% { opacity: 1; transform: translateY(0px);}
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  10% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 @keyframes leftSlide {
-  0% {transform: translateX(10vw);}
-  100% {transform: translateX(0vw);}
+  0% {
+    transform: translateX(10vw);
+  }
+
+  100% {
+    transform: translateX(0vw);
+  }
 }
 
 @keyframes treeLeadershipFadeIn {
-  0% { opacity: 0; transform: translateX(20px); }
-  10% { opacity: 0; transform: translateX(20px); }
-  100% { opacity: 1; transform: translateY(0px);}
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  10% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 @keyframes treePyromancyFadeIn {
-  0% { opacity: 0; transform: translateX(20px); }
-  20% { opacity: 0; transform: translateX(20px); }
-  100% { opacity: 1; transform: translateX(0px);}
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  20% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 
 @keyframes treeShieldedCombatFadeIn {
-  0% { opacity: 0; transform: translateX(20px); }
-  25% { opacity: 0; transform: translateX(20px); }
-  100% { opacity: 1; transform: translateX(0px);}
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  25% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 
 .ImageBorder {
@@ -322,6 +386,34 @@ Button:hover {
   outline-color: rgb(44, 44, 44);
 }
 
+.ScrollingBox {
+  height: 30vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: justify;
+}
+
+.ScrollingBox::-webkit-scrollbar {
+  width: 20px; 
+}
+
+.ScrollingBox::-webkit-scrollbar-track {
+background-color: rgb(44, 44, 44);
+background-image: linear-gradient(rgb(44, 44, 44), black);
+}
+
+.ScrollingBox::-webkit-scrollbar-thumb {
+background: white;
+border-radius: 25px;
+}
+
+.ScrollingBox50vh {
+  height: 65vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: justify;
+}
+
 .SmallHeaderBox {
   text-align: center;
   align-self: center;
@@ -356,18 +448,26 @@ Button:hover {
   outline-color: rgb(44, 44, 44);
 }
 
-.SpellListTable, th, tr {
+.SpellListTable,
+th,
+tr {
   text-align: left;
   border: 2px outset white;
   background-image: linear-gradient(black, gray);
 }
 
+.SWWBanner {
+  width: 25vw;
+  offset-anchor: 25vw;
+  padding: 10px;
+}
+
 .TalentImage {
-  width:10vw;
+  width: 10vw;
 }
 
 td {
-  text-align:center;
+  text-align: center;
   border: 1px solid white;
   border-radius: 8px;
   background-image: linear-gradient(red, black);
@@ -398,15 +498,11 @@ td {
   display: inline-block;
 }
 
-.SWWBanner {
-  width: 25vw;
-  offset-anchor: 25vw;
-  padding: 10px;
-}
 
 .textAlignCenter {
-    text-align: center;
+  text-align: center;
 }
+
 .textColorGreen {
   color: green;
 }
