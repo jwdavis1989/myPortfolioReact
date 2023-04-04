@@ -184,7 +184,7 @@ function PyromancyTalentTreeComponent(props) {
                 <Grid item xs={1}>
                     {abilityDescription ?
                         <div className="DesignInsightButton" onClick={() => setDesignInsightsVisible(!designInsightsVisible)}>
-                            Toggle<br />Design<br />Insights
+                            Toggle Design Insights
                         </div> :
                         ""
                     }
@@ -193,7 +193,7 @@ function PyromancyTalentTreeComponent(props) {
             <Grid id="Row 3 pyromancy Ability Descriptions" container spacing={0}>
                 <Grid item xs={12}>
                     <br />
-                    <div id="TalentTreeDescription" className="NormalPageLayoutLeft AbilityDescriptionSection">
+                    <div id="TalentTreeDescription" className="NormalPageLayoutLeft AbilityDescriptionSection ScrollingBox">
                         {!abilityDescription >= 1 ?
                             <h3 className="textFontPixel textAlignCenter">CLICK A TALENT ICON TO SEE ITS DESCRIPTION
                             </h3> : <RenderTalentDescription slot={abilityDescription} />}

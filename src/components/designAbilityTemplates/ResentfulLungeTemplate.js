@@ -17,7 +17,7 @@ function ResentfulLungeTemplate() {
             she gains a stack of Qi.
             <br /><br /><Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">EMPOWERED</b>
+                    <b className="AbilityHeaderSmall">EMPOWERED</b>
                 </Grid>
             </Grid>
             <br />Resentful Lunge can be used a second time within 3 seconds for free.

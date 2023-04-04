@@ -17,7 +17,7 @@ function InsatiableTouchTemplate() {
             This ability can not be cast on yourself.
             <br /><br /><Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">EMPOWERED</b>
+                    <b className="AbilityHeaderSmall">EMPOWERED</b>
                 </Grid>
             </Grid>
             <br />Insatiable Touch now instantly cures Grievous Wounds and increases the ally's

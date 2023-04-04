@@ -15,7 +15,7 @@ function JadeReachTemplate() {
             <span className="textColorIndigo"> (+60% AP)</span> magic damage. If used on an enemy champion, she gains a stack of Qi.
             <br /><br /><Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">EMPOWERED</b>
+                    <b className="AbilityHeaderSmall">EMPOWERED</b>
                 </Grid>
             </Grid>
             <br /> Jade Reach now also heals Yingyue for 40/80/120/160/200<span className="textColorGreen"> (+5 % missing health)</span> if it damages an enemy champion..

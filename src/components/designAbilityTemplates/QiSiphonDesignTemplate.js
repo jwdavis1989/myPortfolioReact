@@ -5,7 +5,10 @@ function QiSiphonDesignTemplate() {
         <div>
             <Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">QI SIPHON: DESIGN INSIGHTS</b>
+                    <b className="AbilityHeader">QI SIPHON</b>
+                </Grid>
+                <Grid item xs={6}>
+                    <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
             <br />
@@ -22,7 +25,7 @@ function QiSiphonDesignTemplate() {
 
             <br /><br /><Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">WHY LET ENEMIES SEE HER QI?</b>
+                    <b className="AbilityHeaderSmall">WHY LET ENEMIES SEE HER QI?</b>
                 </Grid>
             </Grid>
             <br /> This is based upon two of the fundamental building blocks of game design, counterplay & decision-making.
