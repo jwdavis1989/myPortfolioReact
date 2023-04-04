@@ -26,7 +26,7 @@ function MoonlitCurseDesignTemplate() {
             <br /> How you use it will depend on the situation and the rank of the ability. 
             <br /><br /><Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">WHY DOES THE RANK MATTER?</b>
+                    <b className="AbilityHeaderSmall">WHY DOES THE RANK MATTER?</b>
                 </Grid>
             </Grid>
             <br />
@@ -40,7 +40,7 @@ function MoonlitCurseDesignTemplate() {
             powerful way to support your team and fits her theming as an aggressive enchanter very well.
             <br /><br /><Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">THEMING</b>
+                    <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
             <br /> 

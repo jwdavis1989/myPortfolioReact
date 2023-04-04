@@ -99,14 +99,14 @@ function DesignExercises() {
                 <Grid id="Row 1 Yingyue Art" container spacing={0}>
                     <Grid item xs={6}>
                         <a href='https://www.chenruoyu.com/' target="_blank" rel="noreferrer">
-                            <img src={ChineseVampireImage} width="100%" alt="Yingyue the Jiangshi, Art by Chen Ruo Yu" className="SWWBanner" />
+                            <img src={ChineseVampireImage} width="100%" alt="Yingyue the Jiangshi, Art by Chen Ruo Yu" className="CharacterArt" />
                         </a>
                     </Grid>
                     <Grid item xs={3}>
                         <div className="SmallHeaderTitleNoHover moveLeft35">
                             LORE
                         </div>
-                        <div className="NormalPageLayoutLeft moveLeft35">
+                        <div className="NormalPageLayoutLeftSmaller moveLeft35">
                             Yingyue was an Ionian priestess killed during the Noxian invasion of Ionia.
                             Her spirit was never put to rest, and remained trapped in her
                             corpse for years.
@@ -119,17 +119,17 @@ function DesignExercises() {
                         <div className="SmallHeaderTitleNoHover moveLeft35">
                             ROLE
                         </div>
-                        <div className="NormalPageLayoutLeft moveLeft35 textAlignCenter">
+                        <div className="NormalPageLayoutLeftSmaller moveLeft35 textAlignCenter">
                             Agressive Enchanter Support
                         </div>
                         <br />
                         <div className="SmallHeaderTitleNoHover moveLeft35">
                             ARTWORK BY:
                         </div>
-                        <div className="NormalPageLayoutLeft moveLeft35 textAlignCenter">
+                        <div className="NormalPageLayoutLeftSmaller moveLeft35 textAlignCenter">
                             Ruo Yu <br />
                         </div>
-                            <p className="SmallHeaderTitleNoHover moveLeft35">
+                        <p className="SmallHeaderTitleNoHover moveLeft35">
                             <a href='https://www.chenruoyu.com/' target="_blank" rel="noreferrer">
                                 View Ruo Yu's Portfolio
                             </a>
@@ -166,7 +166,7 @@ function DesignExercises() {
                     <Grid item xs={1}>
                         {abilityDescription ?
                             <div className="DesignInsightButton" onClick={() => setDesignInsightsVisible(!designInsightsVisible)}>
-                                Toggle Design Insights
+                                Design Insights
                             </div> :
                             ""
                         }
@@ -174,16 +174,16 @@ function DesignExercises() {
                 </Grid>
                 <Grid id="Row 3 Ability Descriptions" container spacing={0}>
                     <Grid item xs={12}>
-                        <br /><br />
-                        <div id="JiangshiAbilityDescription" className="NormalPageLayoutLeft AbilityDescriptionSection">
+                        <br />
+                        <div id="JiangshiAbilityDescription" className="NormalPageLayoutLeftSmaller AbilityDescriptionSection ScrollingBox">
                             {!abilityDescription >= 1 ?
                                 <h3 className="textFontPixel textAlignCenter">CLICK AN ABILITY ICON TO SEE ITS DESCRIPTION
-                                    <br /><br /><br /><br /><br /><br /></h3> : <RenderJiangshiDescription slot={abilityDescription} />}
+                                </h3> : <RenderJiangshiDescription slot={abilityDescription} />}
                         </div>
+                        <br /><br /><br />
                     </Grid>
                 </Grid>
             </div>
-            <br /><br /><br /><br /><br /><br />
         </div>
     );
 }

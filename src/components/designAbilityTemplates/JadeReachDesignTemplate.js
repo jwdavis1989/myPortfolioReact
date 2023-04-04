@@ -19,7 +19,7 @@ function JadeReachDesignTemplate() {
             However, the player has great agency in choosing other uses for her empowered Qi that might better fit the situation.
             <br /><br /><Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">WHY GAIN QI ONLY ON CHAMPIONS?</b>
+                    <b className="AbilityHeaderSmall">WHY GAIN QI ONLY ON CHAMPIONS?</b>
                 </Grid>
             </Grid>
             <br /> 
@@ -34,7 +34,7 @@ function JadeReachDesignTemplate() {
             (Skillshots are abilities that must be aimed and fire a projectile in your mouse's direction and do not guarantee a successful hit.)
             <br /><br /><Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">THEMING</b>
+                    <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
             <br /> 

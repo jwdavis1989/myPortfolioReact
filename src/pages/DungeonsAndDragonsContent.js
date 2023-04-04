@@ -30,14 +30,14 @@ function DungeonsAndDragonsContent() {
                 <Grid container spacing={0}>
                     <Grid item xs={6}>
                         <Link to='/SWWLevelingOverhaul'>
-                            <img src={swwOverhaulLogo} width="100%" alt="DnD Skill Tree & Leveling Overhaul" className="SWWBanner" />
+                            <img src={swwOverhaulLogo} width="100%" alt="DnD Skill Tree & Leveling Overhaul" className="CharacterArt" />
                         </Link>
                     </Grid>
                     <Grid item xs={3}>
                         <p className="SmallHeaderTitleNoHover moveLeft35">
                             <b>SUMMARY:</b>
                         </p>
-                        <div className="NormalPageLayoutLeft moveLeft35">
+                        <div className="NormalPageLayoutLeftSmaller moveLeft35">
                             Published and available on roll20's virtual tabletop, Silverwind Workshop's Skill Trees & Leveling Overhaul
                             strives to take 5th edition D&D to the next level. Revamping classes, combat, and crafting gameplay loops. This addon
                             is more than just a leveling overhaul. Build a character by spending talent points in your choice of 29 skill trees,
@@ -48,7 +48,7 @@ function DungeonsAndDragonsContent() {
                         <p className="SmallHeaderTitleNoHover moveLeft35">
                             <b>INCLUDES:</b>
                         </p>
-                        <div className="NormalPageLayoutLeft moveLeft35">
+                        <div className="NormalPageLayoutLeftSmaller moveLeft35">
                             <ul>
                                 <li>9 New Martial Skill Trees</li>
                                 <li>12 New Magic Skill Trees</li>
@@ -108,7 +108,7 @@ function DungeonsAndDragonsContent() {
                         <p className="SmallHeaderTitleNoHover moveLeft35">
                             <b>SUMMARY:</b>
                         </p>
-                        <div className="NormalPageLayoutLeft moveLeft35">
+                        <div className="NormalPageLayoutLeftSmaller moveLeft35">
                             Coming soon to Roll20, Silverwind Workshop's Vault of Artifacts
                             is overflowing with new, interesting, and powerful magical items
                             for your players to discover!
@@ -123,7 +123,7 @@ function DungeonsAndDragonsContent() {
                         <p className="SmallHeaderTitleNoHover moveLeft35">
                             <b>INCLUDES:</b>
                         </p>
-                        <div className="NormalPageLayoutLeft moveLeft35">
+                        <div className="NormalPageLayoutLeftSmaller moveLeft35">
                             <ul>
                                 <li>Dozens of New Artifacts of Various Qualities</li>
                                 <li>Loot Roll Tables</li>

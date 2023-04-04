@@ -16,7 +16,7 @@ function ResentfulLungeDesignTemplate() {
             reinforces the aggressive design of this support champion.
             <br /><br /><Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">WHY GIVE HER A MELEE DASH?</b>
+                    <b className="AbilityHeaderSmall">WHY GIVE HER A MELEE DASH?</b>
                 </Grid>
             </Grid>
             <br /> Yingyue is always meant to give both the player and their opponent choice. How risky should Yingyue play? 
@@ -31,7 +31,7 @@ function ResentfulLungeDesignTemplate() {
             ability to supercharge her ally.
             <br /><br /><Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">THEMING</b>
+                    <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
             <br /> 
