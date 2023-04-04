@@ -121,7 +121,7 @@ Button:hover {
   outline-style: outset;
   outline-width: 6px;
   outline-color: rgb(44, 44, 44);
-  background-image: radial-gradient(rgb(44, 44, 44), black);
+  background-image: radial-gradient(rgb(11, 11, 11), black);
 }
 
 .DesignInsightButton:hover {
@@ -141,10 +141,10 @@ Button:hover {
   padding: 0.5%;
   margin-bottom: 12px;
   color: white;
-  background-color: black;
   outline-style: outset;
   outline-width: 6px;
   outline-color: rgb(44, 44, 44);
+  background-image: radial-gradient(rgb(11, 11, 11), black);
 }
 
 .HeaderTitle:hover {
@@ -164,11 +164,11 @@ Button:hover {
   padding-right: 0.5%;
   margin-bottom: 12px;
   color: white;
-  background-color: black;
   outline-style: outset;
   outline-style: ridge;
   outline-width: 6px;
   outline-color: rgb(44, 44, 44);
+  background-image: radial-gradient(rgb(11, 11, 11), black);
 }
 
 .HeaderTitleWide {
@@ -180,11 +180,11 @@ Button:hover {
   padding-right: 0.5%;
   margin-bottom: 12px;
   color: white;
-  background-color: black;
   outline-style: outset;
   outline-style: ridge;
   outline-width: 6px;
   outline-color: rgb(44, 44, 44);
+  background-image: radial-gradient(rgb(11, 11, 11), black);
 }
 
 html::-webkit-scrollbar {
@@ -432,6 +432,7 @@ border-radius: 25px;
   outline-style: outset;
   outline-width: 6px;
   outline-color: darkgray;
+  background-image: linear-gradient(rgb(11, 11, 11), black);
 }
 
 .SmallHeaderTitleNoHover {
@@ -445,10 +446,10 @@ border-radius: 25px;
   padding-right: 0.5%;
   padding-top: 5px;
   color: white;
-  background-color: black;
   outline-style: inset;
   outline-width: 6px;
   outline-color: rgb(44, 44, 44);
+  background-image: radial-gradient(rgb(11, 11, 11), black);
 }
 
 .SpellListTable,
