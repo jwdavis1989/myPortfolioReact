@@ -11,7 +11,6 @@ function ShieldedCombatPlusOneTemplate() {
                     <span className="AbilityCooldown">SHIELDED COMBAT +1 EFFECT</span><br /><br />
                 </Grid>
             </Grid>
-            <br />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
                     <b className="AbilityHeaderSmall">TREE COMPLEXITY</b>

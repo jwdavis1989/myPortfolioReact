@@ -166,7 +166,7 @@ function DesignExercises() {
                     <Grid item xs={1}>
                         {abilityDescription ?
                             <div className="DesignInsightButton" onClick={() => setDesignInsightsVisible(!designInsightsVisible)}>
-                                Design Insights
+                                <br />Design Insights
                             </div> :
                             ""
                         }
