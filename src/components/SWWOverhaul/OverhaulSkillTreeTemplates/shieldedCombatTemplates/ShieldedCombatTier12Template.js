@@ -11,7 +11,6 @@ function ShieldedCombatTier12Template() {
                     <span className="AbilityCooldown">SHIELDED COMBAT TIER 12 TALENT</span><br /><br />
                 </Grid>
             </Grid>
-            <br />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
                     <b className="AbilityHeaderSmall">EFFECT</b>

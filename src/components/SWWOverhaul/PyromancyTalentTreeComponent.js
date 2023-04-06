@@ -21,6 +21,9 @@ import { PyromancyTier12Template } from './OverhaulSkillTreeTemplates/pyromancyT
 import { PyromancyTier15Template } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyTier15Template';
 import { PyromancyTier18Template } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyTier18Template';
 
+import { PyromancyPlusOneDesignTemplate } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyPlusOneDesignTemplate';
+import { PyromancyTier3DesignTemplate } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyTier3DesignTemplate';
+
 function PyromancyTalentTreeComponent(props) {
     const [abilityDescription, setAbilityDescription] = useState(0);
     const [designInsightsVisible, setDesignInsightsVisible] = useState(true);
@@ -48,14 +51,14 @@ function PyromancyTalentTreeComponent(props) {
             if (!designInsightsVisible) {
                 description = <PyromancyPlusOneTemplate />
             }
-            else description = "+1 EFFECT INSIGHT"
+            else description = <PyromancyPlusOneDesignTemplate />
         }
         if (props.slot === 2) {
             document.getElementById("pyromancyT3Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
                 description = <PyromancyTier3Template />
             }
-            else description = "T3 INSIGHT"
+            else description = <PyromancyTier3DesignTemplate />
         }
         else if (props.slot === 3) {
             document.getElementById("pyromancyT6Talent").className = "ImageLogoSelected";

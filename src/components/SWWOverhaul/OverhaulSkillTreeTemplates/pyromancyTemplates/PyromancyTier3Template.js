@@ -12,10 +12,9 @@ function PyromancyTier3Template() {
                 </Grid>
             </Grid>
             <div className="NormalPageLayoutLeftSmaller moveLeft20">
-                <br />
                 You may spend 1 Bonus Action to empower your next <b className="textColorRed">Fire Damage</b> spell cast before the beginning of your next turn.
                 <br />The empowered spell's initial damage deals <b>+1 Bonus</b> <b className="textColorRed">Fire Damage</b> per 3 points spent in Pyromancy to all affected creatures. Each creature may only take this damage once per Spellcast.
-                <b>Note:</b> This bonus only applies to the initial damage of the spell, so spells like Searing Smite, Blazefury Weapon, or Wall of Fire do not gain this bonus on every tick of the burn or from creatures walking through the damage wall.
+                <p /><b>Note:</b> This bonus only applies to the initial damage of the spell, so spells like Searing Smite, Blazefury Weapon, or Wall of Fire do not gain this bonus on every tick of the burn or from creatures walking through the damage wall.
                 <br /><br />
             </div>
             <Grid container spacing={0}>
