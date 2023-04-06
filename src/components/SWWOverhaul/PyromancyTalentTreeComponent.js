@@ -23,6 +23,11 @@ import { PyromancyTier18Template } from './OverhaulSkillTreeTemplates/pyromancyT
 
 import { PyromancyPlusOneDesignTemplate } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyPlusOneDesignTemplate';
 import { PyromancyTier3DesignTemplate } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyTier3DesignTemplate';
+import { PyromancyTier6DesignTemplate } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyTier6DesignTemplate';
+import { PyromancyTier9DesignTemplate } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyTier9DesignTemplate';
+import { PyromancyTier12DesignTemplate } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyTier12DesignTemplate';
+import { PyromancyTier15DesignTemplate } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyTier15DesignTemplate';
+import { PyromancyTier18DesignTemplate } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyTier18DesignTemplate';
 
 function PyromancyTalentTreeComponent(props) {
     const [abilityDescription, setAbilityDescription] = useState(0);
@@ -65,35 +70,35 @@ function PyromancyTalentTreeComponent(props) {
             if (!designInsightsVisible) {
                 description = <PyromancyTier6Template />
             }
-            else description = "T6 INSIGHT"
+            else description = <PyromancyTier6DesignTemplate />
         }
         else if (props.slot === 4) {
             document.getElementById("pyromancyT9Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
                 description = <PyromancyTier9Template />
             }
-            else description = "T9 INSIGHT"
+            else description = <PyromancyTier9DesignTemplate />
         }
         else if (props.slot === 5) {
             document.getElementById("pyromancyT12Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
                 description = <PyromancyTier12Template />
             }
-            else description = "T12 INSIGHT"
+            else description = <PyromancyTier12DesignTemplate />
         }
         else if (props.slot === 6) {
             document.getElementById("pyromancyT15Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
                 description = <PyromancyTier15Template />
             }
-            else description = "T15 INSIGHT"
+            else description = <PyromancyTier15DesignTemplate />
         }
         else if (props.slot === 7) {
             document.getElementById("pyromancyT18Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
                 description = <PyromancyTier18Template />
             }
-            else description = "T18 INSIGHT"
+            else description = <PyromancyTier18DesignTemplate />
         }
         return description;
     }
