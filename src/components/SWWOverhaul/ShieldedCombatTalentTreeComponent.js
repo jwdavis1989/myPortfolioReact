@@ -21,6 +21,14 @@ import { ShieldedCombatTier12Template } from './OverhaulSkillTreeTemplates/shiel
 import { ShieldedCombatTier15Template } from './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier15Template';
 import { ShieldedCombatTier18Template } from './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier18Template';
 
+import { ShieldedCombatPlusOneDesignTemplate } from './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatPlusOneDesignTemplate';
+import { ShieldedCombatTier3DesignTemplate } from './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier3DesignTemplate';
+import { ShieldedCombatTier6DesignTemplate } from './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier6DesignTemplate';
+import { ShieldedCombatTier9DesignTemplate } from './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier9DesignTemplate';
+import { ShieldedCombatTier12DesignTemplate } from './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier12DesignTemplate';
+import { ShieldedCombatTier15DesignTemplate } from './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier15DesignTemplate';
+import { ShieldedCombatTier18DesignTemplate } from './OverhaulSkillTreeTemplates/shieldedCombatTemplates/ShieldedCombatTier18DesignTemplate';
+
 function ShieldedCombatTalentTreeComponent(props) {
     const [abilityDescription, setAbilityDescription] = useState(0);
     const [designInsightsVisible, setDesignInsightsVisible] = useState(true);
@@ -48,49 +56,49 @@ function ShieldedCombatTalentTreeComponent(props) {
             if (!designInsightsVisible) {
                 description = <ShieldedCombatPlusOneTemplate />
             }
-            else description = "+1 EFFECT INSIGHT"
+            else description = <ShieldedCombatPlusOneDesignTemplate />
         }
         if (props.slot === 2) {
             document.getElementById("shieldedCombatT3Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
                 description = <ShieldedCombatTier3Template />
             }
-            else description = "T3 INSIGHT"
+            else description = <ShieldedCombatTier3DesignTemplate />
         }
         else if (props.slot === 3) {
             document.getElementById("shieldedCombatT6Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
                 description = <ShieldedCombatTier6Template />
             }
-            else description = "T6 INSIGHT"
+            else description = <ShieldedCombatTier6DesignTemplate />
         }
         else if (props.slot === 4) {
             document.getElementById("shieldedCombatT9Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
                 description = <ShieldedCombatTier9Template />
             }
-            else description = "T9 INSIGHT"
+            else description = <ShieldedCombatTier9DesignTemplate />
         }
         else if (props.slot === 5) {
             document.getElementById("shieldedCombatT12Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
                 description = <ShieldedCombatTier12Template />
             }
-            else description = "T12 INSIGHT"
+            else description = <ShieldedCombatTier12DesignTemplate />
         }
         else if (props.slot === 6) {
             document.getElementById("shieldedCombatT15Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
                 description = <ShieldedCombatTier15Template />
             }
-            else description = "T15 INSIGHT"
+            else description = <ShieldedCombatTier15DesignTemplate />
         }
         else if (props.slot === 7) {
             document.getElementById("shieldedCombatT18Talent").className = "ImageLogoSelected";
             if (!designInsightsVisible) {
                 description = <ShieldedCombatTier18Template />
             }
-            else description = "T18 INSIGHT"
+            else description = <ShieldedCombatTier18DesignTemplate />
         }
         return description;
     }

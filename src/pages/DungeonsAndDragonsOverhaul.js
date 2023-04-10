@@ -9,18 +9,21 @@ import { PyromancyTalentTreeComponent } from '../components/SWWOverhaul/Pyromanc
 import LeadershipIcon from '../resources/images/talentTreesImages/LeadershipIcon.png';
 import ShieldedCombatIcon from '../resources/images/talentTreesImages/ShieldedCombatIcon.png';
 import PyromancyIcon from '../resources/images/talentTreesImages/PyromancyIcon.png';
+import OverviewIcon from '../resources/images/glowingEyeAnimation/glowingEye1.png';
 
 function DungeonsAndDragonsOverhaul() {
     const [selectedTree, setSelectedTree] = useState(0);
+    const imageLogoDefaultClasses = "ImageLogo animationPyromancyIconFadeIn";
+    const imageLogoDefaultClassesNoAnimation = "ImageLogo";
 
     useEffect(() => {
         setSelectedTree(0);
     }, []);
 
     function resetSelectTreeHighlight() {
-        document.getElementById("LeadershipTreeLogo").className = "ImageLogo";
-        document.getElementById("PyromancyLogo").className = "ImageLogo";
-        document.getElementById("ShieldedCombatLogo").className = "ImageLogo";
+        document.getElementById("LeadershipTreeLogo").className = imageLogoDefaultClassesNoAnimation;
+        document.getElementById("PyromancyLogo").className = imageLogoDefaultClassesNoAnimation;
+        document.getElementById("ShieldedCombatLogo").className = imageLogoDefaultClassesNoAnimation;
     }
 
     function RenderTreeDescription(props) {
@@ -67,9 +70,12 @@ function DungeonsAndDragonsOverhaul() {
             <Grid container spacing={0} id="Row 3 Example Tree Icons">
                 <Grid item xs={1} />
                 <Grid item xs={1}>
+                    <p className="HeaderTitleWide">
+                        EXAMPLE TREES
+                    </p>
                     <p>
                         <img onClick={() => setSelectedTree(1)}
-                            className="ImageLogo animationLeadershipIconFadeIn" src={LeadershipIcon}
+                            className={imageLogoDefaultClasses} src={LeadershipIcon}
                             id="LeadershipTreeLogo" alt="Leadership Icon"></img>
                         <div className="TreeNametag">
                             LEADERSHIP
@@ -78,7 +84,7 @@ function DungeonsAndDragonsOverhaul() {
                     <p>
                         <br />
                         <img onClick={() => setSelectedTree(2)}
-                            className="ImageLogo animationPyromancyIconFadeIn" src={PyromancyIcon}
+                            className={imageLogoDefaultClasses} src={PyromancyIcon}
                             id="PyromancyLogo" alt="Pyromancy Icon"></img>
                         <div className="TreeNametag">
                             PYROMANCY
@@ -87,7 +93,7 @@ function DungeonsAndDragonsOverhaul() {
                     <p>
                         <br />
                         <img onClick={() => setSelectedTree(3)}
-                            className="ImageLogo animationShieldedCombatIconFadeIn" src={ShieldedCombatIcon}
+                            className={imageLogoDefaultClasses} src={ShieldedCombatIcon}
                             id="ShieldedCombatLogo" alt="Shielded Combat Icon"></img>
                         <div className="TreeNametag">
                             SHIELDED COMBAT
@@ -95,12 +101,22 @@ function DungeonsAndDragonsOverhaul() {
                     </p>
                 </Grid>
                 <Grid item xs={1} />
-                <Grid item xs={8}>
+                <Grid item xs={7}>
                     <div id="SelectedTreeDescription" className="NormalPageLayoutLeft moveLeft15 width100">
                         {!selectedTree >= 1 ?
                             <h3 className="textFontPixel textAlignCenter">CHOOSE AN EXAMPLE TREE ICON TO SEE ITS DESCRIPTION
                             </h3> : <RenderTreeDescription slot={selectedTree} />}
                     </div>
+                </Grid>
+                <Grid item xs={1}>
+                    <p className="HeaderTitleWide">
+                        OVERVIEW
+                    </p>
+                    <p>
+                        <img onClick={() => setSelectedTree(1)}
+                            className={imageLogoDefaultClasses} src={OverviewIcon}
+                            id="LeadershipTreeLogo" alt="Leadership Icon"></img>
+                    </p>
                 </Grid>
             </Grid>
         </div>
