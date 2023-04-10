@@ -32,7 +32,7 @@ function ShieldedCombatTier6DesignTemplate() {
             <br />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeaderSmall">THEMING?</b>
+                    <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
             <div className="NormalPageLayoutLeftSmaller moveLeft20">
