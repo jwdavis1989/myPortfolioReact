@@ -310,6 +310,25 @@ border-radius: 25px;
   outline-color: red;
 }
 
+.OverhaulImageLogo {
+  width: 65%;
+}
+
+.OverhaulImageLogo:hover {
+  width: 65%;
+  outline-style: outset;
+  outline-width: 6px;
+  outline-color: rgb(44, 44, 44);
+  outline-color: white;
+}
+
+.OverhaulImageLogoSelected {
+  width: 65%;
+  outline-style: inset;
+  outline-width: 6px;
+  outline-color: red;
+}
+
 
 .MapGeneratorSelectionInput {
   width: 200px;

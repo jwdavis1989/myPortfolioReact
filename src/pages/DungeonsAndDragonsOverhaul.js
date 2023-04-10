@@ -9,67 +9,75 @@ import { PyromancyTalentTreeComponent } from '../components/SWWOverhaul/Pyromanc
 import LeadershipIcon from '../resources/images/talentTreesImages/LeadershipIcon.png';
 import ShieldedCombatIcon from '../resources/images/talentTreesImages/ShieldedCombatIcon.png';
 import PyromancyIcon from '../resources/images/talentTreesImages/PyromancyIcon.png';
+import OverviewIcon from '../resources/images/glowingEyeAnimation/glowingEyeAnimation.gif';
 
 function DungeonsAndDragonsOverhaul() {
     const [selectedTree, setSelectedTree] = useState(0);
+    const imageLogoDefaultClassesLeadership = "OverhaulImageLogo animationLeadershipIconFadeIn";
+    const imageLogoDefaultClassesPyromancy = "OverhaulImageLogo animationPyromancyIconFadeIn";
+    const imageLogoDefaultClassesShieldedCombat = "OverhaulImageLogo animationShieldedCombatIconFadeIn";
+    const imageLogoDefaultClassesNoAnimation = "OverhaulImageLogo";
 
     useEffect(() => {
         setSelectedTree(0);
     }, []);
 
     function resetSelectTreeHighlight() {
-        document.getElementById("LeadershipTreeLogo").className = "ImageLogo";
-        document.getElementById("PyromancyLogo").className = "ImageLogo";
-        document.getElementById("ShieldedCombatLogo").className = "ImageLogo";
+        document.getElementById("LeadershipTreeLogo").className = imageLogoDefaultClassesNoAnimation;
+        document.getElementById("PyromancyLogo").className = imageLogoDefaultClassesNoAnimation;
+        document.getElementById("ShieldedCombatLogo").className = imageLogoDefaultClassesNoAnimation;
+        document.getElementById("OverviewLogo").className = imageLogoDefaultClassesNoAnimation;
     }
 
     function RenderTreeDescription(props) {
         let description = "";
         resetSelectTreeHighlight();
         if (props.slot === 1) {
-            document.getElementById("LeadershipTreeLogo").className = "ImageLogoSelected";
+            document.getElementById("LeadershipTreeLogo").className = "OverhaulImageLogoSelected";
             description = <LeadershipTalentTreeComponent />
         }
         else if (props.slot === 2) {
-            document.getElementById("PyromancyLogo").className = "ImageLogoSelected";
+            document.getElementById("PyromancyLogo").className = "OverhaulImageLogoSelected";
             description = <PyromancyTalentTreeComponent />
         }
         if (props.slot === 3) {
-            document.getElementById("ShieldedCombatLogo").className = "ImageLogoSelected";
+            document.getElementById("ShieldedCombatLogo").className = "OverhaulImageLogoSelected";
             description = <ShieldedCombatTalentTreeComponent />
+        }
+        if (props.slot === 4) {
+            document.getElementById("OverviewLogo").className = "OverhaulImageLogoSelected";
+            description = "Overview Component Goes Here";
         }
         return description;
     }
 
     return (
         <div>
-            <Grid container spacing={1} id="Row 1 Overview">
-                <Grid item xs={1} />
-                <Grid item xs={5}>
-                    <p className="HeaderTitleWide">
-                        OVERVIEW
-                    </p>
-                </Grid>
-                <Grid item xs={5}>
-                    <p className="HeaderTitleWide">
-                        WHAT PROBLEMS DOES THIS SYSTEM SOLVE?
-                    </p>
-                </Grid>
-            </Grid>
             <Grid container spacing={1} id="Row 2 Example Tree Header">
                 <Grid item xs={1} />
                 <Grid item xs={10}>
                     <p className="HeaderTitleWide">
-                        EXAMPLE TREES
+                        D&D SKILL TREES & LEVELING OVERHAUL DESIGN INSIGHTS & EXAMPLES
                     </p>
                 </Grid>
             </Grid>
             <Grid container spacing={0} id="Row 3 Example Tree Icons">
                 <Grid item xs={1} />
                 <Grid item xs={1}>
+                    <p className="HeaderTitleWide">
+                        OVERVIEW
+                    </p>
+                    <p>
+                        <img onClick={() => setSelectedTree(4)}
+                            className={imageLogoDefaultClassesLeadership} src={OverviewIcon}
+                            id="OverviewLogo" alt="Overview Icon"></img>
+                    </p>
+                    <p className="HeaderTitleWide">
+                        EXAMPLE TREES
+                    </p>
                     <p>
                         <img onClick={() => setSelectedTree(1)}
-                            className="ImageLogo animationLeadershipIconFadeIn" src={LeadershipIcon}
+                            className={imageLogoDefaultClassesLeadership} src={LeadershipIcon}
                             id="LeadershipTreeLogo" alt="Leadership Icon"></img>
                         <div className="TreeNametag">
                             LEADERSHIP
@@ -78,7 +86,7 @@ function DungeonsAndDragonsOverhaul() {
                     <p>
                         <br />
                         <img onClick={() => setSelectedTree(2)}
-                            className="ImageLogo animationPyromancyIconFadeIn" src={PyromancyIcon}
+                            className={imageLogoDefaultClassesPyromancy} src={PyromancyIcon}
                             id="PyromancyLogo" alt="Pyromancy Icon"></img>
                         <div className="TreeNametag">
                             PYROMANCY
@@ -87,7 +95,7 @@ function DungeonsAndDragonsOverhaul() {
                     <p>
                         <br />
                         <img onClick={() => setSelectedTree(3)}
-                            className="ImageLogo animationShieldedCombatIconFadeIn" src={ShieldedCombatIcon}
+                            className={imageLogoDefaultClassesShieldedCombat} src={ShieldedCombatIcon}
                             id="ShieldedCombatLogo" alt="Shielded Combat Icon"></img>
                         <div className="TreeNametag">
                             SHIELDED COMBAT
@@ -95,10 +103,10 @@ function DungeonsAndDragonsOverhaul() {
                     </p>
                 </Grid>
                 <Grid item xs={1} />
-                <Grid item xs={8}>
+                <Grid item xs={9}>
                     <div id="SelectedTreeDescription" className="NormalPageLayoutLeft moveLeft15 width100">
                         {!selectedTree >= 1 ?
-                            <h3 className="textFontPixel textAlignCenter">CHOOSE AN EXAMPLE TREE ICON TO SEE ITS DESCRIPTION
+                            <h3 className="textFontPixel textAlignCenter">CHOOSE OVERVIEW OR AN EXAMPLE TREE ICON TO SEE ITS DESCRIPTION
                             </h3> : <RenderTreeDescription slot={selectedTree} />}
                     </div>
                 </Grid>
