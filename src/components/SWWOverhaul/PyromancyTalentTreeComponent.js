@@ -120,7 +120,7 @@ function PyromancyTalentTreeComponent(props) {
                     <div className="SmallHeaderTitleNoHover moveLeft15">
                         SUMMARY
                     </div>
-                    <div className="NormalPageLayoutLeftSmaller moveLeft25">
+                    <div className="NormalPageLayoutLeft moveLeft25 ScrollingBox">
                         <i>
                             "Will your fire ignite the world?
                             <br />Will you raise magma to destroy entire swathes of terrain?
@@ -135,7 +135,8 @@ function PyromancyTalentTreeComponent(props) {
                         </i>
                     </div>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={1} />
+                <Grid item xs={3}>
                     <div className="SmallHeaderTitleNoHover moveLeft35">
                         TYPE
                     </div>

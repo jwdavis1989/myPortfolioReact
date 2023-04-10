@@ -120,7 +120,7 @@ function ShieldedCombatTalentTreeComponent(props) {
                     <div className="SmallHeaderTitleNoHover moveLeft15">
                         SUMMARY
                     </div>
-                    <div className="NormalPageLayoutLeftSmaller moveLeft25">
+                    <div className="NormalPageLayoutLeft moveLeft25 ScrollingBox">
                         Shielded Combat evokes the idea of the stalwart defender.
                         A skilled Shieldmaster who tactically chooses the best time to
                         block powerful attacks while able to safeguard nearby allies with
@@ -130,7 +130,8 @@ function ShieldedCombatTalentTreeComponent(props) {
                         is a powerful and reliable backbone to build a team around.
                     </div>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={1} />
+                <Grid item xs={3}>
                     <div className="SmallHeaderTitleNoHover moveLeft35">
                         TYPE
                     </div>
