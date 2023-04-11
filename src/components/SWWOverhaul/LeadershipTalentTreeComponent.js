@@ -120,7 +120,7 @@ function LeadershipTalentTreeComponent(props) {
                     <div className="SmallHeaderTitleNoHover moveLeft15">
                         SUMMARY
                     </div>
-                    <div className="NormalPageLayoutLeftSmaller moveLeft25">
+                    <div className="NormalPageLayoutLeft moveLeft25 ScrollingBox">
                         Leadership is born from the image of the heroic leader,
                         waving their banner in the air as they inspire their allies
                         with glowing charisma and infuriate their opponents with their tactical wit.
@@ -128,7 +128,8 @@ function LeadershipTalentTreeComponent(props) {
                         to shape the battlefield to your advantage.
                     </div>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={1} />
+                <Grid item xs={3}>
                     <div className="SmallHeaderTitleNoHover moveLeft35">
                         TYPE
                     </div>

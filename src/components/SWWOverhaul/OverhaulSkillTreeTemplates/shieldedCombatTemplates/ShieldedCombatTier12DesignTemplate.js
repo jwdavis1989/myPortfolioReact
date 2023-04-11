@@ -5,38 +5,47 @@ function ShieldedCombatTier12DesignTemplate() {
         <div>
             <Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">WIP SKILL</b>
+                    <b className="AbilityHeader">STAGGERING SLAM</b>
                 </Grid>
                 <Grid item xs={6}>
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
             <div className="NormalPageLayoutLeftSmaller moveLeft20">
-                Every Magic Skill Tree contains a similar +1 effect, namely granting new spell 
-                slots and setting the player's casting stats such as spellcasting attributes and spell save DC.
-                <p /><b>Note:</b> Spell Save DC is the number a creature must roll against to determine if saving-throw-based spells affect them.
-                <br />A player's Spellcasting Attribute is the stat they use to determine spell accuracy, spell save DC, and sometimes damage.
-                <p />If you have points in multiple Magic Skill Trees, you add the total number of spells slots gained together. However, as previously 
-                stated, to cast a spell of a certain level, you need to have unlocked that spell's spell slot in the Magic Skill Tree you obtained it from.
-                <p /><b>Example:</b> Fireball is a level 3 Pyromancy spell. To cast it, you must have at least 5 points spent in the Pyromancy Skill Tree.
-                Even if you have 20 points in a different Magic Skill Tree, you can not cast fireball until you put 5 points into Pyromancy.
+                Staggering Slam further empowers your shield attacks to knock enemies senseless. This is especially potent after 
+                successfully blocking as your shield slam hits a 10ft by 10ft area.
+                <p /><b>Note:</b> Concentration is a mechanic in 5th Edition Dungeons & Dragons 
+                where magic-users must maintain concentration on some types of spells to continue to benefit from their effect.
+                These spells offer humongous power bonuses but are susceptible to losing concentration. 
+                If a caster loses concentration on their spell, the spell ends.
+                <br />Everytime a creature takes damage, they roll a Constitution Saving Throw to maintain concentration. 
+                The total they must roll is either 10 or half of the damage dealt, whichever is higher.
+                <p /><b>Note:</b> Disadvantage is a mechanic where a creature performs a 20-sided dice roll, 
+                they instead roll a pair of 20-sided dice and use the lower number rolled. Essentially, the creature will 
+                struggle significantly more to perform whatever task they attempt with disadvantage.
             </div>
             <br />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeaderSmall">WHY CAN'T CHARISMA BE A SPELLCASTING ATTRIBUTE?</b>
+                    <b className="AbilityHeaderSmall">WHY DOES IT GIVE DISADVANTAGE ON ENEMY ATTACK ROLLS TOO?</b>
                 </Grid>
             </Grid>
             <div className="NormalPageLayoutLeftSmaller moveLeft20">
                 <br />
-                Charisma is sometimes used as a spellcasting attribute in 5th edition Dungeons & Dragons, however this system does not allow that.
-                <br />Essentially, Charisma is already a very powerful stat, and also interacts well with several Utility Skill Trees such as Leadership 
-                and this system's equivalent to Bardic gameplay, Inspiration. 
-                <br />Allowing a single attribute to be both be the best roleplay attribute and the best combat attribute would be a significant
-                power difference compared to Wisdom or Intelligence, and would lead to a near-universal epidemic of every magic-focused character 
-                having a large Charisma attribute. 
-                <br />Therefore, allowing Charisma to be a spellcasting attribute would actually reduce player options, 
-                rather than improve them.
+                This allows the shield slams to be meaningful against both casters and martial combatants, improving flexibility.
+            </div>
+            <br />
+            <Grid container spacing={0}>
+                <Grid item xs={6}>
+                    <b className="AbilityHeaderSmall">THEMING</b>
+                </Grid>
+            </Grid>
+            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+                <br />
+                You've become a seasoned defender, honing your shield arm so that the shield becomes an extension of your body.
+                <br />You strike with such force that Goblins and Wizards alike jolt to alertness at the reverberating sound of 
+                your shield throw or slam in the distance.
+                <br />This is a powerful fantasy to not only tanks in general, but anti-mages as well.
             </div>
             <br />
         </div>

@@ -18,19 +18,19 @@ function ShieldedCombatTier9DesignTemplate() {
             <br />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeaderSmall">WHY CAN'T CHARISMA BE A SPELLCASTING ATTRIBUTE?</b>
+                    <b className="AbilityHeaderSmall">WHY DOES IT WORK ON SPELLS & ATTACKS THAT PASS NEAR YOU?</b>
                 </Grid>
             </Grid>
             <div className="NormalPageLayoutLeftSmaller moveLeft20">
                 <br />
-                Charisma is sometimes used as a spellcasting attribute in 5th edition Dungeons & Dragons, however this system does not allow that.
-                <br />Essentially, Charisma is already a very powerful stat, and also interacts well with several Utility Skill Trees such as Leadership 
-                and this system's equivalent to Bardic gameplay, Inspiration. 
-                <br />Allowing a single attribute to be both be the best roleplay attribute and the best combat attribute would be a significant
-                power difference compared to Wisdom or Intelligence, and would lead to a near-universal epidemic of every magic-focused character 
-                having a large Charisma attribute. 
-                <br />Therefore, allowing Charisma to be a spellcasting attribute would actually reduce player options, 
-                rather than improve them.
+                This gives the ability both an extremely cool thematic element, and a powerful boost to its effectiveness to insure 
+                it is memorable.
+                <br />Notice that spells passing near you include spells & attacks aimed at people behind you if a line drawn from the Attacker 
+                passes within 5ft of you on its way to your ally, allowing you to deflect them masterfully, resulting in 0 
+                effect and damage for both you and the protected ally standing behind you.
+                <p />Imagine a stalwart defender casually swatting away or blocking every single Bolt of Lightning thrown by several 
+                Aeromancers. Wouldn't that make you feel like the impenetrable anchor of your team, a beacon that provides substantial 
+                protection to anyone who stands behind you?
             </div>
             <br />
         </div>
