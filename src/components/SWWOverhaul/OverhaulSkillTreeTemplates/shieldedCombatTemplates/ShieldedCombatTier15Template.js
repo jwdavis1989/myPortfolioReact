@@ -16,7 +16,7 @@ function ShieldedCombatTier15Template() {
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Friendly creatures behind you are considered to have Three-Quarters Cover
                 for the purpose of ranged attacks that must pass through your square to reach the friendly creature.

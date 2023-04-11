@@ -11,7 +11,7 @@ function ShieldedCombatTier9DesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 As with many Tier 9 Talents, Unbreakable carves out a shining moment that is both powerful and unforgettable for the player.
                 <br />
             </div>
@@ -21,7 +21,7 @@ function ShieldedCombatTier9DesignTemplate() {
                     <b className="AbilityHeaderSmall">WHY DOES IT WORK ON SPELLS & ATTACKS THAT PASS NEAR YOU?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 This gives the ability both an extremely cool thematic element, and a powerful boost to its effectiveness to insure 
                 it is memorable.

@@ -16,7 +16,7 @@ function LeadershipTier12Template() {
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Through countless battles, you've refined your tactical commands, granting each a bonus listed below.
             </div>
@@ -26,7 +26,7 @@ function LeadershipTier12Template() {
                     <b className="AbilityHeaderSmall">COMMAND UPGRADES</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br /><b>Command - En Passant:</b>
                 <br />Now grants all affected creatures up to 10ft of movement instead of 5ft.
 

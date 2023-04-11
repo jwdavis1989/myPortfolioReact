@@ -16,7 +16,7 @@ function LeadershipTier6Template() {
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 At the beginning of your turn, you may grant one allied creature within hearing range the ability to immediately move up to 15ft, however if you do so, you cannot move until the beginning of your next turn.
 

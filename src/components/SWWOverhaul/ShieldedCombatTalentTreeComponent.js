@@ -135,14 +135,14 @@ function ShieldedCombatTalentTreeComponent(props) {
                     <div className="SmallHeaderTitleNoHover moveLeft35">
                         TYPE
                     </div>
-                    <div className="NormalPageLayoutLeftSmaller moveLeft35 textAlignCenter">
+                    <div className="NormalPageLayoutLeft moveLeft35 textAlignCenter">
                         Martial
                     </div>
                     <br />
                     <div className="SmallHeaderTitleNoHover moveLeft35">
                         ROLE
                     </div>
-                    <div className="NormalPageLayoutLeftSmaller moveLeft35 textAlignCenter">
+                    <div className="NormalPageLayoutLeft moveLeft35 textAlignCenter">
                         Defender
                     </div>
                 </Grid>

@@ -16,7 +16,7 @@ function ShieldedCombatTier3Template() {
                     <b className="AbilityHeaderSmall">REACTIVE BLOCK</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 While wielding a shield, whenever a visible creature makes an attack roll or uses a spell effect that requires a dexterity saving throw, against you or a creature within 5ft of you, you may spend a Reaction to attempt to block the effect.
 
@@ -32,7 +32,7 @@ function ShieldedCombatTier3Template() {
                     <b className="AbilityHeaderSmall">STALWART</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Your Shield AC Bonus now also applies to your Dexterity Saving Throws.
             </div>
@@ -42,7 +42,7 @@ function ShieldedCombatTier3Template() {
                     <b className="AbilityHeaderSmall">WEAPON & SHIELD TRAINING</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />The Cat o' Nine Tails gain the Reach tag and the damage of Whips increases to 1d8.
 
                 <p />Additionally, while wielding a Shield, you may now attack with both your weapon and shield as part of the attack action.

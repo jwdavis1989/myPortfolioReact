@@ -18,7 +18,7 @@ function PyromancyPlusOneTemplate() {
                     <b className="AbilityHeaderSmall">TREE COMPLEXITY</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Moderate
                 <br /><br />
@@ -28,7 +28,7 @@ function PyromancyPlusOneTemplate() {
                     <b className="AbilityHeaderSmall">SPELL PROFICIENCY</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 You gain proficiency in Pyromancy magic.
 
@@ -46,7 +46,7 @@ function PyromancyPlusOneTemplate() {
                     <b className="AbilityHeaderSmall">SPELL SLOTS BY LEVEL</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <SpellListTalentTreeComponent />
             </div>
         </div>

@@ -11,7 +11,7 @@ function PyromancyTier18DesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 This talent allows a Pyromancer to completely reshape the surface of the immediate 
                 area into a fiery hell, or ration out their destructive mayhem over three separate encounters.
             </div>
@@ -21,7 +21,7 @@ function PyromancyTier18DesignTemplate() {
                     <b className="AbilityHeaderSmall">DO OVERLAPPING MAGMA SURFACES STACK?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 No, only the first instance of lava in a 5ft square applies.
             </div>
@@ -31,7 +31,7 @@ function PyromancyTier18DesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Hey kids, have you ever wanted to burn an entire city down?
                 <br />Well now you can!

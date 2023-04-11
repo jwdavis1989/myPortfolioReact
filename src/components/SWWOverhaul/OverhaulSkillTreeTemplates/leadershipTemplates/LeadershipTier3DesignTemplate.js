@@ -11,7 +11,7 @@ function LeadershipTier3DesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 This talent lays the foundation of your general gameplay loop as a Leader.
                 <br />Every turn, you have 4 different commands you can issue your team to change the flow of battle to your favor
                 and finding the right command for the situation is an expression of mastery for the player.
@@ -22,7 +22,7 @@ function LeadershipTier3DesignTemplate() {
                     <b className="AbilityHeaderSmall">KNIGHT TAKES PAWN VS PROMOTION?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Knight Takes Pawn allows you to perform a combo attack with an ally. This combo attack grants that ally an
                 entire extra attack worth of potential damage.
@@ -37,7 +37,7 @@ function LeadershipTier3DesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 This skill perfectly encapsulates the concept of being a leader who keeps their team enheartened and moving
                 tactically like well-oiled machine.

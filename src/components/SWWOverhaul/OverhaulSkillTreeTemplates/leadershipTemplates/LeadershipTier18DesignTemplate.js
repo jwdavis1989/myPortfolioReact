@@ -11,7 +11,7 @@ function LeadershipTier18DesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 While simple, this Talent provides a dramatic increase in the player's battlefield presence.
                 <br />It also increases the player's flexibility as they can potentially use their Bonus Action for a 
                 different option such as casting a spell.
@@ -22,7 +22,7 @@ function LeadershipTier18DesignTemplate() {
                     <b className="AbilityHeaderSmall">WHY CAN'T YOU USE THE SAME COMMAND TWICE?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Commands are extremely powerful, and stacking them would be significantly out of the power scope for the system.
                 <br />This also encourages the player to use a variety of Commands, improving their decision making opportunities.
@@ -34,7 +34,7 @@ function LeadershipTier18DesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 In Chess, a Checkmate is when one player's King is threatened by the opposing players' 
                 pieces in such a way that the King can not avoid death. This is the victory condition in Chess.

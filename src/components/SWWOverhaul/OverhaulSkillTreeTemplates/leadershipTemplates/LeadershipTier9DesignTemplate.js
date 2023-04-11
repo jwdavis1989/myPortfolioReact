@@ -11,7 +11,7 @@ function LeadershipTier9DesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 This talent is a massive power moment for any Leader. 
                 Much like many Tier 9 talents in this overhaul system, this is a completely 
                 game-changing effect when a player decides to use it.
@@ -26,7 +26,7 @@ function LeadershipTier9DesignTemplate() {
                     <b className="AbilityHeaderSmall">WHY CAN THEY ONLY BENEFIT ONCE PER LONG REST?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 This effect is strong, and there's no denying that.
                 <br />Allies can only be affected by it once per long rest (which coincides with the cooldown of this ability)
@@ -42,7 +42,7 @@ function LeadershipTier9DesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 As previously stated, this ability is game-warping in power and can turn the tide 
                 in a way that accentuates a player's decision-making.

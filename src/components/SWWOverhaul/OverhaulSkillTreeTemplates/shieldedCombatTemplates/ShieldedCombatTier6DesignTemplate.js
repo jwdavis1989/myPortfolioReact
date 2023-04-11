@@ -11,7 +11,7 @@ function ShieldedCombatTier6DesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 Shield Slam grants the player a potent way to counter-attack the enemies after they block.
             </div>
             <br />
@@ -20,7 +20,7 @@ function ShieldedCombatTier6DesignTemplate() {
                     <b className="AbilityHeaderSmall">WHY GIVE SHIELDED COMBATANTS AN AREA DAMAGE OPTION?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 While it may seem counter-intuitive to some, ensuring that the "Tank" 
                 is a threat to the creatures around it helps ensure their relevancy in combat. 
@@ -35,7 +35,7 @@ function ShieldedCombatTier6DesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Shield Slamming with such power that the sheer force of the blow extends 
                 outward to up to 4 creatures at once is a powerful fantasy for the player, 

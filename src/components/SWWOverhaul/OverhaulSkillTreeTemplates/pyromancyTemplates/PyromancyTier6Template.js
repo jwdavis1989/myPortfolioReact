@@ -16,7 +16,7 @@ function PyromancyTier6Template() {
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 When you use your Ignition talent, you may choose to increase the size of area of effect 
                 spells by 5ft in all dimensions.

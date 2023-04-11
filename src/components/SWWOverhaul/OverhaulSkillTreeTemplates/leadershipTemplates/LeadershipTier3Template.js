@@ -16,7 +16,7 @@ function LeadershipTier3Template() {
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
 
                 <br />
                 You gain several Tactical Commands you may issue to friendly creatures that can hear you.
@@ -31,7 +31,7 @@ function LeadershipTier3Template() {
                     <b className="AbilityHeaderSmall">COMMANDS</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
 
                 <br /><b>Command - En Passant:</b>
                 <br />You may spend 1 Bonus Action on your turn to grant a number of allies equal to your Charisma Modifier the ability to immediately move up to 5ft as long as they are within 60ft.

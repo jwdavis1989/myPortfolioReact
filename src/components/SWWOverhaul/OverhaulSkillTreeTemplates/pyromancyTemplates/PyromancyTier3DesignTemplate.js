@@ -11,7 +11,7 @@ function PyromancyTier3DesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 This Talent grants the Pyromancer the ability to significantly improve their damage potential at the cost of a Bonus Action. 
                 Think of it as overcharging a fire spell.
                 <br />Notice that this works with spells that target an Area of Effect, and it becomes clear in its significance as a 
@@ -23,7 +23,7 @@ function PyromancyTier3DesignTemplate() {
                     <b className="AbilityHeaderSmall">HOW DOES ADDING FIRE TO A SPELL'S LIST OF ELEMENTS WORK?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Spells deal damage of a type determined by their description in 5th Edition Dungeons & Dragons, however this 
                 overhaul includes the ability to create or augment a spell's damage type with additional elements.
@@ -40,7 +40,7 @@ function PyromancyTier3DesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 In popular fantasy settings, Pyromancers tend to be characterized as unconcerned with the risks of powerful magic. 
                 <br />This Talent burrows deep into that image of the maniacle arsonist doing anything 
