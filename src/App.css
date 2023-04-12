@@ -313,6 +313,7 @@ html::-webkit-scrollbar-thumb {
 
 .OverhaulImageLogo {
   width: 65%;
+  background-color: rgba(22, 22, 22, 0.25);
 }
 
 .OverhaulImageLogo:hover {
@@ -373,6 +374,10 @@ html::-webkit-scrollbar-thumb {
   padding-left: 10%;
   padding-right: 10%;
   font-size: small;
+}
+
+.moveLeft5 {
+  margin-left: -5%;
 }
 
 .moveLeft15 {
