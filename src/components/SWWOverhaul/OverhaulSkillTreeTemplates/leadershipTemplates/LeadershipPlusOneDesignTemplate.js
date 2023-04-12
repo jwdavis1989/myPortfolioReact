@@ -11,7 +11,7 @@ function LeadershipPlusOneDesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 The goal of this skill effect is to express your leadership and wit. 
                 You gain proficiency in Insight and Persuasion which are 
                 critical tools for leadership, especially when it comes to inspiring your team to greatness.
@@ -25,7 +25,7 @@ function LeadershipPlusOneDesignTemplate() {
                     <b className="AbilityHeaderSmall">WHY CAN'T YOU GAIN THE EFFECT FROM MULTIPLE SOURCES?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 D&D 5e has bounded values for a lot of its mechanics. Essentially even a max level character can only see 
                 values for some stats (such as initiative) get so high even compared to low level creatures. This ensures
@@ -40,7 +40,7 @@ function LeadershipPlusOneDesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 This skill directly reflects your increased eye for strategy as you can take any 
                 combat situation and give your team a tactical boost towards acting quicker and more decisively.

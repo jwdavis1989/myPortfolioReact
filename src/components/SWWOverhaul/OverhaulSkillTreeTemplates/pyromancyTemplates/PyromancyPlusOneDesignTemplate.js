@@ -11,7 +11,7 @@ function PyromancyPlusOneDesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 Every Magic Skill Tree contains a similar +1 effect, namely granting new spell 
                 slots and setting the player's casting stats such as spellcasting attributes and spell save DC.
                 <p /><b>Note:</b> Spell Save DC is the number a creature must roll against to determine if saving-throw-based spells affect them.
@@ -27,7 +27,7 @@ function PyromancyPlusOneDesignTemplate() {
                     <b className="AbilityHeaderSmall">WHY CAN'T CHARISMA BE A SPELLCASTING ATTRIBUTE?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Charisma is sometimes used as a spellcasting attribute in 5th edition Dungeons & Dragons, however this system does not allow that.
                 <br />Essentially, Charisma is already a very powerful stat, and also interacts well with several Utility Skill Trees such as Leadership 

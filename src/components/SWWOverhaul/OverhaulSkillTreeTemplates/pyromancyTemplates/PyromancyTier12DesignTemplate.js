@@ -11,7 +11,7 @@ function PyromancyTier12DesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 This talent is a powerful increase to the Searing Heat component of the Ignition Talent.
                 <br />With this:
                 <ul>
@@ -27,7 +27,7 @@ function PyromancyTier12DesignTemplate() {
                     <b className="AbilityHeaderSmall">WHAT IS THE SOAKED STATUS?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 The Soaked Status/Condition is one that is commonly applied by Hydromancers but is also applied anytime you are wet.
                 <br />While soaked, a creature:
@@ -46,7 +46,7 @@ function PyromancyTier12DesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Greater Searing Heat signifies the growth of the Pyromancer.
                 <br />It shows that they are now able to control flames of much higher temperatures that may burn even resistant enemies.

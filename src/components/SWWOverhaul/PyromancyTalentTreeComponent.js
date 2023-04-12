@@ -140,14 +140,14 @@ function PyromancyTalentTreeComponent(props) {
                     <div className="SmallHeaderTitleNoHover moveLeft35">
                         TYPE
                     </div>
-                    <div className="NormalPageLayoutLeftSmaller moveLeft35 textAlignCenter">
+                    <div className="NormalPageLayoutLeft moveLeft35 textAlignCenter">
                         Magic
                     </div>
                     <br />
                     <div className="SmallHeaderTitleNoHover moveLeft35">
                         ROLE
                     </div>
-                    <div className="NormalPageLayoutLeftSmaller moveLeft35 textAlignCenter">
+                    <div className="NormalPageLayoutLeft moveLeft35 textAlignCenter">
                         Multi-Target Damage & Area Control
                     </div>
                 </Grid>

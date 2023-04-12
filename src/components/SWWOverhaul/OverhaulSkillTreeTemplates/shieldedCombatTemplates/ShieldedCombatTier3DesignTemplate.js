@@ -11,7 +11,7 @@ function ShieldedCombatTier3DesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 As with many Tier 3 talents, Shield Training establishes the primary gameplay loop for the tree. 
                 In summary, this talent buffs the damage and/or reach of several one-handed weapons you may wield with 
                 a shield, it allows you to shield slam with your full accuracy and damage (which is not in the base game), 
@@ -23,7 +23,7 @@ function ShieldedCombatTier3DesignTemplate() {
                     <b className="AbilityHeaderSmall">HOW DOES REACTIVE BLOCK IMPROVE THE GAMEPLAY LOOP?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 In base 5th Edition Dungeons & Dragons, shields are essentially passive "stat-sticks" that grant +1 or +2 to your Armor Class. 
                 They're incredibly uninteractive, and so to improve player tactical decision making, Shielded Combatants learn the 
@@ -41,7 +41,7 @@ function ShieldedCombatTier3DesignTemplate() {
                     <b className="AbilityHeaderSmall">WHY CAN YOU USE REACTIVE BLOCK ON OTHERS?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 The base game has very little in the way of the concept of "Tanking." 
                 Yes, you can be hard to kill, but it is hard to force intelligent enemies to attack you.
@@ -54,7 +54,7 @@ function ShieldedCombatTier3DesignTemplate() {
                     <b className="AbilityHeaderSmall">WHY INCREASE DEXTERITY SAVES?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Dexterity saving throws are often performed when a creature casts a spell that affects an area. 
                 <br />Stalwart grants your shield bonus to your Dexterity Saves, and Reactive 

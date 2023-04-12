@@ -11,7 +11,7 @@ function ShieldedCombatTier12DesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 Staggering Slam further empowers your shield attacks to knock enemies senseless. This is especially potent after 
                 successfully blocking as your shield slam hits a 10ft by 10ft area.
                 <p /><b>Note:</b> Concentration is a mechanic in 5th Edition Dungeons & Dragons 
@@ -30,7 +30,7 @@ function ShieldedCombatTier12DesignTemplate() {
                     <b className="AbilityHeaderSmall">WHY DOES IT GIVE DISADVANTAGE ON ENEMY ATTACK ROLLS TOO?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 This allows the shield slams to be meaningful against both casters and martial combatants, improving flexibility.
             </div>
@@ -40,7 +40,7 @@ function ShieldedCombatTier12DesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 You've become a seasoned defender, honing your shield arm so that the shield becomes an extension of your body.
                 <br />You strike with such force that Goblins and Wizards alike jolt to alertness at the reverberating sound of 

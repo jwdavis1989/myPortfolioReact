@@ -16,7 +16,7 @@ function ShieldedCombatTier6Template() {
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
             <br />
             If you have successfully blocked an enemy's attack within the last round, your Shield's attack is replaced with a powerful Shield Slam.
 

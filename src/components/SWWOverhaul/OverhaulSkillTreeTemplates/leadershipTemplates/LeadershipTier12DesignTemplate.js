@@ -11,7 +11,7 @@ function LeadershipTier12DesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 Your tactical commands have all been empowered to do more in the same amount of time.
                 <br />This also allows Charisma to be a damage-dealing attribute for your character when used with
                 Knight Takes Pawn or Promotion, in addition to its other myriad of benefits.
@@ -22,7 +22,7 @@ function LeadershipTier12DesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 This Talent represents your seasoned experience when dealing with combat sorties. 
                 <br />You've become quite the commander by this point and it shows by the way you command your team.

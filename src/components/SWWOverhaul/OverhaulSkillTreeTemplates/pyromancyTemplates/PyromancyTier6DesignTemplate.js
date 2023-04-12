@@ -11,7 +11,7 @@ function PyromancyTier6DesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 This Talent grants the Pyromancer the ability to significantly improve their damage potential at the cost of a Bonus Action. 
                 Think of it as overcharging a fire spell.
                 <br />Notice that this works with spells that target an Area of Effect, and it becomes clear in its significance as a 
@@ -23,7 +23,7 @@ function PyromancyTier6DesignTemplate() {
                     <b className="AbilityHeaderSmall">WHAT DOES "IN ALL DIMENSIONS" MEAN IN REGARD TO A SPELL?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Many spells deal damage in a listed area of effect. This Talent increases those areas of effect in all dimensions.
                 <br /><b>Note:</b> An average-sized creature occupies a space of 5 foot by 5 foot by 5 foot.
@@ -48,7 +48,7 @@ function PyromancyTier6DesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 In popular fantasy settings, Pyromancers tend to be characterized as unconcerned with the risks of powerful magic. 
                 <br />This Talent burrows deep into that image of the maniacle arsonist doing anything 

@@ -11,7 +11,7 @@ function PyromancyTier15DesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 This talent is a powerful increase to the Firelord Talent, doubling its potential effect.
                 <br />Revisiting the Fire Lord examples:
                 <p /><b>Example 1:</b> Aganazzar’s Scorcher affects creatures within a <b>5</b> feet by <b>30</b> feet line, 
@@ -34,7 +34,7 @@ function PyromancyTier15DesignTemplate() {
                     <b className="AbilityHeaderSmall">WHAT CAN THE PLAYER CHOOSE NOT TO USE THIS EFFECT?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Sometimes, the situation may not allow for you to expand the area of effect of your 
                 spells without risking yourself or your allies.
@@ -47,7 +47,7 @@ function PyromancyTier15DesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 This further showcases the user's mastery over Fire magic, 
                 and allows for some truly maniacal power moments when combined with Combustion.

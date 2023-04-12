@@ -16,7 +16,7 @@ function ShieldedCombatTier18Template() {
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 You gain an additional Reaction every round that can only be used for activating Reactive Block.
 

@@ -16,7 +16,7 @@ function ShieldedCombatTier9Template() {
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
             <br />
             Once per long rest, you may spend 1 Bonus Action to raise your shield with might and conviction to protect others.
 

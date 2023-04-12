@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { LeadershipTalentTreeComponent } from '../components/SWWOverhaul/LeadershipTalentTreeComponent';
 import { ShieldedCombatTalentTreeComponent } from '../components/SWWOverhaul/ShieldedCombatTalentTreeComponent';
 import { PyromancyTalentTreeComponent } from '../components/SWWOverhaul/PyromancyTalentTreeComponent';
+import { OverhaulOverviewComponent } from '../components/SWWOverhaul/OverhaulOverviewComponent';
 
 
 import LeadershipIcon from '../resources/images/talentTreesImages/LeadershipIcon.png';
@@ -46,7 +47,7 @@ function DungeonsAndDragonsOverhaul() {
         }
         if (props.slot === 4) {
             document.getElementById("OverviewLogo").className = "OverhaulImageLogoSelected";
-            description = "Overview Component Goes Here";
+            description = <OverhaulOverviewComponent />
         }
         return description;
     }

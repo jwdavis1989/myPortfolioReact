@@ -11,7 +11,7 @@ function PyromancyTier9DesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 This talent is a massive power moment for any Pyromancer. Much like many Tier 9 talents in this overhaul system,
                 this is a completely game-changing effect when a player decides to use it.
                 <br />Notice that this is amplified by the Fire Lord talent, and turns the raw destructive power of 
@@ -23,7 +23,7 @@ function PyromancyTier9DesignTemplate() {
                     <b className="AbilityHeaderSmall">WHY CAN'T THE MAGMA BE EXSTINGUISHED?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 This ability is meant to be game-changingly impactful, and letting a Hydromancer's Rain Spell or even 
                 their Splash Cantrip extinguish such a powerful effect is both unsatisfying to the Pyromancer, and also 
@@ -38,7 +38,7 @@ function PyromancyTier9DesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Creating such a devastating effect in potentially a very large area caters to the raw destructive theming of Fire magic.
                 <br />Fireball hurts a lot in D&D, but do you know what hurts even more? 

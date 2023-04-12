@@ -16,7 +16,7 @@ function PyromancyTier18Template() {
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Combustion may now be used up to 3 times per long rest. 
                 <br /><br />

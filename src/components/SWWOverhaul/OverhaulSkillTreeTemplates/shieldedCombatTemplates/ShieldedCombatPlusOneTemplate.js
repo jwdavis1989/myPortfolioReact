@@ -16,7 +16,7 @@ function ShieldedCombatPlusOneTemplate() {
                     <b className="AbilityHeaderSmall">TREE COMPLEXITY</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Moderate-to-High
             </div>
@@ -26,7 +26,7 @@ function ShieldedCombatPlusOneTemplate() {
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 You may now choose to use your Shield as a weapon that deals 1d4 + Strength modifier damage when performing the attack action and you are proficient with it.
 
@@ -39,7 +39,7 @@ function ShieldedCombatPlusOneTemplate() {
                     <b className="AbilityHeaderSmall">PROFICIENCY</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 You gain proficiency with Shields, Flails, Cat o' Nine Tails, Morningstars, and Warpicks.
             </div>

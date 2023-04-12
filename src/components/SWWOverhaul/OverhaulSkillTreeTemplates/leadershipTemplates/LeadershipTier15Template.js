@@ -16,7 +16,7 @@ function LeadershipTier15Template() {
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 All friendly creatures within hearing range gain +1 AC when in at least Half-Cover.
             </div>

@@ -16,7 +16,7 @@ function PyromancyTier12Template() {
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Your <b className="textColorRed">Fire</b> damage spells treat creatures that are immune to fire damage as if they have resistance.
                 <p />

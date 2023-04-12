@@ -11,7 +11,7 @@ function LeadershipTier6DesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 This talent lays the foundation of your general gameplay loop as a Leader.
                 <br />Every turn, you have 4 different commands you can issue your team to change the flow of battle to your favor 
                 and finding the right command for the situation is an expression of mastery for the player.
@@ -22,7 +22,7 @@ function LeadershipTier6DesignTemplate() {
                     <b className="AbilityHeaderSmall">WHY THE LIMITATIONS?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 This was done as a means of creating tactical choice. On your turn you could move, 
                 or you could let an ally who absolutely needs to move shift their position. 
@@ -38,7 +38,7 @@ function LeadershipTier6DesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 On The Move is a reference to the military jargon, <b>O</b>scar <b>M</b>ike which is <b>OM</b> in the NATO Alphabet, short for "<b>O</b>n the <b>M</b>ove".
             </div>

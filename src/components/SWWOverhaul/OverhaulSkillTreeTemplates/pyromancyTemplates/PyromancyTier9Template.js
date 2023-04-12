@@ -16,7 +16,7 @@ function PyromancyTier9Template() {
                     <b className="AbilityHeaderSmall">EFFECT</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Once per long rest, you may spend 1 Bonus Action in order to empower your next <b className="textColorRed">Fire Damage</b> spell that targets an area. The affected spell gains the effect of your Ignition and leaves behind a Magma Surface that covers the same area as the spell.
                 <p />

@@ -11,7 +11,7 @@ function ShieldedCombatPlusOneDesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 The goal of this skill +1 effect is to grant you proficiencies in several one-handed weapons that may be used with a shield,
                 as well as provide you with growing tactical options as your shield throw becomes more flexible.
             </div>
@@ -21,7 +21,7 @@ function ShieldedCombatPlusOneDesignTemplate() {
                     <b className="AbilityHeaderSmall">WHY DOES A CRITICAL FAILURE STOP YOUR SHIELD'S RETURN?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 While this may seem punishing to the player, it also does two things that are very important in game design.
                 <br />It changes the scenario the player is working around, and creates a story.
@@ -41,7 +41,7 @@ function ShieldedCombatPlusOneDesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 If you're familiar with Marvel, then we both know this shield throw is very evocative of Captain America's shield.
                 Not only do shields in base 5th Edition Dungeons & Dragons lack the ability of this specific character fantasy,
