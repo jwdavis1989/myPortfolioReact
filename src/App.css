@@ -488,10 +488,27 @@ html::-webkit-scrollbar-thumb {
 
 .SpellListTable,
 th,
-tr {
+.SpellListTable tr {
   text-align: left;
   border: 2px outset white;
   background-image: linear-gradient(black, gray);
+}
+
+.SpellListTable td {
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-image: linear-gradient(red, black);
+}
+
+.LevelingGuideTable {
+  text-align: center;
+  border: 1px solid white;
+  background-image: radial-gradient(black, rgb(11, 11, 11));
+}
+
+.LevelingGuideTable tr:nth-child(odd) {
+  background-color: rgb(44, 44, 44);
 }
 
 .SWWBanner {
@@ -502,13 +519,6 @@ tr {
 
 .TalentImage {
   width: 10vw;
-}
-
-td {
-  text-align: center;
-  border: 1px solid white;
-  border-radius: 8px;
-  background-image: linear-gradient(red, black);
 }
 
 .TreeNametag {

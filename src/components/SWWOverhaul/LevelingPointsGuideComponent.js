@@ -1,0 +1,164 @@
+import React from 'react';
+
+
+function LevelingPointsGuideComponent(props) {
+    return (
+        <div>
+            <br />
+            <table className="LevelingGuideTable">
+                <tbody>
+                    <tr>
+                        <th><b>Level</b></th>
+                        <th><b>Skill Points Gained</b></th>
+                        <th><b>Total Skill Points</b></th>
+                        <th><b>Attribute Points</b></th>
+                        <th><b>Max Skill Tree Level</b></th>
+                    </tr>
+                    <tr>
+                        <td><b>1</b></td>
+                        <td>+3</td>
+                        <td>3</td>
+                        <td></td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td><b>2</b></td>
+                        <td>+2</td>
+                        <td>5</td>
+                        <td></td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td><b>3</b></td>
+                        <td>+4</td>
+                        <td>9</td>
+                        <td></td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td><b>4</b></td>
+                        <td>+2</td>
+                        <td>11</td>
+                        <td>+2</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td><b>5</b></td>
+                        <td>+2</td>
+                        <td>13</td>
+                        <td></td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td><b>6</b></td>
+                        <td>+4</td>
+                        <td>17</td>
+                        <td></td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td><b>7</b></td>
+                        <td>+2</td>
+                        <td>19</td>
+                        <td></td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td><b>8</b></td>
+                        <td>+2</td>
+                        <td>21</td>
+                        <td>+2</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td><b>9</b></td>
+                        <td>+4</td>
+                        <td>25</td>
+                        <td></td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td><b>10</b></td>
+                        <td>+2</td>
+                        <td>27</td>
+                        <td></td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td><b>11</b></td>
+                        <td>+2</td>
+                        <td>29</td>
+                        <td></td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td><b>12</b></td>
+                        <td>+4</td>
+                        <td>33</td>
+                        <td>+2</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td><b>13</b></td>
+                        <td>+2</td>
+                        <td>35</td>
+                        <td></td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td><b>14</b></td>
+                        <td>+2</td>
+                        <td>37</td>
+                        <td></td>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <td><b>15</b></td>
+                        <td>+4</td>
+                        <td>41</td>
+                        <td></td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td><b>16</b></td>
+                        <td>+2</td>
+                        <td>43</td>
+                        <td>+2</td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td><b>17</b></td>
+                        <td>+2</td>
+                        <td>45</td>
+                        <td></td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td><b>18</b></td>
+                        <td>+4</td>
+                        <td>49</td>
+                        <td></td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td><b>19</b></td>
+                        <td>+2</td>
+                        <td>51</td>
+                        <td></td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td><b>20</b></td>
+                        <td>+4</td>
+                        <td>55</td>
+                        <td>+2</td>
+                        <td>20</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p /><br /><br />
+        </div >
+    );
+}
+
+export { LevelingPointsGuideComponent };

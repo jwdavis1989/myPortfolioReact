@@ -1,6 +1,8 @@
 import swwOverhaulLogo from "../../resources/images/SW Skill Tree Logo Final 1024px.png";
 import { Grid } from '@mui/material';
 
+import { LevelingPointsGuideComponent } from "./LevelingPointsGuideComponent";
+
 function OverhaulOverviewComponent() {
     return (
         <div>
@@ -24,12 +26,12 @@ function OverhaulOverviewComponent() {
                         <br /><br />
                         <p>
                             <span className="AbilityHeaderSmall moveRight0">Skill Points & Max Skill Tree Level:</span>
-                            <p />Whenever you level up, you gain a number of Skill Points equal to the amount listed in the Leveling Points Guide.
+                            <p />Whenever you level up, you gain a number of Skill Points equal to the amount listed in the <u><a href="#LevelingPointsGuide"><u><a href="#LevelingPointsGuide"><b>Leveling Points Guide</b></a></u></a></u>.
 
 
                             <p />
                             You may spend Skill Points in any skill tree to further empower your character's abilities, up to your Max Skill Tree Level.
-                            Please see the Leveling Points Guide for the maximum level you may have in a Skill Tree based on your level.
+                            Please see the <u><a href="#LevelingPointsGuide"><u><a href="#LevelingPointsGuide"><b>Leveling Points Guide</b></a></u></a></u> for the maximum level you may have in a Skill Tree based on your level.
                             <p />
                             <br />
                             <span className="AbilityHeaderSmall moveRight0">Spending Skill Points:</span>
@@ -44,6 +46,9 @@ function OverhaulOverviewComponent() {
                             These points may be spent to increase a chosen Ability Score (e.g. Strength or Dexterity) by +1 for each Attribute Point.
                             This increase may not increase an Ability Score above 20 unless you have a Skill Tree talent that states it increases the maximum points you may have in an Ability Score.
                         </p>
+                        <p />
+                        <div id="LevelingPointsGuide" className="AbilityHeaderSmall moveRight0">Leveling Points Guide:</div>
+                        <LevelingPointsGuideComponent />
                     </div>
                 </Grid>
             </Grid>
