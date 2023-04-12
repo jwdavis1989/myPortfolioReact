@@ -11,15 +11,21 @@ function JadeReachTemplate() {
                     <span className="AbilityCooldown">COOLDOWN: 9 / 7.9 / 6.8 / 5.7 / 4.6 seconds</span><br /><br />
                 </Grid>
             </Grid>
-            Yingyue steals Qi from a target within 600 range, dealing 80/100/120/140/160
-            <span className="textColorIndigo"> (+60% AP)</span> magic damage. If used on an enemy champion, she gains a stack of Qi.
-            <br /><br /><Grid container spacing={0}>
+            <div className="NormalPageLayoutLeft moveLeft20">
+
+                Yingyue steals Qi from a target within 600 range, dealing 80/100/120/140/160
+                <span className="textColorIndigo"> (+60% AP)</span> magic damage. If used on an enemy champion, she gains a stack of Qi.
+            </div>
+            <br /><Grid container spacing={0}>
                 <Grid item xs={6}>
                     <b className="AbilityHeaderSmall">EMPOWERED</b>
                 </Grid>
             </Grid>
-            <br /> Jade Reach now also heals Yingyue for 40/80/120/160/200<span className="textColorGreen"> (+5 % missing health)</span> if it damages an enemy champion..
-            <br /><br />
+            <br />
+            <div className="NormalPageLayoutLeft moveLeft20">
+                Jade Reach now also heals Yingyue for 40/80/120/160/200<span className="textColorGreen"> (+5 % missing health)</span> if it damages an enemy champion..
+            </div>
+            <br />
         </div>
     )
 }
