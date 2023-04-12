@@ -96,8 +96,8 @@ function DesignExercises() {
                         </p>
                     </Grid>
                 </Grid>
-                <Grid id="Row 1 Yingyue Art" container spacing={0}>
-                    <Grid item xs={6}>
+                <Grid id="Row 1 Yingyue Art" container spacing={1}>
+                    <Grid item xs={5}>
                         <a href='https://www.chenruoyu.com/' target="_blank" rel="noreferrer">
                             <img src={ChineseVampireImage} width="100%" alt="Yingyue the Jiangshi, Art by Chen Ruo Yu" className="CharacterArt" />
                         </a>
@@ -106,7 +106,7 @@ function DesignExercises() {
                         <div className="SmallHeaderTitleNoHover moveLeft35">
                             LORE
                         </div>
-                        <div className="NormalPageLayoutLeftSmaller moveLeft35">
+                        <div className="NormalPageLayoutLeft moveLeft35 ScrollingBox">
                             Yingyue was an Ionian priestess killed during the Noxian invasion of Ionia.
                             Her spirit was never put to rest, and remained trapped in her
                             corpse for years.
@@ -115,18 +115,19 @@ function DesignExercises() {
                             Now she hunts the Noxians that cursed her.
                         </div>
                     </Grid>
+                    <Grid item xs={1} />
                     <Grid item xs={3}>
                         <div className="SmallHeaderTitleNoHover moveLeft35">
                             ROLE
                         </div>
-                        <div className="NormalPageLayoutLeftSmaller moveLeft35 textAlignCenter">
+                        <div className="NormalPageLayoutLeft moveLeft35 textAlignCenter">
                             Agressive Enchanter Support
                         </div>
                         <br />
                         <div className="SmallHeaderTitleNoHover moveLeft35">
                             ARTWORK BY:
                         </div>
-                        <div className="NormalPageLayoutLeftSmaller moveLeft35 textAlignCenter">
+                        <div className="NormalPageLayoutLeft moveLeft35 textAlignCenter">
                             Ruo Yu <br />
                         </div>
                         <p className="SmallHeaderTitleNoHover moveLeft35">
@@ -175,7 +176,7 @@ function DesignExercises() {
                 <Grid id="Row 3 Ability Descriptions" container spacing={0}>
                     <Grid item xs={12}>
                         <br />
-                        <div id="JiangshiAbilityDescription" className="NormalPageLayoutLeftSmaller AbilityDescriptionSection ScrollingBox">
+                        <div id="JiangshiAbilityDescription" className="NormalPageLayoutLeft AbilityDescriptionSection ScrollingBox">
                             {!abilityDescription >= 1 ?
                                 <h3 className="textFontPixel textAlignCenter">CLICK AN ABILITY ICON TO SEE ITS DESCRIPTION
                                 </h3> : <RenderJiangshiDescription slot={abilityDescription} />}

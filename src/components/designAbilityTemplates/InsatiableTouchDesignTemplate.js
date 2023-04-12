@@ -11,7 +11,7 @@ function InsatiableTouchDesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 With this ability, I wanted to create a truly unique form of support healing.
                 No other champion in the game is built around healing allies by buffing their omnivamp.
@@ -23,7 +23,7 @@ function InsatiableTouchDesignTemplate() {
                     <b className="AbilityHeaderSmall">WHY CAN'T SHE USE IT ON HERSELF?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 As before, Yingyue is a support character first, even if her
                 kit (and thematically, her hunger for Qi) give her a very aggressive lean.
@@ -48,7 +48,7 @@ function InsatiableTouchDesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeftSmaller moveLeft20">
+            <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 Insatiable Touch allows her to temporarily share her Qi stealing power with an ally. This makes them
                 ravenous for lifeforce, with the empowered version causing them to sprint towards their prey.

@@ -399,6 +399,13 @@ html::-webkit-scrollbar-thumb {
   margin-left: -70%;
 }
 
+.moveRight0 {
+  margin-left: 0%;
+}
+
+.moveRight25 {
+  margin-left: 25%;
+}
 .ProfileImage {
   margin-left: -25%;
   margin-right: 10%;
@@ -415,6 +422,7 @@ html::-webkit-scrollbar-thumb {
   overflow-y: auto;
   overflow-x: hidden;
   text-align: left;
+  background-image: radial-gradient(rgb(22, 22, 22), black);
 }
 
 .ScrollingBox::-webkit-scrollbar {
