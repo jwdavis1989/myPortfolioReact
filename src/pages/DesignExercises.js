@@ -166,8 +166,8 @@ function DesignExercises() {
                     </Grid>
                     <Grid item xs={1}>
                         {abilityDescription ?
-                            <div className="DesignInsightButton" onClick={() => setDesignInsightsVisible(!designInsightsVisible)}>
-                                <br />Design Insights
+                            <div className="DesignInsightButton animationcolorWhiteOrangeFlashing" onClick={() => setDesignInsightsVisible(!designInsightsVisible)}>
+                                <br />Toggle Design Insights
                             </div> :
                             ""
                         }

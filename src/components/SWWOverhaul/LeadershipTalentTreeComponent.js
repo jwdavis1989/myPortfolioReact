@@ -185,7 +185,7 @@ function LeadershipTalentTreeComponent(props) {
                 </Grid>
                 <Grid item xs={1}>
                     {abilityDescription ?
-                        <div className="DesignInsightButton" onClick={() => setDesignInsightsVisible(!designInsightsVisible)}>
+                        <div className="DesignInsightButton animationcolorWhiteOrangeFlashing" onClick={() => setDesignInsightsVisible(!designInsightsVisible)}>
                             Toggle Design Insights
                         </div> :
                         ""
