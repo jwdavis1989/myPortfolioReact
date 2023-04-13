@@ -11,24 +11,27 @@ function QiSiphonDesignTemplate() {
                     <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
+            <div className="NormalPageLayoutLeft moveLeft20">
+                This ability represents the Jiangchi's unique flavor of vampirism.
+                I have always loved the ability to empower one of your abilities as it creates a
+                lot of strategic choice when playing this kind of champion.
+                <br />
+                Furthermore, this ability forms a strong thematic connection between Yingyue and
+                another Ionian priestess that can empower her spells, Karma.
+                <br />
+                This creates a strong story connection with a spiritual leader and a culture that she can no longer
+                return to due to her cursed form and hunger for Qi. The two characters would have very interesting interactions
+                and opposing beliefs to be sure.
+            </div>
             <br />
-            This ability represents the Jiangchi's unique flavor of vampirism.
-            I have always loved the ability to empower one of your abilities as it creates a
-            lot of strategic choice when playing this kind of champion.
-            <br />
-            Furthermore, this ability forms a strong thematic connection between Yingyue and
-            another Ionian priestess that can empower her spells, Karma.
-            <br />
-            This creates a strong story connection with a spiritual leader and a culture that she can no longer 
-            return to due to her cursed form and hunger for Qi. The two characters would have very interesting interactions
-            and opposing beliefs to be sure.
-
-            <br /><br /><Grid container spacing={0}>
+            <Grid container spacing={0}>
                 <Grid item xs={6}>
                     <b className="AbilityHeaderSmall">WHY LET ENEMIES SEE HER QI?</b>
                 </Grid>
             </Grid>
-            <br /> This is based upon two of the fundamental building blocks of game design, counterplay & decision-making.
+            <br />
+            <div className="NormalPageLayoutLeft moveLeft20">
+                This is based upon two of the fundamental building blocks of game design, counterplay & decision-making.
             <br /> Enemy champions see her number of stacks represented as a bar with three sections that
             fill 1 section per Qi currently stored.
             <br />
@@ -49,9 +52,10 @@ function QiSiphonDesignTemplate() {
                     This is balanced by the fact that both abilities put her into harm's reach and only reward Qi on attacks against champions.
                 </li>
             </ul>
-                    <br />
-                    This Passive ability reinforces a constant decision-making dynamic between Yingyue and her opponent.
-            <br /><br />
+            <br />
+            This Passive ability reinforces a constant decision-making dynamic between Yingyue and her opponent.
+            </div>
+            <br />
         </div>
     )
 }

@@ -12,7 +12,6 @@ function InsatiableTouchDesignTemplate() {
                 </Grid>
             </Grid>
             <div className="NormalPageLayoutLeft moveLeft20">
-                <br />
                 With this ability, I wanted to create a truly unique form of support healing.
                 No other champion in the game is built around healing allies by buffing their omnivamp.
                 <br />(Omnivamp is a stat in League of Legends that heals the user for a % of their damage dealt.)
