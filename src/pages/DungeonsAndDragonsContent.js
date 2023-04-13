@@ -30,7 +30,7 @@ function DungeonsAndDragonsContent() {
                 <Grid container spacing={0}>
                     <Grid item xs={6}>
                         <Link to='/SWWLevelingOverhaul'>
-                            <img src={swwOverhaulLogo} width="100%" alt="DnD Skill Tree & Leveling Overhaul" className="CharacterArt" />
+                            <img src={swwOverhaulLogo} width="100%" alt="DnD Skill Tree & Leveling Overhaul" className="SWWBanner" />
                         </Link>
                     </Grid>
                     <Grid item xs={3}>
@@ -67,7 +67,7 @@ function DungeonsAndDragonsContent() {
                     <Grid item xs={4} />
                     <Grid item xs={4}>
                         <Link to='/SWWLevelingOverhaul'>
-                            <p className="HeaderTitle">
+                            <p className="HeaderTitle animationcolorWhiteOrangeFlashing">
                                 <ZoomInIcon fontSize='inherit' /> Design Insights
                             </p>
                         </Link>

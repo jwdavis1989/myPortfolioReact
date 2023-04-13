@@ -51,6 +51,22 @@ a:hover {
   margin-left: 0%;
 }
 
+.animationRainbowText {
+  animation: colorRotate 2s linear 0s infinite;
+}
+
+.animationRainbowText:hover {
+  animation: none;
+}
+
+.animationcolorWhiteOrangeFlashing {
+  animation: colorWhiteOrangeFlashing 2s linear 0s infinite;
+}
+
+.animationcolorWhiteOrangeFlashing:hover {
+  animation: none;
+}
+
 .animationLeadershipIconFadeIn {
   animation: treeLeadershipFadeIn 1s;
 }
@@ -203,6 +219,36 @@ html::-webkit-scrollbar-thumb {
   border-radius: 25px;
 }
 
+@keyframes colorWhiteOrangeFlashing {
+  from {
+    color: white;
+  }
+  50% {
+    color: orange;
+  }
+  100% {
+    color: white;
+  }
+}
+
+@keyframes colorRotate {
+  from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -217,6 +263,31 @@ html::-webkit-scrollbar-thumb {
   100% {
     opacity: 1;
     transform: translateY(0px);
+  }
+}
+
+@keyframes growAndShrink {
+  0% {
+    transform: scale(1);
+    color: white;
+  }
+
+  25% {
+    color: yellow;
+  }
+
+  50% {
+    transform: scale(1.25);
+    color: white;
+  }
+
+  75% {
+    color: yellow;
+  }
+
+  100% {
+    transform: scale(1);
+    color: white;
   }
 }
 
@@ -411,6 +482,7 @@ html::-webkit-scrollbar-thumb {
 .moveRight25 {
   margin-left: 25%;
 }
+
 .ProfileImage {
   margin-left: -25%;
   margin-right: 10%;
