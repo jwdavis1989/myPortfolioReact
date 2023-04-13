@@ -551,6 +551,10 @@ th,
   text-align: center;
 }
 
+.textColorBrown {
+  color: brown;
+}
+
 .textColorGreen {
   color: green;
 }
