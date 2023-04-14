@@ -1,7 +1,7 @@
 import ArticleSharpIcon from '@mui/icons-material/ArticleSharp';
 import DownloadIcon from '@mui/icons-material/Download';
 import { Grid } from '@mui/material';
-import resumePDF from "../resources/handouts/Jeremy_Davis_Resume_2023.pdf";
+import resumePDF from "../resources/handouts/JeremyDavisGameDesignLinkedInResume2023.pdf";
 
 function Resume() {
     return (
