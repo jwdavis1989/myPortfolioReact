@@ -7,7 +7,7 @@ function Dashboard() {
     return (
         <div>
             <Grid container spacing={3}>
-            <Grid item xs={1}>
+                <Grid item xs={1}>
                 </Grid>
                 <Grid item xs={3}>
                     <br /><br />
@@ -21,8 +21,19 @@ function Dashboard() {
                         </p>
                     </p>
                     <div className="NormalPageLayoutLeft">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Hello there, my name is Jeremy Davis and I'm a Game Designer and Software Engineer.
+                        <p>
+                            As a Game Designer, I created Silverwind Workshop, an independent Dungeons & Dragons 5th Edition content
+                            author which uses game design principles, player feedback & testing, and a focus on User Experience to enrich
+                            the gameplay of D&D.
+                            <br />My work is published on the popular online virtual
+                            tabletop provider, Roll20.
+                        </p>
+                        <p>
+                            As a software engineer, I've worked more than 2 years for Blueshield of California via Infosys on a large
+                            code base that serves 4.5 million users and 65,000 physicians. I have a proven track record and several
+                            awards from my time working for Blueshield of California.
+                        </p>
                     </div>
                 </Grid>
                 <Grid item xs={4}>
@@ -35,8 +46,13 @@ function Dashboard() {
                         <DashboardSharpIcon fontSize='inherit' /> MISSION STATEMENT
                     </p>
                     <div className="NormalPageLayoutLeft">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        I'm looking to dive deep into the Game Design industry to collaborate and grow within a
+                        passionate team that designs games that people love.
+                        <p>
+                            It would be my dream to create, and continue to create, the unique player experiences that 
+                            inspired me growing up. Tabletop Games and Video Games are wonderful mediums that inspire people, 
+                            create communities, give us all an escape from the mundane, and above all else, they're fun.
+                        </p>
                     </div>
                 </Grid>
             </Grid>
