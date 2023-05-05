@@ -1,7 +1,7 @@
 import GamesSharpIcon from '@mui/icons-material/GamesSharp';
 import DownloadIcon from '@mui/icons-material/Download';
 import { Grid } from '@mui/material';
-import MechShmupLink from "../resources/gamePrototypes/MechSchmup/ArcadeMechShootEmUpVersion01.exe";
+import MechShmupLink from "../resources/gamePrototypes/MechSchmup/ArcadeMechShootEmUpVersion02.exe";
 
 function VideoGamePrototypes() {
     return (

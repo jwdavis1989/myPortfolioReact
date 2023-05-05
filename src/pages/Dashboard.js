@@ -50,7 +50,7 @@ function Dashboard() {
                         passionate team that designs games that people love.
                         <p>
                             It would be my dream to create, and continue to create, the unique player experiences that 
-                            inspired me growing up. Tabletop Games and Video Games are wonderful mediums that inspire people, 
+                            inspired me growing up. Tabletop Games and Video Games are wonderful mediums that teach & inspire people,
                             create communities, give us all an escape from the mundane, and above all else, they're fun.
                         </p>
                     </div>
