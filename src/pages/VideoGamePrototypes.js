@@ -10,7 +10,7 @@ function VideoGamePrototypes() {
                 <GamesSharpIcon fontSize='inherit' /> VIDEO GAME PROTOTYPES
             </p>
             <h1 className="textFontPixel">
-                ARCADE TRANSFORMING MECH SHOOT-EM-UP
+                PHOENIX WALKER
             </h1>
             <Grid container spacing={1}>
             <Grid item xs={4}/>
