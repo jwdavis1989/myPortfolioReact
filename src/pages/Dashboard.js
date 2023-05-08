@@ -24,7 +24,7 @@ function Dashboard() {
                         Hello there, my name is Jeremy Davis and I'm a Game Designer and Software Engineer.
                         <p>
                             As a Game Designer, I created Silverwind Workshop, an independent Dungeons & Dragons 5th Edition content
-                            author which uses game design principles, player feedback & testing, and a focus on User Experience to enrich
+                            creator which uses game design principles, player feedback & testing, and a focus on User Experience to enrich
                             the gameplay of D&D.
                             <br />My work is published on the popular online virtual
                             tabletop provider, Roll20.
@@ -50,7 +50,7 @@ function Dashboard() {
                         passionate team that designs games that people love.
                         <p>
                             It would be my dream to create, and continue to create, the unique player experiences that 
-                            inspired me growing up. Tabletop Games and Video Games are wonderful mediums that inspire people, 
+                            inspired me growing up. Tabletop Games and Video Games are wonderful mediums that teach & inspire people,
                             create communities, give us all an escape from the mundane, and above all else, they're fun.
                         </p>
                     </div>
