@@ -62,13 +62,13 @@ function VideoGamePrototypes() {
                         }
                         {hookTwoExpanded ?
                             <div>
-                                <div className="AccordionButton textAlignLeft" onClick={() => setHookTwoExpanded(!hookTwoExpanded)}>
-                                Custom Phoenix Missile Path <ExpandLessIcon fontSize='inherit' />
+                                <div className="AccordionButton textAlignLeft width90" onClick={() => setHookTwoExpanded(!hookTwoExpanded)}>
+                                Custom Path Phoenix Missile <ExpandLessIcon fontSize='inherit' />
                                 </div>
                                 <PhoenixBombTemplate />
                             </div>
                             : <div className="AccordionButton textAlignLeft" onClick={() => setHookTwoExpanded(!hookTwoExpanded)}>
-                                Custom Phoenix Missile Path <ExpandMoreIcon fontSize='inherit' />
+                                Custom Path Phoenix Missile <ExpandMoreIcon fontSize='inherit' />
                             </div>
                         }
                     </div>
