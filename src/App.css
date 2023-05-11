@@ -51,6 +51,27 @@ a:hover {
   margin-left: 0%;
 }
 
+.AccordionButton {
+  text-align: left;
+  align-self: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-family: 'PixelFont';
+  font-size: larger;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0.5%;
+  margin-bottom: 12px;
+  color: white;
+  outline-style: outset;
+  outline-width: 6px;
+  outline-color: rgb(44, 44, 44);
+  background-image: radial-gradient(rgb(11, 11, 11), black);
+}
+
+.AccordionButton:hover {
+  color: red;
+}
+
 .animationRainbowText {
   animation: colorRotate 2s linear 0s infinite;
 }
@@ -91,7 +112,7 @@ body {
   background-color: #282c34;
   color: white;
   background-image: url("./resources/images/AbstractCubesBackground.png");
-  background-size: auto;
+  background-size: 100%;
   word-spacing: normal;
 }
 
@@ -558,6 +579,22 @@ html::-webkit-scrollbar-thumb {
   background-image: radial-gradient(rgb(11, 11, 11), black);
 }
 
+.SmallHeaderTitleNoHoverEvenMargin {
+  text-align: center;
+  align-self: center;
+  font-family: 'PixelFont';
+  font-size: larger;
+  margin-bottom: 12px;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  padding-top: 5px;
+  color: white;
+  outline-style: inset;
+  outline-width: 6px;
+  outline-color: rgb(44, 44, 44);
+  background-image: radial-gradient(rgb(11, 11, 11), black);
+}
+
 .SpellListTable,
 th,
 .SpellListTable tr {
@@ -618,9 +655,16 @@ th,
   display: inline-block;
 }
 
+.textAlignBlock {
+  text-align: block;
+}
 
 .textAlignCenter {
   text-align: center;
+}
+
+.textAlignLeft {
+  text-align: left;
 }
 
 .textColorBrown {
@@ -655,10 +699,18 @@ th,
   font-family: 'PixelFont';
 }
 
+.width80 {
+  width: 80%;
+}
+
 .width90 {
   width: 90%;
 }
 
 .width100 {
   width: 100%;
+}
+
+.width105 {
+  width: 105%;
 }
