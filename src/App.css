@@ -472,6 +472,10 @@ html::-webkit-scrollbar-thumb {
   margin-left: -5%;
 }
 
+.moveLeft10 {
+  margin-left: -10%;
+}
+
 .moveLeft15 {
   margin-left: -15%;
 }
@@ -498,6 +502,10 @@ html::-webkit-scrollbar-thumb {
 
 .moveRight0 {
   margin-left: 0%;
+}
+
+.moveRight10 {
+  margin-left: 10%;
 }
 
 .moveRight25 {
@@ -699,12 +707,24 @@ th,
   font-family: 'PixelFont';
 }
 
+.width70 {
+  width: 70%;
+}
+
+.width75 {
+  width: 75%;
+}
+
 .width80 {
   width: 80%;
 }
 
 .width90 {
   width: 90%;
+}
+
+.width95 {
+  width: 95%;
 }
 
 .width100 {
