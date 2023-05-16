@@ -2,7 +2,7 @@ import GamesSharpIcon from '@mui/icons-material/GamesSharp';
 import DownloadIcon from '@mui/icons-material/Download';
 import { Grid } from '@mui/material';
 import React, { useState } from 'react';
-import MechShmupLink from "../resources/gamePrototypes/MechSchmup/ArcadeMechShootEmUpVersion04.exe";
+import MechShmupLink from "../resources/gamePrototypes/MechSchmup/ArcadeMechShootEmUpVersion05.exe";
 import PhoenixWalkerTitleScreen from "../resources/images/gamePrototypes/gifs/PhoenixWalkerTitleScreen/PhoenixWalkerTitleScreen.gif";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
@@ -30,10 +30,10 @@ function VideoGamePrototypes() {
                     </a>
                 </Grid>
                 <Grid item xs={4}>
-                    <p className="SmallHeaderTitleNoHover width90">
+                    <p className="SmallHeaderTitleNoHover width95">
                         <b>SUMMARY:</b>
                     </p>
-                    <div className="NormalPageLayoutLeft moveLeft5 ScrollingBox">
+                    <div className="NormalPageLayoutLeft ScrollingBox width75">
                         Have you ever played a shmup ("shoot-em-up") game and thought to yourself, "What if I could put this thing in reverse and
                         check out a different direction or go back for something I missed?"
                         <br />Do you ever find yourself thinking, "Yeah, this game is pretty cool, but I wish I could transform into a giant robot mech?"
@@ -47,7 +47,7 @@ function VideoGamePrototypes() {
                     <p className="SmallHeaderTitleNoHoverEvenMargin width100">
                         <b>WHAT'S THE HOOK?</b>
                     </p>
-                    <div className="NormalPageLayout moveLeft15 width100">
+                    <div className="NormalPageLayout moveLeft10 width100">
                         <p>Click a Button to Expand the Section.</p>
                         {hookOneExpanded ?
                             <div>
@@ -62,13 +62,13 @@ function VideoGamePrototypes() {
                         }
                         {hookTwoExpanded ?
                             <div>
-                                <div className="AccordionButton textAlignLeft" onClick={() => setHookTwoExpanded(!hookTwoExpanded)}>
-                                Custom Phoenix Missile Path <ExpandLessIcon fontSize='inherit' />
+                                <div className="AccordionButton textAlignLeft width90" onClick={() => setHookTwoExpanded(!hookTwoExpanded)}>
+                                Custom Path Phoenix Missile <ExpandLessIcon fontSize='inherit' />
                                 </div>
                                 <PhoenixBombTemplate />
                             </div>
                             : <div className="AccordionButton textAlignLeft" onClick={() => setHookTwoExpanded(!hookTwoExpanded)}>
-                                Custom Phoenix Missile Path <ExpandMoreIcon fontSize='inherit' />
+                                Custom Path Phoenix Missile <ExpandMoreIcon fontSize='inherit' />
                             </div>
                         }
                     </div>
