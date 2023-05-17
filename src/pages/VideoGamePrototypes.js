@@ -2,7 +2,7 @@ import GamesSharpIcon from '@mui/icons-material/GamesSharp';
 import DownloadIcon from '@mui/icons-material/Download';
 import { Grid } from '@mui/material';
 import React, { useState } from 'react';
-import MechShmupLink from "../resources/gamePrototypes/MechSchmup/ArcadeMechShootEmUpVersion05.exe";
+import MechShmupLink from "../resources/gamePrototypes/MechSchmup/ArcadeMechShootEmUpVersion06.exe";
 import PhoenixWalkerTitleScreen from "../resources/images/gamePrototypes/gifs/PhoenixWalkerTitleScreen/PhoenixWalkerTitleScreen.gif";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
