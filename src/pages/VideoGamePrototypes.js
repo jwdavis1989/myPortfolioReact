@@ -25,9 +25,6 @@ function VideoGamePrototypes() {
             <Grid container spacing={0}>
                 <Grid item xs={4}>
                     <img src={PhoenixWalkerTitleScreen} width="100%" alt='Phoenix Walker' className="SWWBanner" />
-                    <p /><a href={MechShmupLink} className="HeaderTitle" target="_blank" rel="noreferrer">
-                        <DownloadIcon fontSize='inherit' /> DOWNLOAD INSTALLER
-                    </a>
                 </Grid>
                 <Grid item xs={4}>
                     <p className="SmallHeaderTitleNoHover width95">
@@ -63,7 +60,7 @@ function VideoGamePrototypes() {
                         {hookTwoExpanded ?
                             <div>
                                 <div className="AccordionButton textAlignLeft width90" onClick={() => setHookTwoExpanded(!hookTwoExpanded)}>
-                                Custom Path Phoenix Missile <ExpandLessIcon fontSize='inherit' />
+                                    Custom Path Phoenix Missile <ExpandLessIcon fontSize='inherit' />
                                 </div>
                                 <PhoenixBombTemplate />
                             </div>
@@ -74,6 +71,18 @@ function VideoGamePrototypes() {
                     </div>
                 </Grid>
             </Grid>
+            <div class="auto-resizable-iframe">
+                <div>
+                    <iframe width="792" height="294" src="https://www.youtube.com/embed/uWy9_vH6XGQ"
+                        title="Phoenix Walker Game Prototype Demo" frameborder="1"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <p /><a href={MechShmupLink} className="HeaderTitle" target="_blank" rel="noreferrer">
+                <DownloadIcon fontSize='inherit' /> DOWNLOAD INSTALLER
+            </a>
+            <br /><br /><br /><br /><br /><br />
         </div>
     );
 }
