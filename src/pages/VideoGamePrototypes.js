@@ -3,7 +3,6 @@ import DownloadIcon from '@mui/icons-material/Download';
 import { Grid } from '@mui/material';
 import React, { useState } from 'react';
 import MechShmupLink from "../resources/gamePrototypes/MechSchmup/ArcadeMechShootEmUpVersion06.exe";
-import PhoenixWalkerTitleScreen from "../resources/images/gamePrototypes/gifs/PhoenixWalkerTitleScreen/PhoenixWalkerTitleScreen.gif";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 
@@ -24,7 +23,17 @@ function VideoGamePrototypes() {
             </h1>
             <Grid container spacing={0}>
                 <Grid item xs={4}>
-                    <img src={PhoenixWalkerTitleScreen} width="100%" alt='Phoenix Walker' className="SWWBanner" />
+                    <p className="SmallHeaderTitleNoHover width95">
+                        <b>DEMO VIDEO:</b>
+                    </p>
+                    <div class="auto-resizable-iframe MoveLeft25">
+                        <div>
+                            <iframe width="792" height="294" src="https://www.youtube.com/embed/uWy9_vH6XGQ"
+                                title="Phoenix Walker Game Prototype Demo" frameborder="1"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
                 </Grid>
                 <Grid item xs={4}>
                     <p className="SmallHeaderTitleNoHover width95">
@@ -39,6 +48,13 @@ function VideoGamePrototypes() {
                         shooter similar to a twin-stick shooter.
                         <br />Can you master both forms to beat the boss?
                     </div>
+                    <p />
+                    <br />
+                    <p>
+                        <a href={MechShmupLink} className="moveLeft5 AccordionButton" target="_blank" rel="noreferrer">
+                            <DownloadIcon fontSize='inherit' /> DOWNLOAD INSTALLER
+                        </a>
+                    </p>
                 </Grid>
                 <Grid item xs={4}>
                     <p className="SmallHeaderTitleNoHoverEvenMargin width100">
@@ -71,17 +87,7 @@ function VideoGamePrototypes() {
                     </div>
                 </Grid>
             </Grid>
-            <div class="auto-resizable-iframe">
-                <div>
-                    <iframe width="792" height="294" src="https://www.youtube.com/embed/uWy9_vH6XGQ"
-                        title="Phoenix Walker Game Prototype Demo" frameborder="1"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
-            <p /><a href={MechShmupLink} className="HeaderTitle" target="_blank" rel="noreferrer">
-                <DownloadIcon fontSize='inherit' /> DOWNLOAD INSTALLER
-            </a>
+
             <br /><br /><br /><br /><br /><br />
         </div>
     );
