@@ -459,6 +459,7 @@ html::-webkit-scrollbar-thumb {
   outline-style: double;
   outline-width: 1px;
   outline-color: rgb(100, 100, 100);
+  font-size: 1vw;
 }
 
 .NormalPageLayout {
@@ -477,6 +478,7 @@ html::-webkit-scrollbar-thumb {
   padding-right: 10%;
   animation-name: fadeIn;
   animation-duration: 1s;
+  font-size: 1vw;
 }
 
 .NormalPageLayoutLeftSmaller {
@@ -485,6 +487,7 @@ html::-webkit-scrollbar-thumb {
   padding-left: 10%;
   padding-right: 10%;
   font-size: small;
+  font-size: 0.25vw;
 }
 
 .moveLeft5 {
