@@ -459,7 +459,6 @@ html::-webkit-scrollbar-thumb {
   outline-style: double;
   outline-width: 1px;
   outline-color: rgb(100, 100, 100);
-  font-size: 1vw;
 }
 
 .NormalPageLayout {
