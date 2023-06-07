@@ -456,9 +456,9 @@ html::-webkit-scrollbar-thumb {
   padding: 0px;
   height: 5vh;
   text-align: left;
-  outline-style: double;
-  outline-width: 1px;
-  outline-color: rgb(100, 100, 100);
+  font-size: 2.5vh;
+  background-color: black;
+  background-image: linear-gradient(rgb(22, 22, 22), black);
 }
 
 .NormalPageLayout {
