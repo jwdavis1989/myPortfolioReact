@@ -17,7 +17,7 @@ function InsatiableTouchTemplate() {
                 for 2/2/2/3/4 seconds. Only affects attacks and abilities used on enemy champions.
                 This ability can not be cast on yourself.
             </div>
-            <br /><br /><Grid container spacing={0}>
+            <br /><Grid container spacing={0}>
                 <Grid item xs={6}>
                     <b className="AbilityHeaderSmall">EMPOWERED</b>
                 </Grid>

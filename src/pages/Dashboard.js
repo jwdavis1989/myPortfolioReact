@@ -1,5 +1,5 @@
 import DashboardSharpIcon from '@mui/icons-material/DashboardSharp';
-import profilePicture from '../resources/images/Jerry_Davis_Portrait_2020.png';
+import profilePicture from '../resources/images/Jerry_Davis_Portrait_2023.png';
 import SWPicture from '../resources/images/SWCreatorLogo.png';
 import { Grid } from '@mui/material';
 
