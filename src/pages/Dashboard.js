@@ -17,7 +17,7 @@ function Dashboard() {
                     <br />
                     <p className="HeaderTitleNoHover">
                         <p>
-                            <DashboardSharpIcon fontSize='inherit' /> JEREMY DAVIS
+                            <DashboardSharpIcon fontSize='inherit' />JEREMY DAVIS
                         </p>
                     </p>
                     <div className="NormalPageLayoutLeft">

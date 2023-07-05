@@ -1,7 +1,8 @@
 import ArticleSharpIcon from '@mui/icons-material/ArticleSharp';
 import DownloadIcon from '@mui/icons-material/Download';
 import { Grid } from '@mui/material';
-import resumePDF from "../resources/handouts/JeremyDavisGameDesignLinkedInResume2023.pdf";
+import gameDesignPDF from "../resources/handouts/JerryDavisGameDesignResume2023.pdf";
+import softwareEngineerPDF from "../resources/handouts/JerryDavisSoftwareEngineerResume2023.pdf";
 
 function Resume() {
     return (
@@ -9,14 +10,22 @@ function Resume() {
             <p className="HeaderTitleNoHover">
                 <ArticleSharpIcon fontSize='inherit' /> RESUME
             </p>
-            <br/>
+            <br />
             <Grid container spacing={1}>
-            <Grid item xs={4}/>
+            <Grid item xs={2}/>
                 <Grid item xs={4}>
-                    <a href={resumePDF} className="HeaderTitle" target="_blank" rel="noreferrer">
+                    <p className="HeaderTitleNoHover">GAME DESIGN</p>
+                    <a href={gameDesignPDF} className="HeaderTitle" target="_blank" rel="noreferrer">
                         <DownloadIcon fontSize='inherit' /> DOWNLOAD PDF
                     </a>
                 </Grid>
+                <Grid item xs={4}>
+                    <p className="HeaderTitleNoHover">SOFTWARE ENGINEERING</p>
+                    <a href={softwareEngineerPDF} className="HeaderTitle" target="_blank" rel="noreferrer">
+                        <DownloadIcon fontSize='inherit' /> DOWNLOAD PDF
+                    </a>
+                </Grid>
+                <Grid item xs={2}/>
             </Grid>
         </div >
     );

@@ -107,7 +107,7 @@ function DungeonsAndDragonsOverhaul() {
                 <Grid item xs={9}>
                     <div id="SelectedTreeDescription" className="NormalPageLayoutLeft moveLeft15 width90">
                         {!selectedTree >= 1 ?
-                            <h3 className="textFontPixel textAlignCenter">CHOOSE OVERVIEW OR AN EXAMPLE TREE ICON TO SEE ITS DESCRIPTION
+                            <h3 className="textAlignCenter">CHOOSE OVERVIEW OR AN EXAMPLE TREE ICON TO SEE ITS DESCRIPTION
                             </h3> : <RenderTreeDescription slot={selectedTree} />}
                     </div>
                 </Grid>

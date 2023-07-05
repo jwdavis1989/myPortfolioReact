@@ -85,7 +85,7 @@ function DesignExercises() {
                 <p className="HeaderTitleWide">
                     <EngineeringSharpIcon fontSize='inherit' /> DESIGN EXERCISES
                 </p>
-                <h1 className="textFontPixel">
+                <h1>
                     LEAGUE OF LEGENDS CHAMPION CONCEPTS
                 </h1>
                 <Grid id="Row 0 Yingyue Title" container spacing={0}>
@@ -178,7 +178,7 @@ function DesignExercises() {
                         <br />
                         <div id="JiangshiAbilityDescription" className="NormalPageLayoutLeft AbilityDescriptionSection ScrollingBox">
                             {!abilityDescription >= 1 ?
-                                <h3 className="textFontPixel textAlignCenter">CLICK AN ABILITY ICON TO SEE ITS DESCRIPTION
+                                <h3 className="textAlignCenter">CLICK AN ABILITY ICON TO SEE ITS DESCRIPTION
                                 </h3> : <RenderJiangshiDescription slot={abilityDescription} />}
                         </div>
                         <br /><br /><br />

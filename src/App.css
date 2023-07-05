@@ -17,7 +17,7 @@ a:hover {
 }
 
 .AbilityHeader {
-  font-family: 'PixelFont';
+  
   font-size: x-large;
   outline-style: inset;
   outline-width: 6px;
@@ -29,7 +29,6 @@ a:hover {
 }
 
 .AbilityHeaderSmall {
-  font-family: 'PixelFont';
   font-size: larger;
   outline-style: inset;
   outline-width: 6px;
@@ -42,7 +41,6 @@ a:hover {
 }
 
 .AbilityCooldown {
-  font-family: 'PixelFont';
   text-align: left;
   font-size: larger;
   padding-top: 18px;
@@ -55,7 +53,6 @@ a:hover {
   text-align: left;
   align-self: left;
   font-family: 'Times New Roman', Times, serif;
-  font-family: 'PixelFont';
   font-size: larger;
   margin-left: 10%;
   margin-right: 10%;
@@ -166,7 +163,6 @@ Button:hover {
   text-align: center;
   align-self: center;
   font-family: 'Times New Roman', Times, serif;
-  font-family: 'PixelFont';
   font-size: large;
   margin-left: 10%;
   margin-right: 10%;
@@ -192,7 +188,6 @@ Button:hover {
   text-align: center;
   align-self: center;
   font-family: 'Times New Roman', Times, serif;
-  font-family: 'PixelFont';
   font-size: larger;
   margin-left: 10%;
   margin-right: 10%;
@@ -214,8 +209,8 @@ Button:hover {
 .HeaderTitleNoHover {
   text-align: center;
   align-self: center;
-  font-family: 'PixelFont';
   font-size: larger;
+  font-weight: bold;
   margin-left: 10%;
   margin-right: 10%;
   padding-left: 0.5%;
@@ -232,8 +227,8 @@ Button:hover {
 .HeaderTitleWide {
   text-align: center;
   align-self: center;
-  font-family: 'PixelFont';
   font-size: larger;
+  font-weight: bold;
   padding-left: 0.5%;
   padding-right: 0.5%;
   margin-bottom: 12px;
@@ -529,6 +524,10 @@ html::-webkit-scrollbar-thumb {
   margin-left: 10%;
 }
 
+.moveRight15 {
+  margin-left: 15%;
+}
+
 .moveRight25 {
   margin-left: 25%;
 }
@@ -576,7 +575,6 @@ html::-webkit-scrollbar-thumb {
 .SmallHeaderBox {
   text-align: center;
   align-self: center;
-  font-family: 'PixelFont';
   font-size: larger;
   padding-right: 5%;
   padding-left: 5%;
@@ -594,7 +592,6 @@ html::-webkit-scrollbar-thumb {
 .SmallHeaderTitleNoHover {
   text-align: center;
   align-self: center;
-  font-family: 'PixelFont';
   font-size: larger;
   margin-right: 40%;
   margin-bottom: 12px;
@@ -611,7 +608,6 @@ html::-webkit-scrollbar-thumb {
 .SmallHeaderTitleNoHoverEvenMargin {
   text-align: center;
   align-self: center;
-  font-family: 'PixelFont';
   font-size: larger;
   margin-bottom: 12px;
   padding-left: 0.5%;
@@ -663,7 +659,7 @@ th,
   width: 100%;
   text-align: center;
   align-self: center;
-  font-family: 'PixelFont';
+  
   margin-bottom: 12px;
   padding-top: 5px;
   color: white;
@@ -672,7 +668,6 @@ th,
 .TreeNametagVertical {
   text-align: center;
   align-self: center;
-  font-family: 'PixelFont';
   font-size: larger;
   padding-top: 5px;
   color: white;

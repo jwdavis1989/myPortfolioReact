@@ -18,7 +18,7 @@ function VideoGamePrototypes() {
             <p className="HeaderTitleNoHover">
                 <GamesSharpIcon fontSize='inherit' /> VIDEO GAME PROTOTYPES
             </p>
-            <h1 className="textFontPixel">
+            <h1>
                 PHOENIX WALKER
             </h1>
             <Grid container spacing={0}>
