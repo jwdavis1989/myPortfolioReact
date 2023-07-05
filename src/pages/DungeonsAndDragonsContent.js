@@ -16,7 +16,7 @@ function DungeonsAndDragonsContent() {
                 <p className="HeaderTitleNoHover">
                     <CasinoSharpIcon fontSize='inherit' /> DUNGEONS AND DRAGONS CONTENT
                 </p>
-                <h1 className="textFontPixel">
+                <h1>
                     PUBLISHED CONTENT
                 </h1>
                 <Grid container spacing={0}>
@@ -87,8 +87,8 @@ function DungeonsAndDragonsContent() {
             {/*In Development Section*/}
             <br /><br />
             <div className="NormalPageLayout">
-                <h1 className="textFontPixel">
-                    CRAFTING NEW BLUEPRINTS . . .
+                <h1>
+                    IN DEVELOPMENT
                 </h1>
                 <Grid container spacing={0}>
                     <Grid item xs={1} />

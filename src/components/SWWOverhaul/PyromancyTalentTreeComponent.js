@@ -204,7 +204,7 @@ function PyromancyTalentTreeComponent(props) {
                     <br />
                     <div id="TalentTreeDescription" className="NormalPageLayoutLeft AbilityDescriptionSection ScrollingBox">
                         {!abilityDescription >= 1 ?
-                            <h3 className="textFontPixel textAlignCenter">CLICK A TALENT ICON TO SEE ITS DESCRIPTION
+                            <h3 className="textAlignCenter">CLICK A TALENT ICON TO SEE ITS DESCRIPTION
                             </h3> : <RenderTalentDescription slot={abilityDescription} />}
                     </div>
                     <br /><br /><br />
