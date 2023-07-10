@@ -165,12 +165,9 @@ function DesignExercises() {
                             id="moonlightCurseButton" alt="Moonlight Curse"></img>
                     </Grid>
                     <Grid item xs={1}>
-                        {abilityDescription ?
-                            <div className="DesignInsightButton animationcolorWhiteOrangeFlashing" onClick={() => setDesignInsightsVisible(!designInsightsVisible)}>
-                                <br />Toggle Design Insights
-                            </div> :
-                            ""
-                        }
+                        <div className="DesignInsightButton animationcolorWhiteOrangeFlashing" onClick={() => setDesignInsightsVisible(!designInsightsVisible)}>
+                            <br />Toggle Design Insights
+                        </div>
                     </Grid>
                 </Grid>
                 <Grid id="Row 3 Ability Descriptions" container spacing={0}>

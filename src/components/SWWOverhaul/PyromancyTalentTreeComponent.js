@@ -191,12 +191,9 @@ function PyromancyTalentTreeComponent(props) {
                         id="pyromancyT18Talent" alt="Tier 18 Talent Effect"></img>
                 </Grid>
                 <Grid item xs={1}>
-                    {abilityDescription ?
-                        <div className="DesignInsightButton animationcolorWhiteOrangeFlashing" onClick={() => setDesignInsightsVisible(!designInsightsVisible)}>
-                            Toggle Design Insights
-                        </div> :
-                        ""
-                    }
+                    <div className="DesignInsightButton animationcolorWhiteOrangeFlashing" onClick={() => setDesignInsightsVisible(!designInsightsVisible)}>
+                        Toggle Design Insights
+                    </div>
                 </Grid>
             </Grid>
             <Grid id="Row 3 pyromancy Ability Descriptions" container spacing={0}>
