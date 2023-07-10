@@ -17,7 +17,7 @@ function DungeonsAndDragonsContent() {
                     <CasinoSharpIcon fontSize='inherit' /> DUNGEONS AND DRAGONS CONTENT
                 </p>
                 <h1>
-                    PUBLISHED CONTENT
+                    SHIPPED GAME DESIGN CONTENT
                 </h1>
                 <Grid container spacing={0}>
                     <Grid item xs={1} />

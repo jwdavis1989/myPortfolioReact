@@ -74,7 +74,7 @@ function DungeonsAndDragonsOverhaul() {
                             id="OverviewLogo" alt="Overview Icon"></img>
                     </p>
                     <p className="HeaderTitleWide">
-                        EXAMPLE TREES
+                        DEMO TREES
                     </p>
                     <p>
                         <img onClick={() => setSelectedTree(1)}
