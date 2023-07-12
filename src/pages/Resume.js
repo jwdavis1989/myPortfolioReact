@@ -2,7 +2,7 @@ import ArticleSharpIcon from '@mui/icons-material/ArticleSharp';
 import DownloadIcon from '@mui/icons-material/Download';
 import { Grid } from '@mui/material';
 import gameDesignPDF from "../resources/handouts/JerryDavisGameDesignResume2023.pdf";
-import softwareEngineerPDF from "../resources/handouts/JerryDavisSoftwareEngineerResume2023.pdf";
+import softwareEngineerPDF from "../resources/handouts/JerryDavisFrontEndResume2023.pdf";
 
 function Resume() {
     return (
