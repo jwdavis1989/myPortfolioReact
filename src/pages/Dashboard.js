@@ -42,18 +42,7 @@ function Dashboard() {
                 </Grid>
                 <Grid item xs={12}>
                     <br />
-                    <p className="HeaderTitleNoHover">
-                        <DashboardSharpIcon fontSize='inherit' /> MISSION STATEMENT
-                    </p>
-                    <div className="NormalPageLayoutLeft">
-                        I'm looking to dive deep into the Game Design industry to collaborate and grow within a
-                        passionate team that designs games that people love.
-                        <p>
-                            It would be my dream to create, and continue to create, the unique player experiences that 
-                            inspired me growing up. Tabletop Games and Video Games are wonderful mediums that teach & inspire people,
-                            create communities, give us all an escape from the mundane, and above all else, they're fun.
-                        </p>
-                    </div>
+                    
                 </Grid>
             </Grid>
         </div>
