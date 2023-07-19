@@ -3,11 +3,9 @@ import { Link } from "react-router-dom";
 import glowingEyeLogo from "../resources/images/glowingEyeAnimation/glowingEyeAnimation.gif";
 import CasinoSharpIcon from '@mui/icons-material/CasinoSharp';
 import DashboardSharpIcon from '@mui/icons-material/DashboardSharp';
-import ArticleSharpIcon from '@mui/icons-material/ArticleSharp';
 import EngineeringSharpIcon from '@mui/icons-material/EngineeringSharp';
 import GamesSharpIcon from '@mui/icons-material/GamesSharp';
 import AccountBoxSharpIcon from '@mui/icons-material/AccountBoxSharp';
-import LeakAddSharpIcon from '@mui/icons-material/LeakAddSharp';
 
 function NavBar() {
     const buttonSize = "1.75vh";
@@ -35,19 +33,9 @@ function NavBar() {
                         <EngineeringSharpIcon fontSize='inherit' /> Design Exercises
                     </Button>
                 </Link>
-                <Link to='/Resume'>
-                    <Button color="primary" className='NavBarButton' style={{ fontSize: buttonSize }}>
-                        <ArticleSharpIcon fontSize='inherit' /> Resume
-                    </Button>
-                </Link>
                 <Link to='/AboutMe'>
                     <Button color="primary" className='NavBarButton' style={{ fontSize: buttonSize }}>
                         <AccountBoxSharpIcon fontSize='inherit' /> About Me
-                    </Button>
-                </Link>
-                <Link to='/ContactMe'>
-                    <Button color="primary" className='NavBarButton' style={{ fontSize: buttonSize }}>
-                        <LeakAddSharpIcon fontSize='inherit' /> Contact Me
                     </Button>
                 </Link>
             </ButtonGroup>

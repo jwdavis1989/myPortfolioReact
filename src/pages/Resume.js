@@ -8,25 +8,23 @@ function Resume() {
     return (
         <div className="NormalPageLayout">
             <p className="HeaderTitleNoHover">
-                <ArticleSharpIcon fontSize='inherit' /> RESUME
-            </p>
-            <br />
+                <ArticleSharpIcon fontSize='inherit' /> RESUMES
+            </p> <br />
             <Grid container spacing={1}>
             <Grid item xs={2}/>
                 <Grid item xs={4}>
-                    <p className="HeaderTitleNoHover">GAME DESIGN & DEVELOPMENT</p>
                     <a href={gameDesignPDF} className="HeaderTitle" target="_blank" rel="noreferrer">
-                        <DownloadIcon fontSize='inherit' /> DOWNLOAD PDF
+                        <DownloadIcon fontSize='inherit' /> Game Development
                     </a>
                 </Grid>
                 <Grid item xs={4}>
-                    <p className="HeaderTitleNoHover">SOFTWARE ENGINEERING</p>
                     <a href={softwareEngineerPDF} className="HeaderTitle" target="_blank" rel="noreferrer">
-                        <DownloadIcon fontSize='inherit' /> DOWNLOAD PDF
+                        <DownloadIcon fontSize='inherit' /> Software Engineering
                     </a>
                 </Grid>
                 <Grid item xs={2}/>
             </Grid>
+            <br />
         </div >
     );
 }

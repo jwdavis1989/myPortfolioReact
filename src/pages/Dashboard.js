@@ -2,6 +2,8 @@ import DashboardSharpIcon from '@mui/icons-material/DashboardSharp';
 import profilePicture from '../resources/images/Jerry_Davis_Portrait_2023b.png';
 import SWPicture from '../resources/images/SWCreatorLogo.png';
 import { Grid } from '@mui/material';
+import { Resume } from './Resume';
+import { ContactMe } from './ContactMe';
 
 function Dashboard() {
     return (
@@ -12,6 +14,7 @@ function Dashboard() {
                 <Grid item xs={3}>
                     <br /><br />
                     <img className='ImageBorder' src={SWPicture} width="95%" alt="Silverwind Workshop" />
+                    <ContactMe />
                 </Grid>
                 <Grid item xs={4}>
                     <br />
@@ -40,10 +43,7 @@ function Dashboard() {
                     <br /><br />
                     <img className='ProfileImage' src={profilePicture} width="60%" alt="Profile" />
                 </Grid>
-                <Grid item xs={12}>
-                    <br />
-                    
-                </Grid>
+                    <Resume />
             </Grid>
         </div>
     );

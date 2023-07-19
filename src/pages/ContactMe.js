@@ -1,17 +1,10 @@
-import LeakAddSharpIcon from '@mui/icons-material/LeakAddSharp';
 import { Grid } from '@mui/material';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import EmailIcon from '@mui/icons-material/Email';
 
 function ContactMe() {
     return (
-        <div className="ContactMePage">
-            <p className="HeaderTitleNoHover">
-                <LeakAddSharpIcon fontSize='inherit' /> CONTACT ME
-            </p>
-            <Grid container spacing={0}>
-                <Grid item xs={1} />
-                <Grid item xs={5}>
+        <div className="NormalPageLayout">
                     <p className="HeaderTitleNoHover">
                         <p>
                             <EmailIcon fontSize='inherit' /> EMAIL
@@ -22,8 +15,6 @@ function ContactMe() {
                             jwdavis8589@gmail.com
                         </a>
                     </p>
-                </Grid>
-                <Grid item xs={5}>
                     <p className="HeaderTitleNoHover">
                         <p>
                             <TwitterIcon fontSize='inherit' /> TWITTER
@@ -34,6 +25,11 @@ function ContactMe() {
                             @SilverwindWork1
                         </a>
                     </p>
+            <Grid container spacing={0}>
+                <Grid item xs={1} />
+                <Grid item xs={5}>
+                </Grid>
+                <Grid item xs={5}>
                 </Grid>
             </Grid>
         </div >
