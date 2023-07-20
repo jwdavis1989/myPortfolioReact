@@ -37,7 +37,7 @@ function DungeonsAndDragonsContent() {
                         <p className="SmallHeaderTitleNoHover moveLeft35">
                             <b>SUMMARY:</b>
                         </p>
-                        <div className="NormalPageLayoutLeft moveLeft35 ScrollingBox">
+                        <div className="NormalPageLayoutLeft moveLeft35 ScrollingBoxDndPreview">
                             Published and available on roll20's virtual tabletop, Silverwind Workshop's Skill Trees & Leveling Overhaul
                             strives to take 5th edition D&D to the next level. Revamping classes, combat, and crafting gameplay loops. This addon
                             is more than just a leveling overhaul. Build a character by spending talent points in your choice of 29 skill trees,
@@ -48,14 +48,14 @@ function DungeonsAndDragonsContent() {
                         <p className="SmallHeaderTitleNoHover moveLeft35">
                             <b>INCLUDES:</b>
                         </p>
-                        <div className="NormalPageLayoutLeft moveLeft35 ScrollingBox">
+                        <div className="NormalPageLayoutLeft moveLeft35 ScrollingBoxDndPreview">
                             <ul>
                                 <li>9 New Martial Skill Trees</li>
                                 <li>12 New Magic Skill Trees</li>
                                 <li>8 New Utility Skill Trees</li>
                                 <li>65 New Spells</li>
                                 <li>19 New Weapons that play well with base 5th Edition or this Module</li>
-                                <li>43 Inventions/Enchantments/Enchanted Items crafted through Artifice</li>
+                                <li>43 New Inventions, Enchantments, and Enchanted Items crafted through Artifice</li>
                                 <li>34 New Potions/Poisons crafted through Alchemy</li>
                                 <li>7 Example Characters with backstories included</li>
                                 <li>30 New Art Assets representing each Skill Tree and H.E.L.P.E.R. the tutorial bot</li>
@@ -108,7 +108,7 @@ function DungeonsAndDragonsContent() {
                         <p className="SmallHeaderTitleNoHover moveLeft35">
                             <b>SUMMARY:</b>
                         </p>
-                        <div className="NormalPageLayoutLeft moveLeft35 ScrollingBox">
+                        <div className="NormalPageLayoutLeft moveLeft35 ScrollingBoxDndPreview">
                             Coming soon to Roll20, Silverwind Workshop's Vault of Artifacts
                             is overflowing with new, interesting, and powerful magical items
                             for your players to discover!
@@ -123,7 +123,7 @@ function DungeonsAndDragonsContent() {
                         <p className="SmallHeaderTitleNoHover moveLeft35">
                             <b>INCLUDES:</b>
                         </p>
-                        <div className="NormalPageLayoutLeft moveLeft35 ScrollingBox">
+                        <div className="NormalPageLayoutLeft moveLeft35 ScrollingBoxDndPreview">
                             <ul>
                                 <li>Dozens of New Artifacts of Various Qualities</li>
                                 <li>Loot Roll Tables</li>

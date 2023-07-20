@@ -14,7 +14,6 @@ function Dashboard() {
                 <Grid item xs={3}>
                     <br /><br />
                     <img className='ImageBorder' src={SWPicture} width="95%" alt="Silverwind Workshop" />
-                    <ContactMe />
                 </Grid>
                 <Grid item xs={4}>
                     <br />
@@ -39,11 +38,20 @@ function Dashboard() {
                         </p>
                     </div>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={3.5}>
                     <br /><br />
                     <img className='ProfileImage' src={profilePicture} width="60%" alt="Profile" />
                 </Grid>
-                    <Resume />
+                <Grid container spacing={3}>
+                    <Grid item xs={1} />
+                    <Grid item xs={3}>
+                        <ContactMe />
+                    </Grid>
+                    <Grid item xs={0.5} />
+                    <Grid item xs={3}>
+                        <Resume />
+                    </Grid>
+                </Grid>
             </Grid>
         </div>
     );
