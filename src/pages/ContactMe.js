@@ -1,5 +1,5 @@
 import { Grid } from '@mui/material';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 
 function ContactMe() {
@@ -17,12 +17,12 @@ function ContactMe() {
                     </p>
                     <p className="HeaderTitleNoHover">
                         <p>
-                            <TwitterIcon fontSize='inherit' /> TWITTER
+                            <LinkedInIcon fontSize='inherit' /> LINKEDIN
                         </p>
                     </p>
                     <p className="NormalPageLayout">
-                        <a href="https://twitter.com/SilverwindWork1" target="_blank" rel="noreferrer">
-                            @SilverwindWork1
+                        <a href="https://www.linkedin.com/in/jerry-davis-8991641b4/" target="_blank" rel="noreferrer">
+                        jerry-davis-8991641b4
                         </a>
                     </p>
             <Grid container spacing={0}>
