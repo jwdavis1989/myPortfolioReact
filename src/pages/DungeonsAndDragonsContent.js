@@ -30,7 +30,9 @@ function DungeonsAndDragonsContent() {
                 <Grid container spacing={0}>
                     <Grid item xs={6}>
                         <Link to='/SWWLevelingOverhaul'>
+                        <div className="ImageOverflowWrapper">
                             <img src={swwOverhaulLogo} width="100%" alt="DnD Skill Tree & Leveling Overhaul" className="SWWBanner" />
+                        </div>
                         </Link>
                     </Grid>
                     <Grid item xs={3}>
