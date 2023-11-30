@@ -1,4 +1,7 @@
 import swwOverhaulLogo from "../../resources/images/SW Skill Tree Logo Final 1024px.png";
+import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
+import patchNotes from "../../resources/handouts/Silverwind_Workshop_Skill_Tree_Change_Logs.rtf";
+import DownloadIcon from '@mui/icons-material/Download';
 import { Grid } from '@mui/material';
 
 import { LevelingPointsGuideComponent } from "./LevelingPointsGuideComponent";
@@ -6,15 +9,41 @@ import { LevelingPointsGuideComponent } from "./LevelingPointsGuideComponent";
 function OverhaulOverviewComponent() {
     return (
         <div>
-            <Grid id="Row 0 How Does It Work?" container spacing={0}>
+            <Grid id="Row 0 Summary" container spacing={0}>
                 <Grid item xs={1}>
                 </Grid>
                 <Grid item xs={3}>
                     <br /><br />
                     <img className='ImageBorder' src={swwOverhaulLogo} width="95%" alt="D&D Overhaul" />
+                    <p className="HeaderTitle">
+                        <a href="https://marketplace.roll20.net/browse/gameaddon/14629/silverwind-workshops-skill-trees-and-leveling-overhaul" target="_blank" rel="noreferrer">
+                            <LocalGroceryStoreIcon fontSize='inherit' /> Store Page
+                        </a>
+                    </p>
                 </Grid>
                 <Grid item xs={7}>
                     <br />
+                    <p className="SmallHeaderTitleNoHover width100">
+                        SUMMARY
+                    </p>
+                    <div className="NormalPageLayoutLeft ScrollingBox">
+                    Published and available on roll20's virtual tabletop, Silverwind Workshop's Skill Trees & Leveling Overhaul
+                        strives to take 5th edition D&D to the next level. Revamping classes, combat, and crafting gameplay loops. This addon
+                        is more than just a leveling overhaul. Build a character by spending talent points in your choice of 29 skill trees,
+                        adding significantly more character concepts to create your dream character!
+                    </div>
+                    <p className="HeaderTitle">
+                        <a href={patchNotes} target="_blank" rel="noreferrer">
+                            <DownloadIcon fontSize='inherit' /> Patch Notes
+                        </a>
+                    </p>
+                </Grid>
+            </Grid>
+            
+            <Grid id="Row 1 How does it work?" container spacing={0}>
+                <Grid item xs={1} />
+                <Grid item xs={10}>
+                <br />
                     <p className="SmallHeaderTitleNoHover width100">
                         HOW DOES IT WORK?
                     </p>
@@ -52,7 +81,8 @@ function OverhaulOverviewComponent() {
                     </div>
                 </Grid>
             </Grid>
-            <Grid id="Row 1 What Problems Does It Solve?" container spacing={0}>
+
+            <Grid id="Row 2 What Problems Does It Solve?" container spacing={0}>
                 <Grid item xs={1} />
                 <Grid item xs={10}>
                     <br />
@@ -86,8 +116,8 @@ function OverhaulOverviewComponent() {
                             </ul>
                         </p>
                         <p />
-                        <span className="AbilityHeaderSmall moveLeft5">Elemental Mages of Only One Element Aren't Fleshed Out, 
-                        and Mixing Spell Schools is Poorly Supported:</span>
+                        <span className="AbilityHeaderSmall moveLeft5">Elemental Mages of Only One Element Aren't Fleshed Out,
+                            and Mixing Spell Schools is Poorly Supported:</span>
                         <p />
                         This system adds Skill Trees specifically dedicated to many spell schools including elemental
                         schools of magic that truly bring the player's fantasy to life.
@@ -145,7 +175,7 @@ function OverhaulOverviewComponent() {
                             <li>Automata inventions such as Autonomous Robots and Golems.</li>
                             <li>Actuation inventions such as Steampunk Exosuits or Armor imbued with powerful enchantments.</li>
                             <li>Ballistics inventions such as Steampunk Turrets or Magical Totems that hurl magic at the enemy.</li>
-                            <li>Later you will unlock the ability to mix together two of the above sub-specializations to create even 
+                            <li>Later you will unlock the ability to mix together two of the above sub-specializations to create even
                                 crazier inventions and enchantments.</li>
                         </ul>
                         <p />

@@ -124,6 +124,10 @@ a:hover {
   background-color: black;
 }
 
+.backgroundRadialBlack {
+  background-image: radial-gradient(rgba(22, 22, 22, 0.5), black);
+}
+
 body {
   background-color: #282c34;
   color: white;
@@ -454,13 +458,15 @@ html::-webkit-scrollbar-thumb {
 .OverhaulImageLogo {
   width: 65%;
   background-color: rgba(22, 22, 22, 0.25);
+  outline-color: rgba(255, 255, 255, 0.35);;
+  outline-width: 2px;
+  outline-style: solid;
 }
 
 .OverhaulImageLogo:hover {
   width: 65%;
   outline-style: outset;
   outline-width: 6px;
-  outline-color: rgb(44, 44, 44);
   outline-color: white;
 }
 
@@ -469,6 +475,7 @@ html::-webkit-scrollbar-thumb {
   outline-style: inset;
   outline-width: 6px;
   outline-color: red;
+  background-image: radial-gradient(rgb(66, 66, 66), black);
 }
 
 
@@ -578,7 +585,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .ScrollingBoxDndPreview {
-  height: 25vw;
+  padding-bottom: 4px;
   overflow-y: auto;
   overflow-x: hidden;
   text-align: left;

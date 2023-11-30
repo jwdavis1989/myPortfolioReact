@@ -5,6 +5,7 @@ import { LeadershipTalentTreeComponent } from '../components/SWWOverhaul/Leaders
 import { ShieldedCombatTalentTreeComponent } from '../components/SWWOverhaul/ShieldedCombatTalentTreeComponent';
 import { PyromancyTalentTreeComponent } from '../components/SWWOverhaul/PyromancyTalentTreeComponent';
 import { OverhaulOverviewComponent } from '../components/SWWOverhaul/OverhaulOverviewComponent';
+import { DungeonsAndDragonsOverhaulOverview } from '../components/DungeonsAndDragonsOverhaulOverview';
 
 
 import LeadershipIcon from '../resources/images/talentTreesImages/LeadershipIcon.png';
@@ -20,7 +21,7 @@ function DungeonsAndDragonsOverhaul() {
     const imageLogoDefaultClassesNoAnimation = "OverhaulImageLogo";
 
     useEffect(() => {
-        setSelectedTree(0);
+        setSelectedTree(4);
     }, []);
 
     function resetSelectTreeHighlight() {
@@ -71,44 +72,39 @@ function DungeonsAndDragonsOverhaul() {
                     <p>
                         <img onClick={() => setSelectedTree(4)}
                             className={imageLogoDefaultClassesLeadership} src={OverviewIcon}
-                            id="OverviewLogo" alt="Overview Icon"></img>
+                            id="OverviewLogo" alt="Overview Icon">
+                        </img>
                     </p>
                     <p className="HeaderTitleWide">
                         DEMO TREES
                     </p>
-                    <p>
-                        <img onClick={() => setSelectedTree(1)}
+                    <div onClick={() => setSelectedTree(1)} width='100%'>
+                        <img
                             className={imageLogoDefaultClassesLeadership} src={LeadershipIcon}
-                            id="LeadershipTreeLogo" alt="Leadership Icon"></img>
-                        <div className="TreeNametag">
-                            LEADERSHIP
-                        </div>
-                    </p>
-                    <p>
-                        <br />
-                        <img onClick={() => setSelectedTree(2)}
+                            id="LeadershipTreeLogo" alt="Leadership Icon">
+                        </img>
+                    </div>
+                    <div onClick={() => setSelectedTree(2)}>
+                        <img
                             className={imageLogoDefaultClassesPyromancy} src={PyromancyIcon}
-                            id="PyromancyLogo" alt="Pyromancy Icon"></img>
-                        <div className="TreeNametag">
-                            PYROMANCY
-                        </div>
-                    </p>
-                    <p>
-                        <br />
-                        <img onClick={() => setSelectedTree(3)}
+                            id="PyromancyLogo" alt="Pyromancy Icon">
+                        </img>
+                    </div>
+                    <div onClick={() => setSelectedTree(3)}>
+                        <img
                             className={imageLogoDefaultClassesShieldedCombat} src={ShieldedCombatIcon}
-                            id="ShieldedCombatLogo" alt="Shielded Combat Icon"></img>
-                        <div className="TreeNametag">
-                            SHIELDED COMBAT
-                        </div>
-                    </p>
+                            id="ShieldedCombatLogo" alt="Shielded Combat Icon">
+                        </img>
+                    </div>
                 </Grid>
-                <Grid item xs={1} />
                 <Grid item xs={9}>
-                    <div id="SelectedTreeDescription" className="NormalPageLayoutLeft moveLeft15 width90">
+                    <div id="SelectedTreeDescription" className="NormalPageLayoutLeft width90">
                         {!selectedTree >= 1 ?
-                            <h3 className="textAlignCenter">CHOOSE OVERVIEW OR AN EXAMPLE TREE ICON TO SEE ITS DESCRIPTION
-                            </h3> : <RenderTreeDescription slot={selectedTree} />}
+                            <span>
+                                <DungeonsAndDragonsOverhaulOverview />
+                                <br /><br /><h3 className="textAlignCenter">CLICK FAQ OR AN EXAMPLE TREE ICON TO SEE ITS DESCRIPTION
+                                </h3>
+                            </span> : <RenderTreeDescription slot={selectedTree} />}
                     </div>
                 </Grid>
             </Grid>

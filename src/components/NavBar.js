@@ -18,7 +18,7 @@ function NavBar() {
                         <DashboardSharpIcon fontSize='inherit' /> Dashboard
                     </Button>
                 </Link>
-                <Link to='/PublishedDnDContent'>
+                <Link to='/SWWLevelingOverhaul'>
                     <Button color="primary" className='NavBarButton' style={{ fontSize: buttonSize }}>
                         <CasinoSharpIcon fontSize='inherit' /> Published D&D Content
                     </Button>
