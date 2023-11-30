@@ -457,25 +457,30 @@ html::-webkit-scrollbar-thumb {
 
 .OverhaulImageLogo {
   width: 65%;
-  background-color: rgba(22, 22, 22, 0.25);
+  background-color: rgba(11, 11, 11, 1);
   outline-color: rgba(255, 255, 255, 0.35);;
   outline-width: 2px;
   outline-style: solid;
+  padding: 2px;
+  margin: 1px;
 }
 
 .OverhaulImageLogo:hover {
-  width: 65%;
+  width: 90%;
   outline-style: outset;
   outline-width: 6px;
   outline-color: white;
+  padding: 2px;
+  background-image: radial-gradient(rgb(66, 66, 66), black);
 }
 
 .OverhaulImageLogoSelected {
-  width: 65%;
+  width: 90%;
   outline-style: inset;
   outline-width: 6px;
   outline-color: red;
   background-image: radial-gradient(rgb(66, 66, 66), black);
+  padding: 6px;
 }
 
 

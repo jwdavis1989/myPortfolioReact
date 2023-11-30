@@ -104,7 +104,7 @@ function PyromancyTalentTreeComponent(props) {
     }
 
     return (
-        <div className="NormalPageLayout">
+        <div className="NormalPageLayout moveLeft15">
             <Grid id="Row 0 pyromancy Title" container spacing={0}>
                 <Grid item xs={12}>
                     <p className="HeaderTitleWide">
