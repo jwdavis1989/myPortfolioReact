@@ -104,7 +104,7 @@ function PyromancyTalentTreeComponent(props) {
     }
 
     return (
-        <div className="NormalPageLayout">
+        <div className="NormalPageLayoutSlim backgroundRadialBlack">
             <Grid id="Row 0 pyromancy Title" container spacing={0}>
                 <Grid item xs={12}>
                     <p className="HeaderTitleWide">
@@ -114,13 +114,13 @@ function PyromancyTalentTreeComponent(props) {
             </Grid>
             <Grid id="Row 1 pyromancy Art and Summary" container spacing={1}>
                 <Grid item xs={4}>
-                    <img src={PyromancyIcon} height="auto" alt="pyromancy Tree" className="TalentImage" />
+                    <img src={PyromancyIcon} height="auto" alt="pyromancy Tree" className="TalentImage width80" />
                 </Grid>
                 <Grid item xs={4}>
-                    <div className="SmallHeaderTitleNoHover moveLeft15">
+                    <div className="SmallHeaderTitleNoHover moveLeft15 width100">
                         SUMMARY
                     </div>
-                    <div className="NormalPageLayoutLeft moveLeft25 ScrollingBox">
+                    <div className="NormalPageLayoutLeft moveLeft15 ScrollingBox">
                         <i>
                             "Will your fire ignite the world?
                             <br />Will you raise magma to destroy entire swathes of terrain?

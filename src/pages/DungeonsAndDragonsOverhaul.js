@@ -5,7 +5,9 @@ import { LeadershipTalentTreeComponent } from '../components/SWWOverhaul/Leaders
 import { ShieldedCombatTalentTreeComponent } from '../components/SWWOverhaul/ShieldedCombatTalentTreeComponent';
 import { PyromancyTalentTreeComponent } from '../components/SWWOverhaul/PyromancyTalentTreeComponent';
 import { OverhaulOverviewComponent } from '../components/SWWOverhaul/OverhaulOverviewComponent';
-import { DungeonsAndDragonsOverhaulOverview } from '../components/DungeonsAndDragonsOverhaulOverview';
+import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
+import patchNotes from "../resources/handouts/Silverwind_Workshop_Skill_Tree_Change_Logs.rtf";
+import DownloadIcon from '@mui/icons-material/Download';
 
 
 import LeadershipIcon from '../resources/images/talentTreesImages/LeadershipIcon.png';
@@ -21,7 +23,7 @@ function DungeonsAndDragonsOverhaul() {
     const imageLogoDefaultClassesNoAnimation = "OverhaulImageLogo";
 
     useEffect(() => {
-        setSelectedTree(4);
+        setSelectedTree(0);
     }, []);
 
     function resetSelectTreeHighlight() {
@@ -56,22 +58,22 @@ function DungeonsAndDragonsOverhaul() {
     return (
         <div>
             <Grid container spacing={1} id="Row 2 Example Tree Header">
-                <Grid item xs={1} />
-                <Grid item xs={10}>
+            <Grid item xs={0.5} />
+                <Grid item xs={11}>
                     <p className="HeaderTitleWide">
                         D&D SKILL TREES & LEVELING OVERHAUL DESIGN INSIGHTS & EXAMPLES
                     </p>
                 </Grid>
             </Grid>
-            <Grid container spacing={0} id="Row 3 Example Tree Icons">
-                <Grid item xs={1} />
+            <Grid container spacing={-10} id="Row 3 Example Tree Icons">
+            <Grid item xs={0.5} />
                 <Grid item xs={1}>
                     <p className="HeaderTitleWide">
                         OVERVIEW
                     </p>
                     <p>
                         <img onClick={() => setSelectedTree(4)}
-                            className={imageLogoDefaultClassesLeadership} src={OverviewIcon}
+                            className="OverhaulImageLogoSelected" src={OverviewIcon}
                             id="OverviewLogo" alt="Overview Icon">
                         </img>
                     </p>
@@ -97,13 +99,23 @@ function DungeonsAndDragonsOverhaul() {
                         </img>
                     </div>
                 </Grid>
+                <Grid item xs={1.5}>
+                <p className="HeaderTitle">
+                        <a href="https://marketplace.roll20.net/browse/gameaddon/14629/silverwind-workshops-skill-trees-and-leveling-overhaul" target="_blank" rel="noreferrer">
+                            <LocalGroceryStoreIcon fontSize='inherit' /> Store Page
+                        </a>
+                    </p>
+                    <p className="HeaderTitle">
+                        <a href={patchNotes} target="_blank" rel="noreferrer">
+                            <DownloadIcon fontSize='inherit' /> Patch Notes
+                        </a>
+                    </p>
+                </Grid>
                 <Grid item xs={9}>
-                    <div id="SelectedTreeDescription" className="NormalPageLayoutLeft width90">
+                    <div id="SelectedTreeDescription" className="NormalPageLayoutSlim width100">
                         {!selectedTree >= 1 ?
                             <span>
-                                <DungeonsAndDragonsOverhaulOverview />
-                                <br /><br /><h3 className="textAlignCenter">CLICK FAQ OR AN EXAMPLE TREE ICON TO SEE ITS DESCRIPTION
-                                </h3>
+                                <OverhaulOverviewComponent />
                             </span> : <RenderTreeDescription slot={selectedTree} />}
                     </div>
                 </Grid>

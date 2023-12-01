@@ -104,7 +104,7 @@ function LeadershipTalentTreeComponent(props) {
     }
 
     return (
-        <div className="NormalPageLayout">
+        <div className="NormalPageLayoutSlim backgroundRadialBlack">
             <Grid id="Row 0 Leadership Title" container spacing={0}>
                 <Grid item xs={12}>
                     <p className="HeaderTitleWide">
@@ -114,13 +114,13 @@ function LeadershipTalentTreeComponent(props) {
             </Grid>
             <Grid id="Row 1 Leadership Art and Summary" container spacing={1}>
                 <Grid item xs={4}>
-                    <img src={LeadershipIcon} height="auto" alt="Leadership Tree" className="TalentImage" />
+                    <img src={LeadershipIcon} height="auto" alt="Leadership Tree" className="TalentImage width80" />
                 </Grid>
                 <Grid item xs={4}>
-                    <div className="SmallHeaderTitleNoHover moveLeft15">
+                    <div className="SmallHeaderTitleNoHover moveLeft15 width100">
                         SUMMARY
                     </div>
-                    <div className="NormalPageLayoutLeft moveLeft25 ScrollingBox">
+                    <div className="NormalPageLayoutLeft moveLeft15 ScrollingBox">
                         Leadership is born from the image of the heroic leader,
                         waving their banner in the air as they inspire their allies
                         with glowing charisma and infuriate their opponents with their tactical wit.
