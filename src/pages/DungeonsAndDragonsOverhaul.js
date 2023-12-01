@@ -5,7 +5,6 @@ import { LeadershipTalentTreeComponent } from '../components/SWWOverhaul/Leaders
 import { ShieldedCombatTalentTreeComponent } from '../components/SWWOverhaul/ShieldedCombatTalentTreeComponent';
 import { PyromancyTalentTreeComponent } from '../components/SWWOverhaul/PyromancyTalentTreeComponent';
 import { OverhaulOverviewComponent } from '../components/SWWOverhaul/OverhaulOverviewComponent';
-import { DungeonsAndDragonsOverhaulOverview } from '../components/DungeonsAndDragonsOverhaulOverview';
 import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
 import patchNotes from "../resources/handouts/Silverwind_Workshop_Skill_Tree_Change_Logs.rtf";
 import DownloadIcon from '@mui/icons-material/Download';
@@ -24,7 +23,7 @@ function DungeonsAndDragonsOverhaul() {
     const imageLogoDefaultClassesNoAnimation = "OverhaulImageLogo";
 
     useEffect(() => {
-        setSelectedTree(4);
+        setSelectedTree(0);
     }, []);
 
     function resetSelectTreeHighlight() {
@@ -74,7 +73,7 @@ function DungeonsAndDragonsOverhaul() {
                     </p>
                     <p>
                         <img onClick={() => setSelectedTree(4)}
-                            className={imageLogoDefaultClassesLeadership} src={OverviewIcon}
+                            className="OverhaulImageLogoSelected" src={OverviewIcon}
                             id="OverviewLogo" alt="Overview Icon">
                         </img>
                     </p>
@@ -113,13 +112,10 @@ function DungeonsAndDragonsOverhaul() {
                     </p>
                 </Grid>
                 <Grid item xs={9}>
-                    <div id="SelectedTreeDescription" className="NormalPageLayoutLeft width100">
+                    <div id="SelectedTreeDescription" className="NormalPageLayoutSlim width100">
                         {!selectedTree >= 1 ?
                             <span>
-                                <DungeonsAndDragonsOverhaulOverview />
-                                <br /><br />
-                                <h3 className="textAlignCenter">CLICK FAQ OR AN EXAMPLE TREE ICON TO SEE ITS DESCRIPTION
-                                </h3>
+                                <OverhaulOverviewComponent />
                             </span> : <RenderTreeDescription slot={selectedTree} />}
                     </div>
                 </Grid>

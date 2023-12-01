@@ -1,11 +1,18 @@
 import swwOverhaulLogo from "../../resources/images/SW Skill Tree Logo Final 1024px.png";
 import { Grid } from '@mui/material';
-
+import CasinoSharpIcon from '@mui/icons-material/CasinoSharp';
 import { LevelingPointsGuideComponent } from "./LevelingPointsGuideComponent";
 
 function OverhaulOverviewComponent() {
     return (
-        <div className="NormalPageLayout moveLeft15">
+        <div className="backgroundRadialBlack backgroundRadialBlack">
+            <Grid id="Row 0 Leadership Title" container spacing={0}>
+                <Grid item xs={12}>
+                    <p className="HeaderTitleWide">
+                    <CasinoSharpIcon fontSize='inherit' /> OVERVIEW
+                    </p>
+                </Grid>
+            </Grid>
             <Grid id="Row 0 Summary" container spacing={0}>
                 <Grid item xs={1}>
                 </Grid>

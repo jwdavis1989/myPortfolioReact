@@ -104,7 +104,7 @@ function ShieldedCombatTalentTreeComponent(props) {
     }
 
     return (
-        <div className="NormalPageLayout moveLeft15">
+        <div className="NormalPageLayoutSlim backgroundRadialBlack">
             <Grid id="Row 0 shieldedCombat Title" container spacing={0}>
                 <Grid item xs={12}>
                     <p className="HeaderTitleWide">
@@ -114,13 +114,13 @@ function ShieldedCombatTalentTreeComponent(props) {
             </Grid>
             <Grid id="Row 1 shieldedCombat Art and Summary" container spacing={1}>
                 <Grid item xs={4}>
-                    <img src={ShieldedCombatIcon} height="auto" alt="shieldedCombat Tree" className="TalentImage" />
+                    <img src={ShieldedCombatIcon} height="auto" alt="shieldedCombat Tree" className="TalentImage width80 backgroundRadialBlack" />
                 </Grid>
                 <Grid item xs={4}>
-                    <div className="SmallHeaderTitleNoHover moveLeft15">
+                    <div className="SmallHeaderTitleNoHover moveLeft15 width100">
                         SUMMARY
                     </div>
-                    <div className="NormalPageLayoutLeft moveLeft25 ScrollingBox">
+                    <div className="NormalPageLayoutLeft moveLeft15 ScrollingBox">
                         Shielded Combat evokes the idea of the stalwart defender.
                         A skilled Shieldmaster who tactically chooses the best time to
                         block powerful attacks while able to safeguard nearby allies with

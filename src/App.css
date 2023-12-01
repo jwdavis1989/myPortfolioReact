@@ -128,6 +128,10 @@ a:hover {
   background-image: radial-gradient(rgba(22, 22, 22, 0.5), black);
 }
 
+.backgroundRadialRed {
+  background-image: radial-gradient(rgba(255, 0, 0, 0.5), black);
+}
+
 body {
   background-color: #282c34;
   color: white;
@@ -528,6 +532,14 @@ html::-webkit-scrollbar-thumb {
   padding-right: 10%;
   font-size: small;
   font-size: 0.25vw;
+}
+
+.NormalPageLayoutSlim {
+  text-align: left;
+  width: 100%;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  font-size: 1vw;
 }
 
 .moveLeft5 {

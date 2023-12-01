@@ -7,6 +7,13 @@ import DownloadIcon from '@mui/icons-material/Download';
 function DungeonsAndDragonsOverhaulOverview() {
     return (
         <div>
+            <Grid id="Row 0 Leadership Title" container spacing={0}>
+                <Grid item xs={12}>
+                    <p className="HeaderTitleWide">
+                        OVERVIEW
+                    </p>
+                </Grid>
+            </Grid>
             <Grid id="Row 0 How Does It Work?" container spacing={0}>
                 <Grid item xs={1}>
                 </Grid>
