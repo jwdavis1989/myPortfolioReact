@@ -15,7 +15,7 @@ function Dashboard() {
                 </Grid>
                 <Grid item xs={3}>
                     <br /><br />
-                    <Link to='/PublishedDnDContent'>
+                    <Link to='/SWWLevelingOverhaul'>
                         <div className="ImageOverflowWrapper">
                             <img className='ImageDynamicZoom' src={SWPicture} width="95%" alt="Silverwind Workshop" />
                         </div>
@@ -65,6 +65,7 @@ function Dashboard() {
                             </p>
                         </p>
                             100% unless otherwise specified.
+                            <br/>This website was created entirely from scratch using React, JavaScript, CSS, and HTML and is hosted on Microsoft Azure.
                     </Grid>
                     <Grid item xs={0.25} />
                     <Grid item xs={3}>
