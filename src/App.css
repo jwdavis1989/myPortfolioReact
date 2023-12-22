@@ -141,7 +141,6 @@ body {
 }
 
 Button {
-  background-image: radial-gradient(rgb(44, 44, 44), black);
 }
 
 Button:hover {
@@ -247,6 +246,10 @@ Button:hover {
   outline-width: 6px;
   outline-color: rgb(44, 44, 44);
   background-image: radial-gradient(rgb(11, 11, 11), black);
+}
+
+.HorizontalLineBlue {
+  border: 3px solid #0099ff;
 }
 
 html::-webkit-scrollbar {
@@ -498,12 +501,47 @@ html::-webkit-scrollbar-thumb {
 }
 
 .NavBarButtonGroup {
-  padding: 0px;
-  height: 5vh;
+}
+
+
+.NewContentBody {
+  background-image: linear-gradient(rgba(22, 22, 22, 0.8), black);
   text-align: left;
-  font-size: 2.5vh;
-  background-color: black;
-  background-image: linear-gradient(rgb(22, 22, 22), black);
+}
+
+.NewBanner {
+  text-align: left;
+  border-bottom: 4px solid #0099ff;
+  border-top: 10px groove rgb(66, 66, 66);
+  margin-bottom: 2px;
+}
+
+.NewBannerLinks {
+  text-align:righ;
+}
+
+.NewBannerLogo {
+   width: 75%;
+   margin-left: 12.5%;
+   margin-bottom: 0%;
+}
+
+.NewBannerSubtitle {
+  font-size: 1.25vw;
+}
+
+.NewBannerText {
+  margin-bottom: -1vw;
+  font-size: 2.5vw;
+}
+
+.NewNormalPageLayoutLeft {
+  text-align: left;
+  padding-right: 25px;
+  padding-left: 25px;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  font-size: 1vw;
 }
 
 .NormalPageLayout {
@@ -652,6 +690,11 @@ html::-webkit-scrollbar-thumb {
   text-align: left;
 }
 
+.SectionHeader {
+  text-align: center;
+  color: #0099ff;
+}
+
 .SmallHeaderBox {
   text-align: center;
   align-self: center;
@@ -771,6 +814,10 @@ th,
   text-align: left;
 }
 
+.textColorBlue {
+  color: #0099ff;
+}
+
 .textColorBrown {
   color: brown;
 }
@@ -803,6 +850,14 @@ th,
   font-family: 'PixelFont';
 }
 
+.width35px {
+  width: 35px;
+}
+
+.width50 {
+  width: 50%;
+}
+
 .width70 {
   width: 70%;
 }
@@ -829,4 +884,8 @@ th,
 
 .width105 {
   width: 105%;
+}
+
+.width200 {
+  width: 200%;
 }

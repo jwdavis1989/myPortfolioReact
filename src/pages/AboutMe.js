@@ -2,10 +2,15 @@ import SchoolIcon from '@mui/icons-material/School';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 import { Grid } from '@mui/material';
+import profilePicture from '../resources/images/Jerry_Davis_Portrait_2023b.png';
+import SWPicture from '../resources/images/SWCreatorLogo.png';
 
 function AboutMe() {
     return (
         <div>
+            <div className="ImageOverflowWrapper">
+                        <img className='ProfileImage ImageDynamicZoom' src={profilePicture} width="60%" alt="Profile" />
+                    </div>
             <p className="HeaderTitleNoHover">
                 <SchoolIcon fontSize='inherit' /> EDUCATION
             </p>
