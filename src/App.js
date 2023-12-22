@@ -36,7 +36,6 @@ function App() {
             </Routes>
           </Grid>
         </Grid>
-        <br /><br /><br /><br />
       </ThemeProvider>
     </div>
   );

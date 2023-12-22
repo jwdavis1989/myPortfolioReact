@@ -61,7 +61,7 @@ function DungeonsAndDragonsOverhaul() {
             <Grid item xs={0.5} />
                 <Grid item xs={11}>
                     <p className="HeaderTitleWide">
-                        D&D SKILL TREES & LEVELING OVERHAUL DESIGN INSIGHTS & EXAMPLES
+                        SILVERWIND SKILL TREES - DESIGN INSIGHTS & EXAMPLES
                     </p>
                 </Grid>
             </Grid>
@@ -74,7 +74,7 @@ function DungeonsAndDragonsOverhaul() {
                     <p>
                         <img onClick={() => setSelectedTree(4)}
                             className="OverhaulImageLogoSelected" src={OverviewIcon}
-                            id="OverviewLogo" alt="Overview Icon">
+                            id="OverviewLogo" alt="Overview Icon" title='Overview'>
                         </img>
                     </p>
                     <p className="HeaderTitleWide">
@@ -83,19 +83,19 @@ function DungeonsAndDragonsOverhaul() {
                     <div onClick={() => setSelectedTree(1)} width='100%'>
                         <img
                             className={imageLogoDefaultClassesLeadership} src={LeadershipIcon}
-                            id="LeadershipTreeLogo" alt="Leadership Icon">
+                            id="LeadershipTreeLogo" alt="Leadership Icon" title='Leadership'>
                         </img>
                     </div>
                     <div onClick={() => setSelectedTree(2)}>
                         <img
                             className={imageLogoDefaultClassesPyromancy} src={PyromancyIcon}
-                            id="PyromancyLogo" alt="Pyromancy Icon">
+                            id="PyromancyLogo" alt="Pyromancy Icon" title='Pyromancy'>
                         </img>
                     </div>
                     <div onClick={() => setSelectedTree(3)}>
                         <img
                             className={imageLogoDefaultClassesShieldedCombat} src={ShieldedCombatIcon}
-                            id="ShieldedCombatLogo" alt="Shielded Combat Icon">
+                            id="ShieldedCombatLogo" alt="Shielded Combat Icon" title='Shielded Combat'>
                         </img>
                     </div>
                 </Grid>

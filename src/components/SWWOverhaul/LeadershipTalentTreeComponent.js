@@ -192,7 +192,7 @@ function LeadershipTalentTreeComponent(props) {
             <Grid id="Row 3 Leadership Ability Descriptions" container spacing={0}>
                 <Grid item xs={12}>
                     <br />
-                    <div id="TalentTreeDescription" className="NormalPageLayoutLeft AbilityDescriptionSection ScrollingBox">
+                    <div id="TalentTreeDescription" className="NormalPageLayoutLeft AbilityDescriptionSection">
                         {!abilityDescription >= 1 ?
                             <h3 className="textAlignCenter">CLICK A TALENT ICON TO SEE ITS DESCRIPTION
                             </h3> : <RenderTalentDescription slot={abilityDescription} />}

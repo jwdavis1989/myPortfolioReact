@@ -8,8 +8,8 @@ a:hover {
 }
 
 .AbilityDescriptionSection {
-  outline-style: ridge;
-  outline-width: 12px;
+  outline-style: dashed;
+  outline-width: 4px;
   outline-color: rgb(44, 44, 44);
   background-color: black;
   padding-top: 12px;
@@ -17,27 +17,20 @@ a:hover {
 }
 
 .AbilityHeader {
-
-  font-size: x-large;
-  outline-style: inset;
-  outline-width: 6px;
-  outline-color: rgb(44, 44, 44);
-  padding-top: 4px;
+  font-size: 1.5vw;
   padding-right: 4px;
   padding-left: 4px;
-  margin-left: -25%;
+  color: #0099ff;
+  margin-left: -20%;
 }
 
 .AbilityHeaderSmall {
-  font-size: larger;
-  outline-style: inset;
-  outline-width: 6px;
-  outline-color: rgb(44, 44, 44);
-  padding-top: 4px;
+  font-size: 1.25vw;
   padding-right: 4px;
   padding-left: 4px;
-  margin-left: -25%;
+  margin-left: -20%;
   text-align: left;
+  color: #0099ff;
 }
 
 .AbilityCooldown {
@@ -140,6 +133,14 @@ body {
   word-spacing: normal;
 }
 
+.BluePrint {
+  background-color: #001133;
+  border: #0099ff;
+  border-width: 2px;
+  border-style: dashed;
+  border-collapse: separate;
+}
+
 Button {
 }
 
@@ -170,25 +171,12 @@ Button:hover {
   text-align: center;
   align-self: center;
   font-family: 'Times New Roman', Times, serif;
-  font-size: large;
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 300%;
-  height: 50%;
-  padding: 20%;
-  margin-bottom: 12px;
-  color: white;
-  background-color: black;
-  outline-style: outset;
-  outline-width: 6px;
-  outline-color: rgb(44, 44, 44);
-  background-image: radial-gradient(rgb(11, 11, 11), black);
+  font-size: 1.5vw;
+  background-image: linear-gradient(rgb(11, 11, 11), black);
 }
 
 .DesignInsightButton:hover {
   color: red;
-  margin-left: 4%;
-  margin-right: 4%;
 }
 
 .HeaderTitle {
@@ -427,20 +415,22 @@ html::-webkit-scrollbar-thumb {
 
 .ImageLogo {
   width: 100%;
+  outline-style: outset;
+  outline-width: 1px;
+  outline-color: rgb(44, 44, 44);
 }
 
 .ImageLogo:hover {
   width: 100%;
   outline-style: outset;
-  outline-width: 6px;
-  outline-color: rgb(44, 44, 44);
+  outline-width: 3px;
   outline-color: white;
 }
 
 .ImageLogoSelected {
   width: 100%;
   outline-style: inset;
-  outline-width: 6px;
+  outline-width: 4px;
   outline-color: red;
 }
 
@@ -814,6 +804,10 @@ th,
   text-align: left;
 }
 
+.textAlignRight {
+  text-align: right;
+}
+
 .textColorBlue {
   color: #0099ff;
 }
@@ -827,7 +821,7 @@ th,
 }
 
 .textColorIndigo {
-  color: rgb(80, 26, 228);
+  color: rgb(110, 100, 255);
 }
 
 .textColorOrange {

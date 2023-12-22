@@ -3,14 +3,13 @@ import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 import { Grid } from '@mui/material';
 import profilePicture from '../resources/images/Jerry_Davis_Portrait_2023b.png';
-import SWPicture from '../resources/images/SWCreatorLogo.png';
 
 function AboutMe() {
     return (
         <div>
             <div className="ImageOverflowWrapper">
-                        <img className='ProfileImage ImageDynamicZoom' src={profilePicture} width="60%" alt="Profile" />
-                    </div>
+                <img className='ProfileImage ImageDynamicZoom NormalPageLayout' src={profilePicture} width="60%" alt="Profile" />
+            </div>
             <p className="HeaderTitleNoHover">
                 <SchoolIcon fontSize='inherit' /> EDUCATION
             </p>
@@ -66,14 +65,14 @@ function AboutMe() {
                         <br />&emsp; (e.g. Outer Wilds, Zelda: Tears of The Kingdom, Banjo-Kazooie: Nuts & Bolts, Dark Cloud 2)
                     </li>
                     <li>Allow for specialization & reliance on teammates in multiplayer games.
-                    <br />&emsp; (e.g. World of Warcraft, Final Fantasy 14, Risk of Rain, Deep Rock Galactic)
+                        <br />&emsp; (e.g. World of Warcraft, Final Fantasy 14, Risk of Rain, Deep Rock Galactic)
                     </li>
                     <li>Have strong thematic atmospheres.
-                    <br />&emsp; (e.g. Dark Souls, Outer Wilds, Eldin Ring, Armored Core, Bloodbourne, Sekiro: Shadows Die Twice, 
-                    Mass Effect, Dragon Age, Undertale)
+                        <br />&emsp; (e.g. Dark Souls, Outer Wilds, Eldin Ring, Armored Core, Bloodbourne, Sekiro: Shadows Die Twice,
+                        Mass Effect, Dragon Age, Undertale)
                     </li>
                     <li>Challenge the player to master their mechanics.
-                    <br />&emsp; (e.g. Dark Souls, Eldin Ring, Armored Core, Risk of Rain)
+                        <br />&emsp; (e.g. Dark Souls, Eldin Ring, Armored Core, Risk of Rain)
                     </li>
                 </ul>
             </div>
