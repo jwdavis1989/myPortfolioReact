@@ -170,9 +170,8 @@ function DesignExercises() {
                             <div>
                                 <ButtonGroup variant="text" className='NavBarButtonGroup'>
                                     <Button className="NavBarButton"
-                                        title='Click an ability icon to see its description. Click Design Insights or Ability Details to toggle between Design Insights or Ability Details.'
-                                        onClick={() => { setAbilityDescription(false); resetJiangshiAbilityHighlight() }}
-                                        >
+                                        title='Click an ability icon to the left to learn more.'
+                                        onClick={() => { setAbilityDescription(false); resetJiangshiAbilityHighlight() }}>
                                         <HelpOutlineIcon />
                                     </Button>
                                 </ButtonGroup>
