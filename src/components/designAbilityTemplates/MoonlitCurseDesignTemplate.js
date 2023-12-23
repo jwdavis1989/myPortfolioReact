@@ -3,14 +3,13 @@ import { Grid } from '@mui/material';
 function MoonlitCurseDesignTemplate() {
     return (
         <div>
+            <hr className="HorizontalLineBlue" />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">MOONLIT CURSE</b>
-                </Grid>
-                <Grid item xs={6} className="AbilityCooldown">
-                    <span className="textColorRed">DESIGN INSIGHTS</span><br /><br />
+                    <b className="AbilityHeader animationcolorWhiteOrangeFlashing">DESIGN INSIGHTS</b>
                 </Grid>
             </Grid>
+            <hr className="HorizontalLineBlue" />
             <div className="animationFadeIn">
                 This ability has two primary purposes:
                 <ul>

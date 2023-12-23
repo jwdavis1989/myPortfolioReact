@@ -3,14 +3,13 @@ import { Grid } from "@mui/material";
 function InsatiableTouchDesignTemplate() {
     return (
         <div>
+            <hr className="HorizontalLineBlue" />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">INSATIABLE TOUCH</b>
-                </Grid>
-                <Grid item xs={6} className="AbilityCooldown">
-                    <span className="textColorRed">DESIGN INSIGHTS</span><br /><br />
+                    <b className="AbilityHeader textColorRed animationcolorWhiteOrangeFlashing">DESIGN INSIGHTS</b>
                 </Grid>
             </Grid>
+            <hr className="HorizontalLineBlue" />
             <div className="animationFadeIn">
                 With this ability, I wanted to create a truly unique form of support healing.
                 No other champion in the game is built around healing allies by buffing their omnivamp.

@@ -629,6 +629,20 @@ html::-webkit-scrollbar-thumb {
   margin-left: 25%;
 }
 
+.OutlineGray {
+  border: rgb(22, 22, 22);
+  border-width: 2px;
+  border-style: double;
+  border-collapse: separate;
+}
+
+.OutlineBlue {
+  border: #0099ff;
+  border-width: 2px;
+  border-style: double;
+  border-collapse: separate;
+}
+
 .ProfileImage {
   margin-left: -25%;
   margin-right: 10%;

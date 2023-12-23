@@ -169,19 +169,10 @@ function DesignExercises() {
                         <Grid item xs={4}>
                             <div>
                                 <ButtonGroup variant="text" className='NavBarButtonGroup'>
-                                    {!abilityDescription >= 1 ? "" :
-                                        <Button startIcon={<EngineeringSharpIcon />} className="NavBarButton animationcolorWhiteOrangeFlashing"
-                                            onClick={() => setDesignInsightsVisible(!designInsightsVisible)}>
-                                            {!designInsightsVisible ?
-                                                <span title='Design Insights'>Design Insights</span>
-                                                :
-                                                <span title='Ability Details'>Ability Details</span>
-                                            }
-                                        </Button>
-                                    }
                                     <Button className="NavBarButton"
                                         title='Click an ability icon to see its description. Click Design Insights or Ability Details to toggle between Design Insights or Ability Details.'
-                                        onClick={() => { setAbilityDescription(false); resetJiangshiAbilityHighlight() }}>
+                                        onClick={() => { setAbilityDescription(false); resetJiangshiAbilityHighlight() }}
+                                        >
                                         <HelpOutlineIcon />
                                     </Button>
                                 </ButtonGroup>
@@ -247,8 +238,7 @@ function DesignExercises() {
                                         Click an ability icon to see its Description and Design Insights.
                                     </h3> : <RenderJiangshiDescription slot={abilityDescription} />}
                             </div>
-                            
-                            <br /><br /><br />
+                            <br /><br /><br /><br /><br /><br /><br /><br /><br />
                         </Grid>
                     </Grid>
                 </p>

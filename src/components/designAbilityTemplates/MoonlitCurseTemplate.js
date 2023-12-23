@@ -1,16 +1,19 @@
 import { Grid } from '@mui/material';
+import { MoonlitCurseDesignTemplate } from './MoonlitCurseDesignTemplate';
 
 function MoonlitCurseTemplate() {
     return (
         <div>
+            <hr className="HorizontalLineBlue" />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
                     <b className="AbilityHeader">MOONLIT CURSE</b>
                 </Grid>
                 <Grid item xs={6} className="AbilityCooldown">
-                    <span>COOLDOWN: 120 / 100 / 80 seconds</span><br /><br />
+                    <span>[R]&nbsp;</span>
                 </Grid>
             </Grid>
+            <hr className="HorizontalLineBlue" />
             <div className="animationFadeIn">
                 Yingyue temporarily shares her curse in an area within 950 range.
                 After a 0.627 second delay, any enemy champions still in the zone
@@ -22,7 +25,13 @@ function MoonlitCurseTemplate() {
                 Zombies deal 40−200 <span className="textColorYellow">(based on level)</span> Magic Damage with an attack
                 speed of 0.8 attacks per second.
             </div>
-            <br /><br />
+            <div className='AbilityCooldown'>
+                <b>COOLDOWN:</b> 120 / 100 / 80 seconds
+            </div>
+            <br />
+            <p>
+                <MoonlitCurseDesignTemplate />
+            </p>
         </div>
     )
 }

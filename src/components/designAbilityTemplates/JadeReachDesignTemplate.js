@@ -3,14 +3,13 @@ import { Grid } from '@mui/material';
 function JadeReachDesignTemplate() {
     return (
         <div>
+            <hr className="HorizontalLineBlue" />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">JADE REACH</b>
-                </Grid>
-                <Grid item xs={6} className='AbilityCooldown '>
-                    <span className="textColorRed">DESIGN INSIGHTS</span><br /><br />
+                    <b className="AbilityHeader animationcolorWhiteOrangeFlashing">DESIGN INSIGHTS</b>
                 </Grid>
             </Grid>
+            <hr className="HorizontalLineBlue" />
             <div className="animationFadeIn">
                 This ability intentionally evokes similarities to the only other vampiric champion in League, Vladimir.
                 Both champions work through stealing some form of lifeforce from the target, but what they use that lifeforce for is completely different.
@@ -20,7 +19,7 @@ function JadeReachDesignTemplate() {
             </div>
             <br /><Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeaderSmall">WHY GAIN QI ONLY ON CHAMPIONS?</b>
+                    <b className="AbilityHeaderSmall">WHY GAIN QI ONLY FROM CHAMPIONS?</b>
                 </Grid>
             </Grid>
             <div className="animationFadeIn">

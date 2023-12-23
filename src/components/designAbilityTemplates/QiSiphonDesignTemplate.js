@@ -3,14 +3,13 @@ import { Grid } from '@mui/material';
 function QiSiphonDesignTemplate() {
     return (
         <div>
+            <hr className="HorizontalLineBlue" />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">QI SIPHON</b>
-                </Grid>
-                <Grid item xs={6} className="AbilityCooldown">
-                    <span className="textColorRed">DESIGN INSIGHTS</span><br /><br />
+                    <b className="AbilityHeader animationcolorWhiteOrangeFlashing">DESIGN INSIGHTS</b>
                 </Grid>
             </Grid>
+            <hr className="HorizontalLineBlue" />
             <div className="animationFadeIn">
                 This ability represents the Jiangchi's unique flavor of vampirism.
                 I have always loved the ability to empower one of your abilities as it creates a
