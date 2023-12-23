@@ -7,11 +7,11 @@ function MoonlitCurseTemplate() {
                 <Grid item xs={6}>
                     <b className="AbilityHeader">MOONLIT CURSE</b>
                 </Grid>
-                <Grid item xs={6}>
-                    <span className="AbilityCooldown">COOLDOWN: 120 / 100 / 80 seconds</span><br /><br />
+                <Grid item xs={6} className="AbilityCooldown">
+                    <span>COOLDOWN: 120 / 100 / 80 seconds</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeft moveLeft20">
+            <div className="animationFadeIn">
                 Yingyue temporarily shares her curse in an area within 950 range.
                 After a 0.627 second delay, any enemy champions still in the zone
                 take 150/250/350<span className="textColorIndigo"> (+60% AP)</span> Magic Damage, are slowed by 80% decaying

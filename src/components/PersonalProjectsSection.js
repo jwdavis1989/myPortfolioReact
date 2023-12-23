@@ -19,7 +19,7 @@ function PersonalProjectsSection() {
             <br />
             <p className="NormalPageLayout">
                 <Link to="/VideoGamePrototypes" onClick={() => window.scrollTo(0, 0)}>
-                    <img className="NormalPageLayout" src={PhoenixWalkerTitleScreen} alt="Phoenix Walker - Game Prototype"/>
+                    <img className="NewBannerImage" src={PhoenixWalkerTitleScreen} alt="Phoenix Walker - Game Prototype"/>
                 </Link>
                 <div className="SectionHeader">
                     <b>
@@ -37,7 +37,7 @@ function PersonalProjectsSection() {
             </p>
             <p className="NormalPageLayout">
                 <Link to="/DesignExercises" onClick={() => window.scrollTo(0, 0)}>
-                    <img className="NormalPageLayout" src={ChineseVampireBanner} alt="Yingyue the Jiangshi - League of Legends Character Concept"/>
+                    <img className="NewBannerImage" src={ChineseVampireBanner} alt="Yingyue the Jiangshi - League of Legends Character Concept"/>
                 </Link>
                 <div className="SectionHeader">
                     <b>

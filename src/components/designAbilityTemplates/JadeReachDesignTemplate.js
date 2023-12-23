@@ -7,11 +7,11 @@ function JadeReachDesignTemplate() {
                 <Grid item xs={6}>
                     <b className="AbilityHeader">JADE REACH</b>
                 </Grid>
-                <Grid item xs={6}>
-                    <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
+                <Grid item xs={6} className='AbilityCooldown '>
+                    <span className="textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeft moveLeft20">
+            <div className="animationFadeIn">
                 This ability intentionally evokes similarities to the only other vampiric champion in League, Vladimir.
                 Both champions work through stealing some form of lifeforce from the target, but what they use that lifeforce for is completely different.
                 While Vladimir uses it to directly heal himself, Yingyue instead stores it as Qi to be used to empower her spells later. This does include
@@ -23,8 +23,7 @@ function JadeReachDesignTemplate() {
                     <b className="AbilityHeaderSmall">WHY GAIN QI ONLY ON CHAMPIONS?</b>
                 </Grid>
             </Grid>
-            <br />
-            <div className="NormalPageLayoutLeft moveLeft20">
+            <div className="animationFadeIn">
                 Jade Reach, and much of her kit, is not meant to be good at pushing minions as the main design concern for this champion
                 is to make sure she is a powerful support without making her an unbalanced solo lane champion.
                 This is also why her ability power scaling is lower than your average mage.
@@ -40,8 +39,7 @@ function JadeReachDesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
-            <br />
-            <div className="NormalPageLayoutLeft moveLeft20">
+            <div className="animationFadeIn">
                 Jade Reach references the lifeforce stealing abilities and the hunger of Jiangshi, also known as Chinese Vampires.
                 <br />
                 This ability also further reinforces her being a magical/supernatural being by allowing her to steal Qi

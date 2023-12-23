@@ -161,11 +161,9 @@ function DesignExercises() {
                 </p>
                 <p>
                     <h3 className="SectionHeader">
-                        Abilities & Design Insights:
+                        Interactive Abilities & Design Insights:
                         <hr className="HorizontalLineBlue" />
                     </h3>
-                    <br />
-                    <br />
                     <Grid id="Row 0 Design Insight and Help Buttons" container spacing={0} className='textAlignRight'>
                         <Grid item xs={8} />
                         <Grid item xs={4}>
@@ -246,13 +244,10 @@ function DesignExercises() {
                             <div id="JiangshiAbilityDescription" className="NormalPageLayoutLeft AbilityDescriptionSection">
                                 {!abilityDescription >= 1 ?
                                     <h3 className="textAlignCenter animationcolorWhiteOrangeFlashing">
-                                        Click an ability icon to see its description.
-                                        <br />
-                                        Click Design Insights or Ability Details to toggle
-                                        <br />
-                                        between Design Insights or Ability Details.
+                                        Click an ability icon to see its Description and Design Insights.
                                     </h3> : <RenderJiangshiDescription slot={abilityDescription} />}
                             </div>
+                            
                             <br /><br /><br />
                         </Grid>
                     </Grid>

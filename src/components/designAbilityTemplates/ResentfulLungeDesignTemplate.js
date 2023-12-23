@@ -7,11 +7,11 @@ function ResentfulLungeDesignTemplate() {
                 <Grid item xs={6}>
                     <b className="AbilityHeader">RESENTFUL LUNGE</b>
                 </Grid>
-                <Grid item xs={6}>
-                    <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
+                <Grid item xs={6} className="AbilityCooldown">
+                    <span className="textColorRed">DESIGN INSIGHTS</span><br /><br />
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeft moveLeft20">
+            <div className="animationFadeIn">
                 Serving as an alternative, and risky, ability to generate additional Qi, Resentful Lunge further
                 reinforces the aggressive design of this support champion.
             </div>
@@ -20,8 +20,7 @@ function ResentfulLungeDesignTemplate() {
                     <b className="AbilityHeaderSmall">WHY GIVE HER A MELEE DASH?</b>
                 </Grid>
             </Grid>
-            <br />
-            <div className="NormalPageLayoutLeft moveLeft20">
+            <div className="animationFadeIn">
                 Yingyue is always meant to give both the player and their opponent choice. How risky should Yingyue play?
                 Well, obviously she gains significant Qi generation if she is using her Resentful Lunge on enemy champions.
                 However, this opens her up to great risk as she isn't a very tough character in terms of defense.
@@ -38,8 +37,7 @@ function ResentfulLungeDesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
-            <br />
-            <div className="NormalPageLayoutLeft moveLeft20">
+            <div className="animationFadeIn">
                 Jiangshi are also known as "Hopping Vampires". This ability is meant
                 to evoke that same concept of a supernatural being moving in ways that seem
                 unnatural and uncanny. Imagine for a moment, the difference between American

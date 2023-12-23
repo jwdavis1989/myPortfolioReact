@@ -21,22 +21,19 @@ a:hover {
   padding-right: 4px;
   padding-left: 4px;
   color: #0099ff;
-  margin-left: -20%;
 }
 
 .AbilityHeaderSmall {
   font-size: 1.25vw;
   padding-right: 4px;
   padding-left: 4px;
-  margin-left: -20%;
   text-align: left;
   color: #0099ff;
 }
 
 .AbilityCooldown {
-  text-align: left;
+  text-align: right;
   font-size: larger;
-  padding-top: 18px;
   padding-right: 4px;
   padding-left: 4px;
   margin-left: 0%;
@@ -62,6 +59,10 @@ a:hover {
   color: red;
 }
 
+.animationFadeIn {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
 .animationRainbowText {
   animation: colorRotate 2s linear 0s infinite;
 }
@@ -237,7 +238,7 @@ Button:hover {
 }
 
 .HorizontalLineBlue {
-  border: 3px solid #0099ff;
+  border: 1px solid #0099ff;
 }
 
 html::-webkit-scrollbar {
@@ -504,6 +505,16 @@ html::-webkit-scrollbar-thumb {
   border-bottom: 4px solid #0099ff;
   border-top: 10px groove rgb(66, 66, 66);
   margin-bottom: 2px;
+}
+
+.NewBannerImage {
+  border: 4px ridge rgb(44, 44, 44);
+  align-self: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  width: 80%;
 }
 
 .NewBannerLinks {
