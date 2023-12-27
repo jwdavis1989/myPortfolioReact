@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function ProfessionalWorkSection() {
     return (
-        <div>
+        <div id="ProfessionalWorkSection">
             <h1 className="SectionHeader">
                 PROFESSIONAL WORK
                 <hr className="HorizontalLineBlue" />

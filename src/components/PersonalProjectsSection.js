@@ -4,7 +4,7 @@ import ChineseVampireBanner from '../resources/images/designExercise/ChineseVamp
 
 function PersonalProjectsSection() {
     return (
-        <div>
+        <div id="PersonalProjectsSection">
             <h1 className="SectionHeader">
                 PERSONAL PROJECTS
                 <hr className="HorizontalLineBlue" />
@@ -44,7 +44,7 @@ function PersonalProjectsSection() {
                         Yingyue the Jiangshi - League of Legends Character Concept
                     </b>
                 </div>
-                <b>Contributions:</b> Game Designer
+                <b>Contributions:</b> Game Designer, Writer
                 <br />
 
                 <a href='https://www.chenruoyu.com/' target="_blank" rel="noreferrer">

@@ -1,7 +1,10 @@
 import swwOverhaulLogo from "../../resources/images/SW Skill Tree Logo Final 1024px.png";
-import { Grid } from '@mui/material';
+import { Grid, Button } from '@mui/material';
 import CasinoSharpIcon from '@mui/icons-material/CasinoSharp';
 import { LevelingPointsGuideComponent } from "./LevelingPointsGuideComponent";
+import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
+import patchNotes from "../../resources/handouts/Silverwind_Workshop_Skill_Tree_Change_Logs.rtf";
+import DownloadIcon from '@mui/icons-material/Download';
 
 function OverhaulOverviewComponent() {
     return (
@@ -9,8 +12,24 @@ function OverhaulOverviewComponent() {
             <Grid id="Row 0 Leadership Title" container spacing={0}>
                 <Grid item xs={12}>
                     <p className="HeaderTitleWide">
-                    <CasinoSharpIcon fontSize='inherit' /> OVERVIEW
+                        <CasinoSharpIcon fontSize='inherit' /> OVERVIEW
                     </p>
+                </Grid>
+                <Grid container>
+                    <Grid item xs={6}>
+                        <a href="https://marketplace.roll20.net/browse/gameaddon/14629/silverwind-workshops-skill-trees-and-leveling-overhaul" target="_blank" rel="noreferrer">
+                            <Button className="ImageLogo">
+                                <LocalGroceryStoreIcon fontSize='inherit' /> Store Page
+                            </Button>
+                        </a>
+                    </Grid>
+                    <Grid item xs={6}>
+                        <a href={patchNotes} target="_blank" rel="noreferrer">
+                            <Button className="ImageLogo">
+                                <DownloadIcon fontSize='inherit' /> Patch Notes
+                            </Button>
+                        </a>
+                    </Grid>
                 </Grid>
             </Grid>
             <Grid id="Row 0 Summary" container spacing={0}>
@@ -84,7 +103,7 @@ function OverhaulOverviewComponent() {
                         WHAT PROBLEMS DOES THIS SYSTEM SOLVE?
                     </p>
                     <div className="NormalPageLayoutLeft ScrollingBox"><p />
-                        <span className="AbilityHeaderSmall moveLeft5">Limited Character Playstyles & Classes:</span>
+                        <span className="AbilityHeaderSmall">Limited Character Playstyles & Classes:</span>
                         <p />
                         In the base game of 5th Edition Dungeons & Dragons, players pick from a small list of classes
                         when creating their character. While the options are classic, there are very few of them.
@@ -110,7 +129,7 @@ function OverhaulOverviewComponent() {
                             </ul>
                         </p>
                         <p />
-                        <span className="AbilityHeaderSmall moveLeft5">Elemental Mages of Only One Element Aren't Fleshed Out,
+                        <span className="AbilityHeaderSmall">Elemental Mages of Only One Element Aren't Fleshed Out,
                             and Mixing Spell Schools is Poorly Supported:</span>
                         <p />
                         This system adds Skill Trees specifically dedicated to many spell schools including elemental
@@ -129,7 +148,7 @@ function OverhaulOverviewComponent() {
                             reduces affected creatures' Armor Class, and leaves behind damaging Magma that can't be
                             extinguished for 24 hours</i></b>!
                         <p />
-                        <span className="AbilityHeaderSmall moveLeft5">Martial & Caster Disparity of Power and Gameplay:</span>
+                        <span className="AbilityHeaderSmall">Martial & Caster Disparity of Power and Gameplay:</span>
                         <p />
                         Go on to many online forums for 5th Edition D&D and you'll see that a lot of people find Martial characters to be
                         underwhelming in both gameplay complexity, and actual effectiveness. The tactical choices available to a Fighter for
@@ -146,7 +165,7 @@ function OverhaulOverviewComponent() {
                                 enhancements that allow characters built without magic to be just as engaging as those with.</li>
                         </ul>
                         <p />
-                        <span className="AbilityHeaderSmall moveLeft5">Crafting Rules and Gameplay is Poorly Fleshed-Out:</span>
+                        <span className="AbilityHeaderSmall">Crafting Rules and Gameplay is Poorly Fleshed-Out:</span>
                         <p />
                         Let's face it, most games do a poor job of catering to players who, like myself,
                         enjoy crafting as a primary gameplay loop and power source. With that in mind, special-attention has been given to

@@ -8,7 +8,6 @@ import AbilityVengefulLeapIcon from '../resources/images/designExercise/AbilityV
 import AbilityInsatiableTouchIcon from '../resources/images/designExercise/AbilityInsatiableTouch.png';
 import AbilityMoonlightCurseIcon from '../resources/images/designExercise/AbilityMoonlightCurse.png';
 import ChineseVampireBanner from '../resources/images/designExercise/ChineseVampireLeagueChampionBannerSmall.png';
-import EngineeringSharpIcon from '@mui/icons-material/EngineeringSharp';
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 
 import { QiSiphonTemplate } from '../components/designAbilityTemplates/QiSiphonTemplate';
@@ -99,7 +98,12 @@ function DesignExercises() {
                 <p className="NormalPageLayout">
                     <img className="NormalPageLayout" src={ChineseVampireBanner}
                         alt="Yingyue the Jiangshi - League of Legends Character Concept" />
-                    <div className="NormalPageLayoutLeft">
+                    <div className="textAlignLeft animationFadeIn">
+                        <p>
+                            <b className='textColorBlue'>Contributions:</b>
+                            <br />
+                            Game Designer, Writer
+                        </p>
                         <p>
                             <b className='textColorBlue'>
                                 Overview:
@@ -116,15 +120,15 @@ function DesignExercises() {
                             </b>
                             <ul>
                                 <li>
-                                    Create a fun new League of Legends character to fill 
+                                    Create a fun new League of Legends character to fill
                                     the aggressive/Lifesteal support niche that is currently empty.
                                 </li>
                                 <li>
-                                    Demonstrate skills in Gameplay Design, Balancing, and converting 
+                                    Demonstrate skills in Gameplay Design, Balancing, and converting
                                     an idea into a full character.
                                 </li>
                                 <li>
-                                    Create a character whose story would interlock well with many existing 
+                                    Create a character whose story would interlock well with many existing
                                     character plot hooks to provide many storyline opportunities for Riot Games.
                                 </li>
                             </ul>
