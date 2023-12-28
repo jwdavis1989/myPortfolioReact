@@ -9,6 +9,8 @@ import AbilityInsatiableTouchIcon from '../resources/images/designExercise/Abili
 import AbilityMoonlightCurseIcon from '../resources/images/designExercise/AbilityMoonlightCurse.png';
 import ChineseVampireBanner from '../resources/images/designExercise/ChineseVampireLeagueChampionBannerSmall.png';
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 
 import { QiSiphonTemplate } from '../components/designAbilityTemplates/QiSiphonTemplate';
 import { JadeReachTemplate } from '../components/designAbilityTemplates/JadeReachTemplate';
@@ -26,9 +28,27 @@ function DesignExercises() {
     const [designInsightsVisible, setDesignInsightsVisible] = useState(true);
 
     useEffect(() => {
-        setAbilityDescription(false);
+        setAbilityDescription(0);
         setDesignInsightsVisible(false);
     }, []);
+
+    function decrementAbilityDescription() {
+        if (abilityDescription > 1 && abilityDescription < 6){
+            setAbilityDescription(abilityDescription - 1);
+        }
+        else {
+            setAbilityDescription(5);
+        }
+    }
+
+    function incrementAbilityDescription() {
+        if (abilityDescription < 5 && abilityDescription > 0){
+            setAbilityDescription(abilityDescription + 1);
+        }
+        else {
+            setAbilityDescription(1); 
+        }
+    }
 
     function resetJiangshiAbilityHighlight() {
         document.getElementById("passiveQiButton").className = "ImageLogo";
@@ -183,8 +203,16 @@ function DesignExercises() {
                         </Grid>
                     </Grid>
                     <p />
-                    <Grid id="Row 1 Ability Icons" container spacing={0}>
-                        <Grid item xs={1.5} />
+                    <Grid id="Row 1 Ability Icons" container spacing={0} className='textAlignCenter'>
+                    <Grid item xs={0.5} />
+                        <Grid item xs={0.8} className='textAlignCenter'>
+                            <Button variant="outlined" style={{minWidth: '1px', maxWidth: "30px", minHeight: '60%', maxHeight: '60%'}}
+                                title='Previous Ability'
+                                onClick={() => decrementAbilityDescription()} >
+                                <NavigateBeforeIcon style={{minWidth: '1px', maxWidth: "30px", minHeight: '60%', maxHeight: '60%'}}/>
+                            </Button>
+                        </Grid>
+                        <Grid item xs={0.2} />
                         <Grid item xs={1}>
                             <img onClick={() => setAbilityDescription(1)}
                                 className="ImageLogo" src={AbilityPassiveQiIcon}
@@ -229,7 +257,14 @@ function DesignExercises() {
                                 <b id='R'>R</b>
                             </p>
                         </Grid>
-                        <Grid item xs={1.5} />
+                        <Grid item xs={0.15} />
+                        <Grid item xs={0.8} className='textAlignCenter'>
+                            <Button variant="outlined" style={{minWidth: '1px', maxWidth: "30px", minHeight: '60%', maxHeight: '60%'}}
+                                title='Next Ability'
+                                onClick={() => incrementAbilityDescription()}>
+                                <NavigateNextIcon style={{minWidth: '1px', maxWidth: "30px", minHeight: '60%', maxHeight: '60%'}}/>
+                            </Button>
+                        </Grid>
                     </Grid>
                     <p />
                     <Grid id="Row 2 Ability Descriptions" container spacing={0}>

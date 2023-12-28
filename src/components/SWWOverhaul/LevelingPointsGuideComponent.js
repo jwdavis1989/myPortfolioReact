@@ -4,7 +4,6 @@ import React from 'react';
 function LevelingPointsGuideComponent(props) {
     return (
         <div>
-            <br />
             <table className="LevelingGuideTable">
                 <tbody>
                     <tr>

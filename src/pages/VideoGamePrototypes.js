@@ -1,12 +1,14 @@
 import DownloadIcon from '@mui/icons-material/Download';
-import { Button } from '@mui/material';
+import { Button, Grid } from '@mui/material';
 import React from 'react';
 import MechShmupLink from "../resources/gamePrototypes/MechSchmup/ArcadeMechShootEmUpVersion06.exe";
 
 import { TwoFormsTwoGenresTemplate } from "../components/gamePrototypeTemplates/TwoFormsTwoGenresTemplate";
 import { PhoenixBombTemplate } from "../components/gamePrototypeTemplates/PhoenixBombTemplate";
+import { BUTTON_FONT_SIZE, BUTTON_ICON_SIZE } from "../constants/constants.js";
 
 function VideoGamePrototypes() {
+
     return (
         <div>
             <div>
@@ -25,15 +27,21 @@ function VideoGamePrototypes() {
                     </div>
                     <p>
 
-                        <a href={MechShmupLink} target="_blank" rel="noreferrer">
-                            <Button className="ImageLogo" startIcon={<DownloadIcon />}>
-                                DOWNLOAD INSTALLER
-                            </Button>
-                        </a>
+                        <Grid container spacing={0}>
+                            <Grid item xs={1.2} />
+                            <Grid item xs={9.6}>
+                                <a href={MechShmupLink} target="_blank" rel="noreferrer">
+                                    <Button className="ImageLogo" startIcon={<DownloadIcon style={{ fontSize: BUTTON_ICON_SIZE}} />}
+                                    style={{ fontSize: BUTTON_FONT_SIZE, width: "100%" }}>
+                                        DOWNLOAD INSTALLER
+                                    </Button>
+                                </a>
+                            </Grid>
+                        </Grid>
                     </p>
                     <div className="textAlignLeft animationFadeIn">
-                    <p>
-                            <b className='textColorBlue'>Contributions:</b> 
+                        <p>
+                            <b className='textColorBlue'>Contributions:</b>
                             <br />
                             Game Designer, Programmer, Sprite Artist, Music Composer
                         </p>

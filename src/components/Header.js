@@ -1,9 +1,6 @@
 import { NavBar } from "./NavBar";
-import { ButtonGroup, Grid, Button, IconButton } from '@mui/material';
+import { ButtonGroup, Grid, IconButton } from '@mui/material';
 import glowingEyeLogo from "../resources/images/glowingEyeAnimation/glowingEyeAnimation.gif";
-import LinkedInLogo from "../resources/images/linkedin.png";
-import PDFLogo from "../resources/images/PDF.png";
-import TwitterLogo from "../resources/images/Twitter.png";
 import gameDesignPDF from "../resources/handouts/JerryDavisGameDevResume2023.pdf";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -13,8 +10,8 @@ function Header() {
     return (
         <div>
             <Grid id="Row 0 Banner" container spacing={0} className="">
-                <Grid item md={2} sm={0} />
-                <Grid item md={8} sm={12} className="NewContentBody">
+                <Grid item md={2} sm={0} xs={0}/>
+                <Grid item md={8} sm={12} xs={12} className="NewContentBody">
                     <Grid id="Row 1 Banner Components" container spacing={0} className="NewBanner">
                         <Grid item md={2} sm={1} xs={1}>
                             <img src={glowingEyeLogo} alt="Glowing Eye Icon" className='NewBannerLogo' />

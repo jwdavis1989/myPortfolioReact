@@ -25,7 +25,7 @@ function ProfessionalWorkSection() {
                         Silverwind Workshop's Skill Trees - D&D Tabletop Game Addon
                     </b>
                 </div>
-                <b>Contributions:</b> Game Designer, Artist
+                <b>Contributions:</b> Game Designer, Artist, QA Analyst
                 <br />
                 <Link to="/SWWLevelingOverhaul" onClick={() => window.scrollTo(0, 0)} className="animationcolorWhiteOrangeFlashing">
                     Click to learn more.
