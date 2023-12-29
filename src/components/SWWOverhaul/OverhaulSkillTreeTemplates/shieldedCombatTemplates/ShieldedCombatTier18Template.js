@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { ShieldedCombatTier18DesignTemplate } from './ShieldedCombatTier18DesignTemplate';
 
 function ShieldedCombatTier18Template() {
     return (
@@ -22,6 +23,7 @@ function ShieldedCombatTier18Template() {
 
                 <p />Additionally, you gain +1AC and +1 to Dexterity Saving Throws while wielding a shield.
             </div>
+            <ShieldedCombatTier18DesignTemplate />
         </div>
     )
 }

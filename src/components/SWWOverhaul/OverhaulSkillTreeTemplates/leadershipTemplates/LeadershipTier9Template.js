@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { LeadershipTier9DesignTemplate } from './LeadershipTier9DesignTemplate';
 
 function LeadershipTier9Template() {
     return (
@@ -22,6 +23,7 @@ function LeadershipTier9Template() {
 
                 <p />A creature cannot gain the benefits of Bishop's Opening again until they finish a Long Rest.
             </div>
+            <LeadershipTier9DesignTemplate />
         </div>
     )
 }

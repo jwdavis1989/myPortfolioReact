@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { LeadershipTier15DesignTemplate } from './LeadershipTier15DesignTemplate';
 
 function LeadershipTier15Template() {
     return (
@@ -20,6 +21,7 @@ function LeadershipTier15Template() {
                 <br />
                 All friendly creatures within hearing range gain +1 AC when in at least Half-Cover.
             </div>
+            <LeadershipTier15DesignTemplate />
         </div>
     )
 }

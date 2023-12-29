@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { LeadershipTier12DesignTemplate } from './LeadershipTier12DesignTemplate';
 
 function LeadershipTier12Template() {
     return (
@@ -39,6 +40,7 @@ function LeadershipTier12Template() {
                 <p /><b>Command - Unpin Pawn:</b>
                 <br />Now grants the affected creature advantage on the Saving Throw.
             </div>
+            <LeadershipTier12DesignTemplate />
         </div>
     )
 }

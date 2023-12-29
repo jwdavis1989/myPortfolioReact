@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { LeadershipTier6DesignTemplate } from './LeadershipTier6DesignTemplate';
 
 function LeadershipTier6Template() {
     return (
@@ -22,6 +23,7 @@ function LeadershipTier6Template() {
 
                 <p />This movement may provoke Attacks of Opportunity.
             </div>
+            <LeadershipTier6DesignTemplate />
         </div>
     )
 }

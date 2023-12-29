@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { ShieldedCombatTier6DesignTemplate } from './ShieldedCombatTier6DesignTemplate';
 
 function ShieldedCombatTier6Template() {
     return (
@@ -24,6 +25,7 @@ function ShieldedCombatTier6Template() {
 
             <p />On a successful save, they instead take half damage.
             </div>
+            <ShieldedCombatTier6DesignTemplate />
         </div>
     )
 }

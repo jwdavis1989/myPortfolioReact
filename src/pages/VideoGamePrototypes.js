@@ -26,7 +26,6 @@ function VideoGamePrototypes() {
                         </div>
                     </div>
                     <p>
-
                         <Grid container spacing={0}>
                             <Grid item xs={1.2} />
                             <Grid item xs={9.6}>

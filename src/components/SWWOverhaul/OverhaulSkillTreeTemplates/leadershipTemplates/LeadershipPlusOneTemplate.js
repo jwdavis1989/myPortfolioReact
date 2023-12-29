@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { LeadershipPlusOneDesignTemplate } from './LeadershipPlusOneDesignTemplate';
 
 function LeadershipPlusOneTemplate() {
     return (
@@ -43,6 +44,7 @@ function LeadershipPlusOneTemplate() {
                 <br />
                 You gain proficiency in Persuasion and Insight.
             </div>
+            <LeadershipPlusOneDesignTemplate />
         </div>
     )
 }

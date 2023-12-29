@@ -14,12 +14,12 @@ function DungeonsAndDragonsOverhaulTutorial() {
                     Tutorial - Silverwind Workshop's Skill Trees
                     <hr className="HorizontalLineBlue" />
                 </h2>
-                <p className="">
-                    <img className="NormalPageLayout" src={SWWOverhaulBanner}
+                <p className="NormalPageLayout">
+                    <img className="NewBannerImage" src={SWWOverhaulBanner}
                         alt="Silverwind Workshop's Skill Trees - D&D Tabletop Game Addon Banner" />
                     <Grid container>
                         <Grid item xs={1.2} />
-                        <Grid item xs={3.2}>
+                        <Grid item xs={9.6}>
                             <ButtonGroup className='NavBarButtonGroup' fullWidth>
                                 <Button component={Link} to="/SWWLevelingOverhaul" onClick={() => window.scrollTo(0, 0)}
                                     className="ImageLogo" startIcon={<ArrowBackIcon style={{ fontSize: BUTTON_ICON_SIZE }} />}

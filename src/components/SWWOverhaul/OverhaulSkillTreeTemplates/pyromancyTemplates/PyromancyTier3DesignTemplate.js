@@ -43,7 +43,7 @@ function PyromancyTier3DesignTemplate() {
             <div className="NormalPageLayoutLeft moveLeft20">
                 <br />
                 In popular fantasy settings, Pyromancers tend to be characterized as unconcerned with the risks of powerful magic. 
-                <br />This Talent burrows deep into that image of the maniacle arsonist doing anything 
+                <br />This Talent burrows deep into that image of the maniacal arsonist doing anything 
                 they can, even potentially harming themselves or even allies, if it means making a roaring boom or inferno.
                 <br />To them, it's simple: The hotter the flame, the better.
                 <p />Additionally, I wanted to take a moment here to mention that 5th Edition D&D doesn't include any 

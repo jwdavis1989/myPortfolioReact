@@ -188,7 +188,7 @@ function DesignExercises() {
                         Interactive Abilities & Design Insights:
                         <hr className="HorizontalLineBlue" />
                     </h3>
-                    <Grid id="Row 0 Design Insight and Help Buttons" container spacing={0} className='textAlignRight'>
+                    <Grid id="Row 0 Help Buttons" container spacing={0} className='textAlignRight'>
                         <Grid item xs={8} />
                         <Grid item xs={4}>
                             <div>

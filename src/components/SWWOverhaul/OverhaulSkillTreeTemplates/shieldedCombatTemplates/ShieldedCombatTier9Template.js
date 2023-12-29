@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { ShieldedCombatTier9DesignTemplate } from './ShieldedCombatTier9DesignTemplate';
 
 function ShieldedCombatTier9Template() {
     return (
@@ -24,6 +25,7 @@ function ShieldedCombatTier9Template() {
 
             <p />Spells and attacks deflected by this talent become harmless and apply no effect.
             </div>
+            <ShieldedCombatTier9DesignTemplate />
         </div>
     )
 }

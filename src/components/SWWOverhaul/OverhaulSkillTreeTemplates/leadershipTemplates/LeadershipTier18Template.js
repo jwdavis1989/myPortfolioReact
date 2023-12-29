@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { LeadershipTier18DesignTemplate } from './LeadershipTier18DesignTemplate';
 
 function LeadershipTier18Template() {
     return (
@@ -20,6 +21,7 @@ function LeadershipTier18Template() {
                 <br />
                 You gain an extra Bonus Action every turn that may only be used on Commands, however you cannot use the same command twice in one turn.
             </div>
+            <LeadershipTier18DesignTemplate />
         </div>
     )
 }

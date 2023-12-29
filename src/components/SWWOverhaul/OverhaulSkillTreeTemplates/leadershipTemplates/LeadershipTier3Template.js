@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { LeadershipTier3DesignTemplate } from './LeadershipTier3DesignTemplate';
 
 function LeadershipTier3Template() {
     return (
@@ -52,6 +53,7 @@ function LeadershipTier3Template() {
                 <p /><b>Optional Rule:</b>
                 <br />The player must vocally perform the inspiring phrase for it to function properly.
             </div>
+            <LeadershipTier3DesignTemplate />
         </div>
     )
 }

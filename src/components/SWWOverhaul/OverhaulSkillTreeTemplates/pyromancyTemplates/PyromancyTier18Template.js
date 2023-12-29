@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { PyromancyTier18DesignTemplate } from './PyromancyTier18DesignTemplate';
 
 function PyromancyTier18Template() {
     return (
@@ -21,6 +22,7 @@ function PyromancyTier18Template() {
                 Combustion may now be used up to 3 times per long rest. 
                 <br /><br />
             </div>
+            <PyromancyTier18DesignTemplate />
         </div>
     )
 }

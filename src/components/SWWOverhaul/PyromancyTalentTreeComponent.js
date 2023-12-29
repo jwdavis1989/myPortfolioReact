@@ -1,8 +1,6 @@
-import { Grid } from '@mui/material';
+import { Grid, Button, ButtonGroup, Typography } from '@mui/material';
 import React, { useState, useEffect } from 'react';
-
-
-import CasinoSharpIcon from '@mui/icons-material/CasinoSharp';
+import { BUTTON_FONT_SIZE, BUTTON_ICON_SIZE } from "../../constants/constants";
 
 import PyromancyIcon from '../../resources/images/talentTreesImages/PyromancyIcon.png';
 import PlusOneIcon from '../../resources/images/talentTreesImages/PlusOneIcon.png';
@@ -12,6 +10,10 @@ import Tier9Icon from '../../resources/images/talentTreesImages/Tier9Icon.png';
 import Tier12Icon from '../../resources/images/talentTreesImages/Tier12Icon.png';
 import Tier15Icon from '../../resources/images/talentTreesImages/Tier15Icon.png';
 import Tier18Icon from '../../resources/images/talentTreesImages/Tier18Icon.png';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 
 import { PyromancyPlusOneTemplate } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyPlusOneTemplate';
 import { PyromancyTier3Template } from './OverhaulSkillTreeTemplates/pyromancyTemplates/PyromancyTier3Template';
@@ -36,6 +38,7 @@ function PyromancyTalentTreeComponent(props) {
     useEffect(() => {
         setAbilityDescription(0);
         setDesignInsightsVisible(false);
+        document.getElementById('Skill Tree Demos').scrollIntoView();
     }, []);
 
     function resetTalentHighlight() {
@@ -103,111 +106,177 @@ function PyromancyTalentTreeComponent(props) {
         return description;
     }
 
+    function decrementAbilityDescription() {
+        if (abilityDescription > 1 && abilityDescription < 8) {
+            setAbilityDescription(abilityDescription - 1);
+        }
+        else {
+            setAbilityDescription(7);
+        }
+    }
+
+    function incrementAbilityDescription() {
+        if (abilityDescription < 7 && abilityDescription > 0) {
+            setAbilityDescription(abilityDescription + 1);
+        }
+        else {
+            setAbilityDescription(1);
+        }
+    }
+
     return (
-        <div className="NormalPageLayoutSlim backgroundRadialBlack">
-            <Grid id="Row 0 pyromancy Title" container spacing={0}>
-                <Grid item xs={12}>
-                    <p className="HeaderTitleWide">
-                        <CasinoSharpIcon fontSize='inherit' /> PYROMANCY
-                    </p>
+        <div>
+            <div>
+                <h2 id="TreeHeaderSection" className="SectionHeader">
+                    Pyromancy Tree Demo
+                    <hr className="HorizontalLineBlue" />
+                </h2>
+                <p className="NormalPageLayout">
+                    <Grid container spacing={0} id="Logo and Overview">
+                        <Grid item xs={4}>
+                            <img className="NewBannerImage" src={PyromancyIcon}
+                                alt="Pyromancy Icon" />
+                        </Grid>
+                        <Grid item xs={8}>
+                            <div className="textAlignLeft animationFadeIn">
+                                <b className='textColorBlue'>
+                                    Overview:
+                                </b>
+                                <br />
+                                <i>
+                                    "Will your fire ignite the world?
+                                    <br />Will you raise magma to destroy entire swathes of terrain?
+                                    <br />Will you become the walking inferno?"
+                                </i>
+                                <p />Pyromancy embodies the concept of a pure fire mage. Its destructive potential is
+                                unmatched in large encounters, and it is unparalleled in its ability to shutdown large areas of the map through
+                                a mix of tactical wit and expanded area of effect sizes.
+                                <p />
+                                <i>
+                                    "So what if your friends get a little crispy?"
+                                </i>
+                                <p>
+                                    <b className='textColorBlue'>
+                                        Skill Tree Class:
+                                    </b>
+                                    <br />
+                                    Magic
+                                </p>
+                                <p>
+                                    <b className='textColorBlue'>
+                                        Role:
+                                    </b>
+                                    <br />
+                                    Multi-Target Damage & Area Control
+                                </p>
+                            </div>
+                        </Grid>
+                    </Grid>
+                </p>
+            </div>
+            <Grid id="Row 0 Design Insight and Help Buttons" container spacing={0} className='textAlignRight'>
+                        <Grid item xs={8} />
+                        <Grid item xs={4}>
+                            <div>
+                                <ButtonGroup variant="text" className='NavBarButtonGroup'>
+                                    <Button className="NavBarButton"
+                                        title='Click a Talent icon to the left to learn more.'
+                                        onClick={() => { setAbilityDescription(false); resetTalentHighlight() }}>
+                                        <HelpOutlineIcon />
+                                    </Button>
+                                </ButtonGroup>
+                            </div>
+                        </Grid>
+                    </Grid>
+            <Grid id="Row 1 Leadership Talent Icons" container spacing={0} alignItems="center">
+                <Grid item md={1.3} sm={1.3} xs={1.3} className='textAlignCenter' zeroMinWidth>
+                    <Typography noWrap>
+                        <Button variant="outlined" fullWidth style={{ minWidth: '0%', maxWidth: "30px", minHeight: '60%', maxHeight: '60%' }}
+                            title='Previous Talent'
+                            onClick={() => decrementAbilityDescription()} >
+                            <NavigateBeforeIcon />
+                        </Button>
+                    </Typography>
                 </Grid>
-            </Grid>
-            <Grid id="Row 1 pyromancy Art and Summary" container spacing={1}>
-                <Grid item xs={4}>
-                    <img src={PyromancyIcon} height="auto" alt="pyromancy Tree" className="TalentImage width80" />
-                </Grid>
-                <Grid item xs={4}>
-                    <div className="SmallHeaderTitleNoHover moveLeft15 width100">
-                        SUMMARY
-                    </div>
-                    <div className="NormalPageLayoutLeft moveLeft15 ScrollingBox">
-                        <i>
-                            "Will your fire ignite the world?
-                            <br />Will you raise magma to destroy entire swathes of terrain?
-                            <br />Will you become the walking inferno?"
-                        </i>
-                        <p />Pyromancy embodies the concept of a pure fire mage. Its destructive potential is
-                        unmatched in large encounters, and it is unparalleled in its ability to shutdown large areas of the map through
-                        a mix of tactical wit and expanded area of effect sizes.
-                        <p />
-                        <i>
-                            "So what if your friends get a little crispy?"
-                        </i>
-                    </div>
-                </Grid>
-                <Grid item xs={1} />
-                <Grid item xs={3}>
-                    <div className="SmallHeaderTitleNoHover moveLeft35">
-                        TYPE
-                    </div>
-                    <div className="NormalPageLayoutLeft moveLeft35 textAlignCenter">
-                        Magic
-                    </div>
-                    <br />
-                    <div className="SmallHeaderTitleNoHover moveLeft35">
-                        ROLE
-                    </div>
-                    <div className="NormalPageLayoutLeft moveLeft35 textAlignCenter">
-                        Multi-Target Damage & Area Control
-                    </div>
-                </Grid>
-            </Grid>
-            <p />
-            <Grid id="Row 2 pyromancy Talent Icons" container spacing={1}>
-                <Grid item xs={2} />
                 <Grid item xs={1}>
                     <img onClick={() => setAbilityDescription(1)}
                         className="ImageLogo" src={PlusOneIcon}
                         id="pyromancyPlusOneTalent" alt="Plus One Talent Effect"></img>
                 </Grid>
+                <Grid item xs={0.4} />
                 <Grid item xs={1}>
                     <img onClick={() => setAbilityDescription(2)}
                         className="ImageLogo" src={Tier3Icon}
                         id="pyromancyT3Talent" alt="Tier 3 Talent Effect"></img>
                 </Grid>
+                <Grid item xs={0.4} />
                 <Grid item xs={1}>
                     <img onClick={() => setAbilityDescription(3)}
                         className="ImageLogo" src={Tier6Icon}
                         id="pyromancyT6Talent" alt="Tier 6 Talent Effect"></img>
                 </Grid>
+                <Grid item xs={0.4} />
                 <Grid item xs={1}>
                     <img onClick={() => setAbilityDescription(4)}
                         className="ImageLogo" src={Tier9Icon}
                         id="pyromancyT9Talent" alt="Tier 9 Talent Effect"></img>
                 </Grid>
+                <Grid item xs={0.4} />
                 <Grid item xs={1}>
                     <img onClick={() => setAbilityDescription(5)}
                         className="ImageLogo" src={Tier12Icon}
                         id="pyromancyT12Talent" alt="Tier 12 Talent Effect"></img>
                 </Grid>
+                <Grid item xs={0.4} />
                 <Grid item xs={1}>
                     <img onClick={() => setAbilityDescription(6)}
                         className="ImageLogo" src={Tier15Icon}
                         id="pyromancyT15Talent" alt="Tier 15 Talent Effect"></img>
                 </Grid>
+                <Grid item xs={0.4} />
                 <Grid item xs={1}>
                     <img onClick={() => setAbilityDescription(7)}
                         className="ImageLogo" src={Tier18Icon}
                         id="pyromancyT18Talent" alt="Tier 18 Talent Effect"></img>
                 </Grid>
-                <Grid item xs={1}>
-                    <div className="DesignInsightButton animationcolorWhiteOrangeFlashing" onClick={() => setDesignInsightsVisible(!designInsightsVisible)}>
-                        Toggle Design Insights
-                    </div>
+                <Grid item md={1.3} sm={1.3} xs={1.3} className='textAlignCenter' zeroMinWidth>
+                    <Typography noWrap>
+                    <Button variant="outlined" fullWidth style={{ minWidth: '0%', maxWidth: "30px", minHeight: '60%', maxHeight: '60%' }}
+                            title='Next Talent'
+                            onClick={() => incrementAbilityDescription()}>
+                            <NavigateNextIcon />
+                        </Button>
+                    </Typography>
                 </Grid>
             </Grid>
-            <Grid id="Row 3 pyromancy Ability Descriptions" container spacing={0}>
+            <Grid id="Row 3 Leadership Ability Descriptions" container spacing={0}>
                 <Grid item xs={12}>
                     <br />
                     <div id="TalentTreeDescription" className="NormalPageLayoutLeft AbilityDescriptionSection">
                         {!abilityDescription >= 1 ?
-                            <h3 className="textAlignCenter">CLICK A TALENT ICON TO SEE ITS DESCRIPTION
-                            </h3> : <RenderTalentDescription slot={abilityDescription} />}
+                            <h3 className="textAlignCenter animationcolorWhiteOrangeFlashing">
+                                Click a talent icon to see its Description and Design Insights.
+                            </h3> : <div> <RenderTalentDescription slot={abilityDescription} />
+                                <p>
+                                    <Grid
+                                        container
+                                        direction="row"
+                                        justifyContent="center"
+                                        alignItems="center"
+                                    >
+                                        <Button variant='outlined'
+                                            title='Return to Top' style={{ fontSize: BUTTON_FONT_SIZE }}
+                                            onClick={() => { document.getElementById('TreeHeaderSection').scrollIntoView(); }}
+                                            startIcon={<KeyboardArrowUpIcon style={{ fontSize: BUTTON_ICON_SIZE }} />}>
+                                            Return to Top
+                                        </Button>
+                                    </Grid>
+                                </p>
+                            </div>}
                     </div>
-                    <br /><br /><br />
                 </Grid>
             </Grid>
-        </div >
+        </div>
     );
 }
 

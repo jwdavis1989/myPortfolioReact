@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { PyromancyTier6DesignTemplate } from './PyromancyTier6DesignTemplate';
 
 function PyromancyTier6Template() {
     return (
@@ -22,6 +23,7 @@ function PyromancyTier6Template() {
                 spells by 5ft in all dimensions.
                 <br /><br />
             </div>
+            <PyromancyTier6DesignTemplate />
         </div>
     )
 }

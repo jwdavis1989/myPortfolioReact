@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { ShieldedCombatTier3DesignTemplate } from './ShieldedCombatTier3DesignTemplate';
 
 function ShieldedCombatTier3Template() {
     return (
@@ -50,6 +51,7 @@ function ShieldedCombatTier3Template() {
 
                 <p />The damage of the shield is equal to 1d4 + Strength and you are proficient in using it.
             </div>
+            <ShieldedCombatTier3DesignTemplate />
         </div>
     )
 }

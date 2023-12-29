@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { PyromancyTier9DesignTemplate } from './PyromancyTier9DesignTemplate';
 
 function PyromancyTier9Template() {
     return (
@@ -25,6 +26,7 @@ function PyromancyTier9Template() {
                 Creatures take <b className="textColorRed">Fire Damage</b> equal to your Ignition whenever they end their turn in the Magma Surface, or for every 5ft they travel through it.
                 <br /><br />
             </div>
+            <PyromancyTier9DesignTemplate />
         </div>
     )
 }

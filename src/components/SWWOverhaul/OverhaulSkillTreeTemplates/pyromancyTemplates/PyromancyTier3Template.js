@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { PyromancyTier3DesignTemplate } from './PyromancyTier3DesignTemplate';
 
 function PyromancyTier3Template() {
     return (
@@ -36,6 +37,7 @@ function PyromancyTier3Template() {
                 <br />
                 Your <b className="textColorRed">Fire</b> damage spells treat creatures that are immune as being resistant.
             </div>
+            <PyromancyTier3DesignTemplate />
         </div>
     )
 }
