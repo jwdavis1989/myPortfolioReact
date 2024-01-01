@@ -1,6 +1,6 @@
-import { Grid } from '@mui/material';
 import React, { useState, useEffect } from 'react';
-import { Button, ButtonGroup } from '@mui/material';
+import { Grid, Button, ButtonGroup } from '@mui/material';
+import { BUTTON_FONT_SIZE, BUTTON_ICON_SIZE } from "../constants/constants";
 
 import AbilityPassiveQiIcon from '../resources/images/designExercise/AbilityPassiveQi.png';
 import AbilityJadeReachIcon from '../resources/images/designExercise/AbilityJadeReach.png';
@@ -11,6 +11,7 @@ import ChineseVampireBanner from '../resources/images/designExercise/ChineseVamp
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 import { QiSiphonTemplate } from '../components/designAbilityTemplates/QiSiphonTemplate';
 import { JadeReachTemplate } from '../components/designAbilityTemplates/JadeReachTemplate';
@@ -33,7 +34,7 @@ function DesignExercises() {
     }, []);
 
     function decrementAbilityDescription() {
-        if (abilityDescription > 1 && abilityDescription < 6){
+        if (abilityDescription > 1 && abilityDescription < 6) {
             setAbilityDescription(abilityDescription - 1);
         }
         else {
@@ -42,11 +43,11 @@ function DesignExercises() {
     }
 
     function incrementAbilityDescription() {
-        if (abilityDescription < 5 && abilityDescription > 0){
+        if (abilityDescription < 5 && abilityDescription > 0) {
             setAbilityDescription(abilityDescription + 1);
         }
         else {
-            setAbilityDescription(1); 
+            setAbilityDescription(1);
         }
     }
 
@@ -184,7 +185,7 @@ function DesignExercises() {
                     </div>
                 </p>
                 <p>
-                    <h3 className="SectionHeader">
+                    <h3 id="InteractiveDemoHeader" className="SectionHeader">
                         Interactive Abilities & Design Insights:
                         <hr className="HorizontalLineBlue" />
                     </h3>
@@ -204,12 +205,12 @@ function DesignExercises() {
                     </Grid>
                     <p />
                     <Grid id="Row 1 Ability Icons" container spacing={0} className='textAlignCenter'>
-                    <Grid item xs={0.5} />
+                        <Grid item xs={0.5} />
                         <Grid item xs={0.8} className='textAlignCenter'>
-                            <Button variant="outlined" style={{minWidth: '1px', maxWidth: "30px", minHeight: '60%', maxHeight: '60%'}}
+                            <Button variant="outlined" style={{ minWidth: '1px', maxWidth: "30px", minHeight: '60%', maxHeight: '60%' }}
                                 title='Previous Ability'
                                 onClick={() => decrementAbilityDescription()} >
-                                <NavigateBeforeIcon style={{minWidth: '1px', maxWidth: "30px", minHeight: '60%', maxHeight: '60%'}}/>
+                                <NavigateBeforeIcon style={{ minWidth: '1px', maxWidth: "30px", minHeight: '60%', maxHeight: '60%' }} />
                             </Button>
                         </Grid>
                         <Grid item xs={0.2} />
@@ -259,10 +260,10 @@ function DesignExercises() {
                         </Grid>
                         <Grid item xs={0.15} />
                         <Grid item xs={0.8} className='textAlignCenter'>
-                            <Button variant="outlined" style={{minWidth: '1px', maxWidth: "30px", minHeight: '60%', maxHeight: '60%'}}
+                            <Button variant="outlined" style={{ minWidth: '1px', maxWidth: "30px", minHeight: '60%', maxHeight: '60%' }}
                                 title='Next Ability'
                                 onClick={() => incrementAbilityDescription()}>
-                                <NavigateNextIcon style={{minWidth: '1px', maxWidth: "30px", minHeight: '60%', maxHeight: '60%'}}/>
+                                <NavigateNextIcon style={{ minWidth: '1px', maxWidth: "30px", minHeight: '60%', maxHeight: '60%' }} />
                             </Button>
                         </Grid>
                     </Grid>
@@ -274,7 +275,23 @@ function DesignExercises() {
                                 {!abilityDescription >= 1 ?
                                     <h3 className="textAlignCenter animationcolorWhiteOrangeFlashing">
                                         Click an ability icon to see its Description and Design Insights.
-                                    </h3> : <RenderJiangshiDescription slot={abilityDescription} />}
+                                    </h3> : <div><RenderJiangshiDescription slot={abilityDescription} />
+                                        <p>
+                                            <Grid
+                                                container
+                                                direction="row"
+                                                justifyContent="center"
+                                                alignItems="center"
+                                            >
+                                                <Button variant='outlined'
+                                                    title='Return to Top' style={{ fontSize: BUTTON_FONT_SIZE }}
+                                                    onClick={() => { document.getElementById('InteractiveDemoHeader').scrollIntoView(); }}
+                                                    startIcon={<KeyboardArrowUpIcon style={{ fontSize: BUTTON_ICON_SIZE }} />}>
+                                                    Return to Top
+                                                </Button>
+                                            </Grid>
+                                        </p>
+                                    </div>}
                             </div>
                             <br /><br /><br /><br /><br /><br /><br /><br /><br />
                         </Grid>

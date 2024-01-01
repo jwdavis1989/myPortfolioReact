@@ -185,7 +185,7 @@ function ShieldedCombatTalentTreeComponent(props) {
             <Grid id="Row 1 ShieldedCombat Talent Icons" container spacing={0} alignItems="center">
                 <Grid item md={1.3} sm={1.3} xs={1.3} className='textAlignCenter' zeroMinWidth>
                     <Typography noWrap>
-                        <Button variant="outlined" fullWidth style={{ minWidth: '0%', maxWidth: "30px", minHeight: '60%', maxHeight: '60%' }}
+                        <Button variant="outlined" style={{ minWidth: '0%', maxWidth: "30px"}}
                             title='Previous Talent'
                             onClick={() => decrementAbilityDescription()} >
                             <NavigateBeforeIcon />
@@ -235,7 +235,7 @@ function ShieldedCombatTalentTreeComponent(props) {
                 </Grid>
                 <Grid item md={1.3} sm={1.3} xs={1.3} className='textAlignCenter' zeroMinWidth>
                     <Typography noWrap>
-                        <Button variant="outlined" fullWidth style={{ minWidth: '0%', maxWidth: "30px", minHeight: '60%', maxHeight: '60%' }}
+                        <Button variant="outlined" fullWidth style={{ minWidth: '0%', maxWidth: "30px"}}
                             title='Next Talent'
                             onClick={() => incrementAbilityDescription()}>
                             <NavigateNextIcon />

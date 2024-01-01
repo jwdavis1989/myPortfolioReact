@@ -45,7 +45,7 @@ function DungeonsAndDragonsOverhaul() {
                 Silverwind Workshop's Skill Trees - D&D Tabletop Game Addon
                 <hr className="HorizontalLineBlue" />
             </h2>
-            <p className="NormalPageLayout">
+            <p>
                 <img className="NewBannerImage" src={SWWOverhaulBanner}
                     alt="Silverwind Workshop's Skill Trees - D&D Tabletop Game Addon Banner" />
                 <Grid container spacing={0}>

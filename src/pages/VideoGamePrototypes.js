@@ -31,7 +31,7 @@ function VideoGamePrototypes() {
                             <Grid item xs={9.6}>
                                 <a href={MechShmupLink} target="_blank" rel="noreferrer">
                                     <Button className="ImageLogo" startIcon={<DownloadIcon style={{ fontSize: BUTTON_ICON_SIZE}} />}
-                                    style={{ fontSize: BUTTON_FONT_SIZE, width: "100%" }}>
+                                    style={{ fontSize: BUTTON_FONT_SIZE, width: "100%" }} variant='outlined'>
                                         DOWNLOAD INSTALLER
                                     </Button>
                                 </a>

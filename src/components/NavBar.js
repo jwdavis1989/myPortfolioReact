@@ -44,7 +44,7 @@ function NavBar() {
                         <Button component={Link} to="/AboutMe" onClick={() => window.scrollTo(0, 0)} color="primary" className='NavBarButton width100'
                             style={{ fontSize: BUTTON_FONT_SIZE }}
                             variant='fill' startIcon={<AccountBoxSharpIcon style={{ fontSize: BUTTON_ICON_SIZE}} />} fullWidth>
-                            (WIP)About Me
+                            About & Resume
                         </Button>
                     </ButtonGroup>
                 </Grid>
