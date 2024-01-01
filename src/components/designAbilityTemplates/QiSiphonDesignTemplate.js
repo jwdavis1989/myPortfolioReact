@@ -3,15 +3,14 @@ import { Grid } from '@mui/material';
 function QiSiphonDesignTemplate() {
     return (
         <div>
+            <hr className="HorizontalLineBlue" />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">QI SIPHON</b>
-                </Grid>
-                <Grid item xs={6}>
-                    <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
+                    <b className="AbilityHeader animationcolorWhiteOrangeFlashing">DESIGN INSIGHTS</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeft moveLeft20">
+            <hr className="HorizontalLineBlue" />
+            <div className="animationFadeIn">
                 This ability represents the Jiangchi's unique flavor of vampirism.
                 I have always loved the ability to empower one of your abilities as it creates a
                 lot of strategic choice when playing this kind of champion.
@@ -29,8 +28,7 @@ function QiSiphonDesignTemplate() {
                     <b className="AbilityHeaderSmall">WHY LET ENEMIES SEE HER QI?</b>
                 </Grid>
             </Grid>
-            <br />
-            <div className="NormalPageLayoutLeft moveLeft20">
+            <div className="animationFadeIn">
                 This is based upon two of the fundamental building blocks of game design, counterplay & decision-making.
             <br /> Enemy champions see her number of stacks represented as a bar with three sections that
             fill 1 section per Qi currently stored.

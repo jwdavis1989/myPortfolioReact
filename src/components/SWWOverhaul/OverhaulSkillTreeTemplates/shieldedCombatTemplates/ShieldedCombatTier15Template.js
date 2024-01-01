@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { ShieldedCombatTier15DesignTemplate } from './ShieldedCombatTier15DesignTemplate';
 
 function ShieldedCombatTier15Template() {
     return (
@@ -21,6 +22,7 @@ function ShieldedCombatTier15Template() {
                 Friendly creatures behind you are considered to have Three-Quarters Cover
                 for the purpose of ranged attacks that must pass through your square to reach the friendly creature.
             </div>
+            <ShieldedCombatTier15DesignTemplate />
         </div>
     )
 }

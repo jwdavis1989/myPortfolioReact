@@ -3,18 +3,18 @@ import { Grid } from "@mui/material";
 function InsatiableTouchDesignTemplate() {
     return (
         <div>
+            <hr className="HorizontalLineBlue" />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">INSATIABLE TOUCH</b>
-                </Grid>
-                <Grid item xs={6}>
-                    <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
+                    <b className="AbilityHeader textColorRed animationcolorWhiteOrangeFlashing">DESIGN INSIGHTS</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeft moveLeft20">
+            <hr className="HorizontalLineBlue" />
+            <div className="animationFadeIn">
                 With this ability, I wanted to create a truly unique form of support healing.
                 No other champion in the game is built around healing allies by buffing their omnivamp.
-                <br />(Omnivamp is a stat in League of Legends that heals the user for a % of their damage dealt.)
+                <br />
+                (Omnivamp is a stat in League of Legends that heals the user for a % of their damage dealt.)
             </div>
             <br />
             <Grid container spacing={0}>
@@ -22,8 +22,7 @@ function InsatiableTouchDesignTemplate() {
                     <b className="AbilityHeaderSmall">WHY CAN'T SHE USE IT ON HERSELF?</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeft moveLeft20">
-                <br />
+            <div className="animationFadeIn">
                 As before, Yingyue is a support character first, even if her
                 kit (and thematically, her hunger for Qi) give her a very aggressive lean.
                 <p />
@@ -47,8 +46,7 @@ function InsatiableTouchDesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeft moveLeft20">
-                <br />
+            <div className="animationFadeIn">
                 Insatiable Touch allows her to temporarily share her Qi stealing power with an ally. This makes them
                 ravenous for lifeforce, with the empowered version causing them to sprint towards their prey.
                 <br />

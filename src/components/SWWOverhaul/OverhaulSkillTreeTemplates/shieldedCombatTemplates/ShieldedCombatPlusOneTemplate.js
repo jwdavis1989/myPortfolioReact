@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { ShieldedCombatPlusOneDesignTemplate } from './ShieldedCombatPlusOneDesignTemplate';
 
 function ShieldedCombatPlusOneTemplate() {
     return (
@@ -43,6 +44,7 @@ function ShieldedCombatPlusOneTemplate() {
                 <br />
                 You gain proficiency with Shields, Flails, Cat o' Nine Tails, Morningstars, and Warpicks.
             </div>
+            <ShieldedCombatPlusOneDesignTemplate />
         </div>
     )
 }

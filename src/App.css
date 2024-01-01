@@ -8,8 +8,8 @@ a:hover {
 }
 
 .AbilityDescriptionSection {
-  outline-style: ridge;
-  outline-width: 12px;
+  outline-style: dashed;
+  outline-width: 4px;
   outline-color: rgb(44, 44, 44);
   background-color: black;
   padding-top: 12px;
@@ -17,33 +17,21 @@ a:hover {
 }
 
 .AbilityHeader {
-
-  font-size: x-large;
-  outline-style: inset;
-  outline-width: 6px;
-  outline-color: rgb(44, 44, 44);
-  padding-top: 4px;
+  font-size: 1.5vw;
   padding-right: 4px;
   padding-left: 4px;
-  margin-left: -25%;
+  color: #0099ff;
 }
 
 .AbilityHeaderSmall {
-  font-size: larger;
-  outline-style: inset;
-  outline-width: 6px;
-  outline-color: rgb(44, 44, 44);
-  padding-top: 4px;
-  padding-right: 4px;
-  padding-left: 4px;
-  margin-left: -25%;
+  font-size: 1.25vw;
   text-align: left;
+  color: #0099ff;
 }
 
 .AbilityCooldown {
-  text-align: left;
+  text-align: right;
   font-size: larger;
-  padding-top: 18px;
   padding-right: 4px;
   padding-left: 4px;
   margin-left: 0%;
@@ -59,16 +47,16 @@ a:hover {
   padding: 0.5%;
   margin-bottom: 12px;
   color: white;
-  outline-style: outset;
-  outline-width: 6px;
-  outline-color: rgb(44, 44, 44);
-  background-image: radial-gradient(rgb(11, 11, 11), black);
 }
 
 .AccordionButton:hover {
   color: red;
 }
 
+.animationFadeIn {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
 .animationRainbowText {
   animation: colorRotate 2s linear 0s infinite;
 }
@@ -102,7 +90,7 @@ a:hover {
 }
 
 .auto-resizable-iframe {
-  max-width: 420px;
+  max-width: 80%;
   margin: 0px auto;
 }
 
@@ -140,8 +128,15 @@ body {
   word-spacing: normal;
 }
 
+.BluePrint {
+  background-color: #001133;
+  border: #0099ff;
+  border-width: 2px;
+  border-style: dashed;
+  border-collapse: separate;
+}
+
 Button {
-  background-image: radial-gradient(rgb(44, 44, 44), black);
 }
 
 Button:hover {
@@ -171,25 +166,12 @@ Button:hover {
   text-align: center;
   align-self: center;
   font-family: 'Times New Roman', Times, serif;
-  font-size: large;
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 300%;
-  height: 50%;
-  padding: 20%;
-  margin-bottom: 12px;
-  color: white;
-  background-color: black;
-  outline-style: outset;
-  outline-width: 6px;
-  outline-color: rgb(44, 44, 44);
-  background-image: radial-gradient(rgb(11, 11, 11), black);
+  font-size: 1.5vw;
+  background-image: linear-gradient(rgb(11, 11, 11), black);
 }
 
 .DesignInsightButton:hover {
   color: red;
-  margin-left: 4%;
-  margin-right: 4%;
 }
 
 .HeaderTitle {
@@ -247,6 +229,10 @@ Button:hover {
   outline-width: 6px;
   outline-color: rgb(44, 44, 44);
   background-image: radial-gradient(rgb(11, 11, 11), black);
+}
+
+.HorizontalLineBlue {
+  border: 1px solid #0099ff;
 }
 
 html::-webkit-scrollbar {
@@ -424,20 +410,22 @@ html::-webkit-scrollbar-thumb {
 
 .ImageLogo {
   width: 100%;
+  outline-style: outset;
+  outline-width: 1px;
+  outline-color: rgb(44, 44, 44);
 }
 
 .ImageLogo:hover {
   width: 100%;
   outline-style: outset;
-  outline-width: 6px;
-  outline-color: rgb(44, 44, 44);
+  outline-width: 3px;
   outline-color: white;
 }
 
 .ImageLogoSelected {
   width: 100%;
   outline-style: inset;
-  outline-width: 6px;
+  outline-width: 3px;
   outline-color: red;
 }
 
@@ -498,12 +486,57 @@ html::-webkit-scrollbar-thumb {
 }
 
 .NavBarButtonGroup {
-  padding: 0px;
-  height: 5vh;
+}
+
+
+.NewContentBody {
+  background-image: linear-gradient(rgba(22, 22, 22, 0.8), black);
   text-align: left;
-  font-size: 2.5vh;
-  background-color: black;
-  background-image: linear-gradient(rgb(22, 22, 22), black);
+}
+
+.NewBanner {
+  text-align: left;
+  border-bottom: 4px solid #0099ff;
+  border-top: 10px groove rgb(66, 66, 66);
+  margin-bottom: 2px;
+}
+
+.NewBannerImage {
+  border: 4px ridge rgb(44, 44, 44);
+  align-self: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  width: 80%;
+}
+
+.NewBannerLinks {
+  text-align:righ;
+}
+
+.NewBannerLogo {
+   width: 75%;
+   margin-left: 12.5%;
+   margin-bottom: 0%;
+}
+
+.NewBannerSubtitle {
+  font-size: 1.25vw;
+}
+
+.NewBannerText {
+  margin-bottom: -1vw;
+  font-size: 2.5vw;
+}
+
+.NewNormalPageLayoutLeft {
+  text-align: left;
+  padding-right: 25px;
+  padding-left: 25px;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  font-size: 1vw;
 }
 
 .NormalPageLayout {
@@ -513,6 +546,7 @@ html::-webkit-scrollbar-thumb {
   padding-right: 10%;
   animation-name: fadeIn;
   animation-duration: 1s;
+  font-size: 1vw;
 }
 
 .NormalPageLayoutLeft {
@@ -590,8 +624,21 @@ html::-webkit-scrollbar-thumb {
   margin-left: 25%;
 }
 
+.OutlineGray {
+  border: rgb(22, 22, 22);
+  border-width: 2px;
+  border-style: double;
+  border-collapse: separate;
+}
+
+.OutlineBlue {
+  border: #0099ff;
+  border-width: 2px;
+  border-style: double;
+  border-collapse: separate;
+}
+
 .ProfileImage {
-  margin-left: -25%;
   margin-right: 10%;
   padding: 0.5%;
   margin-bottom: 12px;
@@ -652,6 +699,11 @@ html::-webkit-scrollbar-thumb {
   text-align: left;
 }
 
+.SectionHeader {
+  text-align: center;
+  color: #0099ff;
+}
+
 .SmallHeaderBox {
   text-align: center;
   align-self: center;
@@ -660,7 +712,6 @@ html::-webkit-scrollbar-thumb {
   padding-left: 5%;
   padding-top: 10%;
   padding-bottom: 10%;
-  margin-left: -15%;
   color: white;
   background-color: rgb(44, 44, 44);
   outline-style: outset;
@@ -771,6 +822,14 @@ th,
   text-align: left;
 }
 
+.textAlignRight {
+  text-align: right;
+}
+
+.textColorBlue {
+  color: #0099ff;
+}
+
 .textColorBrown {
   color: brown;
 }
@@ -780,7 +839,7 @@ th,
 }
 
 .textColorIndigo {
-  color: rgb(80, 26, 228);
+  color: rgb(110, 100, 255);
 }
 
 .textColorOrange {
@@ -801,6 +860,14 @@ th,
 
 .textFontPixel {
   font-family: 'PixelFont';
+}
+
+.width35px {
+  width: 35px;
+}
+
+.width50 {
+  width: 50%;
 }
 
 .width70 {
@@ -829,4 +896,8 @@ th,
 
 .width105 {
   width: 105%;
+}
+
+.width200 {
+  width: 200%;
 }

@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { PyromancyTier12DesignTemplate } from './PyromancyTier12DesignTemplate';
 
 function PyromancyTier12Template() {
     return (
@@ -23,6 +24,7 @@ function PyromancyTier12Template() {
                 Your <b className="textColorRed">Fire</b> damage spells treat creatures that are resistant to fire damage as if they have no resistance, including the -3 Fire damage effect granted by the Soaked - Status.
                 <br /><br />
             </div>
+            <PyromancyTier12DesignTemplate />
         </div>
     )
 }

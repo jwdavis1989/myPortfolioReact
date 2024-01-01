@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { ShieldedCombatTier12DesignTemplate } from './ShieldedCombatTier12DesignTemplate';
 
 function ShieldedCombatTier12Template() {
     return (
@@ -22,6 +23,7 @@ function ShieldedCombatTier12Template() {
 
                 <p />Additionally, creatures that fail the Dexterity Save gain Disadvantage on their next attack roll.
             </div>
+            <ShieldedCombatTier12DesignTemplate />
         </div>
     )
 }

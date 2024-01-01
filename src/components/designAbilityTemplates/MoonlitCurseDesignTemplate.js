@@ -3,15 +3,14 @@ import { Grid } from '@mui/material';
 function MoonlitCurseDesignTemplate() {
     return (
         <div>
+            <hr className="HorizontalLineBlue" />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">MOONLIT CURSE</b>
-                </Grid>
-                <Grid item xs={6}>
-                    <span className="AbilityCooldown textColorRed">DESIGN INSIGHTS</span><br /><br />
+                    <b className="AbilityHeader animationcolorWhiteOrangeFlashing">DESIGN INSIGHTS</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeft moveLeft20">
+            <hr className="HorizontalLineBlue" />
+            <div className="animationFadeIn">
                 This ability has two primary purposes:
                 <ul>
                     <li>
@@ -30,9 +29,7 @@ function MoonlitCurseDesignTemplate() {
                     <b className="AbilityHeaderSmall">WHY DOES THE RANK MATTER?</b>
                 </Grid>
             </Grid>
-            <br />
-            <div className="NormalPageLayoutLeft moveLeft20">
-
+            <div className="animationFadeIn">
                 At lower levels, this ability can't generally be used for both purposes simultaneously
                 as the target champion must be killed within 2 seconds of application.
                 <br />
@@ -48,8 +45,7 @@ function MoonlitCurseDesignTemplate() {
                     <b className="AbilityHeaderSmall">THEMING</b>
                 </Grid>
             </Grid>
-            <br />
-            <div className="NormalPageLayoutLeft moveLeft20">
+            <div className="animationFadeIn">
                 Moonlit Curse shows off Yingyue's ability to not just harvest Qi, but control Qi to puppeteer her
                 enemies and give them a brief taste of her wretched existence.
             </div>

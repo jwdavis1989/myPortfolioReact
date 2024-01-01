@@ -1,6 +1,7 @@
 import { Grid } from '@mui/material';
 
 import { SpellListTalentTreeComponent } from "../../SpellListTalentTreeComponent";
+import { PyromancyPlusOneDesignTemplate } from './PyromancyPlusOneDesignTemplate';
 
 function PyromancyPlusOneTemplate() {
     return (
@@ -49,6 +50,7 @@ function PyromancyPlusOneTemplate() {
             <div className="NormalPageLayoutLeft moveLeft20">
                 <SpellListTalentTreeComponent />
             </div>
+            <PyromancyPlusOneDesignTemplate />
         </div>
     )
 }

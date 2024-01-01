@@ -1,81 +1,8 @@
-import swwOverhaulLogo from "../../resources/images/SW Skill Tree Logo Final 1024px.png";
 import { Grid } from '@mui/material';
-import CasinoSharpIcon from '@mui/icons-material/CasinoSharp';
-import { LevelingPointsGuideComponent } from "./LevelingPointsGuideComponent";
 
 function OverhaulOverviewComponent() {
     return (
-        <div className="backgroundRadialBlack backgroundRadialBlack">
-            <Grid id="Row 0 Leadership Title" container spacing={0}>
-                <Grid item xs={12}>
-                    <p className="HeaderTitleWide">
-                    <CasinoSharpIcon fontSize='inherit' /> OVERVIEW
-                    </p>
-                </Grid>
-            </Grid>
-            <Grid id="Row 0 Summary" container spacing={0}>
-                <Grid item xs={1}>
-                </Grid>
-                <Grid item xs={3}>
-                    <br /><br />
-                    <img className='ImageBorder' src={swwOverhaulLogo} width="95%" alt="D&D Overhaul" />
-                </Grid>
-                <Grid item xs={7}>
-                    <br />
-                    <p className="SmallHeaderTitleNoHover width100">
-                        SUMMARY
-                    </p>
-                    <div className="NormalPageLayoutLeft ScrollingBox">
-                        Published and available on roll20's virtual tabletop, Silverwind Workshop's Skill Trees & Leveling Overhaul
-                        strives to take 5th edition D&D to the next level. Revamping classes, combat, and crafting gameplay loops. This addon
-                        is more than just a leveling overhaul. Build a character by spending talent points in your choice of 29 skill trees,
-                        adding significantly more character concepts to create your dream character!
-                    </div>
-                </Grid>
-            </Grid>
-
-            <Grid id="Row 1 How does it work?" container spacing={0}>
-                <Grid item xs={1} />
-                <Grid item xs={10}>
-                    <br />
-                    <p className="SmallHeaderTitleNoHover width100">
-                        HOW DOES IT WORK?
-                    </p>
-                    <div className="NormalPageLayoutLeft ScrollingBox">
-                        Characters created using this publication are not built from a list of premade classes,
-                        rather they mix and match various Skill Points in any of 29 different skill trees to
-                        unlock powerful Talents every 3 points spent in a skill tree.
-                        <br />This allows players to effectively create their own custom class.
-                        <br /><br />
-                        <p>
-                            <span className="AbilityHeaderSmall moveRight0">Skill Points & Max Skill Tree Level:</span>
-                            <p />Whenever you level up, you gain a number of Skill Points equal to the amount listed in the <u><a href="#LevelingPointsGuide"><u><a href="#LevelingPointsGuide"><b>Leveling Points Guide</b></a></u></a></u>.
-
-
-                            <p />
-                            You may spend Skill Points in any skill tree to further empower your character's abilities, up to your Max Skill Tree Level.
-                            Please see the <u><a href="#LevelingPointsGuide"><u><a href="#LevelingPointsGuide"><b>Leveling Points Guide</b></a></u></a></u> for the maximum level you may have in a Skill Tree based on your level.
-                            <p />
-                            <br />
-                            <span className="AbilityHeaderSmall moveRight0">Spending Skill Points:</span>
-                            <p />Every time you add a Skill Point to a Skill Tree, you gain a bonus listed under the tree's [+1] Effect.
-                            If that point pushes your Skill Tree Level to any multiple of 3, you also gain a powerful new ability called a Talent.
-                            <p />
-                            Talents are listed in the Skill Tree with a <b className="textFontPixel">[T3]</b>, <b className="textFontPixel">[T6]</b>, <b className="textFontPixel">[T9]</b>, <b className="textFontPixel">[T12]</b>, <b className="textFontPixel">[T15]</b>, or <b className="textFontPixel">[T18]</b> tag next to their name, signifying what Skill Tree Level you need to unlock them.
-                            <p />
-                            <br />
-                            <span className="AbilityHeaderSmall moveRight0">Attribute Points:</span>
-                            <p />At levels 4, 8, 12, 16, and 20 you gain +2 Attribute Points.
-                            These points may be spent to increase a chosen Ability Score (e.g. Strength or Dexterity) by +1 for each Attribute Point.
-                            This increase may not increase an Ability Score above 20 unless you have a Skill Tree talent that states it increases the maximum points you may have in an Ability Score.
-                        </p>
-                        <p />
-                        <div id="LevelingPointsGuide" className="AbilityHeaderSmall moveRight0">Leveling Points Guide:</div>
-                        <LevelingPointsGuideComponent />
-                    </div>
-                </Grid>
-            </Grid>
-
+        <div className="">
             <Grid id="Row 2 What Problems Does It Solve?" container spacing={0}>
                 <Grid item xs={1} />
                 <Grid item xs={10}>
@@ -84,7 +11,7 @@ function OverhaulOverviewComponent() {
                         WHAT PROBLEMS DOES THIS SYSTEM SOLVE?
                     </p>
                     <div className="NormalPageLayoutLeft ScrollingBox"><p />
-                        <span className="AbilityHeaderSmall moveLeft5">Limited Character Playstyles & Classes:</span>
+                        <span className="AbilityHeaderSmall">Limited Character Playstyles & Classes:</span>
                         <p />
                         In the base game of 5th Edition Dungeons & Dragons, players pick from a small list of classes
                         when creating their character. While the options are classic, there are very few of them.
@@ -110,7 +37,7 @@ function OverhaulOverviewComponent() {
                             </ul>
                         </p>
                         <p />
-                        <span className="AbilityHeaderSmall moveLeft5">Elemental Mages of Only One Element Aren't Fleshed Out,
+                        <span className="AbilityHeaderSmall">Elemental Mages of Only One Element Aren't Fleshed Out,
                             and Mixing Spell Schools is Poorly Supported:</span>
                         <p />
                         This system adds Skill Trees specifically dedicated to many spell schools including elemental
@@ -129,7 +56,7 @@ function OverhaulOverviewComponent() {
                             reduces affected creatures' Armor Class, and leaves behind damaging Magma that can't be
                             extinguished for 24 hours</i></b>!
                         <p />
-                        <span className="AbilityHeaderSmall moveLeft5">Martial & Caster Disparity of Power and Gameplay:</span>
+                        <span className="AbilityHeaderSmall">Martial & Caster Disparity of Power and Gameplay:</span>
                         <p />
                         Go on to many online forums for 5th Edition D&D and you'll see that a lot of people find Martial characters to be
                         underwhelming in both gameplay complexity, and actual effectiveness. The tactical choices available to a Fighter for
@@ -146,7 +73,7 @@ function OverhaulOverviewComponent() {
                                 enhancements that allow characters built without magic to be just as engaging as those with.</li>
                         </ul>
                         <p />
-                        <span className="AbilityHeaderSmall moveLeft5">Crafting Rules and Gameplay is Poorly Fleshed-Out:</span>
+                        <span className="AbilityHeaderSmall">Crafting Rules and Gameplay is Poorly Fleshed-Out:</span>
                         <p />
                         Let's face it, most games do a poor job of catering to players who, like myself,
                         enjoy crafting as a primary gameplay loop and power source. With that in mind, special-attention has been given to
