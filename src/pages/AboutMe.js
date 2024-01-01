@@ -20,11 +20,18 @@ function AboutMe() {
                             alt="Profile" />
                     </Grid>
                     <Grid item xs={7} className='textAlignLeft'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit anim id est laborum.
+                        My name is Jerry Davis and I've been creating game mods, maps, and modes since I
+                        was 11. I've always loved creating gameplay experiences that challenge players,
+                        while letting them shine in their own unique way. Truly, there is no field I could ever be happy
+                        in outside of the gaming industry.
+                        <p>
+                            Silverwind Workshop is my independent game design brand, created after years of
+                            being a paid Dungeon Master for Dungeons & Dragons.
+                        </p>
+                        <p>
+                            Over that time, I playtested my Silverwind Workshop's Skill Tree system extensively, before eventually releasing it
+                            on the popular virtual tabletop, Roll20.
+                        </p>
                     </Grid>
                     <Grid item xs={3} className='textAlignRight'>
                         <b className='textColorBlue'>
@@ -32,9 +39,9 @@ function AboutMe() {
                             Download:
                         </b>
                         <p>
-                        <Button variant="outlined" component="a" href={gameDesignPDF} target="_blank" rel="noreferrer">
-                            <PictureAsPdfIcon alt="Download Resume" className="" />
-                        </Button>
+                            <Button variant="outlined" component="a" href={gameDesignPDF} target="_blank" rel="noreferrer">
+                                <PictureAsPdfIcon alt="Download Resume" className="" />
+                            </Button>
                         </p>
                     </Grid>
                 </Grid>

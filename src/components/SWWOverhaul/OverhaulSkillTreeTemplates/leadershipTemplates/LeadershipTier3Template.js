@@ -18,10 +18,11 @@ function LeadershipTier3Template() {
             <div className="animationFadeIn">
                 You gain several Tactical Commands you may issue to friendly creatures that can hear you.
                 The different Tactical Commands are listed below.
-                <br />
-                <b>Note:</b>
-                <br />
-                A creature can only benefit from Tactical Commands once per round.
+                <p>
+                    <b>Note:</b>
+                    <br />
+                    A creature can only benefit from Tactical Commands once per round.
+                </p>
             </div>
             <p>
                 <b className="AbilityHeaderSmall">COMMANDS LIST</b>

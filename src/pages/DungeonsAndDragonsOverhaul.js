@@ -1,4 +1,4 @@
-import { Grid, Button, ButtonGroup } from '@mui/material';
+import { Grid, Button, ButtonGroup, Rating } from '@mui/material';
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 
@@ -108,25 +108,50 @@ function DungeonsAndDragonsOverhaul() {
                         </ul>
                     </p>
                     <p>
+                        <b className='textColorBlue'>
+                            Customer Review:
+                        </b>
+                        <br />
+                            <i>
+                                “The customization of this system has honestly made it hard for me to go back to standard D&D.
+                                It honestly impresses me the depth and creativity that is present in this.
+                                If more flair and flexibility in combat is what you want, this is for you.”
+                            </i>
+                        <Grid
+                            container
+                            direction="row"
+                            justifyContent="flex-end"
+                            alignItems="flex-start"
+                        >
+                            <Grid item xs={4}>
+                                <b>Rating: </b>
+                                <br />
+                                <Rating name="read-only" value={5} readOnly title='5/5 Stars' sx={{
+        fontSize: "1.5vw"
+    }}/>
+                            </Grid>
+                        </Grid>
+                    </p>
+                    <p>
                         <h3 id="Skill Tree Demos" className="SectionHeader">
-                            Interactive Skill Tree Demo & Design Insights:
+                            Interactive Skill Tree Demonstration & Design Insights:
                             <hr className="HorizontalLineBlue" />
                         </h3>
                         <Grid container spacing={0} id="Row 3 Example Tree Icons Reworked">
                             <Grid item xs={12}>
                                 <ButtonGroup variant='outlined' fullWidth>
                                     <Button
-                                        title='Previous Ability' style={{ fontSize: BUTTON_FONT_SIZE }}
+                                        title='Leadership Demonstration' style={{ fontSize: BUTTON_FONT_SIZE }}
                                         onClick={() => { setSelectedTree(1); document.getElementById('Skill Tree Demos').scrollIntoView() }} >
                                         Leadership
                                     </Button>
                                     <Button
-                                        title='Previous Ability' style={{ fontSize: BUTTON_FONT_SIZE }}
+                                        title='Pyromancy Demonstration' style={{ fontSize: BUTTON_FONT_SIZE }}
                                         onClick={() => { setSelectedTree(2); document.getElementById('Skill Tree Demos').scrollIntoView(); }} >
                                         Pyromancy
                                     </Button>
                                     <Button
-                                        title='Previous Ability' style={{ fontSize: BUTTON_FONT_SIZE }}
+                                        title='Shielded Combat Demonstration' style={{ fontSize: BUTTON_FONT_SIZE }}
                                         onClick={() => { setSelectedTree(3); document.getElementById('Skill Tree Demos').scrollIntoView(); }} >
                                         Shielded Combat
                                     </Button>
@@ -145,9 +170,9 @@ function DungeonsAndDragonsOverhaul() {
                         </p>
                     </p>
                 </div>
-            </p>
+            </p >
             <br /><br /><br /><br /><br /><br /><br /><br /><br />
-        </div>
+        </div >
     );
 }
 

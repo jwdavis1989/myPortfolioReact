@@ -8,7 +8,8 @@ function LeadershipTier3DesignTemplate() {
             <hr className="HorizontalLineBlue" />
             <div className="animationFadeIn">
                 This talent lays the foundation of your general gameplay loop as a Leader.
-                <br />Every turn, you have 4 different commands you MAY issue your team to change the flow of battle to your favor.
+                <br />
+                Every turn, you have 4 different commands you may choose to issue your team in order to change the flow of battle.
                 Finding the right command for the situation is an expression of mastery for the player.
             </div>
             <p>
@@ -16,7 +17,8 @@ function LeadershipTier3DesignTemplate() {
                 <div className="animationFadeIn">
                     Knight Takes Pawn allows you to perform a combo attack with an ally. This combo attack grants that ally an
                     entire extra attack worth of potential damage.
-                    <br />This ability also requires the ally to be within melee range, thereby giving melee a slight advantage in damage
+                    <br />
+                    This ability also requires the ally to be within melee range, thereby giving melee a slight advantage in damage
                     potential to balance their closer range.
                     <p />Promotion on the other hand works very well on ranged attackers as they can use the advantage you give
                     them to hit priority targets anywhere on the battlefield.
