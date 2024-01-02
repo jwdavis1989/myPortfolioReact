@@ -9,10 +9,10 @@ import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 function AboutMe() {
     return (
         <div>
-            <h2 className="SectionHeader">
+            <h3 className="SectionHeader">
                 About Me
                 <hr className="HorizontalLineBlue" />
-            </h2>
+            </h3>
             <p className="NormalPageLayout">
                 <Grid container spacing={0}>
                     <Grid item xs={2}>
@@ -44,12 +44,11 @@ function AboutMe() {
                         </p>
                     </Grid>
                 </Grid>
-                <br />
                 <p>
-                    <h3 className="SectionHeader">
+                    <h4 className="SectionHeader">
                         <SchoolIcon fontSize='inherit' /> Education
                         <hr className="HorizontalLineBlue" />
-                    </h3>
+                    </h4>
                     <p className="NormalPageLayout">
                         <b>Bachelors of Computer Science with a Minor in Business</b>
                         <br />
@@ -57,11 +56,10 @@ function AboutMe() {
                         <br />
                         <i>08/2016 – 05/2020</i>
                     </p>
-                    <br />
-                    <h3 className="SectionHeader">
+                    <h4 className="SectionHeader">
                         <EmojiEventsIcon fontSize='inherit' /> Awards
                         <hr className="HorizontalLineBlue" />
-                    </h3>
+                    </h4>
                     <p className="NormalPageLayout">
                         Infosys Certificate of Appreciation – Going The Extra
                         Mile
@@ -71,11 +69,10 @@ function AboutMe() {
                         Graduated with Cum Laude
                         <br />
                     </p>
-                    <br />
-                    <h3 className="SectionHeader">
+                    <h4 className="SectionHeader">
                         <SportsEsportsIcon fontSize='inherit' /> I Love Games That . . .
                         <hr className="HorizontalLineBlue" />
-                    </h3>
+                    </h4>
                     <p className="NormalPageLayoutLeft">
                         <p>
                             <b className='textColorBlue'>

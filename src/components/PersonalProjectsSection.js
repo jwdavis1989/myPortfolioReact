@@ -5,10 +5,10 @@ import ChineseVampireBanner from '../resources/images/designExercise/ChineseVamp
 function PersonalProjectsSection() {
     return (
         <div id="PersonalProjectsSection">
-            <h1 className="SectionHeader">
+            <h3 className="SectionHeader">
                 PERSONAL PROJECTS
                 <hr className="HorizontalLineBlue" />
-            </h1>
+            </h3>
             This is a collection of fun personal projects I've created to hone and demonstrate my game design skills.
             <br />
             <br />

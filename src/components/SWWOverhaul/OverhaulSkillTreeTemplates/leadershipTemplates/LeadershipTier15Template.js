@@ -10,7 +10,7 @@ function LeadershipTier15Template() {
                     <b className="AbilityHeader">PHALANX</b>
                 </Grid>
                 <Grid item xs={6} className='AbilityCooldown'>
-                    <span>LEADERSHIP TIER 15 TALENT&nbsp;</span>
+                    <b>TIER 15 TALENT&nbsp;</b>
                 </Grid>
             </Grid>
             <hr className="HorizontalLineBlue" />

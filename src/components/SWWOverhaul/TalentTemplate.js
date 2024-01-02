@@ -11,7 +11,7 @@ function TalentTemplate({ title = false, insightSection = false, treeName, talen
                             <b className="AbilityHeader">{talentName}</b>
                         </Grid>
                         <Grid item xs={6} className='AbilityCooldown'>
-                            <span>{treeName + " " + talentSlot}&nbsp;</span>
+                            <b>{treeName + " " + talentSlot}&nbsp;</b>
                         </Grid>
                     </Grid>
                     <hr className="HorizontalLineBlue" />

@@ -10,7 +10,7 @@ function LeadershipTier12Template() {
                     <b className="AbilityHeader">VETERAN EXPERTISE</b>
                 </Grid>
                 <Grid item xs={6} className='AbilityCooldown'>
-                    <span>LEADERSHIP TIER 12 TALENT&nbsp;</span>
+                    <b>TIER 12 TALENT&nbsp;</b>
                 </Grid>
             </Grid>
             <hr className="HorizontalLineBlue" />

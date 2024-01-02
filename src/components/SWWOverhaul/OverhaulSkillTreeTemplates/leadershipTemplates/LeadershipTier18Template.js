@@ -10,7 +10,7 @@ function LeadershipTier18Template() {
                     <b className="AbilityHeader">CHECKMATE</b>
                 </Grid>
                 <Grid item xs={6} className='AbilityCooldown'>
-                    <span>LEADERSHIP TIER 18 TALENT&nbsp;</span>
+                    <b>TIER 18 TALENT&nbsp;</b>
                 </Grid>
             </Grid>
             <hr className="HorizontalLineBlue" />

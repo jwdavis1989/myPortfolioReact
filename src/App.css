@@ -17,21 +17,19 @@ a:hover {
 }
 
 .AbilityHeader {
-  font-size: 1.5vw;
   padding-right: 4px;
   padding-left: 4px;
   color: #0099ff;
+  font-size: 130%;
 }
 
 .AbilityHeaderSmall {
-  font-size: 1.25vw;
   text-align: left;
   color: #0099ff;
 }
 
 .AbilityCooldown {
   text-align: right;
-  font-size: larger;
   padding-right: 4px;
   padding-left: 4px;
   margin-left: 0%;
@@ -485,6 +483,64 @@ html::-webkit-scrollbar-thumb {
   margin-left: 45vw;
 }
 
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.75rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+  html {
+      font-size: 12px;
+  }
+}
+
+@media (min-width: 480px) {
+  html {
+      font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+      font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+      font-size: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+      font-size: 16px;
+  }
+}
+
 .NavBarButtonGroup {
 }
 
@@ -512,22 +568,23 @@ html::-webkit-scrollbar-thumb {
 }
 
 .NewBannerLinks {
-  text-align:righ;
+  text-align:right;
 }
 
 .NewBannerLogo {
-   width: 75%;
-   margin-left: 12.5%;
-   margin-bottom: 0%;
+   width: 100%;
+   align-self: center;
+   margin-top: 0.5vh;
+   margin-bottom: 0.5vh;
 }
 
 .NewBannerSubtitle {
-  font-size: 1.25vw;
+  font-size: 1rem;
 }
 
 .NewBannerText {
   margin-bottom: -1vw;
-  font-size: 2.5vw;
+  font-size: 2.5rem;
 }
 
 .NewNormalPageLayoutLeft {
@@ -536,7 +593,6 @@ html::-webkit-scrollbar-thumb {
   padding-left: 25px;
   animation-name: fadeIn;
   animation-duration: 1s;
-  font-size: 1vw;
 }
 
 .NormalPageLayout {
@@ -546,7 +602,6 @@ html::-webkit-scrollbar-thumb {
   padding-right: 10%;
   animation-name: fadeIn;
   animation-duration: 1s;
-  font-size: 1vw;
 }
 
 .NormalPageLayoutLeft {
@@ -556,7 +611,6 @@ html::-webkit-scrollbar-thumb {
   padding-right: 10%;
   animation-name: fadeIn;
   animation-duration: 1s;
-  font-size: 1vw;
 }
 
 .NormalPageLayoutLeftSmaller {
@@ -565,7 +619,6 @@ html::-webkit-scrollbar-thumb {
   padding-left: 10%;
   padding-right: 10%;
   font-size: small;
-  font-size: 0.25vw;
 }
 
 .NormalPageLayoutSlim {
@@ -573,7 +626,6 @@ html::-webkit-scrollbar-thumb {
   width: 100%;
   animation-name: fadeIn;
   animation-duration: 1s;
-  font-size: 1vw;
 }
 
 .moveLeft5 {

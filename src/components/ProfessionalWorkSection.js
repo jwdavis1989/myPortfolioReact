@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 function ProfessionalWorkSection() {
     return (
         <div id="ProfessionalWorkSection">
-            <h1 className="SectionHeader">
+            <h3 className="SectionHeader">
                 PROFESSIONAL WORK
                 <hr className="HorizontalLineBlue" />
-            </h1>
+            </h3>
             <br />
             <p className="NormalPageLayout">
                 <Link to="/SWWLevelingOverhaul" onClick={() => window.scrollTo(0, 0)}>

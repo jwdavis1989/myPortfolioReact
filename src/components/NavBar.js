@@ -1,7 +1,7 @@
 import { Button, ButtonGroup, Grid } from '@mui/material';
 import { Link } from "react-router-dom";
 import { useEffect } from 'react';
-import { BUTTON_FONT_SIZE, BUTTON_ICON_SIZE } from "../constants/constants.js";
+import { NAV_BUTTON_FONT_SIZE, NAV_BUTTON_ICON_SIZE } from "../constants/constants.js";
 
 import CasinoSharpIcon from '@mui/icons-material/CasinoSharp';
 import DashboardSharpIcon from '@mui/icons-material/DashboardSharp';
@@ -27,23 +27,23 @@ function NavBar() {
                 <Grid className="NewContentBody">
                     <ButtonGroup variant="text" className='NavBarButtonGroup' fullWidth>
                         <Button component={Link} to="/" onClick={() => window.scrollTo(0, 0)} color="primary" className='NavBarButton width100'
-                            variant='fill' startIcon={<DashboardSharpIcon style={{ fontSize: BUTTON_ICON_SIZE}} />} style={{ fontSize: BUTTON_FONT_SIZE}}
+                            variant='fill' startIcon={<DashboardSharpIcon style={{ fontSize: NAV_BUTTON_ICON_SIZE}} />} style={{ fontSize: NAV_BUTTON_FONT_SIZE}}
                             fullWidth>
                             Home
                         </Button>
                         <Button component={Link} to="/#ProfessionalWorkSection" onClick={() => document.getElementById('ProfessionalWorkSection').scrollIntoView() } color="primary" className='NavBarButton width100'
-                            style={{ fontSize: BUTTON_FONT_SIZE }}
-                            variant='fill' startIcon={<CasinoSharpIcon style={{ fontSize: BUTTON_ICON_SIZE}} />} fullWidth>
+                            style={{ fontSize: NAV_BUTTON_FONT_SIZE }}
+                            variant='fill' startIcon={<CasinoSharpIcon style={{ fontSize: NAV_BUTTON_ICON_SIZE}} />} fullWidth>
                             Professional Work
                         </Button>
                         <Button component={Link} to="/#PersonalProjectsSection" onClick={() => document.getElementById('PersonalProjectsSection').scrollIntoView() } color="primary" className='NavBarButton width100'
-                            style={{ fontSize: BUTTON_FONT_SIZE }}
-                            variant='fill' startIcon={<EngineeringSharpIcon style={{ fontSize: BUTTON_ICON_SIZE}} />} fullWidth>
+                            style={{ fontSize: NAV_BUTTON_FONT_SIZE }}
+                            variant='fill' startIcon={<EngineeringSharpIcon style={{ fontSize: NAV_BUTTON_ICON_SIZE}} />} fullWidth>
                             Personal Projects
                         </Button>
-                        <Button component={Link} to="/AboutMe" onClick={() => window.scrollTo(0, 0)} color="primary" className='NavBarButton width100'
-                            style={{ fontSize: BUTTON_FONT_SIZE }}
-                            variant='fill' startIcon={<AccountBoxSharpIcon style={{ fontSize: BUTTON_ICON_SIZE}} />} fullWidth>
+                        <Button component={Link} to="/AboutMe" onClick={() => window.scrollTo(0, 0)} color="primary" className='NavBarButton'
+                            style={{ fontSize: NAV_BUTTON_FONT_SIZE }}
+                            variant='fill' startIcon={<AccountBoxSharpIcon style={{ fontSize: NAV_BUTTON_ICON_SIZE}} />} fullWidth>
                             About & Resume
                         </Button>
                     </ButtonGroup>
