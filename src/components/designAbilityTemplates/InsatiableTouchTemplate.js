@@ -21,11 +21,7 @@ function InsatiableTouchTemplate() {
                 This ability can not be cast on yourself.
             </div>
             <br />
-            <Grid container spacing={0}>
-                <Grid item xs={6}>
-                    <b className="AbilityHeaderSmall">EMPOWERED</b>
-                </Grid>
-            </Grid>
+            <b className="AbilityHeaderSmall">EMPOWERED</b>
             <div className="animationFadeIn">
                 Insatiable Touch now instantly cures Grievous Wounds and increases the ally's
                 movement speed by 25% <span className="textColorIndigo">(+5% per 100 AP)</span> for 6 seconds.

@@ -20,11 +20,8 @@ function ResentfulLungeTemplate() {
                 <span className="textColorIndigo"> (+40% AP)</span> Magic Damage and
                 she gains a stack of Qi.
             </div>
-            <br /><Grid container spacing={0}>
-                <Grid item xs={6}>
-                    <b className="AbilityHeaderSmall">EMPOWERED</b>
-                </Grid>
-            </Grid>
+            <br />
+            <b className="AbilityHeaderSmall">EMPOWERED</b>
             <div className="animationFadeIn">
                 Resentful Lunge can be used a second time within 3 seconds for free.
                 The second use of Resentful Lunge doesn't provide a stack of Qi, knocks the target up for 1 second,

@@ -1,14 +1,10 @@
-import { Grid } from '@mui/material';
+
 
 function MoonlitCurseDesignTemplate() {
     return (
         <div>
             <hr className="HorizontalLineBlue" />
-            <Grid container spacing={0}>
-                <Grid item xs={6}>
-                    <b className="AbilityHeader animationcolorWhiteOrangeFlashing">DESIGN INSIGHTS</b>
-                </Grid>
-            </Grid>
+            <b className="AbilityHeader animationcolorWhiteOrangeFlashing">DESIGN INSIGHTS</b>
             <hr className="HorizontalLineBlue" />
             <div className="animationFadeIn">
                 This ability has two primary purposes:
@@ -24,11 +20,8 @@ function MoonlitCurseDesignTemplate() {
                 </ul>
                 <br /> How you use it will depend on the situation and the rank of the ability.
             </div>
-            <br /><Grid container spacing={0}>
-                <Grid item xs={6}>
-                    <b className="AbilityHeaderSmall">WHY DOES THE RANK MATTER?</b>
-                </Grid>
-            </Grid>
+            <br />
+            <b className="AbilityHeaderSmall">WHY DOES THE RANK MATTER?</b>
             <div className="animationFadeIn">
                 At lower levels, this ability can't generally be used for both purposes simultaneously
                 as the target champion must be killed within 2 seconds of application.
@@ -40,11 +33,7 @@ function MoonlitCurseDesignTemplate() {
                 powerful way to support your team and fits her theming as an aggressive enchanter very well.
             </div>
             <br />
-            <Grid container spacing={0}>
-                <Grid item xs={6}>
-                    <b className="AbilityHeaderSmall">THEMING</b>
-                </Grid>
-            </Grid>
+            <b className="AbilityHeaderSmall">THEMING</b>
             <div className="animationFadeIn">
                 Moonlit Curse shows off Yingyue's ability to not just harvest Qi, but control Qi to puppeteer her
                 enemies and give them a brief taste of her wretched existence.

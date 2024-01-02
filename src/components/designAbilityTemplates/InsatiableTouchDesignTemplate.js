@@ -1,14 +1,10 @@
-import { Grid } from "@mui/material";
+
 
 function InsatiableTouchDesignTemplate() {
     return (
         <div>
             <hr className="HorizontalLineBlue" />
-            <Grid container spacing={0}>
-                <Grid item xs={6}>
-                    <b className="AbilityHeader textColorRed animationcolorWhiteOrangeFlashing">DESIGN INSIGHTS</b>
-                </Grid>
-            </Grid>
+            <b className="AbilityHeader textColorRed animationcolorWhiteOrangeFlashing">DESIGN INSIGHTS</b>
             <hr className="HorizontalLineBlue" />
             <div className="animationFadeIn">
                 With this ability, I wanted to create a truly unique form of support healing.
@@ -17,11 +13,7 @@ function InsatiableTouchDesignTemplate() {
                 (Omnivamp is a stat in League of Legends that heals the user for a % of their damage dealt.)
             </div>
             <br />
-            <Grid container spacing={0}>
-                <Grid item xs={6}>
-                    <b className="AbilityHeaderSmall">WHY CAN'T SHE USE IT ON HERSELF?</b>
-                </Grid>
-            </Grid>
+            <b className="AbilityHeaderSmall">WHY CAN'T SHE USE IT ON HERSELF?</b>
             <div className="animationFadeIn">
                 As before, Yingyue is a support character first, even if her
                 kit (and thematically, her hunger for Qi) give her a very aggressive lean.
@@ -41,11 +33,7 @@ function InsatiableTouchDesignTemplate() {
                 are plentiful and weak, however killing them is the safest way to earn Gold to buy equipment.)
             </div>
             <br />
-            <Grid container spacing={0}>
-                <Grid item xs={6}>
-                    <b className="AbilityHeaderSmall">THEMING</b>
-                </Grid>
-            </Grid>
+            <b className="AbilityHeaderSmall">THEMING</b>
             <div className="animationFadeIn">
                 Insatiable Touch allows her to temporarily share her Qi stealing power with an ally. This makes them
                 ravenous for lifeforce, with the empowered version causing them to sprint towards their prey.
