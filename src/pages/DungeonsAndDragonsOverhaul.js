@@ -53,18 +53,18 @@ function DungeonsAndDragonsOverhaul() {
                     <Grid item xs={9.6} >
                         <ButtonGroup className='NavBarButtonGroup' fullWidth>
                             <Button className="ImageLogo" startIcon={<LocalGroceryStoreIcon style={{ fontSize: BUTTON_ICON_SIZE }} />}
-                                style={{ fontSize: BUTTON_FONT_SIZE, width: "100%" }}
+                                style={{ fontSize: BUTTON_FONT_SIZE }}
                                 component="a" href="https://marketplace.roll20.net/browse/gameaddon/14629/silverwind-workshops-skill-trees-and-leveling-overhaul" target="_blank" rel="noreferrer">
                                 Store Page
                             </Button>
                             <Button className="ImageLogo" startIcon={<DownloadIcon style={{ fontSize: BUTTON_ICON_SIZE }} />}
-                                style={{ fontSize: BUTTON_FONT_SIZE, width: "100%" }}
+                                style={{ fontSize: BUTTON_FONT_SIZE }}
                                 component="a" href={patchNotes} target="_blank" rel="noreferrer">
                                 Patch Notes
                             </Button>
                             <Button component={Link} to="/SWWLevelingOverhaulTutorial" onClick={() => window.scrollTo(0, 0)}
                                 className="ImageLogo" startIcon={<HelpOutlineIcon style={{ fontSize: BUTTON_ICON_SIZE }} />}
-                                style={{ fontSize: BUTTON_FONT_SIZE, width: "100%" }}>
+                                style={{ fontSize: BUTTON_FONT_SIZE }}>
                                 Tutorial
                             </Button>
                         </ButtonGroup>

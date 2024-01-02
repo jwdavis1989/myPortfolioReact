@@ -204,8 +204,9 @@ function DesignExercises() {
                         </Grid>
                     </Grid>
                     <p />
-                    <Grid id="Row 1 Ability Icons" container spacing={0} className='textAlignCenter'>
-                        <Grid item xs={0.5} />
+                    <Grid id="Row 1 Ability Icons" container spacing={0} className='textAlignCenter' 
+                    direction="row" justifyContent="space-evenly"
+                    alignItems="flex-start" >
                         <Grid item xs={0.8} className='textAlignCenter'>
                             <Button variant="outlined" style={{ minWidth: '1px', maxWidth: "30px", minHeight: '60%', maxHeight: '60%' }}
                                 title='Previous Ability'
@@ -213,7 +214,6 @@ function DesignExercises() {
                                 <NavigateBeforeIcon style={{ minWidth: '1px', maxWidth: "30px", minHeight: '60%', maxHeight: '60%' }} />
                             </Button>
                         </Grid>
-                        <Grid item xs={0.2} />
                         <Grid item xs={1}>
                             <img onClick={() => setAbilityDescription(1)}
                                 className="ImageLogo" src={AbilityPassiveQiIcon}
@@ -222,7 +222,6 @@ function DesignExercises() {
                                 <b id='Passive'>Passive</b>
                             </p>
                         </Grid>
-                        <Grid item xs={1} />
                         <Grid item xs={1}>
                             <img onClick={() => setAbilityDescription(2)}
                                 className="ImageLogo" src={AbilityJadeReachIcon}
@@ -231,7 +230,6 @@ function DesignExercises() {
                                 <b id='Q'>Q</b>
                             </p>
                         </Grid>
-                        <Grid item xs={1} />
                         <Grid item xs={1}>
                             <img onClick={() => setAbilityDescription(3)}
                                 className="ImageLogo" src={AbilityVengefulLeapIcon}
@@ -240,7 +238,6 @@ function DesignExercises() {
                                 <b id='W'>W</b>
                             </p>
                         </Grid>
-                        <Grid item xs={1} />
                         <Grid item xs={1}>
                             <img onClick={() => setAbilityDescription(4)}
                                 className="ImageLogo" src={AbilityInsatiableTouchIcon}
@@ -249,7 +246,6 @@ function DesignExercises() {
                                 <b id='E'>E</b>
                             </p>
                         </Grid>
-                        <Grid item xs={1} />
                         <Grid item xs={1}>
                             <img onClick={() => setAbilityDescription(5)}
                                 className="ImageLogo" src={AbilityMoonlightCurseIcon}
@@ -258,7 +254,6 @@ function DesignExercises() {
                                 <b id='R'>R</b>
                             </p>
                         </Grid>
-                        <Grid item xs={0.15} />
                         <Grid item xs={0.8} className='textAlignCenter'>
                             <Button variant="outlined" style={{ minWidth: '1px', maxWidth: "30px", minHeight: '60%', maxHeight: '60%' }}
                                 title='Next Ability'

@@ -44,7 +44,6 @@ function Header() {
                                 </IconButton>
                             </ButtonGroup>
                         </Grid>
-                        <Grid item md={0} sm={2} xs={2} />
                     </Grid>
                     <NavBar />
                 </Grid>
