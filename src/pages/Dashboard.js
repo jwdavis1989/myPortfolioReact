@@ -4,9 +4,9 @@ import { ProfessionalWorkSection } from '../components/ProfessionalWorkSection';
 function Dashboard() {
     return (
         <div>
-            <h2 className='textColorBlue'>
+            <h4 className='textColorBlue'>
                 Hello there, welcome to my portfolio!
-            </h2>
+            </h4>
             <p>
                 As a Game Designer, I created Silverwind Workshop, an independent Dungeons & Dragons 5th Edition content
                 creator which uses game design principles, player feedback, & testing to enrich
@@ -23,9 +23,9 @@ function Dashboard() {
             <p>
                 This website was created entirely by me using React, JavaScript, Material UI, CSS, and HTML and is hosted on Microsoft Azure.
             </p>
-            <h3 className='textColorBlue'>
+            <b className='textColorBlue'>
                 Click the images below to learn more about my work.
-            </h3>
+            </b>
             <br />
             <ProfessionalWorkSection />
             <PersonalProjectsSection />

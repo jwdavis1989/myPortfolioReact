@@ -9,7 +9,7 @@ function PyromancyTier6Template() {
                     <b className="AbilityHeader">FIRE LORD</b>
                 </Grid>
                 <Grid item xs={6}>
-                    <span className="AbilityCooldown">PYROMANCY TIER 6 TALENT</span><br /><br />
+                    <span className="AbilityCooldown">TIER 6 TALENT</span><br /><br />
                 </Grid>
             </Grid>
             <Grid container spacing={0}>

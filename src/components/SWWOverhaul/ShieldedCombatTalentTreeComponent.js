@@ -126,10 +126,10 @@ function ShieldedCombatTalentTreeComponent(props) {
     return (
         <div>
             <div>
-                <h2 id="TreeHeaderSection" className="SectionHeader">
+                <h3 id="TreeHeaderSection" className="SectionHeader">
                     ShieldedCombat Tree Demo
                     <hr className="HorizontalLineBlue" />
-                </h2>
+                </h3>
                 <p className="NormalPageLayout">
                     <Grid container spacing={0} id="Logo and Overview">
                         <Grid item xs={4}>
@@ -248,9 +248,9 @@ function ShieldedCombatTalentTreeComponent(props) {
                     <br />
                     <div id="TalentTreeDescription" className="NormalPageLayoutLeft AbilityDescriptionSection">
                         {!abilityDescription >= 1 ?
-                            <h3 className="textAlignCenter animationcolorWhiteOrangeFlashing">
+                            <h4 className="textAlignCenter animationcolorWhiteOrangeFlashing">
                                 Click a talent icon to see its Description and Design Insights.
-                            </h3> : <div> <RenderTalentDescription slot={abilityDescription} />
+                            </h4> : <div> <RenderTalentDescription slot={abilityDescription} />
                                 <p>
                                     <Grid
                                         container

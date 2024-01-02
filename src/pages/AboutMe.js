@@ -9,17 +9,27 @@ import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 function AboutMe() {
     return (
         <div>
-            <h2 className="SectionHeader">
+            <h3 className="SectionHeader">
                 About Me
                 <hr className="HorizontalLineBlue" />
-            </h2>
+            </h3>
             <p className="NormalPageLayout">
                 <Grid container spacing={0}>
                     <Grid item xs={2}>
                         <img className="NewBannerImage" src={profilePicture}
                             alt="Profile" />
+                            <b className='textColorBlue'>
+                            Resume
+                            Download:
+                        </b>
+                        <p>
+                            <Button variant="outlined" component="a" href={gameDesignPDF} target="_blank" rel="noreferrer">
+                                <PictureAsPdfIcon alt="Download Resume" className="" />
+                            </Button>
+                        </p>
                     </Grid>
-                    <Grid item xs={7} className='textAlignLeft'>
+                    <Grid item xs={1} />
+                    <Grid item xs={9} className='textAlignLeft'>
                         My name is Jerry Davis and I've been creating game mods, maps, and modes since I
                         was 11. I've always loved creating gameplay experiences that challenge players,
                         while letting them shine in their own unique way. Truly, there is no field I could ever be happy
@@ -33,24 +43,12 @@ function AboutMe() {
                             on the popular virtual tabletop, Roll20.
                         </p>
                     </Grid>
-                    <Grid item xs={3} className='textAlignRight'>
-                        <b className='textColorBlue'>
-                            Resume
-                            Download:
-                        </b>
-                        <p>
-                            <Button variant="outlined" component="a" href={gameDesignPDF} target="_blank" rel="noreferrer">
-                                <PictureAsPdfIcon alt="Download Resume" className="" />
-                            </Button>
-                        </p>
-                    </Grid>
                 </Grid>
-                <br />
                 <p>
-                    <h3 className="SectionHeader">
+                    <h4 className="SectionHeader">
                         <SchoolIcon fontSize='inherit' /> Education
                         <hr className="HorizontalLineBlue" />
-                    </h3>
+                    </h4>
                     <p className="NormalPageLayout">
                         <b>Bachelors of Computer Science with a Minor in Business</b>
                         <br />
@@ -58,11 +56,10 @@ function AboutMe() {
                         <br />
                         <i>08/2016 – 05/2020</i>
                     </p>
-                    <br />
-                    <h3 className="SectionHeader">
+                    <h4 className="SectionHeader">
                         <EmojiEventsIcon fontSize='inherit' /> Awards
                         <hr className="HorizontalLineBlue" />
-                    </h3>
+                    </h4>
                     <p className="NormalPageLayout">
                         Infosys Certificate of Appreciation – Going The Extra
                         Mile
@@ -72,11 +69,10 @@ function AboutMe() {
                         Graduated with Cum Laude
                         <br />
                     </p>
-                    <br />
-                    <h3 className="SectionHeader">
+                    <h4 className="SectionHeader">
                         <SportsEsportsIcon fontSize='inherit' /> I Love Games That . . .
                         <hr className="HorizontalLineBlue" />
-                    </h3>
+                    </h4>
                     <p className="NormalPageLayoutLeft">
                         <p>
                             <b className='textColorBlue'>

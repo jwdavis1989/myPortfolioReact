@@ -12,11 +12,11 @@ function VideoGamePrototypes() {
     return (
         <div>
             <div>
-                <h2 className="SectionHeader">
+                <h3 className="SectionHeader">
                     Phoenix Walker - Game Prototype
                     <hr className="HorizontalLineBlue" />
-                </h2>
-                <p className="NormalPageLayout">
+                </h3>
+                <p>
                     <div class="auto-resizable-iframe">
                         <div>
                             <iframe width="792" height="294" src="https://www.youtube.com/embed/uWy9_vH6XGQ"

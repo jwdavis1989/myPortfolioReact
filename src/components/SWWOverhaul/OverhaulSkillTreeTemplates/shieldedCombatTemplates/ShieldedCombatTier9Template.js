@@ -9,7 +9,7 @@ function ShieldedCombatTier9Template() {
                     <b className="AbilityHeader">UNBREAKABLE</b>
                 </Grid>
                 <Grid item xs={6}>
-                    <span className="AbilityCooldown">SHIELDED COMBAT TIER 9 TALENT</span><br /><br />
+                    <span className="AbilityCooldown">TIER 9 TALENT</span><br /><br />
                 </Grid>
             </Grid>
             <Grid container spacing={0}>

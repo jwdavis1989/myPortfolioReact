@@ -41,10 +41,10 @@ function DungeonsAndDragonsOverhaul() {
 
     return (
         <div>
-            <h2 className="SectionHeader">
+            <h3 className="SectionHeader">
                 Silverwind Workshop's Skill Trees - D&D Tabletop Game Addon
                 <hr className="HorizontalLineBlue" />
-            </h2>
+            </h3>
             <p>
                 <img className="NewBannerImage" src={SWWOverhaulBanner}
                     alt="Silverwind Workshop's Skill Trees - D&D Tabletop Game Addon Banner" />
@@ -112,11 +112,11 @@ function DungeonsAndDragonsOverhaul() {
                             Customer Review:
                         </b>
                         <br />
-                            <i>
-                                “The customization of this system has honestly made it hard for me to go back to standard D&D.
-                                It honestly impresses me the depth and creativity that is present in this.
-                                If more flair and flexibility in combat is what you want, this is for you.”
-                            </i>
+                        <i>
+                            “The customization of this system has honestly made it hard for me to go back to standard D&D.
+                            It honestly impresses me the depth and creativity that is present in this.
+                            If more flair and flexibility in combat is what you want, this is for you.”
+                        </i>
                         <Grid
                             container
                             direction="row"
@@ -127,16 +127,16 @@ function DungeonsAndDragonsOverhaul() {
                                 <b>Rating: </b>
                                 <br />
                                 <Rating name="read-only" value={5} readOnly title='5/5 Stars' sx={{
-        fontSize: "1.5vw"
-    }}/>
+                                    fontSize: "16px"
+                                }} />
                             </Grid>
                         </Grid>
                     </p>
                     <p>
-                        <h3 id="Skill Tree Demos" className="SectionHeader">
+                        <h4 id="Skill Tree Demos" className="SectionHeader">
                             Interactive Skill Tree Demonstration & Design Insights:
                             <hr className="HorizontalLineBlue" />
-                        </h3>
+                        </h4>
                         <Grid container spacing={0} id="Row 3 Example Tree Icons Reworked">
                             <Grid item xs={12}>
                                 <ButtonGroup variant='outlined' fullWidth>
@@ -161,9 +161,9 @@ function DungeonsAndDragonsOverhaul() {
                         <p>
                             <hr className="HorizontalLineBlue" />
                             <div id="SelectedTreeDescription" className="NormalPageLayoutSlim">
-                                <h3 className="textAlignCenter animationcolorWhiteOrangeFlashing">
+                                <h4 className="textAlignCenter animationcolorWhiteOrangeFlashing">
                                     Select a Skill Tree Demo to see its Description and Design Insights.
-                                </h3>
+                                </h4>
                                 {!selectedTree >= 1 ?
                                     "" : <RenderTreeDescription slot={selectedTree} />}
                             </div>

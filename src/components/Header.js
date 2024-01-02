@@ -13,10 +13,10 @@ function Header() {
                 <Grid item md={2} sm={0} xs={0}/>
                 <Grid item md={8} sm={12} xs={12} className="NewContentBody">
                     <Grid id="Row 1 Banner Components" container spacing={0} className="NewBanner">
-                        <Grid item md={2} sm={1} xs={1}>
+                        <Grid item md={2} sm={2} xs={2}>
                             <img src={glowingEyeLogo} alt="Glowing Eye Icon" className='NewBannerLogo' />
                         </Grid>
-                        <Grid item md={6} sm={5.5} xs={5}>
+                        <Grid item md={6} sm={6} xs={6}>
                             <h1 className="textColorBlue NewBannerText">
                                 Jerry Davis
                             </h1>
@@ -24,7 +24,7 @@ function Header() {
                                 Game Designer and Software Engineer
                             </h2>
                         </Grid>
-                        <Grid item md={2} sm={2} xs={2} />
+                        <Grid item md={2} sm={0} xs={0} />
                         <Grid item md={2} sm={2} xs={2}>
                             <ButtonGroup variant="fill" className="NewBannerLinks" orientation="horizontal" size="small">
                                 <IconButton title="LinkedIn Profile">

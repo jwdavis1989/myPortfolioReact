@@ -112,11 +112,11 @@ function DesignExercises() {
     return (
         <div>
             <div>
-                <h2 className="SectionHeader">
+                <h3 className="SectionHeader">
                     Yingyue the Jiangshi - League of Legends Character Concept
                     <hr className="HorizontalLineBlue" />
-                </h2>
-                <p className="NormalPageLayout">
+                </h3>
+                <p>
                     <img className="NormalPageLayout" src={ChineseVampireBanner}
                         alt="Yingyue the Jiangshi - League of Legends Character Concept" />
                     <div className="textAlignLeft animationFadeIn">
@@ -185,10 +185,10 @@ function DesignExercises() {
                     </div>
                 </p>
                 <p>
-                    <h3 id="InteractiveDemoHeader" className="SectionHeader">
+                    <h4 id="InteractiveDemoHeader" className="SectionHeader">
                         Interactive Abilities & Design Insights:
                         <hr className="HorizontalLineBlue" />
-                    </h3>
+                    </h4>
                     <Grid id="Row 0 Help Buttons" container spacing={0} className='textAlignRight'>
                         <Grid item xs={8} />
                         <Grid item xs={4}>
@@ -273,9 +273,9 @@ function DesignExercises() {
                             <br />
                             <div id="JiangshiAbilityDescription" className="NormalPageLayoutLeft AbilityDescriptionSection">
                                 {!abilityDescription >= 1 ?
-                                    <h3 className="textAlignCenter animationcolorWhiteOrangeFlashing">
+                                    <h4 className="textAlignCenter animationcolorWhiteOrangeFlashing">
                                         Click an ability icon to see its Description and Design Insights.
-                                    </h3> : <div><RenderJiangshiDescription slot={abilityDescription} />
+                                    </h4> : <div><RenderJiangshiDescription slot={abilityDescription} />
                                         <p>
                                             <Grid
                                                 container

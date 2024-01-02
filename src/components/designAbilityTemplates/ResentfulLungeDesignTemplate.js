@@ -1,24 +1,17 @@
-import { Grid } from '@mui/material';
+
 
 function ResentfulLungeDesignTemplate() {
     return (
         <div>
             <hr className="HorizontalLineBlue" />
-            <Grid container spacing={0}>
-                <Grid item xs={6}>
-                    <b className="AbilityHeader animationcolorWhiteOrangeFlashing">DESIGN INSIGHTS</b>
-                </Grid>
-            </Grid>
+            <b className="AbilityHeader animationcolorWhiteOrangeFlashing">DESIGN INSIGHTS</b>
             <hr className="HorizontalLineBlue" />
             <div className="animationFadeIn">
                 Serving as an alternative, and risky, ability to generate additional Qi, Resentful Lunge further
                 reinforces the aggressive design of this support champion.
             </div>
-            <br /><Grid container spacing={0}>
-                <Grid item xs={6}>
-                    <b className="AbilityHeaderSmall">WHY GIVE HER A MELEE DASH?</b>
-                </Grid>
-            </Grid>
+            <br />
+            <b className="AbilityHeaderSmall">WHY GIVE HER A MELEE DASH?</b>
             <div className="animationFadeIn">
                 Yingyue is always meant to give both the player and their opponent choice. How risky should Yingyue play?
                 Well, obviously she gains significant Qi generation if she is using her Resentful Lunge on enemy champions.
@@ -31,11 +24,8 @@ function ResentfulLungeDesignTemplate() {
                 she wouldn't be able to use it on her Jade Reach or Insatiable Touch, denying her either significant healing or the
                 ability to supercharge her ally.
             </div>
-            <br /><Grid container spacing={0}>
-                <Grid item xs={6}>
-                    <b className="AbilityHeaderSmall">THEMING</b>
-                </Grid>
-            </Grid>
+            <br />
+            <b className="AbilityHeaderSmall">THEMING</b>
             <div className="animationFadeIn">
                 Jiangshi are also known as "Hopping Vampires". This ability is meant
                 to evoke that same concept of a supernatural being moving in ways that seem
@@ -48,7 +38,7 @@ function ResentfulLungeDesignTemplate() {
                 at a distance with glowing Jade magic.
             </div>
             <br />
-        </div>
+        </div >
     )
 }
 

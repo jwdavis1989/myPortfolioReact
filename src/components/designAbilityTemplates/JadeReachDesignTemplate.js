@@ -1,14 +1,10 @@
-import { Grid } from '@mui/material';
+
 
 function JadeReachDesignTemplate() {
     return (
         <div>
             <hr className="HorizontalLineBlue" />
-            <Grid container spacing={0}>
-                <Grid item xs={6}>
-                    <b className="AbilityHeader animationcolorWhiteOrangeFlashing">DESIGN INSIGHTS</b>
-                </Grid>
-            </Grid>
+            <b className="AbilityHeader animationcolorWhiteOrangeFlashing">DESIGN INSIGHTS</b>
             <hr className="HorizontalLineBlue" />
             <div className="animationFadeIn">
                 This ability intentionally evokes similarities to the only other vampiric champion in League, Vladimir.
@@ -17,11 +13,8 @@ function JadeReachDesignTemplate() {
                 the ability for her to spend her stolen Qi to make this ability heal very similarly to Vladimir's first ability, Transfusion.
                 However, the player has great agency in choosing other uses for her empowered Qi that might better fit the situation.
             </div>
-            <br /><Grid container spacing={0}>
-                <Grid item xs={6}>
-                    <b className="AbilityHeaderSmall">WHY GAIN QI ONLY FROM CHAMPIONS?</b>
-                </Grid>
-            </Grid>
+            <br />
+            <b className="AbilityHeaderSmall">WHY GAIN QI ONLY FROM CHAMPIONS?</b>
             <div className="animationFadeIn">
                 Jade Reach, and much of her kit, is not meant to be good at pushing minions as the main design concern for this champion
                 is to make sure she is a powerful support without making her an unbalanced solo lane champion.
@@ -33,11 +26,8 @@ function JadeReachDesignTemplate() {
                 <br />
                 (Skillshots are abilities that must be aimed and fire a projectile in your mouse's direction and do not guarantee a successful hit.)
             </div>
-            <br /><Grid container spacing={0}>
-                <Grid item xs={6}>
-                    <b className="AbilityHeaderSmall">THEMING</b>
-                </Grid>
-            </Grid>
+            <br />
+            <b className="AbilityHeaderSmall">THEMING</b>
             <div className="animationFadeIn">
                 Jade Reach references the lifeforce stealing abilities and the hunger of Jiangshi, also known as Chinese Vampires.
                 <br />
