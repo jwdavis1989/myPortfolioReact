@@ -18,8 +18,18 @@ function AboutMe() {
                     <Grid item xs={2}>
                         <img className="NewBannerImage" src={profilePicture}
                             alt="Profile" />
+                            <b className='textColorBlue'>
+                            Resume
+                            Download:
+                        </b>
+                        <p>
+                            <Button variant="outlined" component="a" href={gameDesignPDF} target="_blank" rel="noreferrer">
+                                <PictureAsPdfIcon alt="Download Resume" className="" />
+                            </Button>
+                        </p>
                     </Grid>
-                    <Grid item xs={7} className='textAlignLeft'>
+                    <Grid item xs={1} />
+                    <Grid item xs={9} className='textAlignLeft'>
                         My name is Jerry Davis and I've been creating game mods, maps, and modes since I
                         was 11. I've always loved creating gameplay experiences that challenge players,
                         while letting them shine in their own unique way. Truly, there is no field I could ever be happy
@@ -31,17 +41,6 @@ function AboutMe() {
                         <p>
                             Over that time, I playtested my Silverwind Workshop's Skill Tree system extensively, before eventually releasing it
                             on the popular virtual tabletop, Roll20.
-                        </p>
-                    </Grid>
-                    <Grid item xs={3} className='textAlignRight'>
-                        <b className='textColorBlue'>
-                            Resume
-                            Download:
-                        </b>
-                        <p>
-                            <Button variant="outlined" component="a" href={gameDesignPDF} target="_blank" rel="noreferrer">
-                                <PictureAsPdfIcon alt="Download Resume" className="" />
-                            </Button>
                         </p>
                     </Grid>
                 </Grid>
