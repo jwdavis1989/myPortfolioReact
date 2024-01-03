@@ -1,7 +1,7 @@
 import { Button, ButtonGroup } from '@mui/material';
 import { Link } from "react-router-dom";
 import { useEffect } from 'react';
-import { BUTTON_ICON_MARGIN_RIGHT, NAV_BUTTON_ICON_SIZE } from "../constants/constants.js";
+import { BUTTON_ICON_MARGIN_RIGHT } from "../constants/constants.js";
 
 import CasinoSharpIcon from '@mui/icons-material/CasinoSharp';
 import DashboardSharpIcon from '@mui/icons-material/DashboardSharp';
