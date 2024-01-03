@@ -6,7 +6,7 @@ import { LeadershipTalentTreeComponent } from '../components/SWWOverhaul/Leaders
 import { ShieldedCombatTalentTreeComponent } from '../components/SWWOverhaul/ShieldedCombatTalentTreeComponent';
 import { PyromancyTalentTreeComponent } from '../components/SWWOverhaul/PyromancyTalentTreeComponent';
 import { OverhaulOverviewComponent } from '../components/SWWOverhaul/OverhaulOverviewComponent';
-import { BUTTON_FONT_SIZE, BUTTON_ICON_SIZE } from "../constants/constants.js";
+import { BUTTON_FONT_SIZE, BUTTON_ICON_MARGIN_RIGHT } from "../constants/constants.js";
 
 import SWWOverhaulBanner from '../resources/images/SW Skill Tree Banner.png';
 import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
@@ -48,26 +48,22 @@ function DungeonsAndDragonsOverhaul() {
             <p>
                 <img className="NewBannerImage" src={SWWOverhaulBanner}
                     alt="Silverwind Workshop's Skill Trees - D&D Tabletop Game Addon Banner" />
-                <Grid container spacing={0}>
-                    <Grid item xs={1.2} />
-                    <Grid item xs={9.6} >
-                        <ButtonGroup className='NavBarButtonGroup' fullWidth>
-                            <Button className="ImageLogo" startIcon={<LocalGroceryStoreIcon style={{ fontSize: BUTTON_ICON_SIZE }} />}
-                                style={{ fontSize: BUTTON_FONT_SIZE }}
-                                component="a" href="https://marketplace.roll20.net/browse/gameaddon/14629/silverwind-workshops-skill-trees-and-leveling-overhaul" target="_blank" rel="noreferrer">
-                                Store Page
-                            </Button>
-                            <Button className="ImageLogo" startIcon={<DownloadIcon style={{ fontSize: BUTTON_ICON_SIZE }} />}
-                                style={{ fontSize: BUTTON_FONT_SIZE }}
-                                component="a" href={patchNotes} target="_blank" rel="noreferrer">
-                                Patch Notes
-                            </Button>
-                            <Button component={Link} to="/SWWLevelingOverhaulTutorial" onClick={() => window.scrollTo(0, 0)}
-                                className="ImageLogo" startIcon={<HelpOutlineIcon style={{ fontSize: BUTTON_ICON_SIZE }} />}
-                                style={{ fontSize: BUTTON_FONT_SIZE }}>
-                                Tutorial
-                            </Button>
-                        </ButtonGroup>
+                <Grid container direction="row" justifyContent="center" alignItems="center" >
+                    <Grid item xs={10}>
+                    <ButtonGroup className='NavBarButtonGroup' fullWidth>
+                        <Button className="ImageLogo" startIcon={<LocalGroceryStoreIcon style={{marginRight: BUTTON_ICON_MARGIN_RIGHT}} />}
+                            component="a" href="https://marketplace.roll20.net/browse/gameaddon/14629/silverwind-workshops-skill-trees-and-leveling-overhaul" target="_blank" rel="noreferrer">
+                            Store Page
+                        </Button>
+                        <Button className="ImageLogo" startIcon={<DownloadIcon style={{marginRight: BUTTON_ICON_MARGIN_RIGHT}} />}
+                            component="a" href={patchNotes} target="_blank" rel="noreferrer">
+                            Patch Notes
+                        </Button>
+                        <Button component={Link} to="/SWWLevelingOverhaulTutorial" onClick={() => window.scrollTo(0, 0)}
+                            className="ImageLogo" startIcon={<HelpOutlineIcon style={{marginRight: BUTTON_ICON_MARGIN_RIGHT}} />}>
+                            Tutorial
+                        </Button>
+                    </ButtonGroup>
                     </Grid>
                 </Grid>
                 <div className="textAlignLeft animationFadeIn">
