@@ -4,8 +4,7 @@ import React from 'react';
 function SpellListTalentTreeComponent(props) {
     return (
         <div>
-            <br />
-            <table className="SpellListTable">
+            <table className="LevelingGuideTable width100">
                 <tbody>
                     <tr>
                         <th><b>Skill Points</b></th>
@@ -189,7 +188,6 @@ function SpellListTalentTreeComponent(props) {
                     </tr>
                 </tbody>
             </table>
-            <p /><br /><br />
         </div >
     );
 }

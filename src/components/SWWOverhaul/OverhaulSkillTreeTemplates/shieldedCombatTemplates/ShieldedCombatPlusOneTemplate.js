@@ -4,47 +4,40 @@ import { ShieldedCombatPlusOneDesignTemplate } from './ShieldedCombatPlusOneDesi
 function ShieldedCombatPlusOneTemplate() {
     return (
         <div>
+            <hr className="HorizontalLineBlue" />
             <Grid container spacing={0}>
                 <Grid item xs={6}>
-                    <b className="AbilityHeader">SHIELDED COMBAT SKILL</b>
+                    <b className="AbilityHeader">SHIELD MASTERY SKILL</b>
                 </Grid>
-                <Grid item xs={6}>
-                    <span className="AbilityCooldown">SHIELDED COMBAT +1 EFFECT</span><br /><br />
-                </Grid>
-            </Grid>
-            <Grid container spacing={0}>
-                <Grid item xs={6}>
-                    <b className="AbilityHeaderSmall">TREE COMPLEXITY</b>
+                <Grid item xs={6} className='AbilityCooldown'>
+                    <b>SHIELD MASTERY +1 EFFECT&nbsp;</b>
                 </Grid>
             </Grid>
-            <div className="NormalPageLayoutLeft moveLeft20">
-                <br />
+            <hr className="HorizontalLineBlue" />
+            <b className="AbilityHeaderSmall">TREE COMPLEXITY</b>
+            <div className="animationFadeIn">
                 Moderate-to-High
             </div>
-            <br />
-            <Grid container spacing={0}>
-                <Grid item xs={6}>
-                    <b className="AbilityHeaderSmall">EFFECT</b>
-                </Grid>
-            </Grid>
-            <div className="NormalPageLayoutLeft moveLeft20">
-                <br />
-                You may now choose to use your Shield as a weapon that deals 1d4 + Strength modifier damage when performing the attack action and you are proficient with it.
+            <p>
+                <b className="AbilityHeaderSmall">EFFECT</b>
+                <div className="animationFadeIn">
+                    You may now choose to use your Shield as a weapon that deals 1d4 + Strength modifier damage when performing the attack action and you are proficient with it.
 
-                <p />You may also throw the shield at a target at up to a range of 5ft + <b>5ft per 2</b> points spent in Shielded Combat.
-                The shield will automatically return to you after your throw unless your attack is a critical failure.
-            </div>
+                    <p />
+                    You may also throw the shield at a target at up to a range of 5ft + <b>5ft per 2</b> points spent in Shield Mastery.
+                    The shield will automatically return to you after your throw unless your attack is a critical failure.
+                </div>
+            </p>
+            <p>
+                <b className="AbilityHeaderSmall">PROFICIENCY</b>
+                <div className="animationFadeIn">
+                    You gain proficiency with Shields, Flails, Cat o' Nine Tails, Morningstars, and Warpicks.
+                </div>
+            </p>
             <br />
-            <Grid container spacing={0}>
-                <Grid item xs={6}>
-                    <b className="AbilityHeaderSmall">PROFICIENCY</b>
-                </Grid>
-            </Grid>
-            <div className="NormalPageLayoutLeft moveLeft20">
-                <br />
-                You gain proficiency with Shields, Flails, Cat o' Nine Tails, Morningstars, and Warpicks.
-            </div>
-            <ShieldedCombatPlusOneDesignTemplate />
+            <p>
+                <ShieldedCombatPlusOneDesignTemplate />
+            </p>
         </div>
     )
 }

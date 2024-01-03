@@ -29,7 +29,7 @@ function OverhaulOverviewComponent() {
                                 <li>A proud Leader who controls the battlefield like a game of chess through a mix of
                                     issuing powerful commands to his comrades, protecting them with his shield, and denying
                                     the enemy of positional opportunities with his powerful Pyromancy magic's area denial damage effects
-                                    = Leadership + Pyromancy + Shielded Combat
+                                    = Leadership + Pyromancy + Shield Mastery
                                     <br /><b>All three of these Skill Trees are 100% free and listed in the Example Trees Section on the left side of this page. Give them a click!</b></li>
                                 <li>A time-manipulating Samurai swordsman who has long studied history's mistakes = Chronotelemancy + Versatile Weapon Fighting + Historia</li>
                                 <li>A Blade-Dancer that inspires her allies while crippling her foes with her beautiful
