@@ -803,21 +803,6 @@ p {
   background-image: radial-gradient(rgb(11, 11, 11), black);
 }
 
-.SpellListTable,
-th,
-.SpellListTable tr {
-  text-align: left;
-  border: 2px outset white;
-  background-image: linear-gradient(black, gray);
-}
-
-.SpellListTable td {
-  text-align: center;
-  border: 1px solid white;
-  border-radius: 8px;
-  background-image: linear-gradient(red, black);
-}
-
 .LevelingGuideTable {
   text-align: center;
   border: 1px solid white;

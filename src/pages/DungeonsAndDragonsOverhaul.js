@@ -151,9 +151,9 @@ function DungeonsAndDragonsOverhaul() {
                                         Pyromancy
                                     </Button>
                                     <Button
-                                        title='Shielded Combat Demonstration' style={{ fontSize: BUTTON_FONT_SIZE }}
+                                        title='Shield Mastery Demonstration' style={{ fontSize: BUTTON_FONT_SIZE }}
                                         onClick={() => { setSelectedTree(3); document.getElementById('Skill Tree Demos').scrollIntoView(); }} >
-                                        Shielded Combat
+                                        Shield Mastery
                                     </Button>
                                 </ButtonGroup>
                             </Grid>

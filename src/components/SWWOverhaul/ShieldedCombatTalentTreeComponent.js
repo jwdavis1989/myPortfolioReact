@@ -127,14 +127,14 @@ function ShieldedCombatTalentTreeComponent(props) {
         <div>
             <div>
                 <h3 id="TreeHeaderSection" className="SectionHeader">
-                    ShieldedCombat Tree Demo
+                    Shield Mastery Tree Demo
                     <hr className="HorizontalLineBlue" />
                 </h3>
                 <p className="NormalPageLayout">
                     <Grid container spacing={0} id="Logo and Overview">
                         <Grid item xs={4}>
                             <img className="NewBannerImage" src={ShieldedCombatIcon}
-                                alt="Shielded Combat Icon" />
+                                alt="Shield Mastery Icon" />
                         </Grid>
                         <Grid item xs={8}>
                             <div className="textAlignLeft animationFadeIn">
@@ -142,12 +142,12 @@ function ShieldedCombatTalentTreeComponent(props) {
                                     Overview:
                                 </b>
                                 <br />
-                                Shielded Combat evokes the idea of the stalwart defender.
+                                Shield Mastery evokes the idea of the stalwart defender.
                                 A skilled Shieldmaster who tactically chooses the best time to
                                 block powerful attacks while able to safeguard nearby allies with
-                                that same ability. A Shielded Combatant may also fight with their
+                                that same ability. A Shield Master may also fight with their
                                 shield as if it were a weapon and punish their enemies when their
-                                blades fail against the Shieldmaster's shield. A Shielded Combatant
+                                blades fail against the Shieldmaster's shield. A Shield Master
                                 is a powerful and reliable backbone to build a team around.
                                 <p>
                                     <b className='textColorBlue'>
