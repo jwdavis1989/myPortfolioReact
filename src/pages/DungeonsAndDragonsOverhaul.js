@@ -64,10 +64,6 @@ function DungeonsAndDragonsOverhaul() {
                                 component="a" href={patchNotes} target="_blank" rel="noreferrer">
                                 Patch Notes
                             </Button>
-                            <Button component={Link} to="/SWWLevelingOverhaulTutorial" onClick={() => window.scrollTo(0, 0)}
-                                className="ImageLogo" startIcon={<HelpOutlineIcon style={{ marginRight: BUTTON_ICON_MARGIN_RIGHT }} />}>
-                                Tutorial
-                            </Button>
                         </ButtonGroup>
                     </Grid>
                 </Grid>
