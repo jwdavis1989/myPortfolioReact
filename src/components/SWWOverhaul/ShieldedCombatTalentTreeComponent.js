@@ -41,13 +41,13 @@ function ShieldedCombatTalentTreeComponent(props) {
     }, []);
 
     function resetTalentHighlight() {
-        document.getElementById("shieldedCombatPlusOneTalent").className = "ImageLogo";
-        document.getElementById("shieldedCombatT3Talent").className = "ImageLogo";
-        document.getElementById("shieldedCombatT6Talent").className = "ImageLogo";
-        document.getElementById("shieldedCombatT9Talent").className = "ImageLogo";
-        document.getElementById("shieldedCombatT12Talent").className = "ImageLogo";
-        document.getElementById("shieldedCombatT15Talent").className = "ImageLogo";
-        document.getElementById("shieldedCombatT18Talent").className = "ImageLogo";
+        document.getElementById("shieldedCombatPlusOneTalent").className = "ImageLogo cursorClickable";
+        document.getElementById("shieldedCombatT3Talent").className = "ImageLogo cursorClickable";
+        document.getElementById("shieldedCombatT6Talent").className = "ImageLogo cursorClickable";
+        document.getElementById("shieldedCombatT9Talent").className = "ImageLogo cursorClickable";
+        document.getElementById("shieldedCombatT12Talent").className = "ImageLogo cursorClickable";
+        document.getElementById("shieldedCombatT15Talent").className = "ImageLogo cursorClickable";
+        document.getElementById("shieldedCombatT18Talent").className = "ImageLogo cursorClickable";
     }
 
     function RenderTalentDescription(props) {
@@ -194,43 +194,43 @@ function ShieldedCombatTalentTreeComponent(props) {
                 </Grid>
                 <Grid item xs={1}>
                     <img onClick={() => setAbilityDescription(1)}
-                        className="ImageLogo" src={PlusOneIcon}
+                        className="ImageLogo cursorClickable" src={PlusOneIcon}
                         id="shieldedCombatPlusOneTalent" alt="Plus One Talent Effect"></img>
                 </Grid>
                 <Grid item xs={0.4} />
                 <Grid item xs={1}>
                     <img onClick={() => setAbilityDescription(2)}
-                        className="ImageLogo" src={Tier3Icon}
+                        className="ImageLogo cursorClickable" src={Tier3Icon}
                         id="shieldedCombatT3Talent" alt="Tier 3 Talent Effect"></img>
                 </Grid>
                 <Grid item xs={0.4} />
                 <Grid item xs={1}>
                     <img onClick={() => setAbilityDescription(3)}
-                        className="ImageLogo" src={Tier6Icon}
+                        className="ImageLogo cursorClickable" src={Tier6Icon}
                         id="shieldedCombatT6Talent" alt="Tier 6 Talent Effect"></img>
                 </Grid>
                 <Grid item xs={0.4} />
                 <Grid item xs={1}>
                     <img onClick={() => setAbilityDescription(4)}
-                        className="ImageLogo" src={Tier9Icon}
+                        className="ImageLogo cursorClickable" src={Tier9Icon}
                         id="shieldedCombatT9Talent" alt="Tier 9 Talent Effect"></img>
                 </Grid>
                 <Grid item xs={0.4} />
                 <Grid item xs={1}>
                     <img onClick={() => setAbilityDescription(5)}
-                        className="ImageLogo" src={Tier12Icon}
+                        className="ImageLogo cursorClickable" src={Tier12Icon}
                         id="shieldedCombatT12Talent" alt="Tier 12 Talent Effect"></img>
                 </Grid>
                 <Grid item xs={0.4} />
                 <Grid item xs={1}>
                     <img onClick={() => setAbilityDescription(6)}
-                        className="ImageLogo" src={Tier15Icon}
+                        className="ImageLogo cursorClickable" src={Tier15Icon}
                         id="shieldedCombatT15Talent" alt="Tier 15 Talent Effect"></img>
                 </Grid>
                 <Grid item xs={0.4} />
                 <Grid item xs={1}>
                     <img onClick={() => setAbilityDescription(7)}
-                        className="ImageLogo" src={Tier18Icon}
+                        className="ImageLogo cursorClickable" src={Tier18Icon}
                         id="shieldedCombatT18Talent" alt="Tier 18 Talent Effect"></img>
                 </Grid>
                 <Grid item md={1.3} sm={1.3} xs={1.3} className='textAlignCenter' zeroMinWidth>

@@ -55,10 +55,25 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
 }
+
 .animationFadeIn {
   animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+.animationFadeIn50pcDelay {
+  animation-name: fadeIn50pcDelay;
+  animation-duration: 2s;
+}
+.animationFlyInFromLeft {
+  animation-name: flyInFromLeft;
+  animation-duration: 1s;
+}
+
+.animationFlyInFromRight {
+  animation-name: flyInFromRight;
   animation-duration: 1s;
 }
 
@@ -166,6 +181,16 @@ Button:hover {
   padding: 100px;
 }
 
+.cursorClickable {
+  cursor: pointer
+}
+
+.cursorClickable:hover {
+  cursor: pointer;
+  outline: 1px solid white;
+  background-image: radial-gradient(rgb(44, 44, 44), black);
+}
+
 .DesignInsightButton {
   text-align: center;
   align-self: center;
@@ -181,6 +206,7 @@ Button:hover {
 
 .Footer {
   height: 50vh;
+  border-top: 4px solid rgb(44, 44, 44);
 }
 
 .HeaderTitle {
@@ -308,6 +334,52 @@ html::-webkit-scrollbar-thumb {
   100% {
     opacity: 1;
     transform: translateY(0px);
+  }
+}
+
+@keyframes fadeIn50pcDelay {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes flyInFromLeft {
+  0% {
+    transform: translateX(-1000px);
+  }
+
+  10% {
+    transform: translateX(-500px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes flyInFromRight {
+  0% {
+    transform: translateX(1000px);
+  }
+
+  10% {
+    transform: translateX(500px);
+  }
+
+  100% {
+    transform: translateX(0px);
   }
 }
 
@@ -558,6 +630,19 @@ p {
     }
   }
 
+  .NavBarSticky {
+    position: fixed;
+    top: 0;
+    width: 66.66%;
+    left: 25;
+  }
+
+  .NavBarTop {
+    top: 0;
+    width: 66.66%;
+    left: 25;
+  }
+
   .NavBarButton {
   }
 
@@ -566,7 +651,7 @@ p {
 
 
   .NewContentBody {
-    background-image: linear-gradient(rgba(22, 22, 22, 0.8), black);
+    background-image: linear-gradient(rgba(44, 44, 44, 0.8), rgba(22, 22, 22, 1.0));
     text-align: left;
   }
 

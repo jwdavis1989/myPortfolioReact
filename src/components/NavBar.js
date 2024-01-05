@@ -24,25 +24,25 @@ function NavBar() {
     return (
         <div>
             <ButtonGroup variant="outlined" className='NewContentBody' fullWidth>
-                <Button component={Link} to="/" onClick={() => window.scrollTo(0, 0)} color="primary" className='NavBarButton width100'
+                <Button component={Link} to="/" onClick={() => window.scrollTo(0, 0)} className='NavBarButton width100'
                     startIcon={<DashboardSharpIcon style={{ marginRight: BUTTON_ICON_MARGIN_RIGHT, paddingTop: "1vw",
                     paddingBottom: "1vw" }} />} 
                     fullWidth>
                     Home
                 </Button>
-                <Button component={Link} to="/#ProfessionalWorkSection" onClick={() => document.getElementById('ProfessionalWorkSection').scrollIntoView()} color="primary" className='NavBarButton width100'
+                <Button component={Link} to="/#ProfessionalWorkSection" onClick={() => document.getElementById('ProfessionalWorkSection').scrollIntoView()} className='NavBarButton width100'
                     
                     startIcon={<CasinoSharpIcon style={{ marginRight: BUTTON_ICON_MARGIN_RIGHT, paddingTop: "1vw",
                         paddingBottom: "1vw" }} />} fullWidth>
                     Professional Work
                 </Button>
-                <Button component={Link} to="/#PersonalProjectsSection" onClick={() => document.getElementById('PersonalProjectsSection').scrollIntoView()} color="primary" className='NavBarButton width100'
+                <Button component={Link} to="/#PersonalProjectsSection" onClick={() => document.getElementById('PersonalProjectsSection').scrollIntoView()} className='NavBarButton width100'
                     
                     startIcon={<EngineeringSharpIcon style={{ marginRight: BUTTON_ICON_MARGIN_RIGHT, paddingTop: "1vw",
                     paddingBottom: "1vw" }} />} fullWidth>
                     Personal Projects
                 </Button>
-                <Button component={Link} to="/AboutMe" onClick={() => window.scrollTo(0, 0)} color="primary" className='NavBarButton'
+                <Button component={Link} to="/AboutMe" onClick={() => window.scrollTo(0, 0)} className='NavBarButton'
                     
                     startIcon={<AccountBoxSharpIcon style={{ marginRight: BUTTON_ICON_MARGIN_RIGHT, paddingTop: "1vw",
                     paddingBottom: "1vw" }} />} fullWidth>
