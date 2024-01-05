@@ -205,8 +205,8 @@ Button:hover {
 
 
 .Footer {
-  height: 50vh;
-  border-top: 4px solid rgb(44, 44, 44);
+  height: 25vh;
+  border-top: 40px double rgb(44, 44, 44);
 }
 
 .HeaderTitle {

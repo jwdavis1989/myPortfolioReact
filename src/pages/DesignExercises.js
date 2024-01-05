@@ -52,15 +52,15 @@ function DesignExercises() {
     }
 
     function resetJiangshiAbilityHighlight() {
-        document.getElementById("passiveQiButton").className = "ImageLogo";
+        document.getElementById("passiveQiButton").className = "ImageLogo cursorClickable";
         document.getElementById("Passive").className = "";
-        document.getElementById("jadeReachButton").className = "ImageLogo";
+        document.getElementById("jadeReachButton").className = "ImageLogo cursorClickable";
         document.getElementById("Q").className = "";
-        document.getElementById("resentfulLungeButton").className = "ImageLogo";
+        document.getElementById("resentfulLungeButton").className = "ImageLogo cursorClickable";
         document.getElementById("W").className = "";
-        document.getElementById("insatiableTouchButton").className = "ImageLogo";
+        document.getElementById("insatiableTouchButton").className = "ImageLogo cursorClickable";
         document.getElementById("E").className = "";
-        document.getElementById("moonlightCurseButton").className = "ImageLogo";
+        document.getElementById("moonlightCurseButton").className = "ImageLogo cursorClickable";
         document.getElementById("R").className = "";
     }
 
@@ -216,7 +216,7 @@ function DesignExercises() {
                         </Grid>
                         <Grid item xs={1}>
                             <img onClick={() => setAbilityDescription(1)}
-                                className="ImageLogo" src={AbilityPassiveQiIcon}
+                                className="ImageLogo cursorClickable" src={AbilityPassiveQiIcon}
                                 id="passiveQiButton" alt="Qi Siphon" title='Passive: Qi Siphon' />
                             <p className='textAlignCenter'>
                                 <b id='Passive'>Passive</b>
@@ -224,7 +224,7 @@ function DesignExercises() {
                         </Grid>
                         <Grid item xs={1}>
                             <img onClick={() => setAbilityDescription(2)}
-                                className="ImageLogo" src={AbilityJadeReachIcon}
+                                className="ImageLogo cursorClickable" src={AbilityJadeReachIcon}
                                 id="jadeReachButton" alt="Jade Reach" title='Q: Jade Reach' />
                             <p className='textAlignCenter'>
                                 <b id='Q'>Q</b>
@@ -232,7 +232,7 @@ function DesignExercises() {
                         </Grid>
                         <Grid item xs={1}>
                             <img onClick={() => setAbilityDescription(3)}
-                                className="ImageLogo" src={AbilityVengefulLeapIcon}
+                                className="ImageLogo cursorClickable" src={AbilityVengefulLeapIcon}
                                 id="resentfulLungeButton" alt="Resentful Lunge" title='W: Resentful Lunge' />
                             <p className='textAlignCenter'>
                                 <b id='W'>W</b>
@@ -240,7 +240,7 @@ function DesignExercises() {
                         </Grid>
                         <Grid item xs={1}>
                             <img onClick={() => setAbilityDescription(4)}
-                                className="ImageLogo" src={AbilityInsatiableTouchIcon}
+                                className="ImageLogo cursorClickable" src={AbilityInsatiableTouchIcon}
                                 id="insatiableTouchButton" alt="Insatiable Touch" title='E: Insatiable Touch' />
                             <p className='textAlignCenter'>
                                 <b id='E'>E</b>
@@ -248,7 +248,7 @@ function DesignExercises() {
                         </Grid>
                         <Grid item xs={1}>
                             <img onClick={() => setAbilityDescription(5)}
-                                className="ImageLogo" src={AbilityMoonlightCurseIcon}
+                                className="ImageLogo cursorClickable" src={AbilityMoonlightCurseIcon}
                                 id="moonlightCurseButton" alt="Moonlight Curse" title='R: Moonlight Curse' />
                             <p className='textAlignCenter'>
                                 <b id='R'>R</b>
