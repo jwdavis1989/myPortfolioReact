@@ -6,7 +6,7 @@ import { ShieldedCombatTalentTreeComponent } from '../components/SWWOverhaul/Shi
 import { PyromancyTalentTreeComponent } from '../components/SWWOverhaul/PyromancyTalentTreeComponent';
 import { DungeonsAndDragonsOverhaulTutorial } from '../pages/DungeonsAndDragonsOverhaulTutorial';
 
-import { BUTTON_FONT_SIZE, BUTTON_ICON_MARGIN_RIGHT } from "../constants/constants.js";
+import { BUTTON_ICON_MARGIN_RIGHT } from "../constants/constants.js";
 
 import SWWOverhaulBanner from '../resources/images/SW Skill Tree Banner.png';
 import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
@@ -134,30 +134,31 @@ function DungeonsAndDragonsOverhaul() {
                         </h4>
                         <Grid container spacing={0} id="Row 3 Example Tree Icons Reworked">
                             <Grid item xs={3}>
-                                <img className='alignCenter50 cursorClickable animationFlyInFromLeft' src={glowingEyeLogo}
-                                    alt="Tutorial Icon" 
+                                <img className='alignCenter50 cursorClickable' src={glowingEyeLogo}
+                                    alt="Tutorial Icon"
                                     onClick={() => { setSelectedTree(4); document.getElementById('Skill Tree Demos').scrollIntoView() }} />
                             </Grid>
                             <Grid item xs={3}>
-                                <img className='alignCenter50 cursorClickable animationFlyInFromLeft' src={LeadershipIcon}
-                                    alt="Leadership Icon" 
+                                <img className='alignCenter50 cursorClickable' src={LeadershipIcon}
+                                    alt="Leadership Icon"
                                     onClick={() => { setSelectedTree(1); document.getElementById('Skill Tree Demos').scrollIntoView() }} />
                             </Grid>
                             <Grid item xs={3}>
-                                <img className='alignCenter50 cursorClickable animationFlyInFromRight' src={PyromancyIcon}
+                                <img className='alignCenter50 cursorClickable' src={PyromancyIcon}
                                     alt="Leadership Icon"
                                     onClick={() => { setSelectedTree(2); document.getElementById('Skill Tree Demos').scrollIntoView() }} />
                             </Grid>
                             <Grid item xs={3}>
-                                <img className='alignCenter50 cursorClickable animationFlyInFromRight' src={ShieldedCombatIcon}
+                                <img className='alignCenter50 cursorClickable' src={ShieldedCombatIcon}
                                     alt="Leadership Icon"
                                     onClick={() => { setSelectedTree(3); document.getElementById('Skill Tree Demos').scrollIntoView() }} />
                             </Grid>
+                        </Grid>
+                        <Grid container>
                             <Grid item xs={12}>
                                 <ButtonGroup variant='outlined' fullWidth className='NewContentBody'>
                                     <Button
-                                        title='Leadership Demonstration' style={{
-                                            fontSize: BUTTON_FONT_SIZE, paddingTop: "1vw",
+                                        title='Tutorial' style={{ paddingTop: "1vw",
                                             paddingBottom: "1vw"
                                         }}
                                         className='animationFadeIn50pcDelay'
@@ -165,8 +166,7 @@ function DungeonsAndDragonsOverhaul() {
                                         Tutorial
                                     </Button>
                                     <Button
-                                        title='Leadership Demonstration' style={{
-                                            fontSize: BUTTON_FONT_SIZE, paddingTop: "1vw",
+                                        title='Leadership Demonstration' style={{ paddingTop: "1vw",
                                             paddingBottom: "1vw"
                                         }}
                                         className='animationFadeIn50pcDelay'
@@ -174,8 +174,7 @@ function DungeonsAndDragonsOverhaul() {
                                         Leadership
                                     </Button>
                                     <Button
-                                        title='Pyromancy Demonstration' style={{
-                                            fontSize: BUTTON_FONT_SIZE, paddingTop: "1vw",
+                                        title='Pyromancy Demonstration' style={{ paddingTop: "1vw",
                                             paddingBottom: "1vw"
                                         }}
                                         className='animationFadeIn50pcDelay'
@@ -183,8 +182,7 @@ function DungeonsAndDragonsOverhaul() {
                                         Pyromancy
                                     </Button>
                                     <Button
-                                        title='Shield Mastery Demonstration' style={{
-                                            fontSize: BUTTON_FONT_SIZE, paddingTop: "1vw",
+                                        title='Shield Mastery Demonstration' style={{ paddingTop: "1vw",
                                             paddingBottom: "1vw"
                                         }}
                                         className='animationFadeIn50pcDelay'

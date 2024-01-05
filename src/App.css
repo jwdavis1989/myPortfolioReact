@@ -357,11 +357,11 @@ html::-webkit-scrollbar-thumb {
 
 @keyframes flyInFromLeft {
   0% {
-    transform: translateX(-1000px);
+    transform: translateX(-100px);
   }
 
   10% {
-    transform: translateX(-500px);
+    transform: translateX(-100px);
   }
 
   100% {
@@ -371,11 +371,11 @@ html::-webkit-scrollbar-thumb {
 
 @keyframes flyInFromRight {
   0% {
-    transform: translateX(1000px);
+    transform: translateX(100px);
   }
 
   10% {
-    transform: translateX(500px);
+    transform: translateX(100px);
   }
 
   100% {
