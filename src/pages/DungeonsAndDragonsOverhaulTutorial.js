@@ -1,8 +1,6 @@
 import React from 'react';
-import SWWOverhaulBanner from '../resources/images/SW Skill Tree Banner.png';
-import { Link } from "react-router-dom";
-import { Button, ButtonGroup, Grid } from '@mui/material';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import { Button, Grid } from '@mui/material';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import { LevelingPointsGuideComponent } from "../components/SWWOverhaul/LevelingPointsGuideComponent";
 import { BUTTON_FONT_SIZE, BUTTON_ICON_SIZE } from "../constants/constants.js";
 
@@ -10,25 +8,11 @@ function DungeonsAndDragonsOverhaulTutorial() {
     return (
         <div>
             <div>
-                <h2 className="SectionHeader">
+                <h3 className="SectionHeader">
                     Tutorial - Silverwind Workshop's Skill Trees
                     <hr className="HorizontalLineBlue" />
-                </h2>
+                </h3>
                 <p className="NormalPageLayout">
-                    <img className="NewBannerImage" src={SWWOverhaulBanner}
-                        alt="Silverwind Workshop's Skill Trees - D&D Tabletop Game Addon Banner" />
-                    <Grid container>
-                        <Grid item xs={1.2} />
-                        <Grid item xs={9.6}>
-                            <ButtonGroup className='NavBarButtonGroup' fullWidth>
-                                <Button component={Link} to="/SWWLevelingOverhaul" onClick={() => window.scrollTo(0, 0)}
-                                    className="ImageLogo" startIcon={<ArrowBackIcon style={{ fontSize: BUTTON_ICON_SIZE }} />}
-                                    style={{ fontSize: BUTTON_FONT_SIZE }}>
-                                    Return
-                                </Button>
-                            </ButtonGroup>
-                        </Grid>
-                    </Grid>
                     <div className="textAlignLeft animationFadeIn">
                         <p>
                             <b className='textColorBlue'>
@@ -78,6 +62,19 @@ function DungeonsAndDragonsOverhaulTutorial() {
                                 </b>
                                 <LevelingPointsGuideComponent />
                             </p>
+                            <Grid
+                                container
+                                direction="row"
+                                justifyContent="center"
+                                alignItems="center"
+                            >
+                                <Button variant='outlined'
+                                    title='Return to Top' style={{ fontSize: BUTTON_FONT_SIZE }}
+                                    onClick={() => { document.getElementById('Skill Tree Demos').scrollIntoView(); }}
+                                    startIcon={<KeyboardArrowUpIcon style={{ fontSize: BUTTON_ICON_SIZE }} />}>
+                                    Return to Top
+                                </Button>
+                            </Grid>
                         </p>
                     </div>
                 </p>

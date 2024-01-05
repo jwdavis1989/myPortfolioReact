@@ -176,7 +176,7 @@ function ShieldedCombatTalentTreeComponent(props) {
                             <Button className="NavBarButton"
                                 title='Click a Talent icon to the left to learn more.'
                                 onClick={() => { setAbilityDescription(false); resetTalentHighlight() }}>
-                                <HelpOutlineIcon />
+                                <HelpOutlineIcon /> Help
                             </Button>
                         </ButtonGroup>
                     </div>

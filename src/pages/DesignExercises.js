@@ -197,7 +197,7 @@ function DesignExercises() {
                                     <Button className="NavBarButton"
                                         title='Click an ability icon to the left to learn more.'
                                         onClick={() => { setAbilityDescription(false); resetJiangshiAbilityHighlight() }}>
-                                        <HelpOutlineIcon />
+                                        <HelpOutlineIcon /> Help
                                     </Button>
                                 </ButtonGroup>
                             </div>
