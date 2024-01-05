@@ -2,6 +2,7 @@ import './App.css';
 import { Routes, Route } from "react-router-dom"
 import { Grid } from '@mui/material';
 import { Header } from './components/Header';
+import { Footer } from './components/Footer';
 import { Dashboard } from './pages/Dashboard';
 import { DungeonsAndDragonsOverhaul } from './pages/DungeonsAndDragonsOverhaul';
 import { VideoGamePrototypes } from './pages/VideoGamePrototypes';
@@ -14,7 +15,11 @@ import { DungeonsAndDragonsContent } from './pages/DungeonsAndDragonsContent';
 import { ContactMe } from './pages/ContactMe';
 import { DungeonsAndDragonsOverhaulTutorial } from './pages/DungeonsAndDragonsOverhaulTutorial';
 
-const theme = createTheme({ palette: { primary: { main: '#ffffff' }, secondary: { main: '#0099ff'}}, });
+const theme = createTheme({ 
+  palette: { 
+    primary: { main: '#ffffff' }, 
+    secondary: { main: '#0099ff'}}, 
+  });
 
 function App() {
   return (
@@ -38,6 +43,7 @@ function App() {
             </Routes>
           </Grid>
         </Grid>
+        <Footer />
       </ThemeProvider>
     </div>
   );

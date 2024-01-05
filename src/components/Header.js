@@ -1,7 +1,7 @@
 import { NavBar } from "./NavBar";
 import { ButtonGroup, Grid, IconButton } from '@mui/material';
 import glowingEyeLogo from "../resources/images/glowingEyeAnimation/glowingEyeAnimation.gif";
-import gameDesignPDF from "../resources/handouts/JerryDavisGameDevResume2023.pdf";
+import gameDesignPDF from "../resources/handouts/JerryDavisGDResumeWB.pdf";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
@@ -9,7 +9,7 @@ import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 function Header() {
     return (
         <div>
-            <Grid id="Row 0 Banner" container spacing={0} className="">
+            <Grid id="Header Banner Section" container spacing={0} className="">
                 <Grid item md={2} sm={0} xs={0}/>
                 <Grid item md={8} sm={12} xs={12} className="NewContentBody">
                     <Grid id="Row 1 Banner Components" container spacing={0} className="NewBanner">
