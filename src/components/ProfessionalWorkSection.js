@@ -11,7 +11,7 @@ function ProfessionalWorkSection() {
             <br />
             <p className="NormalPageLayout">
                 <Link to="/SWWLevelingOverhaul" onClick={() => window.scrollTo(0, 0)}>
-                    <img className="NewBannerImage" src={SWWOverhaulBanner} alt="Phoenix Walker - Game Prototype" />
+                    <img className="NewBannerImage outlineBorderOnHover" src={SWWOverhaulBanner} alt="Phoenix Walker - Game Prototype" />
                 </Link>
                 <div className="SectionHeader">
                     <b>

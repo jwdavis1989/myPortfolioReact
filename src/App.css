@@ -52,10 +52,10 @@ a:hover {
 }
 
 .alignCenter50 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .animationFadeIn {
@@ -67,6 +67,7 @@ a:hover {
   animation-name: fadeIn50pcDelay;
   animation-duration: 2s;
 }
+
 .animationFlyInFromLeft {
   animation-name: flyInFromLeft;
   animation-duration: 1s;
@@ -624,421 +625,442 @@ p {
   }
 }
 
-  @media (min-width: 1920px) {
-    html {
-      font-size: 18px;
-    }
-  }
-
-  .NavBarSticky {
-    position: fixed;
-    top: 0;
-    width: 66.66%;
-    left: 25;
-  }
-
-  .NavBarTop {
-    top: 0;
-    width: 66.66%;
-    left: 25;
-  }
-
-  .NavBarButton {
-  }
-
-  .NavBarButtonGroup {
-  }
-
-
-  .NewContentBody {
-    background-image: linear-gradient(rgba(44, 44, 44, 0.8), rgba(22, 22, 22, 1.0));
-    text-align: left;
-  }
-
-  .NewBanner {
-    text-align: left;
-    border-bottom: 4px solid #0099ff;
-    border-top: 10px groove rgb(66, 66, 66);
-    margin-bottom: 2px;
-  }
-
-  .NewBannerImage {
-    border: 4px ridge rgb(44, 44, 44);
-    align-self: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    animation-name: fadeIn;
-    animation-duration: 1s;
-    width: 80%;
-  }
-
-  .NewBannerLinks {
-    text-align: right;
-  }
-
-  .NewBannerLogo {
-    width: 100%;
-    align-self: center;
-    margin-top: 0.5vh;
-    margin-bottom: 0.5vh;
-  }
-
-  .NewBannerSubtitle {
-    font-size: 1rem;
-  }
-
-  .NewBannerText {
-    font-size: 2.5rem;
-  }
-
-  .NewNormalPageLayoutLeft {
-    text-align: left;
-    padding-right: 25px;
-    padding-left: 25px;
-    animation-name: fadeIn;
-    animation-duration: 1s;
-  }
-
-  .NormalPageLayout {
-    text-align: center;
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
-    animation-name: fadeIn;
-    animation-duration: 1s;
-  }
-
-  .NormalPageLayoutLeft {
-    text-align: left;
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
-    animation-name: fadeIn;
-    animation-duration: 1s;
-  }
-
-  .NormalPageLayoutLeftSmaller {
-    text-align: left;
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size: small;
-  }
-
-  .NormalPageLayoutSlim {
-    text-align: left;
-    width: 100%;
-    animation-name: fadeIn;
-    animation-duration: 1s;
-  }
-
-  .moveLeft5 {
-    margin-left: -5%;
-  }
-
-  .moveLeft10 {
-    margin-left: -10%;
-  }
-
-  .moveLeft15 {
-    margin-left: -15%;
-  }
-
-  .moveLeft20 {
-    margin-left: -20%;
-  }
-
-  .moveLeft25 {
-    margin-left: -25%;
-  }
-
-  .moveLeft35 {
-    margin-left: -35%;
-  }
-
-  .moveLeft45 {
-    margin-left: -45%;
-  }
-
-  .moveLeft70 {
-    margin-left: -70%;
-  }
-
-  .moveRight0 {
-    margin-left: 0%;
-  }
-
-  .moveRight10 {
-    margin-left: 10%;
-  }
-
-  .moveRight15 {
-    margin-left: 15%;
-  }
-
-  .moveRight25 {
-    margin-left: 25%;
-  }
-
-  .OutlineGray {
-    border: rgb(22, 22, 22);
-    border-width: 2px;
-    border-style: double;
-    border-collapse: separate;
-  }
-
-  .OutlineBlue {
-    border: #0099ff;
-    border-width: 2px;
-    border-style: double;
-    border-collapse: separate;
-  }
-
-  .ProfileImage {
-    margin-right: 10%;
-    padding: 0.5%;
-    margin-bottom: 12px;
-    background-color: black;
-    outline-style: outset;
-    outline-width: 6px;
-    outline-color: rgb(44, 44, 44);
-  }
-
-  .ScrollingBoxDndPreview {
-    padding-bottom: 4px;
-    overflow-y: auto;
-    overflow-x: hidden;
-    text-align: left;
-    background-image: radial-gradient(rgb(22, 22, 22), black);
-  }
-
-  .ScrollingBoxDndPreview::-webkit-scrollbar {
-    width: 10px;
-  }
-
-  .ScrollingBoxDndPreview::-webkit-scrollbar-track {
-    background-color: rgb(44, 44, 44);
-    background-image: linear-gradient(rgb(44, 44, 44), black);
-  }
-
-  .ScrollingBoxDndPreview::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(white, rgb(99, 99, 99));
-    border-radius: 25px;
-  }
-
-  .ScrollingBox {
-    height: 30vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-    text-align: left;
-    background-image: radial-gradient(rgb(22, 22, 22), black);
-  }
-
-  .ScrollingBox::-webkit-scrollbar {
-    width: 10px;
-  }
-
-  .ScrollingBox::-webkit-scrollbar-track {
-    background-color: rgb(44, 44, 44);
-    background-image: linear-gradient(rgb(44, 44, 44), black);
-  }
-
-  .ScrollingBox::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(white, rgb(99, 99, 99));
-    border-radius: 25px;
-  }
-
-  .ScrollingBox50vh {
-    height: 65vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-    text-align: left;
-  }
-
-  .SectionHeader {
-    text-align: center;
-    color: #0099ff;
-  }
-
-  .SmallHeaderBox {
-    text-align: center;
-    align-self: center;
-    font-size: larger;
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    color: white;
-    background-color: rgb(44, 44, 44);
-    outline-style: outset;
-    outline-width: 6px;
-    outline-color: darkgray;
-    background-image: linear-gradient(rgb(11, 11, 11), black);
-  }
-
-  .SmallHeaderTitleNoHover {
-    text-align: center;
-    align-self: center;
-    font-size: larger;
-    margin-right: 40%;
-    margin-bottom: 12px;
-    padding-left: 0.5%;
-    padding-right: 0.5%;
-    padding-top: 5px;
-    color: white;
-    outline-style: inset;
-    outline-width: 6px;
-    outline-color: rgb(44, 44, 44);
-    background-image: radial-gradient(rgb(11, 11, 11), black);
-  }
-
-  .SmallHeaderTitleNoHoverEvenMargin {
-    text-align: center;
-    align-self: center;
-    font-size: larger;
-    margin-bottom: 12px;
-    padding-left: 0.5%;
-    padding-right: 0.5%;
-    padding-top: 5px;
-    color: white;
-    outline-style: inset;
-    outline-width: 6px;
-    outline-color: rgb(44, 44, 44);
-    background-image: radial-gradient(rgb(11, 11, 11), black);
-  }
-
-  .LevelingGuideTable {
-    text-align: center;
-    border: 1px solid white;
-    background-image: radial-gradient(black, rgb(11, 11, 11));
-  }
-
-  .LevelingGuideTable tr:nth-child(odd) {
-    background-color: rgb(44, 44, 44);
-  }
-
-  .SWWBanner {
-    width: 25vw;
-    offset-anchor: 25vw;
-    padding: 10px;
-  }
-
-  .TalentImage {
-    width: 10vw;
-  }
-
-  .TreeNametag {
-    width: 100%;
-    text-align: center;
-    align-self: center;
-
-    margin-bottom: 12px;
-    padding-top: 5px;
-    color: white;
-  }
-
-  .TreeNametagVertical {
-    text-align: center;
-    align-self: center;
-    font-size: larger;
-    padding-top: 5px;
-    color: white;
-    background-color: black;
-    outline-style: inset;
-    outline-width: 6px;
-    outline-color: rgb(44, 44, 44);
-    writing-mode: vertical-rl;
-    display: inline-block;
-  }
-
-  .textAlignBlock {
-    text-align: block;
-  }
-
-  .textAlignCenter {
-    text-align: center;
-  }
-
-  .textAlignLeft {
-    text-align: left;
-  }
-
-  .textAlignRight {
-    text-align: right;
-  }
-
-  .textColorBlue {
-    color: #0099ff;
-  }
-
-  .textColorBrown {
-    color: brown;
-  }
-
-  .textColorGreen {
-    color: green;
-  }
-
-  .textColorIndigo {
-    color: rgb(110, 100, 255);
-  }
-
-  .textColorOrange {
-    color: orange;
-  }
-
-  .textColorYellow {
-    color: yellow;
-  }
-
-  .textColorCyan {
-    color: cyan;
-  }
-
-  .textColorRed {
-    color: red;
-  }
-
-  .textFontPixel {
-    font-family: 'PixelFont';
-  }
-
-  .width35px {
-    width: 35px;
-  }
-
-  .width50 {
-    width: 50%;
-  }
-
-  .width70 {
-    width: 70%;
-  }
-
-  .width75 {
-    width: 75%;
-  }
-
-  .width80 {
-    width: 80%;
-  }
-
-  .width90 {
-    width: 90%;
-  }
-
-  .width95 {
-    width: 95%;
-  }
-
-  .width100 {
-    width: 100%;
-  }
-
-  .width105 {
-    width: 105%;
-  }
-
-  .width200 {
-    width: 200%;
-  }
+@media (min-width: 1920px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+.NavBarSticky {
+  position: fixed;
+  top: 0;
+  width: 66.66%;
+  left: 25;
+}
+
+.NavBarTop {
+  top: 0;
+  width: 66.66%;
+  left: 25;
+}
+
+.NavBarButton {}
+
+.NavBarButtonGroup {}
+
+
+.NewContentBody {
+  background-image: linear-gradient(rgba(44, 44, 44, 0.8), rgba(22, 22, 22, 1.0));
+  text-align: left;
+}
+
+.NewBanner {
+  text-align: left;
+  border-bottom: 4px solid #0099ff;
+  border-top: 10px groove rgb(66, 66, 66);
+  margin-bottom: 2px;
+}
+
+.NewBannerImage {
+  border: 4px ridge rgb(44, 44, 44);
+  align-self: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  width: 80%;
+}
+
+.NewBannerLinks {
+  text-align: right;
+}
+
+.NewBannerLogo {
+  width: 100%;
+  align-self: center;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+}
+
+.NewBannerSubtitle {
+  font-size: 1rem;
+}
+
+.NewBannerText {
+  font-size: 2.5rem;
+}
+
+.NewNormalPageLayoutLeft {
+  text-align: left;
+  padding-right: 25px;
+  padding-left: 25px;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+.NormalPageLayout {
+  text-align: center;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+.NormalPageLayoutLeft {
+  text-align: left;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+.NormalPageLayoutLeftSmaller {
+  text-align: left;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: small;
+}
+
+.NormalPageLayoutSlim {
+  text-align: left;
+  width: 100%;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+.moveLeft5 {
+  margin-left: -5%;
+}
+
+.moveLeft10 {
+  margin-left: -10%;
+}
+
+.moveLeft15 {
+  margin-left: -15%;
+}
+
+.moveLeft20 {
+  margin-left: -20%;
+}
+
+.moveLeft25 {
+  margin-left: -25%;
+}
+
+.moveLeft35 {
+  margin-left: -35%;
+}
+
+.moveLeft45 {
+  margin-left: -45%;
+}
+
+.moveLeft70 {
+  margin-left: -70%;
+}
+
+.moveRight0 {
+  margin-left: 0%;
+}
+
+.moveRight10 {
+  margin-left: 10%;
+}
+
+.moveRight15 {
+  margin-left: 15%;
+}
+
+.moveRight25 {
+  margin-left: 25%;
+}
+
+.outlineBorderOnHover {
+}
+
+.outlineBorderOnHover:hover {
+  outline-style: outset;
+  outline-width: 4px;
+  outline-color: white;
+  transform: scale(1.01);
+  margin-bottom: 4px;
+}
+
+.OutlineGray {
+  border: rgb(22, 22, 22);
+  border-width: 2px;
+  border-style: double;
+  border-collapse: separate;
+}
+
+.OutlineBlue {
+  border: #0099ff;
+  border-width: 2px;
+  border-style: double;
+  border-collapse: separate;
+}
+
+.ProfileImage {
+  margin-right: 10%;
+  padding: 0.5%;
+  margin-bottom: 12px;
+  background-color: black;
+  outline-style: outset;
+  outline-width: 6px;
+  outline-color: rgb(44, 44, 44);
+}
+
+.ScrollingBoxDndPreview {
+  padding-bottom: 4px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: left;
+  background-image: radial-gradient(rgb(22, 22, 22), black);
+}
+
+.ScrollingBoxDndPreview::-webkit-scrollbar {
+  width: 10px;
+}
+
+.ScrollingBoxDndPreview::-webkit-scrollbar-track {
+  background-color: rgb(44, 44, 44);
+  background-image: linear-gradient(rgb(44, 44, 44), black);
+}
+
+.ScrollingBoxDndPreview::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(white, rgb(99, 99, 99));
+  border-radius: 25px;
+}
+
+.ScrollingBox {
+  height: 30vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: left;
+  background-image: radial-gradient(rgb(22, 22, 22), black);
+}
+
+.ScrollingBox::-webkit-scrollbar {
+  width: 10px;
+}
+
+.ScrollingBox::-webkit-scrollbar-track {
+  background-color: rgb(44, 44, 44);
+  background-image: linear-gradient(rgb(44, 44, 44), black);
+}
+
+.ScrollingBox::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(white, rgb(99, 99, 99));
+  border-radius: 25px;
+}
+
+.ScrollingBox50vh {
+  height: 65vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: left;
+}
+
+.SectionHeader {
+  text-align: center;
+  color: #0099ff;
+}
+
+.SmallHeaderBox {
+  text-align: center;
+  align-self: center;
+  font-size: larger;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: white;
+  background-color: rgb(44, 44, 44);
+  outline-style: outset;
+  outline-width: 6px;
+  outline-color: darkgray;
+  background-image: linear-gradient(rgb(11, 11, 11), black);
+}
+
+.SmallHeaderTitleNoHover {
+  text-align: center;
+  align-self: center;
+  font-size: larger;
+  margin-right: 40%;
+  margin-bottom: 12px;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  padding-top: 5px;
+  color: white;
+  outline-style: inset;
+  outline-width: 6px;
+  outline-color: rgb(44, 44, 44);
+  background-image: radial-gradient(rgb(11, 11, 11), black);
+}
+
+.SmallHeaderTitleNoHoverEvenMargin {
+  text-align: center;
+  align-self: center;
+  font-size: larger;
+  margin-bottom: 12px;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  padding-top: 5px;
+  color: white;
+  outline-style: inset;
+  outline-width: 6px;
+  outline-color: rgb(44, 44, 44);
+  background-image: radial-gradient(rgb(11, 11, 11), black);
+}
+
+.LevelingGuideTable {
+  text-align: center;
+  border: 1px solid white;
+  background-image: radial-gradient(black, rgb(11, 11, 11));
+}
+
+.LevelingGuideTable tr:nth-child(odd) {
+  background-color: rgb(44, 44, 44);
+}
+
+.SWWBanner {
+  width: 25vw;
+  offset-anchor: 25vw;
+  padding: 10px;
+}
+
+.TalentImage {
+  width: 10vw;
+}
+
+.TreeNametag {
+  width: 100%;
+  text-align: center;
+  align-self: center;
+
+  margin-bottom: 12px;
+  padding-top: 5px;
+  color: white;
+}
+
+.TreeNametagVertical {
+  text-align: center;
+  align-self: center;
+  font-size: larger;
+  padding-top: 5px;
+  color: white;
+  background-color: black;
+  outline-style: inset;
+  outline-width: 6px;
+  outline-color: rgb(44, 44, 44);
+  writing-mode: vertical-rl;
+  display: inline-block;
+}
+
+.textAlignBlock {
+  text-align: block;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.textAlignLeft {
+  text-align: left;
+}
+
+.textAlignRight {
+  text-align: right;
+}
+
+.textColorBlue {
+  color: #0099ff;
+}
+
+.textColorBrown {
+  color: brown;
+}
+
+.textColorGreen {
+  color: green;
+}
+
+.textColorIndigo {
+  color: rgb(110, 100, 255);
+}
+
+.textColorOrange {
+  color: orange;
+}
+
+.textColorYellow {
+  color: yellow;
+}
+
+.textColorCyan {
+  color: cyan;
+}
+
+.textColorRed {
+  color: red;
+}
+
+.textFontPixel {
+  font-family: 'PixelFont';
+}
+
+.textFontSizeH1 {
+  font-size: 2.5rem;
+}
+
+.textFontSizeH2 {
+  font-size: 2.25rem;
+}
+
+.textFontSizeH6 {
+    font-size: 1.25rem;
+}
+
+.width35px {
+  width: 35px;
+}
+
+.width50 {
+  width: 50%;
+}
+
+.width70 {
+  width: 70%;
+}
+
+.width75 {
+  width: 75%;
+}
+
+.width80 {
+  width: 80%;
+}
+
+.width90 {
+  width: 90%;
+}
+
+.width95 {
+  width: 95%;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.width105 {
+  width: 105%;
+}
+
+.width200 {
+  width: 200%;
+}
