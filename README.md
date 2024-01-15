@@ -1,7 +1,6 @@
 # myPortfolioReact
-Jeremy Davis Game Design &amp; Software Engineering Portfolio
+Jeremy Davis Game Design &amp; Software Engineering Portfolio.
 
-Hello this is my new portfolio for 2023 made in React JS.
-Please feel free to take a look and contact me if you like what you see or have feedback you want to give. 
- 
-I value new perspectives and am open to feedback.
+This portfolio was made in React JS, JavaScript, HTML, CSS, and Material UI.
+It is hosted on a Microsoft Azure server at:
+https://www.silverwindworkshop.com
