@@ -13,16 +13,19 @@ function Header() {
                 <Grid item md={2} sm={0} xs={0}/>
                 <Grid item md={8} sm={12} xs={12} className="NewContentBody">
                     <Grid id="Row 1 Banner Components" container spacing={0} className="NewBanner">
-                        <Grid item md={2} sm={2} xs={2}>
+                    <Grid item md={0.25} sm={0} xs={0} />
+                        <Grid item md={1} sm={2} xs={2}>
                             <img src={glowingEyeLogo} alt="Glowing Eye Icon" className='NewBannerLogo' />
                         </Grid>
                         <Grid item md={6} sm={6} xs={6}>
-                            <h1 className="textColorBlue NewBannerText">
+                            <b className="textColorBlue NewBannerText textFontSizeH1">
                                 Jerry Davis
-                            </h1>
-                            <h2 className="NewBannerSubtitle">
+                            </b>
+                            <br />
+                            <b className="NewBannerSubtitle textFontSizeH4">
                                 Game Designer and Software Engineer
-                            </h2>
+                            </b>
+                            <br /><br />
                         </Grid>
                         <Grid item md={2} sm={0} xs={0} />
                         <Grid item md={2} sm={2} xs={2}>
