@@ -50,7 +50,7 @@ function AboutMe() {
                         <hr className="HorizontalLineBlue" />
                     </h4>
                     <p className="NormalPageLayout">
-                        <b>Bachelors of Computer Science with a Minor in Business</b>
+                        <b>Bachelor's of Computer Science with a Minor in Business</b>
                         <br />
                         Arkansas A-State University, Jonesboro AR
                         <br />
