@@ -32,7 +32,7 @@ function PersonalProjectsSection() {
                     </div>
                 </div>
                 <p>
-                    <Grid container direction="row" justifyContent="center" alignItems="center" >
+                    <Grid container direction="row" justifyContent="center" alignItems="center">
                         <Grid item xs={10}>
                             <Button className="ImageLogo" variant='outlined'
                                 component={Link} to="/CrackedGlass" onClick={() => window.scrollTo(0, 0)}>
