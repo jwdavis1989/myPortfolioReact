@@ -285,6 +285,10 @@ html::-webkit-scrollbar-thumb {
   border-radius: 25px;
 }
 
+.imageMaxSize100 {
+  max-width:100%
+}
+
 @keyframes colorWhiteOrangeFlashing {
   from {
     color: white;

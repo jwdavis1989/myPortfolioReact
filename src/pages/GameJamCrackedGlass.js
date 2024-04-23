@@ -7,9 +7,7 @@ import React from 'react';
 import CrackedGlassDownload from "../resources/gamePrototypes/CrackedGlassUnderwaterHorrorJam.zip";
 import CrackedGlassDesignDocument from "../resources/handouts/CrackedGlassDesignDocument.pdf";
 import CrackedGlassRankings from "../resources/images/gamePrototypes/CrackedGlassRankings.png";
-import { TwoFormsTwoGenresTemplate } from "../components/gamePrototypeTemplates/TwoFormsTwoGenresTemplate.js";
-import { PhoenixBombTemplate } from "../components/gamePrototypeTemplates/PhoenixBombTemplate.js";
-import { BUTTON_FONT_SIZE, BUTTON_ICON_SIZE } from "../constants/constants.js";
+//import { BUTTON_FONT_SIZE, BUTTON_ICON_SIZE } from "../constants/constants.js";
 
 function GameJamCrackedGlass() {
 
@@ -49,23 +47,37 @@ function GameJamCrackedGlass() {
                         <b>
                             Documentation
                         </b>
+                        <p />
                     </div>
-                    <p>
-                        <Grid container direction="row" justifyContent="center" alignItems="center" >
-                            <Grid item xs={10}>
-                                <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
-                                    <Button className="ImageLogo" startIcon={<DownloadIcon />}
-                                        component="a" href={CrackedGlassDesignDocument} target="_blank" rel="noreferrer">
-                                        Design Document
-                                    </Button>
-                                    <Button className="ImageLogo" startIcon={<ListAltIcon />}
-                                        component="a" href="https://trello.com/b/crldYWZA/underwater-horror-jam-march-28th-2024" target="_blank" rel="noreferrer">
-                                        Scrum Board
-                                    </Button>
-                                </ButtonGroup>
-                            </Grid>
+                    <Grid container direction="row" justifyContent="center" alignItems="center" >
+                        <Grid item xs={10}>
+                            <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
+                                <Button className="ImageLogo" startIcon={<DownloadIcon />}
+                                    component="a" href={CrackedGlassDesignDocument} target="_blank" rel="noreferrer">
+                                    Design Document
+                                </Button>
+                                <Button className="ImageLogo" startIcon={<ListAltIcon />}
+                                    component="a" href="https://trello.com/b/crldYWZA/underwater-horror-jam-march-28th-2024" target="_blank" rel="noreferrer">
+                                    Scrum Board
+                                </Button>
+                            </ButtonGroup>
                         </Grid>
-                    </p>
+                    </Grid>
+                    <div className="textAlignCenter textColorBlue">
+                        <p>
+                            <b>
+                                Rankings Preview
+                            </b>
+                            <p />
+                            <Grid container direction="row" justifyContent="center" alignItems="center" >
+                                <Grid item xs={10}>
+                                    <a href="https://itch.io/jam/underwater-horror-jam/results/mechanics" target="_blank" rel="noreferrer" >
+                                        <img src={CrackedGlassRankings} alt="Rankings Preview" className='imageMaxSize100' />
+                                    </a>
+                                </Grid>
+                            </Grid>
+                        </p>
+                    </div>
                     <div className="textAlignLeft animationFadeIn">
                         <p>
                             <b className='textColorBlue'>Contributions:</b>
@@ -89,13 +101,16 @@ function GameJamCrackedGlass() {
                             </b>
                             <ul>
                                 <li>
-                                    (WIP) Create a fun arcade schmup game that combines the on-rails shoot-em-up and free roaming twin-stick shooter genres.
+                                    Form a team and lead them through entering a game jam designed around a specific theme.
                                 </li>
                                 <li>
-                                    (WIP) Design and implement a more strategic screen clearing tool that allows players to get creative.
+                                    Design and implement an underwater horror game that best shows off the
+                                    mechanical depth that a three-programmer team can enable with limited art assets.
                                 </li>
                                 <li>
-                                    (WIP) Demonstrate skills in Gameplay Design, Balancing, Sprite Art, Music Composition, and converting an idea into a full game prototype.
+                                    Demonstrate skills in Teamwork, Leadership, Gameplay Design, Programming,
+                                    and converting an idea into a full game within a finite time limit
+                                    while using SCRUM best-practices.
                                 </li>
                             </ul>
                         </p>
