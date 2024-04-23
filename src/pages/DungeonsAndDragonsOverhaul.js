@@ -49,7 +49,7 @@ function DungeonsAndDragonsOverhaul() {
                 <hr className="HorizontalLineBlue" />
             </h3>
             <p>
-                <img className="NewBannerImage" src={SWWOverhaulBanner}
+                <img className="NewBannerImage imageMaxSize100" src={SWWOverhaulBanner}
                     alt="Silverwind Workshop's Skill Trees - D&D Tabletop Game Addon Banner" />
                 <Grid container direction="row" justifyContent="center" alignItems="center" >
                     <Grid item xs={10}>
@@ -134,22 +134,22 @@ function DungeonsAndDragonsOverhaul() {
                         </h4>
                         <Grid container spacing={0} id="Row 3 Example Tree Icons Reworked">
                             <Grid item xs={3}>
-                                <img className='alignCenter50 cursorClickable' src={glowingEyeLogo}
+                                <img className='alignCenter50 cursorClickable imageMaxSize100' src={glowingEyeLogo}
                                     alt="Tutorial Icon"
                                     onClick={() => { setSelectedTree(4); document.getElementById('Skill Tree Demos').scrollIntoView() }} />
                             </Grid>
                             <Grid item xs={3}>
-                                <img className='alignCenter50 cursorClickable' src={LeadershipIcon}
+                                <img className='alignCenter50 cursorClickable imageMaxSize100' src={LeadershipIcon}
                                     alt="Leadership Icon"
                                     onClick={() => { setSelectedTree(1); document.getElementById('Skill Tree Demos').scrollIntoView() }} />
                             </Grid>
                             <Grid item xs={3}>
-                                <img className='alignCenter50 cursorClickable' src={PyromancyIcon}
+                                <img className='alignCenter50 cursorClickable imageMaxSize100' src={PyromancyIcon}
                                     alt="Leadership Icon"
                                     onClick={() => { setSelectedTree(2); document.getElementById('Skill Tree Demos').scrollIntoView() }} />
                             </Grid>
                             <Grid item xs={3}>
-                                <img className='alignCenter50 cursorClickable' src={ShieldedCombatIcon}
+                                <img className='alignCenter50 cursorClickable imageMaxSize100' src={ShieldedCombatIcon}
                                     alt="Leadership Icon"
                                     onClick={() => { setSelectedTree(3); document.getElementById('Skill Tree Demos').scrollIntoView() }} />
                             </Grid>

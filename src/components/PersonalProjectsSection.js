@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
-import PhoenixWalkerTitleScreen from '../resources/images/gamePrototypes/gifs/PhoenixWalkerTitleScreenBanner/PhoenixWalkerTitleScreen.gif';
-import CrackedGlassTitleScreen from '../resources/images/gamePrototypes/CrackedGlassTitleScreen.png';
 import ChineseVampireBanner from '../resources/images/designExercise/ChineseVampireLeagueChampionBannerSmall.png';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import { Grid, Button } from '@mui/material';
 
 function PersonalProjectsSection() {
     return (
@@ -16,66 +15,102 @@ function PersonalProjectsSection() {
             <br />
             <br />
             <p className="NormalPageLayout">
-                <Link to="/CrackedGlass" onClick={() => window.scrollTo(0, 0)}>
-                    <img className="NewBannerImage outlineBorderOnHover" src={CrackedGlassTitleScreen} alt="Phoenix Walker - Game Prototype"/>
-                </Link>
-                <div className="SectionHeader">
+                <h4 className="SectionHeader">
                     <b>
-                        Cracked Glass - Underwater Horror Jam 2024
+                        Cracked Glass -
+                        <br />
+                        Underwater Horror Jam 2024
+                        (<EmojiEventsIcon sx={{ color: "silver" }} />)
                     </b>
+                </h4>
+                <div class="auto-resizable-iframe">
+                    <div>
+                        <iframe width="792" height="294" src="https://www.youtube.com/embed/GNVOkna3ZhM"
+                            title="Cracked Glass Game Jam Demo" frameborder="1"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
-                <b>Contributions:</b> Product Owner, Scrum Master, Game Designer, Programmer (Physics, Player, Enemy AI, Main Gameplay Loop), Artist (Enemy, Tileset)
-                <br />
-                <b>Team:</b> Jerry Davis, Lloyd Thomas, Alec Straw
-                <br />
-                <b>Overall Ranking:</b> 2nd <EmojiEventsIcon sx={{
-                                    color: "gray"
-                                }}/>
-                <br />
-                <Link to="/VideoGamePrototypes" onClick={() => window.scrollTo(0, 0)} className="animationcolorWhiteOrangeFlashing">
-                    Click to learn more.
-                </Link>
+                <p>
+                    <Grid container direction="row" justifyContent="center" alignItems="center" >
+                        <Grid item xs={10}>
+                            <Button className="ImageLogo" variant='outlined'
+                                component={Link} to="/CrackedGlass" onClick={() => window.scrollTo(0, 0)}>
+                                Learn More
+                            </Button>
+                            <div className="textAlignLeft">
+                                <b>Contributions:</b> Product Owner, Scrum Master, Game Designer, Programmer (Physics, Player, Enemy AI, Main Gameplay Loop), Artist (Enemy, Tileset)
+                                <br />
+                                <b>Team:</b> Jerry Davis, Lloyd Thomas, Alec Straw
+                                <br />
+                                <b>Overall Ranking:</b> 2nd
+                            </div>
+                        </Grid>
+                    </Grid>
+                </p>
                 <br />
                 <br />
                 <br />
             </p>
             <p className="NormalPageLayout">
-                <Link to="/VideoGamePrototypes" onClick={() => window.scrollTo(0, 0)}>
-                    <img className="NewBannerImage outlineBorderOnHover" src={PhoenixWalkerTitleScreen} alt="Phoenix Walker - Game Prototype"/>
-                </Link>
-                <div className="SectionHeader">
+                <h4 className="SectionHeader">
                     <b>
-                        Phoenix Walker - Game Prototype
+                        Phoenix Walker -
+                        Game Prototype
                     </b>
+                </h4>
+                <div class="auto-resizable-iframe">
+                    <div>
+                        <iframe width="792" height="294" src="https://www.youtube.com/embed/uWy9_vH6XGQ"
+                            title="Phoenix Walker Game Prototype Demo" frameborder="1"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
-                <b>Contributions:</b> Game Designer, Programmer, Sprite Artist, Music Composer
-                <br />
-                <Link to="/VideoGamePrototypes" onClick={() => window.scrollTo(0, 0)} className="animationcolorWhiteOrangeFlashing">
-                    Click to learn more.
-                </Link>
+                <p>
+                    <Grid container direction="row" justifyContent="center" alignItems="center" >
+                        <Grid item xs={10}>
+                            <Button className="ImageLogo" variant='outlined'
+                                component={Link} to="/VideoGamePrototypes" onClick={() => window.scrollTo(0, 0)}>
+                                Learn More
+                            </Button>
+                            <div className="textAlignLeft">
+                                <b>Contributions:</b> Game Designer, Programmer, Sprite Artist, Music Composer
+                            </div>
+                        </Grid>
+                    </Grid>
+                </p>
                 <br />
                 <br />
                 <br />
             </p>
             <p className="NormalPageLayout">
+                <h4 className="SectionHeader">
+                    <b>
+                        Yingyue the Jiangshi -
+                        <br />
+                        League of Legends Character Concept
+                    </b>
+                </h4>
                 <Link to="/DesignExercises" onClick={() => window.scrollTo(0, 0)}>
-                    <img className="NewBannerImage outlineBorderOnHover" src={ChineseVampireBanner} alt="Yingyue the Jiangshi - League of Legends Character Concept"/>
+                    <img className="NewBannerImage outlineBorderOnHover" src={ChineseVampireBanner} alt="Yingyue the Jiangshi - League of Legends Character Concept" />
                 </Link>
-                <div className="SectionHeader">
-                    <b>
-                        Yingyue the Jiangshi - League of Legends Character Concept
-                    </b>
-                </div>
-                <b>Contributions:</b> Game Designer, Writer
                 <br />
-
-                <a href='https://www.chenruoyu.com/' target="_blank" rel="noreferrer">
-                    <b>Artwork by:</b> Chen Ruo Yu
-                </a>
-                <br />
-                <Link to="/DesignExercises" onClick={() => window.scrollTo(0, 0)} className="animationcolorWhiteOrangeFlashing">
-                    Click to learn more.
-                </Link>
+                    <Grid container direction="row" justifyContent="center" alignItems="center" >
+                        <Grid item xs={10}>
+                            <Button className="ImageLogo" variant='outlined'
+                                component={Link} to="/DesignExercises" onClick={() => window.scrollTo(0, 0)}>
+                                Learn More
+                            </Button>
+                            <div className="textAlignLeft">
+                                <b>Contributions:</b> Game Designer, Writer
+                                <br />
+                                <a href='https://www.chenruoyu.com/' target="_blank" rel="noreferrer">
+                                    <b>Artwork by:</b> Chen Ruo Yu
+                                </a>
+                            </div>
+                        </Grid>
+                    </Grid>
                 <br />
                 <br />
                 <br />
