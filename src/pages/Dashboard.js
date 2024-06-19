@@ -28,13 +28,6 @@ function Dashboard() {
             <p>
                 This website was created entirely by me using React, JavaScript, Material UI, CSS, and HTML and is hosted on Microsoft Azure.
             </p>
-            <div className='textColorBlue textAlignCenter'>
-                <b>
-                    <i>
-                        Click the images below to learn more about my work.
-                    </i>
-                </b>
-            </div>
             <br />
             <ProfessionalWorkSection />
             <PersonalProjectsSection />

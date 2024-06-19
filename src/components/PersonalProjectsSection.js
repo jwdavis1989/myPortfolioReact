@@ -17,6 +17,42 @@ function PersonalProjectsSection() {
             <p className="NormalPageLayout">
                 <h4 className="SectionHeader">
                     <b>
+                        Black Friday: The Last Stand -
+                        <br />
+                        GameDev.TV Game Jam 2024
+                    </b>
+                </h4>
+                <div class="auto-resizable-iframe">
+                    <div>
+                        <iframe width="792" height="294" src="https://www.youtube.com/embed/Gkng-3ep7_A"
+                            title="Black Friday Game Jam Demo" frameborder="1"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <p>
+                    <Grid container direction="row" justifyContent="center" alignItems="center">
+                        <Grid item xs={10}>
+                            <Button className="ImageLogo" variant='outlined'
+                                component={Link} to="/BlackFriday" onClick={() => window.scrollTo(0, 0)}>
+                                Learn More
+                            </Button>
+                            <div className="textAlignLeft">
+                                <b>Contributions:</b> Game Director, Product Owner, Scrum Master, Game Designer, Lead Programmer
+                                <br />
+                                <b>Team:</b> Jerry Davis, Lloyd Thomas, Alec Straw, Logan Allen, David Wilson, Chelsea Davis
+                                <br />
+                            </div>
+                        </Grid>
+                    </Grid>
+                </p>
+                <br />
+                <br />
+                <br />
+            </p>
+            <p className="NormalPageLayout">
+                <h4 className="SectionHeader">
+                    <b>
                         Cracked Glass -
                         <br />
                         Underwater Horror Jam 2024

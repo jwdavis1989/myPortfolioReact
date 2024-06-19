@@ -7,6 +7,7 @@ import { Dashboard } from './pages/Dashboard';
 import { DungeonsAndDragonsOverhaul } from './pages/DungeonsAndDragonsOverhaul';
 import { VideoGamePrototypes } from './pages/VideoGamePrototypes';
 import { GameJamCrackedGlass } from './pages/GameJamCrackedGlass';
+import { GameJamBlackFriday } from './pages/GameJamBlackFriday';
 import { DesignExercises } from './pages/DesignExercises';
 import { MapGenerator } from './pages/MapGenerator';
 import { Resume } from './pages/Resume';
@@ -38,6 +39,7 @@ function App() {
               <Route path="/MapGenerator" element={<MapGenerator />} />
               <Route path="/VideoGamePrototypes" element={<VideoGamePrototypes />} />
               <Route path="/CrackedGlass" element={<GameJamCrackedGlass />} />
+              <Route path="/BlackFriday" element={<GameJamBlackFriday />} />
               <Route path="/DesignExercises" element={<DesignExercises />} />
               <Route path="/Resume" element={<Resume />} />
               <Route path="/AboutMe" element={<AboutMe />} />
