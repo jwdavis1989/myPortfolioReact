@@ -3,7 +3,7 @@ import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 import { Button, Grid } from '@mui/material';
 import profilePicture from '../resources/images/Jerry_Davis_Portrait_50pc.png';
-import gameDesignPDF from "../resources/handouts/JerryDavisGDResumeWB.pdf";
+import gameDesignPDF from "../resources/handouts/Davis Jerry Game Developer Resume.pdf";
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 
 function AboutMe() {

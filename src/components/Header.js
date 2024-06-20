@@ -1,7 +1,7 @@
 import { NavBar } from "./NavBar";
 import { ButtonGroup, Grid, IconButton } from '@mui/material';
 import glowingEyeLogo from "../resources/images/glowingEyeAnimation/glowingEyeAnimation.gif";
-import gameDesignPDF from "../resources/handouts/JerryDavisGDResumeWB.pdf";
+import gameDesignPDF from "../resources/handouts/Davis Jerry Game Developer Resume.pdf";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
