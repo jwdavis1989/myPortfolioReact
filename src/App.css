@@ -696,10 +696,13 @@ p {
 
 .NewNormalPageLayoutLeft {
   text-align: left;
-  padding-right: 25px;
-  padding-left: 25px;
   animation-name: fadeIn;
   animation-duration: 1s;
+}
+
+.NormalPageWithLRPadding {
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 .NormalPageLayout {

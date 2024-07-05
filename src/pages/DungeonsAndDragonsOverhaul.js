@@ -65,7 +65,7 @@ function DungeonsAndDragonsOverhaul() {
                         </ButtonGroup>
                     </Grid>
                 </Grid>
-                <div className="textAlignLeft animationFadeIn">
+                <div className="textAlignLeft animationFadeIn NormalPageWithLRPadding">
                     <p>
                         <b className='textColorBlue'>Contributions:</b>
                         <br />
