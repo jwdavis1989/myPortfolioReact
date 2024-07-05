@@ -3,10 +3,10 @@ import { ProfessionalWorkSection } from '../components/ProfessionalWorkSection';
 
 function Dashboard() {
     return (
-        <div className='textAlignCenter'>
+        <div className='NormalPageWithLRPadding'>
             <p>
-                <b className='textColorBlue textAlignCenter textFontSizeH6'>
-                    Game Design:
+                <b className='textColorBlue textFontSizeH6'>
+                    Game Development:
                 </b>
                 <br />
                 I created Silverwind Workshop, an independent Dungeons & Dragons 5th Edition content
@@ -14,11 +14,11 @@ function Dashboard() {
                 the gameplay of D&D 5th edition.
                 My work is published and for sale on the marketplace of the popular online virtual
                 tabletop, Roll20.
-                Click Professional D&D Content to learn more and view three free to play
-                demo trees, each with in-depth design insights!
+                <br />
+                Additionally, I lead a game jam team of sizes 3-6. 
             </p>
             <p>
-                <b className='textColorBlue textAlignCenter textFontSizeH6'>
+                <b className='textColorBlue textFontSizeH6'>
                     Software Engineering:
                 </b>
                 <br />

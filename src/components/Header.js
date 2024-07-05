@@ -10,10 +10,7 @@ function Header() {
     return (
         <div>
             <Grid id="Header Banner Section" container spacing={0} className="">
-                <Grid item md={2} sm={0} xs={0}/>
-                <Grid item md={8} sm={12} xs={12} className="NewContentBody">
                     <Grid id="Row 1 Banner Components" container spacing={0} className="NewBanner">
-                    <Grid item md={0.25} sm={0} xs={0} />
                         <Grid item md={1} sm={2} xs={2}>
                             <img src={glowingEyeLogo} alt="Glowing Eye Icon" className='NewBannerLogo' />
                         </Grid>
@@ -23,7 +20,7 @@ function Header() {
                             </b>
                             <br />
                             <b className="NewBannerSubtitle textFontSizeH4">
-                                Game Designer and Software Engineer
+                                Game Developer and Software Engineer
                             </b>
                             <br /><br />
                         </Grid>
@@ -48,6 +45,9 @@ function Header() {
                             </ButtonGroup>
                         </Grid>
                     </Grid>
+            </Grid>
+            <Grid id="Header Banner Section" container spacing={0} className="">
+                <Grid item md={12} sm={12} xs={12}>
                     <NavBar />
                 </Grid>
             </Grid>

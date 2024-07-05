@@ -119,7 +119,7 @@ function DesignExercises() {
                 <p>
                     <img className="NormalPageLayout" src={ChineseVampireBanner}
                         alt="Yingyue the Jiangshi - League of Legends Character Concept" />
-                    <div className="textAlignLeft animationFadeIn">
+                    <div className="textAlignLeft animationFadeIn NormalPageWithLRPadding">
                         <p>
                             <b className='textColorBlue'>Contributions:</b>
                             <br />

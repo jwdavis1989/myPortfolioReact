@@ -27,10 +27,10 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        <Header />
         <Grid container spacing={0}>
-          <Grid item md={2} sm={0} />
-          <Grid item md={8} sm={12} className='NewContentBody NewNormalPageLayoutLeft'>
+          <Grid item md={0.5} sm={0} xs={0}/>
+          <Grid item md={11} sm={11} className='NewContentBody'>
+            <Header />
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/PublishedDnDContent" element={<DungeonsAndDragonsContent />} />
@@ -45,9 +45,10 @@ function App() {
               <Route path="/AboutMe" element={<AboutMe />} />
               <Route path="/ContactMe" element={<ContactMe />} />
             </Routes>
+          <Footer />
           </Grid>
+          <Grid item md={0.5} sm={0} xs={0}/>
         </Grid>
-        <Footer />
       </ThemeProvider>
     </div>
   );

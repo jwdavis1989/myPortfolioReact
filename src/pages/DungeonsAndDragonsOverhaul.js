@@ -66,6 +66,7 @@ function DungeonsAndDragonsOverhaul() {
                     </Grid>
                 </Grid>
                 <div className="textAlignLeft animationFadeIn">
+                    <div className='NormalPageWithLRPadding'>
                     <p>
                         <b className='textColorBlue'>Contributions:</b>
                         <br />
@@ -127,6 +128,7 @@ function DungeonsAndDragonsOverhaul() {
                             </Grid>
                         </Grid>
                     </p>
+                    </div>
                     <p>
                         <h4 id="Skill Tree Demos" className="SectionHeader">
                             Interactive Skill Tree Demonstration & Design Insights:

@@ -38,7 +38,7 @@ function VideoGamePrototypes() {
                             </Grid>
                         </Grid>
                     </p>
-                    <div className="textAlignLeft animationFadeIn">
+                    <div className="textAlignLeft animationFadeIn NormalPageWithLRPadding">
                         <p>
                             <b className='textColorBlue'>Contributions:</b>
                             <br />
