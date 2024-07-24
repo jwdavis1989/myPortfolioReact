@@ -1,6 +1,7 @@
 import DownloadIcon from '@mui/icons-material/Download';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import ListAltIcon from '@mui/icons-material/ListAlt';
+import SourceIcon from '@mui/icons-material/Source';
 import { Button, ButtonGroup, Grid } from '@mui/material';
 import React from 'react';
 
@@ -28,9 +29,9 @@ function GameJamBlackFriday() {
                         <Grid container direction="row" justifyContent="center" alignItems="center" >
                             <Grid item xs={10}>
                                 <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
-                                    <Button className="ImageLogo" startIcon={<DownloadIcon />}
-                                        component="a" href={BlackFridayDownload} target="_blank" rel="noreferrer">
-                                        Download
+                                    <Button className="ImageLogo" startIcon={<SourceIcon />}
+                                        component="a" href="https://github.com/jwdavis1989/GameDevTvGameJam2024" target="_blank" rel="noreferrer">
+                                        Github
                                     </Button>
                                     <Button className="ImageLogo" startIcon={<EmojiEventsIcon />}
                                         component="a" href="https://itch.io/jam/gamedevtv-jam-2024/rate/2750579" target="_blank" rel="noreferrer">
@@ -39,27 +40,31 @@ function GameJamBlackFriday() {
                                 </ButtonGroup>
                             </Grid>
                         </Grid>
-                    </p>
-                    <div className="textAlignCenter textColorBlue">
-                        <b>
-                            Documentation
-                        </b>
-                        <p />
-                    </div>
-                    <Grid container direction="row" justifyContent="center" alignItems="center" >
-                        <Grid item xs={10}>
-                            <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
-                                <Button className="ImageLogo" startIcon={<DownloadIcon />}
-                                    component="a" href={"https://docs.google.com/document/d/1oLtc68ixtdXaahR2DjMnLqkFSzS7oAtWkp_1t3Xv1-k/edit?usp=sharing"} target="_blank" rel="noreferrer">
-                                    Design Document
-                                </Button>
-                                <Button className="ImageLogo" startIcon={<ListAltIcon />}
-                                    component="a" href="https://trello.com/b/sUqB6kU9/gamedevtv-game-jam-2024" target="_blank" rel="noreferrer">
-                                    Scrum Board
-                                </Button>
-                            </ButtonGroup>
+                        <Grid container direction="row" justifyContent="center" alignItems="center" >
+                            <Grid item xs={10}>
+                                <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
+                                    <Button className="ImageLogo" startIcon={<DownloadIcon />}
+                                        component="a" href={"https://docs.google.com/document/d/1oLtc68ixtdXaahR2DjMnLqkFSzS7oAtWkp_1t3Xv1-k/edit?usp=sharing"} target="_blank" rel="noreferrer">
+                                        Design Document
+                                    </Button>
+                                    <Button className="ImageLogo" startIcon={<ListAltIcon />}
+                                        component="a" href="https://trello.com/b/sUqB6kU9/gamedevtv-game-jam-2024" target="_blank" rel="noreferrer">
+                                        Scrum Board
+                                    </Button>
+                                </ButtonGroup>
+                            </Grid>
                         </Grid>
-                    </Grid>
+                        <Grid container direction="row" justifyContent="center" alignItems="center" >
+                            <Grid item xs={10}>
+                                <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
+                                <Button className="ImageLogo" startIcon={<DownloadIcon />}
+                                        component="a" href={BlackFridayDownload} target="_blank" rel="noreferrer">
+                                        Download
+                                    </Button>
+                                </ButtonGroup>
+                            </Grid>
+                        </Grid>
+                    </p>
                     <div className="textAlignLeft animationFadeIn NormalPageWithLRPadding">
                         <p>
                             <b className='textColorBlue'>Contributions:</b>
@@ -75,7 +80,7 @@ function GameJamBlackFriday() {
                             <p>
                                 Black Friday: The Last Stand is a tower-defense game where customers move down aisles towards the managers office. If one reaches
                                 the office, you'll get a write-up. If you get 5 write-ups and you're done. To prevent this, you've weaponized some of the store's
-                                merchandise to attack customers in range (towers) and you can strike customers with the titular Last Stand in melee. 
+                                merchandise to attack customers in range (towers) and you can strike customers with the titular Last Stand in melee.
                                 As you defeat customers, you'll receive money to buy towers. Between waves of
                                 customers, you'll unlock a new tower, but be careful as it will also add
                                 another aisle for you to defend.
@@ -105,19 +110,19 @@ function GameJamBlackFriday() {
                             </b>
                             <ul>
                                 <li>
-                                    Managing 6 team members requires a lot of documentation and managing skills, 
-                                    making the need for dedicated Directors, Product Owners, and Scrum Masters very clear to me. 
+                                    Managing 6 team members requires a lot of documentation and managing skills,
+                                    making the need for dedicated Directors, Product Owners, and Scrum Masters very clear to me.
                                     <br />
                                     As team size increases, documentation and overhead exponentially grows.
                                 </li>
                                 <li>
-                                    All 3 programmers are now proficient in using Unity to create 3d video games. 
-                                    None of my team had ever made a 3d game before this jam, while half of the team had never 
+                                    All 3 programmers are now proficient in using Unity to create 3d video games.
+                                    None of my team had ever made a 3d game before this jam, while half of the team had never
                                     made a video game before.
                                     <br />This was an exceptional learning experience and I strove to be a good mentor and leader for the team.
                                 </li>
                                 <li>
-                                    I received great experience in conveying artistic ideas to our 3d artist and sound designer. 
+                                    I received great experience in conveying artistic ideas to our 3d artist and sound designer.
                                     <br />
                                     It is clear to me that it is a valuable skill that requires practice, much like all other skills displayed.
                                 </li>
@@ -202,7 +207,7 @@ function GameJamBlackFriday() {
                                         <b className="textColorBlue">Rollerskate Kid:</b>
                                         <br />
                                         These little punks are quick on their feet, thanks to those rollerskates.
-                                        Can't take as many hits as an adult though. 
+                                        Can't take as many hits as an adult though.
                                     </li>
                                     <li>
                                         <b className="textColorBlue">Scooter Rider:</b>
@@ -212,13 +217,13 @@ function GameJamBlackFriday() {
                                     <li>
                                         <b className="textColorBlue">Dad:</b>
                                         <br />
-                                        There's one in every power tool section, it's Dad! 
+                                        There's one in every power tool section, it's Dad!
                                         His hardy body prevents his movement from being altered.
                                     </li>
                                     <li>
                                         <b className="textColorBlue">Mom:</b>
                                         <br />
-                                        Trying to some last minute shopping done with her kids, it's Mom! 
+                                        Trying to some last minute shopping done with her kids, it's Mom!
                                         Watch out for her toddlers when you defeat her.
                                     </li>
                                     <li>

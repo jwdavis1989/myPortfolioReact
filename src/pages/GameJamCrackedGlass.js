@@ -1,6 +1,7 @@
 import DownloadIcon from '@mui/icons-material/Download';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import ListAltIcon from '@mui/icons-material/ListAlt';
+import SourceIcon from '@mui/icons-material/Source';
 import { Button, ButtonGroup, Grid } from '@mui/material';
 import React from 'react';
 
@@ -31,9 +32,9 @@ function GameJamCrackedGlass() {
                         <Grid container direction="row" justifyContent="center" alignItems="center" >
                             <Grid item xs={10}>
                                 <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
-                                    <Button className="ImageLogo" startIcon={<DownloadIcon />}
-                                        component="a" href={CrackedGlassDownload} target="_blank" rel="noreferrer">
-                                        Download
+                                    <Button className="ImageLogo" startIcon={<SourceIcon />}
+                                        component="a" href="https://github.com/jwdavis1989/GameJamLloydAlecJerryTemplateRepo" target="_blank" rel="noreferrer">
+                                        Github
                                     </Button>
                                     <Button className="ImageLogo" startIcon={<EmojiEventsIcon />}
                                         component="a" href="https://itch.io/jam/underwater-horror-jam/results/mechanics" target="_blank" rel="noreferrer">
@@ -42,27 +43,31 @@ function GameJamCrackedGlass() {
                                 </ButtonGroup>
                             </Grid>
                         </Grid>
-                    </p>
-                    <div className="textAlignCenter textColorBlue">
-                        <b>
-                            Documentation
-                        </b>
-                        <p />
-                    </div>
-                    <Grid container direction="row" justifyContent="center" alignItems="center" >
-                        <Grid item xs={10}>
-                            <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
-                                <Button className="ImageLogo" startIcon={<DownloadIcon />}
-                                    component="a" href={CrackedGlassDesignDocument} target="_blank" rel="noreferrer">
-                                    Design Document
-                                </Button>
-                                <Button className="ImageLogo" startIcon={<ListAltIcon />}
-                                    component="a" href="https://trello.com/b/crldYWZA/underwater-horror-jam-march-28th-2024" target="_blank" rel="noreferrer">
-                                    Scrum Board
-                                </Button>
-                            </ButtonGroup>
+                        <Grid container direction="row" justifyContent="center" alignItems="center" >
+                            <Grid item xs={10}>
+                                <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
+                                    <Button className="ImageLogo" startIcon={<DownloadIcon />}
+                                        component="a" href={CrackedGlassDesignDocument} target="_blank" rel="noreferrer">
+                                        Design Document
+                                    </Button>
+                                    <Button className="ImageLogo" startIcon={<ListAltIcon />}
+                                        component="a" href="https://trello.com/b/crldYWZA/underwater-horror-jam-march-28th-2024" target="_blank" rel="noreferrer">
+                                        Scrum Board
+                                    </Button>
+                                </ButtonGroup>
+                            </Grid>
                         </Grid>
-                    </Grid>
+                        <Grid container direction="row" justifyContent="center" alignItems="center" >
+                            <Grid item xs={10}>
+                                <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
+                                    <Button className="ImageLogo" startIcon={<DownloadIcon />}
+                                        component="a" href={CrackedGlassDownload} target="_blank" rel="noreferrer">
+                                        Download
+                                    </Button>
+                                </ButtonGroup>
+                            </Grid>
+                        </Grid>
+                    </p>
                     <div className="textAlignCenter textColorBlue">
                         <p>
                             <b>
