@@ -9,7 +9,6 @@ function ProfessionalWorkSection() {
                 PROFESSIONAL WORK
                 <hr className="HorizontalLineBlue" />
             </h3>
-            <br />
             <p className="NormalPageLayout">
                 <div className="SectionHeader">
                     <h4>
@@ -33,10 +32,6 @@ function ProfessionalWorkSection() {
                         </div>
                     </Grid>
                 </Grid>
-                <br />
-                <br />
-                <br />
-                <br />
             </p>
         </div>
     );

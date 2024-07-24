@@ -11,9 +11,6 @@ function PersonalProjectsSection() {
                 <hr className="HorizontalLineBlue" />
             </h3>
             This is a collection of Game Jam and fun personal projects I've created to hone and demonstrate my game design skills.
-            <br />
-            <br />
-            <br />
             <p className="NormalPageLayout">
                 <h4 className="SectionHeader">
                     <b>
@@ -46,9 +43,6 @@ function PersonalProjectsSection() {
                         </Grid>
                     </Grid>
                 </p>
-                <br />
-                <br />
-                <br />
             </p>
             <p className="NormalPageLayout">
                 <h4 className="SectionHeader">
@@ -84,9 +78,6 @@ function PersonalProjectsSection() {
                         </Grid>
                     </Grid>
                 </p>
-                <br />
-                <br />
-                <br />
             </p>
             <p className="NormalPageLayout">
                 <h4 className="SectionHeader">
@@ -116,9 +107,6 @@ function PersonalProjectsSection() {
                         </Grid>
                     </Grid>
                 </p>
-                <br />
-                <br />
-                <br />
             </p>
             <p className="NormalPageLayout">
                 <h4 className="SectionHeader">
@@ -132,24 +120,21 @@ function PersonalProjectsSection() {
                     <img className="NewBannerImage outlineBorderOnHover" src={ChineseVampireBanner} alt="Yingyue the Jiangshi - League of Legends Character Concept" />
                 </Link>
                 <br />
-                    <Grid container direction="row" justifyContent="center" alignItems="center" >
-                        <Grid item xs={10}>
-                            <Button className="ImageLogo" variant='outlined'
-                                component={Link} to="/DesignExercises" onClick={() => window.scrollTo(0, 0)}>
-                                Learn More
-                            </Button>
-                            <div className="textAlignLeft">
-                                <b>Contributions:</b> Game Designer, Writer
-                                <br />
-                                <a href='https://www.chenruoyu.com/' target="_blank" rel="noreferrer">
-                                    <b>Artwork by:</b> Chen Ruo Yu
-                                </a>
-                            </div>
-                        </Grid>
+                <Grid container direction="row" justifyContent="center" alignItems="center" >
+                    <Grid item xs={10}>
+                        <Button className="ImageLogo" variant='outlined'
+                            component={Link} to="/DesignExercises" onClick={() => window.scrollTo(0, 0)}>
+                            Learn More
+                        </Button>
+                        <div className="textAlignLeft">
+                            <b>Contributions:</b> Game Designer, Writer
+                            <br />
+                            <a href='https://www.chenruoyu.com/' target="_blank" rel="noreferrer">
+                                <b>Artwork by:</b> Chen Ruo Yu
+                            </a>
+                        </div>
                     </Grid>
-                <br />
-                <br />
-                <br />
+                </Grid>
             </p>
         </div>
     );
