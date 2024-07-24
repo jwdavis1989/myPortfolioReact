@@ -61,6 +61,8 @@ function AboutMe() {
                         <hr className="HorizontalLineBlue" />
                     </h4>
                     <p className="NormalPageLayout">
+                        2nd Place - Figerox Underwater Horror Jam 2024
+                        <br />
                         Infosys Certificate of Appreciation – Going The Extra
                         Mile
                         <br />
