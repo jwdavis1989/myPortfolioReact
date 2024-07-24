@@ -28,7 +28,6 @@ function Dashboard() {
             <p>
                 This website was created entirely by me using React, JavaScript, Material UI, CSS, and HTML and is hosted on Microsoft Azure.
             </p>
-            <br />
             <ProfessionalWorkSection />
             <PersonalProjectsSection />
             <br /><br /><br /><br />
