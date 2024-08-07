@@ -206,7 +206,7 @@ function DesignExercises() {
                     <p />
                     <Grid id="Row 1 Ability Icons" container spacing={0} className='textAlignCenter' 
                     direction="row" justifyContent="space-evenly"
-                    alignItems="flex-start" >
+                    alignItems="center" >
                         <Grid item xs={0.8} className='textAlignCenter'>
                             <Button variant="outlined" style={{ minWidth: '1px', maxWidth: "30px", minHeight: '60%', maxHeight: '60%' }}
                                 title='Previous Ability'
@@ -218,41 +218,41 @@ function DesignExercises() {
                             <img onClick={() => setAbilityDescription(1)}
                                 className="ImageLogo cursorClickable" src={AbilityPassiveQiIcon}
                                 id="passiveQiButton" alt="Qi Siphon" title='Passive: Qi Siphon' />
-                            <p className='textAlignCenter'>
+                            <span className='textAlignCenter'>
                                 <b id='Passive'>Passive</b>
-                            </p>
+                            </span>
                         </Grid>
                         <Grid item xs={1}>
                             <img onClick={() => setAbilityDescription(2)}
                                 className="ImageLogo cursorClickable" src={AbilityJadeReachIcon}
                                 id="jadeReachButton" alt="Jade Reach" title='Q: Jade Reach' />
-                            <p className='textAlignCenter'>
+                            <span className='textAlignCenter'>
                                 <b id='Q'>Q</b>
-                            </p>
+                            </span>
                         </Grid>
                         <Grid item xs={1}>
                             <img onClick={() => setAbilityDescription(3)}
                                 className="ImageLogo cursorClickable" src={AbilityVengefulLeapIcon}
                                 id="resentfulLungeButton" alt="Resentful Lunge" title='W: Resentful Lunge' />
-                            <p className='textAlignCenter'>
+                            <span className='textAlignCenter'>
                                 <b id='W'>W</b>
-                            </p>
+                            </span>
                         </Grid>
                         <Grid item xs={1}>
                             <img onClick={() => setAbilityDescription(4)}
                                 className="ImageLogo cursorClickable" src={AbilityInsatiableTouchIcon}
                                 id="insatiableTouchButton" alt="Insatiable Touch" title='E: Insatiable Touch' />
-                            <p className='textAlignCenter'>
+                            <span className='textAlignCenter'>
                                 <b id='E'>E</b>
-                            </p>
+                            </span>
                         </Grid>
                         <Grid item xs={1}>
                             <img onClick={() => setAbilityDescription(5)}
                                 className="ImageLogo cursorClickable" src={AbilityMoonlightCurseIcon}
                                 id="moonlightCurseButton" alt="Moonlight Curse" title='R: Moonlight Curse' />
-                            <p className='textAlignCenter'>
+                            <span className='textAlignCenter'>
                                 <b id='R'>R</b>
-                            </p>
+                            </span>
                         </Grid>
                         <Grid item xs={0.8} className='textAlignCenter'>
                             <Button variant="outlined" style={{ minWidth: '1px', maxWidth: "30px", minHeight: '60%', maxHeight: '60%' }}
