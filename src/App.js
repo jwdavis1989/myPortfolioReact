@@ -8,6 +8,7 @@ import { DungeonsAndDragonsOverhaul } from './pages/DungeonsAndDragonsOverhaul';
 import { VideoGamePrototypes } from './pages/VideoGamePrototypes';
 import { GameJamCrackedGlass } from './pages/GameJamCrackedGlass';
 import { GameJamBlackFriday } from './pages/GameJamBlackFriday';
+import { GameJamMightyMorphinMotorcat } from './pages/GameJamMightyMorphinMotorcat';
 import { DesignExercises } from './pages/DesignExercises';
 import { MapGenerator } from './pages/MapGenerator';
 import { Resume } from './pages/Resume';
@@ -40,6 +41,7 @@ function App() {
               <Route path="/VideoGamePrototypes" element={<VideoGamePrototypes />} />
               <Route path="/CrackedGlass" element={<GameJamCrackedGlass />} />
               <Route path="/BlackFriday" element={<GameJamBlackFriday />} />
+              <Route path="/MMM" element={<GameJamMightyMorphinMotorcat />} />
               <Route path="/DesignExercises" element={<DesignExercises />} />
               <Route path="/Resume" element={<Resume />} />
               <Route path="/AboutMe" element={<AboutMe />} />

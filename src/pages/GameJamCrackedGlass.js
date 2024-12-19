@@ -30,7 +30,7 @@ function GameJamCrackedGlass() {
                     </div>
                     <p>
                         <Grid container direction="row" justifyContent="center" alignItems="center" >
-                            <Grid item xs={10}>
+                            <Grid item xs={6}>
                                 <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
                                     <Button className="ImageLogo" startIcon={<SourceIcon />}
                                         component="a" href="https://github.com/jwdavis1989/GameJamLloydAlecJerryTemplateRepo" target="_blank" rel="noreferrer">
@@ -44,7 +44,7 @@ function GameJamCrackedGlass() {
                             </Grid>
                         </Grid>
                         <Grid container direction="row" justifyContent="center" alignItems="center" >
-                            <Grid item xs={10}>
+                            <Grid item xs={6}>
                                 <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
                                     <Button className="ImageLogo" startIcon={<DownloadIcon />}
                                         component="a" href={CrackedGlassDesignDocument} target="_blank" rel="noreferrer">
@@ -58,7 +58,7 @@ function GameJamCrackedGlass() {
                             </Grid>
                         </Grid>
                         <Grid container direction="row" justifyContent="center" alignItems="center" >
-                            <Grid item xs={10}>
+                            <Grid item xs={6}>
                                 <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
                                     <Button className="ImageLogo" startIcon={<DownloadIcon />}
                                         component="a" href={CrackedGlassDownload} target="_blank" rel="noreferrer">
@@ -75,7 +75,7 @@ function GameJamCrackedGlass() {
                             </b>
                             <p />
                             <Grid container direction="row" justifyContent="center" alignItems="center" >
-                                <Grid item xs={10}>
+                                <Grid item xs={6}>
                                     <a href="https://itch.io/jam/underwater-horror-jam/results/mechanics" target="_blank" rel="noreferrer" >
                                         <img src={CrackedGlassRankings} alt="Rankings Preview" className='imageMaxSize100' />
                                     </a>
