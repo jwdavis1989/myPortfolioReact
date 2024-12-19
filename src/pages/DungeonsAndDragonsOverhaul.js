@@ -48,9 +48,14 @@ function DungeonsAndDragonsOverhaul() {
                 Silverwind Workshop's Skill Trees - D&D Tabletop Game Addon
                 <hr className="HorizontalLineBlue" />
             </h3>
+            <p />
+            <Grid className="textAlignCenter" container direction="row" justifyContent="center" alignItems="center" >
+                <Grid item xs={12}>
+                    <img className="NewBannerImageLearnMore" src={SWWOverhaulBanner}
+                        alt="Silverwind Workshop's Skill Trees - D&D Tabletop Game Addon Banner" />
+                </Grid>
+            </Grid>
             <p>
-                <img className="NewBannerImage imageMaxSize100" src={SWWOverhaulBanner}
-                    alt="Silverwind Workshop's Skill Trees - D&D Tabletop Game Addon Banner" />
                 <Grid container direction="row" justifyContent="center" alignItems="center" >
                     <Grid item xs={10}>
                         <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
@@ -67,67 +72,67 @@ function DungeonsAndDragonsOverhaul() {
                 </Grid>
                 <div className="textAlignLeft animationFadeIn">
                     <div className='NormalPageWithLRPadding'>
-                    <p>
-                        <b className='textColorBlue'>Contributions:</b>
-                        <br />
-                        Game Designer, Artist, QA Analyst
-                    </p>
-                    <p>
-                        <b className='textColorBlue'>
-                            Overview:
-                        </b>
-                        <br />
-                        Published and available on roll20's virtual tabletop, Silverwind Workshop's Skill Trees & Leveling Overhaul
-                        strives to take 5th edition D&D to the next level. Revamping classes, combat, and crafting gameplay loops. This addon
-                        is more than just a leveling overhaul. Build a character by spending talent points in your choice of 29 skill trees,
-                        adding significantly more character concepts to create your dream character!
-                    </p>
-                    <p>
-                        <b className='textColorBlue'>
-                            What Problems From D&D 5th Edition Does This System Solve?:
-                        </b>
-                        <br />
-                        <ul>
-                            <li>
-                                Limited character playstyles.
-                            </li>
-                            <li>
-                                Martial & caster power and gameplay disparity.
-                            </li>
-                            <li>
-                                Crafting rules and gameplay are not supported well.
-                            </li>
-                            <li>
-                                Single-Element Mages are not fleshed out, while
-                                mixing spell Schools is Poorly Supported.
-                            </li>
-                        </ul>
-                    </p>
-                    <p>
-                        <b className='textColorBlue'>
-                            Customer Review:
-                        </b>
-                        <br />
-                        <i>
-                            “The customization of this system has honestly made it hard for me to go back to standard D&D.
-                            It honestly impresses me the depth and creativity that is present in this.
-                            If more flair and flexibility in combat is what you want, this is for you.”
-                        </i>
-                        <Grid
-                            container
-                            direction="row"
-                            justifyContent="flex-end"
-                            alignItems="flex-start"
-                        >
-                            <Grid item xs={4}>
-                                <b>Rating: </b>
-                                <br />
-                                <Rating name="read-only" value={5} readOnly title='5/5 Stars' sx={{
-                                    fontSize: "16px"
-                                }} />
+                        <p>
+                            <b className='textColorBlue'>Contributions:</b>
+                            <br />
+                            Game Designer, Artist, QA Analyst
+                        </p>
+                        <p>
+                            <b className='textColorBlue'>
+                                Overview:
+                            </b>
+                            <br />
+                            Published and available on roll20's virtual tabletop, Silverwind Workshop's Skill Trees & Leveling Overhaul
+                            strives to take 5th edition D&D to the next level. Revamping classes, combat, and crafting gameplay loops. This addon
+                            is more than just a leveling overhaul. Build a character by spending talent points in your choice of 29 skill trees,
+                            adding significantly more character concepts to create your dream character!
+                        </p>
+                        <p>
+                            <b className='textColorBlue'>
+                                What Problems From D&D 5th Edition Does This System Solve?:
+                            </b>
+                            <br />
+                            <ul>
+                                <li>
+                                    Limited character playstyles.
+                                </li>
+                                <li>
+                                    Martial & caster power and gameplay disparity.
+                                </li>
+                                <li>
+                                    Crafting rules and gameplay are not supported well.
+                                </li>
+                                <li>
+                                    Single-Element Mages are not fleshed out, while
+                                    mixing spell Schools is Poorly Supported.
+                                </li>
+                            </ul>
+                        </p>
+                        <p>
+                            <b className='textColorBlue'>
+                                Customer Review:
+                            </b>
+                            <br />
+                            <i>
+                                “The customization of this system has honestly made it hard for me to go back to standard D&D.
+                                It honestly impresses me the depth and creativity that is present in this.
+                                If more flair and flexibility in combat is what you want, this is for you.”
+                            </i>
+                            <Grid
+                                container
+                                direction="row"
+                                justifyContent="flex-end"
+                                alignItems="flex-start"
+                            >
+                                <Grid item xs={4}>
+                                    <b>Rating: </b>
+                                    <br />
+                                    <Rating name="read-only" value={5} readOnly title='5/5 Stars' sx={{
+                                        fontSize: "16px"
+                                    }} />
+                                </Grid>
                             </Grid>
-                        </Grid>
-                    </p>
+                        </p>
                     </div>
                     <p>
                         <h4 id="Skill Tree Demos" className="SectionHeader">
@@ -160,7 +165,8 @@ function DungeonsAndDragonsOverhaul() {
                             <Grid item xs={12}>
                                 <ButtonGroup variant='outlined' fullWidth className='NewContentBody'>
                                     <Button
-                                        title='Tutorial' style={{ paddingTop: "1vw",
+                                        title='Tutorial' style={{
+                                            paddingTop: "1vw",
                                             paddingBottom: "1vw"
                                         }}
                                         className='animationFadeIn50pcDelay'
@@ -168,7 +174,8 @@ function DungeonsAndDragonsOverhaul() {
                                         Tutorial
                                     </Button>
                                     <Button
-                                        title='Leadership Demonstration' style={{ paddingTop: "1vw",
+                                        title='Leadership Demonstration' style={{
+                                            paddingTop: "1vw",
                                             paddingBottom: "1vw"
                                         }}
                                         className='animationFadeIn50pcDelay'
@@ -176,7 +183,8 @@ function DungeonsAndDragonsOverhaul() {
                                         Leadership
                                     </Button>
                                     <Button
-                                        title='Pyromancy Demonstration' style={{ paddingTop: "1vw",
+                                        title='Pyromancy Demonstration' style={{
+                                            paddingTop: "1vw",
                                             paddingBottom: "1vw"
                                         }}
                                         className='animationFadeIn50pcDelay'
@@ -184,7 +192,8 @@ function DungeonsAndDragonsOverhaul() {
                                         Pyromancy
                                     </Button>
                                     <Button
-                                        title='Shield Mastery Demonstration' style={{ paddingTop: "1vw",
+                                        title='Shield Mastery Demonstration' style={{
+                                            paddingTop: "1vw",
                                             paddingBottom: "1vw"
                                         }}
                                         className='animationFadeIn50pcDelay'

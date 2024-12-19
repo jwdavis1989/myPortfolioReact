@@ -9,13 +9,13 @@ function Dashboard() {
                     Game Development:
                 </b>
                 <br />
-                I created Silverwind Workshop, an independent Dungeons & Dragons 5th Edition content
-                creator which uses game design principles, player feedback, & testing to enrich
-                the gameplay of D&D 5th edition.
-                My work is published and for sale on the marketplace of the popular online virtual
+                I created Silverwind Workshop, an independent Video Game and Dungeons & Dragons delevopment
+                company. We're currently developing our first commercial video game set to be released on Steam.
+                <br />
+                My Dungeons and Dragons work is published and for sale on the marketplace of the popular online virtual
                 tabletop, Roll20.
                 <br />
-                Additionally, I lead a game jam team of sizes 3-6. 
+                Additionally, I lead a game jam team of sizes 3-6 depending on the jam. 
             </p>
             <p>
                 <b className='textColorBlue textFontSizeH6'>

@@ -14,6 +14,39 @@ function PersonalProjectsSection() {
             <p className="NormalPageLayout">
                 <h4 className="SectionHeader">
                     <b>
+                        Mighty Morphin' Motorcat -
+                        <br />
+                        GMTK Game Jam 2024
+                    </b>
+                </h4>
+                <div class="auto-resizable-iframe">
+                    <div>
+                        <iframe width="792" height="294" src="https://www.youtube.com/embed/NS3pbhwq57w"
+                            title="Mighty Morphin' Motorcat Game Jam Demo" frameborder="1"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <p>
+                    <Grid container direction="row" justifyContent="center" alignItems="center">
+                        <Grid item xs={6}>
+                            <Button className="ImageLogo" variant='outlined'
+                                component={Link} to="/MMM" onClick={() => window.scrollTo(0, 0)}>
+                                Learn More
+                            </Button>
+                            <div className="textAlignLeft">
+                                <b>Contributions:</b> Game Director, Product Owner, Scrum Master, Game Designer, Lead Programmer
+                                <br />
+                                <b>Team:</b> Jerry Davis, Alec Straw, David Wilson, Chelsea Davis
+                                <br />
+                            </div>
+                        </Grid>
+                    </Grid>
+                </p>
+            </p>
+            <p className="NormalPageLayout">
+                <h4 className="SectionHeader">
+                    <b>
                         Black Friday: The Last Stand -
                         <br />
                         GameDev.TV Game Jam 2024
@@ -29,7 +62,7 @@ function PersonalProjectsSection() {
                 </div>
                 <p>
                     <Grid container direction="row" justifyContent="center" alignItems="center">
-                        <Grid item xs={10}>
+                        <Grid item xs={6}>
                             <Button className="ImageLogo" variant='outlined'
                                 component={Link} to="/BlackFriday" onClick={() => window.scrollTo(0, 0)}>
                                 Learn More
@@ -63,7 +96,7 @@ function PersonalProjectsSection() {
                 </div>
                 <p>
                     <Grid container direction="row" justifyContent="center" alignItems="center">
-                        <Grid item xs={10}>
+                        <Grid item xs={6}>
                             <Button className="ImageLogo" variant='outlined'
                                 component={Link} to="/CrackedGlass" onClick={() => window.scrollTo(0, 0)}>
                                 Learn More
@@ -96,7 +129,7 @@ function PersonalProjectsSection() {
                 </div>
                 <p>
                     <Grid container direction="row" justifyContent="center" alignItems="center" >
-                        <Grid item xs={10}>
+                        <Grid item xs={6}>
                             <Button className="ImageLogo" variant='outlined'
                                 component={Link} to="/VideoGamePrototypes" onClick={() => window.scrollTo(0, 0)}>
                                 Learn More
@@ -121,7 +154,7 @@ function PersonalProjectsSection() {
                 </Link>
                 <br />
                 <Grid container direction="row" justifyContent="center" alignItems="center" >
-                    <Grid item xs={10}>
+                    <Grid item xs={6}>
                         <Button className="ImageLogo" variant='outlined'
                             component={Link} to="/DesignExercises" onClick={() => window.scrollTo(0, 0)}>
                             Learn More

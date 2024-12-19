@@ -22,7 +22,7 @@ function ProfessionalWorkSection() {
                 </Link>
                 <br />
                 <Grid container direction="row" justifyContent="center" alignItems="center" >
-                    <Grid item xs={10}>
+                    <Grid item xs={6}>
                         <Button className="ImageLogo" variant='outlined'
                             component={Link} to="/SWWLevelingOverhaul" onClick={() => window.scrollTo(0, 0)}>
                             Learn More

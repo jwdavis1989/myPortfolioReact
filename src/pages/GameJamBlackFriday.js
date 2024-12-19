@@ -27,7 +27,7 @@ function GameJamBlackFriday() {
                     </div>
                     <p>
                         <Grid container direction="row" justifyContent="center" alignItems="center" >
-                            <Grid item xs={10}>
+                            <Grid item xs={6}>
                                 <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
                                     <Button className="ImageLogo" startIcon={<SourceIcon />}
                                         component="a" href="https://github.com/jwdavis1989/GameDevTvGameJam2024" target="_blank" rel="noreferrer">
@@ -41,7 +41,7 @@ function GameJamBlackFriday() {
                             </Grid>
                         </Grid>
                         <Grid container direction="row" justifyContent="center" alignItems="center" >
-                            <Grid item xs={10}>
+                            <Grid item xs={6}>
                                 <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
                                     <Button className="ImageLogo" startIcon={<DownloadIcon />}
                                         component="a" href={"https://docs.google.com/document/d/1oLtc68ixtdXaahR2DjMnLqkFSzS7oAtWkp_1t3Xv1-k/edit?usp=sharing"} target="_blank" rel="noreferrer">
@@ -55,7 +55,7 @@ function GameJamBlackFriday() {
                             </Grid>
                         </Grid>
                         <Grid container direction="row" justifyContent="center" alignItems="center" >
-                            <Grid item xs={10}>
+                            <Grid item xs={6}>
                                 <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
                                 <Button className="ImageLogo" startIcon={<DownloadIcon />}
                                         component="a" href={BlackFridayDownload} target="_blank" rel="noreferrer">
@@ -136,7 +136,7 @@ function GameJamBlackFriday() {
                                 </b>
                                 <ul>
                                     <li>
-                                        <b>Move: </b> W/A/S/D:
+                                        <b>Move: </b> W/A/S/D
                                     </li>
                                     <li>
                                         <b>Turn Camera:</b> Mouse

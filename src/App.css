@@ -111,7 +111,12 @@ a:hover {
 }
 
 .auto-resizable-iframe {
-  max-width: 80%;
+  max-width: 50%;
+  margin: 0px auto;
+}
+
+.auto-resizable-iframe-learn-more {
+  max-width: 100%;
   margin: 0px auto;
 }
 
@@ -666,6 +671,16 @@ p {
 }
 
 .NewBannerImage {
+  border: 4px ridge rgb(44, 44, 44);
+  align-self: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  width: 50%;
+}
+
+.NewBannerImageLearnMore {
   border: 4px ridge rgb(44, 44, 44);
   align-self: center;
   margin-left: 10%;
