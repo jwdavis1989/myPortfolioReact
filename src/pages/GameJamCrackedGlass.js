@@ -14,6 +14,7 @@ function GameJamCrackedGlass() {
 
     return (
         <div>
+            <div className='NavBarSectionPadding' />
             <div>
                 <h3 className="SectionHeader">
                     Cracked Glass - Underwater Horror Jam 2024
@@ -83,11 +84,25 @@ function GameJamCrackedGlass() {
                             </Grid>
                         </p>
                     </div>
-                    <div className="textAlignLeft animationFadeIn NormalPageWithLRPadding">
+                    <div className="textAlignLeft animationFadeIn SectionCard">
                         <p>
                             <b className='textColorBlue'>Contributions:</b>
-                            <br />
-                            Product Owner, Scrum Master, Game Designer, Programmer (Physics, Player, Shotgun, Enemy AI, Main Gameplay Loop), Artist (Enemy, Tileset)
+                            <p>
+                                <span className='ContributionsCardGameDesign'>Game Designer:</span> Designed the primary gameplay loop, Submarine map layout, and theming.
+                                <br />
+                                <br />
+                                <span className='ContributionsCardProgramming'>Lead Programmer:</span> Programmed the Defense Wave gameplay loop, player controller,
+                                Shotgun, all enemy AI, the Leviathan, Nuke victory cinematic, and User Interface.
+                                <br />
+                                <br />
+                                <span className='ContributionsCardArt'>Artist:</span> Drew pixel-art tileset, player sprite, all enemies except for the Shark, and Leviathan.
+                                <br />
+                                <br />
+                                <span className='ContributionsCardScrumMaster'>Scrum Master:</span> Lead daily stand-ups during game jam to ensure team efficiency and remove
+                                blockers while maintaining the group's Trello Board. This was done to full game industry standards.
+                                <br />
+                                <br />
+                            </p>
                         </p>
                         <p>
                             <b className='textColorBlue'>
@@ -317,7 +332,6 @@ function GameJamCrackedGlass() {
                     </div>
                 </p>
             </div>
-            <br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
     );
 }

@@ -260,9 +260,8 @@ function ShieldedCombatTalentTreeComponent(props) {
                                     >
                                         <Button variant='outlined'
                                             title='Return to Top' style={{ fontSize: BUTTON_FONT_SIZE }}
-                                            onClick={() => { document.getElementById('TreeHeaderSection').scrollIntoView(); }}
-                                            startIcon={<KeyboardArrowUpIcon style={{ fontSize: BUTTON_ICON_SIZE }} />}>
-                                            Return to Top
+                                            onClick={() => { document.getElementById('TreeHeaderSection').scrollIntoView(); }}>
+                                            <KeyboardArrowUpIcon style={{ fontSize: BUTTON_ICON_SIZE }} />
                                         </Button>
                                     </Grid>
                                 </p>

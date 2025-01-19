@@ -10,6 +10,7 @@ function GameJamMightyMorphinMotorcat() {
 
     return (
         <div>
+            <div className='NavBarSectionPadding' />
             <div>
                 <h3 className="SectionHeader">
                     Mighty Morphin' Motorcat - GMTK Game Jam 2024
@@ -68,11 +69,25 @@ function GameJamMightyMorphinMotorcat() {
                             </Grid>
                         </Grid>
                     </p>
-                    <div className="textAlignLeft animationFadeIn NormalPageWithLRPadding">
+                    <div className="textAlignLeft animationFadeIn SectionCard">
                         <p>
                             <b className='textColorBlue'>Contributions:</b>
-                            <br />
-                            Game Director, Product Owner, Scrum Master, Game Designer, Lead Programmer
+                            <p>
+                                <span className='ContributionsCardLeadership'>Game Director:</span> Directed our 4-man team of 2 Programmers, 1 3D Artist, and 1 Sound Designer towards fulfilling the creative vision of the game.
+                                <br />
+                                <br />
+                                <span className='ContributionsCardGameDesign'>Game Designer:</span> Designed the primary gameplay loop, User Interface, growing, shrinking, and obstacle puzzle mechanics.
+                                <br />
+                                <br />
+                                <span className='ContributionsCardProgramming'>Lead Programmer:</span> Programmed player movement, growing, shrinking, success/failure mechanics, 
+                                helicopter stop light race countdown indicator, User Interface, Title/Game Over/Victory screens, and particle effects.
+                                <br />
+                                <br />
+                                <span className='ContributionsCardScrumMaster'>Scrum Master:</span> Lead daily stand-ups during game jam to ensure team efficiency and remove
+                                blockers while maintaining the group's Trello Board. This was done to full game industry standards.
+                                <br />
+                                <br />
+                            </p>
                         </p>
                         <p>
                             <b className='textColorBlue'>
@@ -83,7 +98,6 @@ function GameJamMightyMorphinMotorcat() {
                                 Submission for Gamemaker's Toolkit 2024 for the theme, Built to Scale.
                             </p>
                             <p>
-
                                 You're a lost cat that is also a car, and you've been separated from the other motorcats!
                                 <br />
                                 Use your power to grow or shrink dynamically and your noggin to return to the Motorcat Singularity before it closes!
@@ -222,10 +236,10 @@ function GameJamMightyMorphinMotorcat() {
                                         <a href='https://itch.io/profile/alekstr' target="_blank" rel="noreferrer"><b>Alec Straw:</b> Programmer</a>
                                     </li>
                                     <li>
-                                        <a href='https://itch.io/profile/drolavellan' target="_blank" rel="noreferrer"><b>Chelsea Davis:</b> 3d Artist</a>
+                                        <a href='https://itch.io/profile/drolavellan' target="_blank" rel="noreferrer"><b>Chelsea Davis:</b> 3D Artist</a>
                                     </li>
                                     <li>
-                                        <a href='https://itch.io/profile/cytechflow' target="_blank" rel="noreferrer"><b>David Wilson:</b> Sound Designer</a>
+                                        <a href='https://itch.io/profile/cytechflow' target="_blank" rel="noreferrer"><b>David Wilson:</b> Sound Designer, Music Composer, and Trailer Editor</a>
                                     </li>
                                 </ul>
                             </div>
@@ -236,7 +250,6 @@ function GameJamMightyMorphinMotorcat() {
                     </div>
                 </p>
             </div>
-            <br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
     );
 }

@@ -16,7 +16,7 @@ function Footer() {
                 >
                     <Button variant='outlined'
                         title='Return to Top' style={{ fontSize: BUTTON_FONT_SIZE }}
-                        onClick={() => { document.getElementById('Header Banner Section').scrollIntoView(); }}
+                        onClick={() => { document.getElementById('TopOfApp').scrollIntoView(); }}
                         startIcon={<KeyboardArrowUpIcon style={{ fontSize: BUTTON_ICON_SIZE }} />}>
                         Return to Top
                     </Button>

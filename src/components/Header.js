@@ -8,21 +8,20 @@ import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 
 function Header() {
     return (
-        <div>
-            <Grid id="Header Banner Section" container spacing={0} className="">
+        <div className="NavBarSticky">
+            <Grid container spacing={0} className="">
                     <Grid id="Row 1 Banner Components" container spacing={0} className="NewBanner">
                         <Grid item md={1} sm={2} xs={2}>
                             <img src={glowingEyeLogo} alt="Glowing Eye Icon" className='NewBannerLogo' />
                         </Grid>
                         <Grid item md={6} sm={6} xs={6}>
-                            <b className="textColorBlue NewBannerText textFontSizeH1">
+                            <b className="textColorBlue NewBannerText textFontSizeH2">
                                 Jerry Davis
                             </b>
                             <br />
                             <b className="NewBannerSubtitle textFontSizeH4">
-                                Game Developer and Software Engineer
+                                Game Developer | Game Designer
                             </b>
-                            <br /><br />
                         </Grid>
                         <Grid item md={2} sm={0} xs={0} />
                         <Grid item md={2} sm={2} xs={2}>
@@ -46,7 +45,7 @@ function Header() {
                         </Grid>
                     </Grid>
             </Grid>
-            <Grid id="Header Banner Section" container spacing={0} className="">
+            <Grid container spacing={0} className="">
                 <Grid item md={12} sm={12} xs={12}>
                     <NavBar />
                 </Grid>

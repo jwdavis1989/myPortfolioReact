@@ -111,6 +111,7 @@ function DesignExercises() {
     }
     return (
         <div>
+            <div className='NavBarSectionPadding' />
             <div>
                 <h3 className="SectionHeader">
                     Yingyue the Jiangshi - League of Legends Character Concept
@@ -119,11 +120,18 @@ function DesignExercises() {
                 <p>
                     <img className="NormalPageLayout" src={ChineseVampireBanner}
                         alt="Yingyue the Jiangshi - League of Legends Character Concept" />
-                    <div className="textAlignLeft animationFadeIn NormalPageWithLRPadding">
+                    <br /><br />
+                    <div className="textAlignLeft animationFadeIn SectionCard">
                         <p>
                             <b className='textColorBlue'>Contributions:</b>
-                            <br />
-                            Game Designer, Writer
+                            <p>
+                                <span className='ContributionsCardGameDesign'>Game Design:</span> Designed Yingyue's theme, all abilities, and general gameplay loop.
+                                <br />
+                                <br />
+                                <span className='ContributionsCardWriting'>Writer:</span> Wrote Yingyue's lore and how she might fit into the geopolitical conflict on Runeterra.
+                                <br />
+                                <br />
+                            </p>
                         </p>
                         <p>
                             <b className='textColorBlue'>
@@ -189,6 +197,9 @@ function DesignExercises() {
                         Interactive Abilities & Design Insights:
                         <hr className="HorizontalLineBlue" />
                     </h4>
+                    <div className='SectionCard'>
+
+                    
                     <Grid id="Row 0 Help Buttons" container spacing={0} className='textAlignRight'>
                         <Grid item xs={8} />
                         <Grid item xs={4}>
@@ -280,17 +291,16 @@ function DesignExercises() {
                                             >
                                                 <Button variant='outlined'
                                                     title='Return to Top' style={{ fontSize: BUTTON_FONT_SIZE }}
-                                                    onClick={() => { document.getElementById('InteractiveDemoHeader').scrollIntoView(); }}
-                                                    startIcon={<KeyboardArrowUpIcon style={{ fontSize: BUTTON_ICON_SIZE }} />}>
-                                                    Return to Top
+                                                    onClick={() => { document.getElementById('InteractiveDemoHeader').scrollIntoView(); }}>
+                                                    <KeyboardArrowUpIcon style={{ fontSize: BUTTON_ICON_SIZE }}/>
                                                 </Button>
                                             </Grid>
                                         </p>
                                     </div>}
                             </div>
-                            <br /><br /><br /><br /><br /><br /><br /><br /><br />
                         </Grid>
                     </Grid>
+                    </div>
                 </p>
             </div>
         </div>

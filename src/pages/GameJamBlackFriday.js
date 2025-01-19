@@ -11,6 +11,7 @@ function GameJamBlackFriday() {
 
     return (
         <div>
+            <div className='NavBarSectionPadding' />
             <div>
                 <h3 className="SectionHeader">
                     Black Friday: The Last Stand - GameDev.TV Game Jam 2024
@@ -65,11 +66,25 @@ function GameJamBlackFriday() {
                             </Grid>
                         </Grid>
                     </p>
-                    <div className="textAlignLeft animationFadeIn NormalPageWithLRPadding">
+                    <div className="textAlignLeft animationFadeIn SectionCard">
                         <p>
-                            <b className='textColorBlue'>Contributions:</b>
-                            <br />
-                            Game Director, Product Owner, Scrum Master, Game Designer, Lead Programmer
+                        <b className='textColorBlue'>Contributions:</b>
+                            <p>
+                                <span className='ContributionsCardLeadership'>Game Director:</span> Directed our 6-man team of 3 Programmers, 1 Game Designer 1 3D Artist, and 1 Sound Designer towards fulfilling the creative vision of the game.
+                                <br />
+                                <br />
+                                <span className='ContributionsCardGameDesign'>Game Designer:</span> Designed the primary gameplay loop, map layout, and theming.
+                                <br />
+                                <br />
+                                <span className='ContributionsCardProgramming'>Lead Programmer:</span> Programmed the turret building, turret abilities, and User Interface. 
+                                Assisted in programming and bugfixing character movement and melee attack.
+                                <br />
+                                <br />
+                                <span className='ContributionsCardScrumMaster'>Scrum Master:</span> Lead daily stand-ups during game jam to ensure team efficiency and remove
+                                blockers while maintaining the group's Trello Board. This was done to full game industry standards.
+                                <br />
+                                <br />
+                            </p>
                         </p>
                         <p>
                             <b className='textColorBlue'>
@@ -254,10 +269,10 @@ function GameJamBlackFriday() {
                                         <a href='https://strider25.itch.io/' target="_blank" rel="noreferrer"><b>Logan Allen:</b> Programmer</a>
                                     </li>
                                     <li>
-                                        <a href='https://itch.io/profile/cytechflow' target="_blank" rel="noreferrer"><b>David Wilson:</b> Sound Designer</a>
+                                        <a href='https://itch.io/profile/cytechflow' target="_blank" rel="noreferrer"><b>David Wilson:</b> Sound Designer, Music Composer, and Trailer Editor</a>
                                     </li>
                                     <li>
-                                        <a href='https://itch.io/profile/drolavellan' target="_blank" rel="noreferrer"><b>Chelsea Davis:</b> 3d Artist</a>
+                                        <a href='https://itch.io/profile/drolavellan' target="_blank" rel="noreferrer"><b>Chelsea Davis:</b> 3D Artist</a>
                                     </li>
                                     <li>
                                         <a href='https://triasho.itch.io/' target="_blank" rel="noreferrer"><b>Lloyd Thomas:</b> Game Designer</a>
@@ -271,7 +286,6 @@ function GameJamBlackFriday() {
                     </div>
                 </p>
             </div>
-            <br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
     );
 }

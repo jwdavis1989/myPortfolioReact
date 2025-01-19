@@ -17,21 +17,24 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { DungeonsAndDragonsContent } from './pages/DungeonsAndDragonsContent';
 import { ContactMe } from './pages/ContactMe';
 import { DungeonsAndDragonsOverhaulTutorial } from './pages/DungeonsAndDragonsOverhaulTutorial';
+import { BackgroundVideo } from './components/BackgroundVideo';
 
-const theme = createTheme({ 
-  palette: { 
-    primary: { main: '#ffffff' }, 
-    secondary: { main: '#0099ff'}}, 
-  });
+const theme = createTheme({
+  palette: {
+    primary: { main: '#ffffff' },
+    secondary: { main: '#0099ff' }
+  },
+});
 
 function App() {
   return (
     <div className="App">
+      <BackgroundVideo />
       <ThemeProvider theme={theme}>
-        <Grid container spacing={0}>
-          <Grid item md={0.5} sm={0} xs={0}/>
-          <Grid item md={11} sm={11} className='NewContentBody'>
-            <Header />
+        <Header />
+        <Grid container spacing={0} id='TopOfApp'>
+          <Grid item md={0.5} sm={0} xs={0} />
+          <Grid item md={11} sm={11} className='PrimaryContentBody'>
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/PublishedDnDContent" element={<DungeonsAndDragonsContent />} />
@@ -47,9 +50,9 @@ function App() {
               <Route path="/AboutMe" element={<AboutMe />} />
               <Route path="/ContactMe" element={<ContactMe />} />
             </Routes>
-          <Footer />
+            <Footer />
           </Grid>
-          <Grid item md={0.5} sm={0} xs={0}/>
+          <Grid item md={0.5} sm={0} xs={0} />
         </Grid>
       </ThemeProvider>
     </div>

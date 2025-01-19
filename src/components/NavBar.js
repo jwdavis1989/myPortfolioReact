@@ -24,7 +24,7 @@ function NavBar() {
     return (
         <div className="">
             {window.screen.width < 720 ?
-                <ButtonGroup variant="outlined" className='NewContentBody' fullWidth>
+                <ButtonGroup variant="outlined" className='NavBarButtonGroup' fullWidth>
                     <Button component={Link} to="/" onClick={() => window.scrollTo(0, 0)} className='NavBarButton width100'
                         fullWidth>
                         Home

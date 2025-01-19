@@ -70,9 +70,8 @@ function DungeonsAndDragonsOverhaulTutorial() {
                             >
                                 <Button variant='outlined'
                                     title='Return to Top' style={{ fontSize: BUTTON_FONT_SIZE }}
-                                    onClick={() => { document.getElementById('Skill Tree Demos').scrollIntoView(); }}
-                                    startIcon={<KeyboardArrowUpIcon style={{ fontSize: BUTTON_ICON_SIZE }} />}>
-                                    Return to Top
+                                    onClick={() => { document.getElementById('Skill Tree Demos').scrollIntoView(); }}>
+                                    <KeyboardArrowUpIcon style={{ fontSize: BUTTON_ICON_SIZE }} />
                                 </Button>
                             </Grid>
                         </p>
