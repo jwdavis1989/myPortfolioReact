@@ -44,6 +44,7 @@ function DungeonsAndDragonsOverhaul() {
 
     return (
         <div>
+            <div className='NavBarSectionPadding' />
             <h3 className="SectionHeader">
                 Silverwind Workshop's Skill Trees - D&D Tabletop Game Addon
                 <hr className="HorizontalLineBlue" />
@@ -71,11 +72,21 @@ function DungeonsAndDragonsOverhaul() {
                     </Grid>
                 </Grid>
                 <div className="textAlignLeft animationFadeIn">
-                    <div className='NormalPageWithLRPadding'>
+                    <br />
+                    <div className='NormalPageWithLRPadding SectionCard'>
                         <p>
                             <b className='textColorBlue'>Contributions:</b>
-                            <br />
-                            Game Designer, Artist, QA Analyst
+                            <p>
+                                <span className='ContributionsCardGameDesign'>Game Designer:</span> Designed gameplay and progression for 29 new skill trees that replace D&D classes and leveling progression, 65 new spells, 19 new weapons, 77 new crafting items, and 7 example characters with included backstory.
+                                <br />
+                                <br />
+                                <span className='ContributionsCardArt'>Artist:</span> Drew 29 Skill Tree Icons and 1 adorable robot named H.E.L.P.E.R the Turotial Bot.
+                                <br />
+                                <br />
+                                <span className='ContributionsCardQA'>Quality Assurance:</span> Tested system routinely with variety of players for 2 years straight during and after development lifecycle to find balance issues, bad player experience, and unintended interactions for correction.
+                                <br />
+                                <br />
+                            </p>
                         </p>
                         <p>
                             <b className='textColorBlue'>
@@ -109,7 +120,7 @@ function DungeonsAndDragonsOverhaul() {
                             </ul>
                         </p>
                         <p>
-                            <b className='textColorBlue'>
+                            <b id="Customer Review" className='textColorBlue'>
                                 Customer Review:
                             </b>
                             <br />
@@ -139,84 +150,85 @@ function DungeonsAndDragonsOverhaul() {
                             Interactive Skill Tree Demonstration & Design Insights:
                             <hr className="HorizontalLineBlue" />
                         </h4>
-                        <Grid container spacing={0} id="Row 3 Example Tree Icons Reworked">
-                            <Grid item xs={3}>
-                                <img className='alignCenter50 cursorClickable imageMaxSize100' src={glowingEyeLogo}
-                                    alt="Tutorial Icon"
-                                    onClick={() => { setSelectedTree(4); document.getElementById('Skill Tree Demos').scrollIntoView() }} />
+                        <div className='SectionCard'>
+                            <Grid container spacing={0} id="Row 3 Example Tree Icons Reworked">
+                                <Grid item xs={3}>
+                                    <img className='alignCenter50 cursorClickable imageMaxSize100' src={glowingEyeLogo}
+                                        alt="Tutorial Icon"
+                                        onClick={() => { setSelectedTree(4); document.getElementById('Skill Tree Demos').scrollIntoView() }} />
+                                </Grid>
+                                <Grid item xs={3}>
+                                    <img className='alignCenter50 cursorClickable imageMaxSize100' src={LeadershipIcon}
+                                        alt="Leadership Icon"
+                                        onClick={() => { setSelectedTree(1); document.getElementById('Skill Tree Demos').scrollIntoView() }} />
+                                </Grid>
+                                <Grid item xs={3}>
+                                    <img className='alignCenter50 cursorClickable imageMaxSize100' src={PyromancyIcon}
+                                        alt="Leadership Icon"
+                                        onClick={() => { setSelectedTree(2); document.getElementById('Skill Tree Demos').scrollIntoView() }} />
+                                </Grid>
+                                <Grid item xs={3}>
+                                    <img className='alignCenter50 cursorClickable imageMaxSize100' src={ShieldedCombatIcon}
+                                        alt="Leadership Icon"
+                                        onClick={() => { setSelectedTree(3); document.getElementById('Skill Tree Demos').scrollIntoView() }} />
+                                </Grid>
                             </Grid>
-                            <Grid item xs={3}>
-                                <img className='alignCenter50 cursorClickable imageMaxSize100' src={LeadershipIcon}
-                                    alt="Leadership Icon"
-                                    onClick={() => { setSelectedTree(1); document.getElementById('Skill Tree Demos').scrollIntoView() }} />
+                            <Grid container>
+                                <Grid item xs={12}>
+                                    <ButtonGroup variant='outlined' fullWidth className='NewContentBody'>
+                                        <Button
+                                            title='Tutorial' style={{
+                                                paddingTop: "1vw",
+                                                paddingBottom: "1vw"
+                                            }}
+                                            className='animationFadeIn50pcDelay'
+                                            onClick={() => { setSelectedTree(4); document.getElementById('Skill Tree Demos').scrollIntoView() }} >
+                                            Tutorial
+                                        </Button>
+                                        <Button
+                                            title='Leadership Demonstration' style={{
+                                                paddingTop: "1vw",
+                                                paddingBottom: "1vw"
+                                            }}
+                                            className='animationFadeIn50pcDelay'
+                                            onClick={() => { setSelectedTree(1); document.getElementById('Skill Tree Demos').scrollIntoView() }} >
+                                            Leadership
+                                        </Button>
+                                        <Button
+                                            title='Pyromancy Demonstration' style={{
+                                                paddingTop: "1vw",
+                                                paddingBottom: "1vw"
+                                            }}
+                                            className='animationFadeIn50pcDelay'
+                                            onClick={() => { setSelectedTree(2); document.getElementById('Skill Tree Demos').scrollIntoView(); }} >
+                                            Pyromancy
+                                        </Button>
+                                        <Button
+                                            title='Shield Mastery Demonstration' style={{
+                                                paddingTop: "1vw",
+                                                paddingBottom: "1vw"
+                                            }}
+                                            className='animationFadeIn50pcDelay'
+                                            onClick={() => { setSelectedTree(3); document.getElementById('Skill Tree Demos').scrollIntoView(); }} >
+                                            Shield Mastery
+                                        </Button>
+                                    </ButtonGroup>
+                                </Grid>
                             </Grid>
-                            <Grid item xs={3}>
-                                <img className='alignCenter50 cursorClickable imageMaxSize100' src={PyromancyIcon}
-                                    alt="Leadership Icon"
-                                    onClick={() => { setSelectedTree(2); document.getElementById('Skill Tree Demos').scrollIntoView() }} />
-                            </Grid>
-                            <Grid item xs={3}>
-                                <img className='alignCenter50 cursorClickable imageMaxSize100' src={ShieldedCombatIcon}
-                                    alt="Leadership Icon"
-                                    onClick={() => { setSelectedTree(3); document.getElementById('Skill Tree Demos').scrollIntoView() }} />
-                            </Grid>
-                        </Grid>
-                        <Grid container>
-                            <Grid item xs={12}>
-                                <ButtonGroup variant='outlined' fullWidth className='NewContentBody'>
-                                    <Button
-                                        title='Tutorial' style={{
-                                            paddingTop: "1vw",
-                                            paddingBottom: "1vw"
-                                        }}
-                                        className='animationFadeIn50pcDelay'
-                                        onClick={() => { setSelectedTree(4); document.getElementById('Skill Tree Demos').scrollIntoView() }} >
-                                        Tutorial
-                                    </Button>
-                                    <Button
-                                        title='Leadership Demonstration' style={{
-                                            paddingTop: "1vw",
-                                            paddingBottom: "1vw"
-                                        }}
-                                        className='animationFadeIn50pcDelay'
-                                        onClick={() => { setSelectedTree(1); document.getElementById('Skill Tree Demos').scrollIntoView() }} >
-                                        Leadership
-                                    </Button>
-                                    <Button
-                                        title='Pyromancy Demonstration' style={{
-                                            paddingTop: "1vw",
-                                            paddingBottom: "1vw"
-                                        }}
-                                        className='animationFadeIn50pcDelay'
-                                        onClick={() => { setSelectedTree(2); document.getElementById('Skill Tree Demos').scrollIntoView(); }} >
-                                        Pyromancy
-                                    </Button>
-                                    <Button
-                                        title='Shield Mastery Demonstration' style={{
-                                            paddingTop: "1vw",
-                                            paddingBottom: "1vw"
-                                        }}
-                                        className='animationFadeIn50pcDelay'
-                                        onClick={() => { setSelectedTree(3); document.getElementById('Skill Tree Demos').scrollIntoView(); }} >
-                                        Shield Mastery
-                                    </Button>
-                                </ButtonGroup>
-                            </Grid>
-                        </Grid>
-                        <p>
-                            <hr className="HorizontalLineBlue" />
-                            <div id="SelectedTreeDescription" className="NormalPageLayoutSlim">
-                                <h4 className="textAlignCenter animationcolorWhiteOrangeFlashing">
-                                    Select a Skill Tree Demo to see its Description and Design Insights.
-                                </h4>
-                                {!selectedTree >= 1 ?
-                                    "" : <RenderTreeDescription slot={selectedTree} />}
-                            </div>
-                        </p>
+                            <p>
+                                <hr className="HorizontalLineBlue" />
+                                <div id="SelectedTreeDescription" className="NormalPageLayoutSlim">
+                                    <h4 className="textAlignCenter animationcolorWhiteOrangeFlashing AbilityDescriptionSection">
+                                        Select a Skill Tree Demo to see its Description and Design Insights.
+                                    </h4>
+                                    {!selectedTree >= 1 ?
+                                        "" : <RenderTreeDescription slot={selectedTree} />}
+                                </div>
+                            </p>
+                        </div>
                     </p>
                 </div>
             </p >
-            <br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div >
     );
 }

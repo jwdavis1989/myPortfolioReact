@@ -11,6 +11,7 @@ function VideoGamePrototypes() {
 
     return (
         <div>
+            <div className='NavBarSectionPadding' />
             <div>
                 <h3 className="SectionHeader">
                     Phoenix Walker - Game Prototype
@@ -22,7 +23,8 @@ function VideoGamePrototypes() {
                             <iframe width="792" height="294" src="https://www.youtube.com/embed/uWy9_vH6XGQ"
                                 title="Phoenix Walker Game Prototype Demo" frameborder="1"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
-                                allowfullscreen></iframe>
+                                allowfullscreen>
+                            </iframe>
                         </div>
                     </div>
                     <p>
@@ -30,19 +32,31 @@ function VideoGamePrototypes() {
                             <Grid item xs={1.2} />
                             <Grid item xs={9.6}>
                                 <a href={MechShmupLink} target="_blank" rel="noreferrer">
-                                    <Button className="ImageLogo" startIcon={<DownloadIcon style={{ fontSize: BUTTON_ICON_SIZE}} />}
-                                    style={{ fontSize: BUTTON_FONT_SIZE, width: "100%" }} variant='outlined'>
+                                    <Button className="ImageLogo" startIcon={<DownloadIcon style={{ fontSize: BUTTON_ICON_SIZE }} />}
+                                        style={{ fontSize: BUTTON_FONT_SIZE, width: "100%" }} variant='outlined'>
                                         DOWNLOAD INSTALLER
                                     </Button>
                                 </a>
                             </Grid>
                         </Grid>
                     </p>
-                    <div className="textAlignLeft animationFadeIn NormalPageWithLRPadding">
+                    <div className="textAlignLeft animationFadeIn SectionCard">
                         <p>
                             <b className='textColorBlue'>Contributions:</b>
-                            <br />
-                            Game Designer, Programmer, Sprite Artist, Music Composer
+                            <p>
+                                <span className='ContributionsCardGameDesign'>Game Designer:</span> Designed primary gameplay loop, player transformation, phoenix missiles, enemies, and train boss fight.
+                                <br />
+                                <br />
+                                <span className='ContributionsCardProgramming'>Programmer:</span> Programmed primary gameplay loop, player controller, phonix missiles, enemies, victory/defeat, train boss fight.
+                                <br />
+                                <br />
+                                <span className='ContributionsCardArt'>Artist:</span> Drew pixel-art sprites for player, power-ups, phoenix missiles, User Interface, enemies, railroad, and train boss fight.
+                                <br />
+                                <br />
+                                <span className='ContributionsCardMusic'>Music Composer:</span> Composed two songs for the normal gameplay level, and bossfight theme.
+                                <br />
+                                <br />
+                            </p>
                         </p>
                         <p>
                             <b className='textColorBlue'>
@@ -93,7 +107,6 @@ function VideoGamePrototypes() {
                     </div>
                 </p>
             </div>
-            <br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
     );
 }

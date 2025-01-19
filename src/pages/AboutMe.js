@@ -9,6 +9,7 @@ import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 function AboutMe() {
     return (
         <div>
+            <div className='NavBarSectionPadding' />
             <h3 className="SectionHeader">
                 About Me
                 <hr className="HorizontalLineBlue" />
@@ -30,17 +31,18 @@ function AboutMe() {
                     </Grid>
                     <Grid item xs={1} />
                     <Grid item xs={9} className='textAlignLeft'>
-                        My name is Jerry Davis and I've been creating game mods, maps, and modes since I
+                        My name is Jerry Davis and I've been creating software, game mods, maps, and modes since I
                         was 11. I've always loved creating gameplay experiences that challenge players,
-                        while letting them shine in their own unique way. Truly, there is no field I could ever be happy
-                        in outside of the gaming industry.
+                        while letting them shine in their own unique way.
                         <p>
-                            Silverwind Workshop is my independent game design brand, created after years of
-                            being a paid Dungeon Master for Dungeons & Dragons.
+                            Silverwind Workshop is my independent game development company of 6 employees, currently working hard to bring our first 
+                            indie video game to Steam.
                         </p>
                         <p>
-                            Over that time, I playtested my Silverwind Workshop's Skill Tree system extensively, before eventually releasing it
-                            on the popular virtual tabletop, Roll20.
+                            Previously, I released my well-reviewed Dungeons & Dragons 5th Edition character progress overhaul, 
+                            Silverwind Workshop's Skill Tree system on the popular virtual tabletop, Roll20. 
+                            <br />
+                            Check out my professional work section for a free demo of 3 of the 29 Skill Trees and basic rules!
                         </p>
                     </Grid>
                 </Grid>

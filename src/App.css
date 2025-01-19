@@ -4,7 +4,7 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: #0099ff;
 }
 
 .AbilityDescriptionSection {
@@ -48,7 +48,7 @@ a:hover {
 }
 
 .AccordionButton:hover {
-  color: red;
+  color: #0099ff;
 }
 
 .alignCenter50 {
@@ -146,11 +146,21 @@ a:hover {
   background-image: radial-gradient(rgba(255, 0, 0, 0.5), black);
 }
 
+.background-video {
+  height: 100vh;
+  width: 100vw;
+  float: left;
+  top: 0;
+  padding: none;
+  position: fixed;
+  z-index: -1;
+}
+
 body {
   background-color: #282c34;
   color: white;
-  background-image: url("./resources/images/AbstractCubesBackground.png");
-  background-size: 100%;
+  /* background-image: url("./resources/images/AbstractCubesBackground.png"); */
+  /* background-size: 100%; */
   word-spacing: normal;
 }
 
@@ -162,11 +172,13 @@ body {
   border-collapse: separate;
 }
 
-Button {}
+Button {
+
+}
 
 Button:hover {
-  background-image: linear-gradient(black, rgb(44, 44, 44));
-  color: red;
+  background-image: radial-gradient(black, rgb(44, 44, 55));
+  color: #0099ff;
 }
 
 .CharacterArt {
@@ -206,7 +218,8 @@ Button:hover {
 }
 
 .DesignInsightButton:hover {
-  color: red;
+  background-image: radial-gradient(rgba(44, 44, 55, 1), black);
+  color: #0099ff;
 }
 
 
@@ -233,7 +246,7 @@ Button:hover {
 }
 
 .HeaderTitle:hover {
-  color: red;
+  color: #0099ff;
   margin-left: 4%;
   margin-right: 4%;
 }
@@ -274,6 +287,10 @@ Button:hover {
 
 .HorizontalLineBlue {
   border: 1px solid #0099ff;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar {
@@ -505,6 +522,7 @@ html::-webkit-scrollbar-thumb {
   outline-style: outset;
   outline-width: 1px;
   outline-color: rgb(44, 44, 44);
+  background-image: radial-gradient(rgba(44, 44, 44, 1), black);
 }
 
 .ImageLogo:hover {
@@ -512,6 +530,7 @@ html::-webkit-scrollbar-thumb {
   outline-style: outset;
   outline-width: 3px;
   outline-color: white;
+  background-image: radial-gradient(rgba(44, 44, 55, 1), black);
 }
 
 .ImageLogoSelected {
@@ -519,6 +538,22 @@ html::-webkit-scrollbar-thumb {
   outline-style: inset;
   outline-width: 4px;
   outline-color: red;
+}
+
+.ImageLogoCard {
+  width: 95%;
+  outline-style: outset;
+  outline-width: 1px;
+  outline-color: rgb(44, 44, 44);
+  animation-name: fadeIn;
+  animation-duration: 2.5s;
+}
+
+.ImageLogoCard:hover {
+  width: 95%;
+  outline-style: outset;
+  outline-width: 3px;
+  outline-color: white;
 }
 
 .ImageDynamicZoom {}
@@ -641,25 +676,41 @@ p {
 }
 
 .NavBarSticky {
-  position: fixed;
+  position: fixed; 
   top: 0;
-  width: 66.66%;
-  left: 25;
+  z-index: 1;
+  width: 100%;
+  background-color: black;
+  background-image: radial-gradient(rgb(44, 44, 44) rgb(44, 44, 44));
+  overflow: hidden;
+  margin: auto;
+  height: 200px;
 }
 
-.NavBarTop {
-  top: 0;
-  width: 66.66%;
-  left: 25;
+.NavBarSectionPadding {
+  padding-top: 200px;
 }
 
-.NavBarButton {}
+.NavBarButton {
+  background-image: radial-gradient(rgba(44, 44, 44, 1), black);
+}
 
-.NavBarButtonGroup {}
+.NavBarButton:hover {
+  background-image: radial-gradient(rgba(44, 44, 55, 1), black);
+}
+
+.NavBarButtonGroup {
+    background-image: radial-gradient(rgba(44, 44, 44, 1), black);
+}
 
 
 .NewContentBody {
-  background-image: linear-gradient(rgba(44, 44, 44, 0.8), rgba(22, 22, 22, 1.0));
+  background-image: radial-gradient(rgba(44, 44, 44, 0.8), black);
+  text-align: left;
+}
+
+.PrimaryContentBody {
+  /* background-image: radial-gradient(rgba(44, 44, 44, 0.8), black); */
   text-align: left;
 }
 
@@ -680,6 +731,149 @@ p {
   width: 50%;
 }
 
+.NewBannerImageCard {
+  border: 4px ridge rgb(44, 44, 44);
+  align-self: center;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  width: 75%;
+  width: 30vw;
+  overflow: hidden;
+  animation-name: fadeIn;
+  animation-duration: 2.5s;
+}
+
+.SectionCard {
+  background-image: radial-gradient(rgba(44, 44, 44, 1), rgba(22, 22, 22, 1));
+  border-color: rgb(44, 44, 44);
+  border-radius: 12px;
+  width: 90%;
+  padding: 2%;
+  padding-right: 5%;
+  padding-left: 5%;
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+}
+
+.SectionSubCard {
+  background-image: radial-gradient(rgba(44, 44, 44, 0), rgba(22, 22, 22, 0.8));
+  border-radius: 10px;
+  border: 1px solid #999999;
+  padding: 2%;
+  padding-right: 5%;
+  padding-left: 5%;
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+}
+
+.ContributionsCardGameDesign {
+  text-align: center;
+  background-image: radial-gradient(rgb(150, 0, 125), rgb(95, 0, 80));
+  border-style:none;
+  border-color: rgba(255, 255, 255, 1);
+  border-width: 2px;
+  border-radius: 8px;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.ContributionsCardArt {
+  text-align: center;
+  background-image: radial-gradient(rgb(0, 88, 88), rgb(0, 80, 80));
+  border-style:none;
+  border-color: rgba(255, 255, 255, 1);
+  border-width: 2px;
+  border-radius: 8px;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.ContributionsCardQA {
+  text-align: center;
+  background-image: radial-gradient(rgb(124, 0, 0), rgb(120, 0, 0));
+  border-style:none;
+  border-color: rgba(255, 255, 255, 1);
+  border-width: 2px;
+  border-radius: 8px;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.ContributionsCardMusic {
+  text-align: center;
+  background-image: radial-gradient(rgb(66, 124, 0), rgb(62, 120, 0));
+  border-style:none;
+  border-color: rgba(255, 255, 255, 1);
+  border-width: 2px;
+  border-radius: 8px;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.ContributionsCardWriting {
+  text-align: center;
+  background-image: radial-gradient(rgb(44, 44, 154), rgb(40, 40, 150));
+  border-style:none;
+  border-color: rgba(255, 255, 255, 1);
+  border-width: 2px;
+  border-radius: 8px;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.ContributionsCardProgramming {
+  text-align: center;
+  background-image: radial-gradient(rgb(0, 88, 188), rgb(0, 80, 180));
+  border-style:none;
+  border-color: rgba(255, 255, 255, 1);
+  border-width: 2px;
+  border-radius: 8px;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.ContributionsCardLeadership {
+  text-align: center;
+  background-image: radial-gradient(rgb(84, 84, 84), rgb(80, 80, 80));
+  border-style:none;
+  border-color: rgba(255, 255, 255, 1);
+  border-width: 2px;
+  border-radius: 8px;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.ContributionsCardProductOwner {
+  text-align: center;
+  background-image: radial-gradient(rgb(44, 84, 44), rgb(40, 80, 40));
+  border-style:none;
+  border-color: rgba(255, 255, 255, 1);
+  border-width: 2px;
+  border-radius: 8px;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.ContributionsCardScrumMaster {
+  text-align: center;
+  background-image: radial-gradient(rgb(154, 84, 0), rgb(150, 80, 40));
+  border-style:none;
+  border-color: rgba(255, 255, 255, 1);
+  border-width: 2px;
+  border-radius: 8px;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
 .NewBannerImageLearnMore {
   border: 4px ridge rgb(44, 44, 44);
   align-self: center;
@@ -695,10 +889,13 @@ p {
 }
 
 .NewBannerLogo {
-  width: 100%;
+  width: 50%;
+  height: 75%;
+  padding-left: 20%;
   align-self: center;
   margin-top: 0.5vh;
   margin-bottom: 0.5vh;
+  margin: 0.5vh;
 }
 
 .NewBannerSubtitle {
@@ -725,6 +922,13 @@ p {
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+.NormalPageLayoutWide {
+  text-align: left;
+  width: 100%;
   animation-name: fadeIn;
   animation-duration: 1s;
 }
@@ -889,7 +1093,27 @@ p {
 
 .SectionHeader {
   text-align: center;
+  color: #002255;
+  text-shadow: #01F 4px 0 10px;
+  -webkit-text-fill-color: #0099ff;
+  -webkit-text-stroke: 1px;
+}
+
+.SectionHeaderAlignLeft {
+  text-align: left;
+  color: #002255;
+  text-shadow: #01F 4px 0 10px;
+  -webkit-text-fill-color: #0099ff;
+  -webkit-text-stroke: 1px;
+}
+
+.SectionHeaderCard {
+  text-align: left;
   color: #0099ff;
+  outline-width: 2px;
+  outline-color: white;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 .SmallHeaderBox {
@@ -1049,6 +1273,18 @@ p {
 
 .width35px {
   width: 35px;
+}
+
+.width20 {
+  width: 20%;
+}
+
+.width30 {
+  width: 20%;
+}
+
+.width40 {
+  width: 20%;
 }
 
 .width50 {
