@@ -15,7 +15,7 @@ function AboutMe() {
                 <hr className="HorizontalLineBlue" />
             </h3>
             <p className="NormalPageLayout">
-                <Grid container spacing={0}>
+                <Grid container spacing={0} className='SectionCard'>
                     <Grid item xs={2}>
                         <img className="NewBannerImage" src={profilePicture}
                             alt="Profile" />
@@ -51,7 +51,7 @@ function AboutMe() {
                         <SchoolIcon fontSize='inherit' /> Education
                         <hr className="HorizontalLineBlue" />
                     </h4>
-                    <p className="NormalPageLayout">
+                    <p className="NormalPageLayout SectionCard">
                         <b>Bachelor's of Computer Science with a Minor in Business</b>
                         <br />
                         Arkansas A-State University, Jonesboro AR
@@ -62,7 +62,7 @@ function AboutMe() {
                         <EmojiEventsIcon fontSize='inherit' /> Awards
                         <hr className="HorizontalLineBlue" />
                     </h4>
-                    <p className="NormalPageLayout">
+                    <p className="NormalPageLayout SectionCard">
                         2nd Place - Figerox Underwater Horror Jam 2024
                         <br />
                         Infosys Certificate of Appreciation – Going The Extra
@@ -77,7 +77,7 @@ function AboutMe() {
                         <SportsEsportsIcon fontSize='inherit' /> I Love Games That . . .
                         <hr className="HorizontalLineBlue" />
                     </h4>
-                    <p className="NormalPageLayoutLeft">
+                    <p className="NormalPageLayoutLeft SectionCard">
                         <p>
                             <b className='textColorBlue'>
                                 Let the Player Figure it Out:
@@ -138,7 +138,6 @@ function AboutMe() {
                     </p>
                 </p>
             </p>
-            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
     );
 }
