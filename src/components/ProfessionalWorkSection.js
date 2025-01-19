@@ -14,7 +14,7 @@ function ProfessionalWorkSection() {
                 <hr className="HorizontalLineBlue" />
             </h3>
             <p className="NormalPageLayoutWide">
-                <Grid container direction="row" justifyContent="center" alignItems="flex-start" className='SectionCard'>
+                <Grid container direction="row" justifyContent="space-around" alignItems="flex-start" className='SectionCard'>
                     <Grid item xs={5.5} className="width50">
                         <Link to="/SWWLevelingOverhaul" onClick={() => window.scrollTo(0, 0)}>
                             <img className="NewBannerImageCard outlineBorderOnHover" src={SWWOverhaulBanner} alt="Dungeons & Dragons Overhaul" />

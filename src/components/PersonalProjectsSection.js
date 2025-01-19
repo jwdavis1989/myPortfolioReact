@@ -216,7 +216,7 @@ function PersonalProjectsSection() {
             <Grid container direction="row" justifyContent="space-around" alignItems="flex-start" className='SectionCard'>
                 <Grid item xs={5.5} >
                     <Link to="/DesignExercises" onClick={() => window.scrollTo(0, 0)}>
-                        <img className="NewBannerImageCard outlineBorderOnHover width100" src={ChineseVampireBanner} alt="Yingyue the Jiangshi - League of Legends Character Concept" />
+                        <img className="NewBannerImageCard outlineBorderOnHover" src={ChineseVampireBanner} alt="Yingyue the Jiangshi - League of Legends Character Concept" />
                     </Link>
                     <br />
                 </Grid>

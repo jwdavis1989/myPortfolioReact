@@ -17,17 +17,9 @@ function AboutMe() {
             <p className="NormalPageLayout">
                 <Grid container spacing={0} className='SectionCard'>
                     <Grid item xs={2}>
-                        <img className="NewBannerImage" src={profilePicture}
+                        <img className="NewPortraitImage" src={profilePicture}
                             alt="Profile" />
-                            <b className='textColorBlue'>
-                            Resume
-                            Download:
-                        </b>
-                        <p>
-                            <Button variant="outlined" component="a" href={gameDesignPDF} target="_blank" rel="noreferrer">
-                                <PictureAsPdfIcon alt="Download Resume" className="" />
-                            </Button>
-                        </p>
+                        
                     </Grid>
                     <Grid item xs={1} />
                     <Grid item xs={9} className='textAlignLeft'>
@@ -35,15 +27,23 @@ function AboutMe() {
                         was 11. I've always loved creating gameplay experiences that challenge players,
                         while letting them shine in their own unique way.
                         <p>
-                            Silverwind Workshop is my independent game development company of 6 employees, currently working hard to bring our first 
+                            Silverwind Workshop is my independent game development company of 6 employees, currently working hard to bring our first
                             indie video game to Steam.
                         </p>
                         <p>
-                            Previously, I released my well-reviewed Dungeons & Dragons 5th Edition character progress overhaul, 
-                            Silverwind Workshop's Skill Tree system on the popular virtual tabletop, Roll20. 
+                            Previously, I released my well-reviewed Dungeons & Dragons 5th Edition character progress overhaul,
+                            Silverwind Workshop's Skill Tree system on the popular virtual tabletop, Roll20.
                             <br />
                             Check out my professional work section for a free demo of 3 of the 29 Skill Trees and basic rules!
                         </p>
+                        <b className='textColorBlue'>
+                            Resume
+                            Download:
+                        </b>
+                        &nbsp;
+                            <Button variant="outlined" component="a" href={gameDesignPDF} target="_blank" rel="noreferrer">
+                                <PictureAsPdfIcon alt="Download Resume" className="" />
+                            </Button>
                     </Grid>
                 </Grid>
                 <p>
