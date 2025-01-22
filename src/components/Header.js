@@ -28,17 +28,17 @@ function Header() {
                         <ButtonGroup variant="fill" className="NewBannerLinks" orientation="horizontal" size="small">
                             <IconButton title="LinkedIn Profile">
                                 <a href="https://www.linkedin.com/in/jerry-davis-8991641b4/" target="_blank" rel="noreferrer">
-                                    <LinkedInIcon alt="LinkedIn" className="" />
+                                    <LinkedInIcon alt="LinkedIn"  />
                                 </a>
                             </IconButton>
                             <IconButton title="Twitter/X">
                                 <a href="https://twitter.com/SilverwindWork1" target="_blank" rel="noreferrer">
-                                    <TwitterIcon alt="Twitter/X" className="" />
+                                    <TwitterIcon alt="Twitter/X"  />
                                 </a>
                             </IconButton>
                             <IconButton title="Resume">
                                 <a href={gameDesignPDF} target="_blank" rel="noreferrer">
-                                    <PictureAsPdfIcon alt="Download Resume" className="" />
+                                    <PictureAsPdfIcon alt="Download Resume" />
                                 </a>
                             </IconButton>
                         </ButtonGroup>
