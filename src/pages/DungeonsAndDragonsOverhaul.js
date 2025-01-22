@@ -73,7 +73,7 @@ function DungeonsAndDragonsOverhaul() {
                 </Grid>
                 <div className="textAlignLeft animationFadeIn">
                     <br />
-                    <div className='NormalPageWithLRPadding SectionCard'>
+                    <div className='SectionCard'>
                         <p>
                             <b className='textColorBlue'>Contributions:</b>
                             <p>

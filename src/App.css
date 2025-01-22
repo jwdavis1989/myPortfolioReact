@@ -108,6 +108,8 @@ a:hover {
 
 .App {
   text-align: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .auto-resizable-iframe {
@@ -150,20 +152,45 @@ a:hover {
 }
 
 .background-video {
-  height: 100vh;
   width: 100vw;
-  float: left;
-  top: 0;
-  padding: none;
-  position: fixed;
-  z-index: -1;
+  height: 100vh;
   object-fit: cover;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+
+  float: left;
+  padding: none;
+  overflow: hidden;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.background-video video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+
+  float: left;
+  padding: none;
+  overflow: hidden;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 body {
   background-color: #282c34;
   color: white;
-  /* background-image: url("./resources/images/AbstractCubesBackground.png"); */
+  background-image: url("./resources/images/AbstractCubesBackground.png");
   /* background-size: 100%; */
   word-spacing: normal;
 }
@@ -684,11 +711,14 @@ p {
   top: 0;
   z-index: 1;
   width: 100%;
-  background-color: black;
-  background-image: radial-gradient(rgb(44, 44, 44) rgb(44, 44, 44));
+  /* background-color: black; */
   overflow: hidden;
   margin: auto;
   height: 200px;
+}
+
+.NavBarStickyHeader {
+  background-color: black;
 }
 
 .NavBarSectionPadding {

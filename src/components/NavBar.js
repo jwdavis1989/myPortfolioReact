@@ -22,7 +22,7 @@ function NavBar() {
     });
 
     return (
-        <div className="">
+        <div>
             {window.screen.width < 720 ?
                 <ButtonGroup variant="outlined" className='NavBarButtonGroup' fullWidth>
                     <Button component={Link} to="/" onClick={() => window.scrollTo(0, 0)} className='NavBarButton width100'
@@ -47,32 +47,24 @@ function NavBar() {
                 <ButtonGroup variant="outlined" className='NewContentBody' fullWidth>
                     <Button component={Link} to="/" onClick={() => window.scrollTo(0, 0)} className='NavBarButton width100'
                         startIcon={<DashboardSharpIcon style={{
-                            marginRight: BUTTON_ICON_MARGIN_RIGHT, paddingTop: "1vw",
-                            paddingBottom: "1vw"
-                        }} />}
+                            marginRight: BUTTON_ICON_MARGIN_RIGHT}} />}
                         fullWidth>
                         Home
                         <br />
                     </Button>
                     <Button component={Link} to="/#ProfessionalWorkSection" onClick={() => document.getElementById('ProfessionalWorkSection').scrollIntoView()} className='NavBarButton width100'
                         startIcon={<CasinoSharpIcon style={{
-                            marginRight: BUTTON_ICON_MARGIN_RIGHT, paddingTop: "1vw",
-                            paddingBottom: "1vw"
-                        }} />} fullWidth>
+                            marginRight: BUTTON_ICON_MARGIN_RIGHT}} />} fullWidth>
                         Professional Work
                     </Button>
                     <Button component={Link} to="/#PersonalProjectsSection" onClick={() => document.getElementById('PersonalProjectsSection').scrollIntoView()} className='NavBarButton width100'
                         startIcon={<EngineeringSharpIcon style={{
-                            marginRight: BUTTON_ICON_MARGIN_RIGHT, paddingTop: "1vw",
-                            paddingBottom: "1vw"
-                        }} />} fullWidth>
+                            marginRight: BUTTON_ICON_MARGIN_RIGHT}} />} fullWidth>
                         Personal Projects
                     </Button>
                     <Button component={Link} to="/AboutMe" onClick={() => window.scrollTo(0, 0)} className='NavBarButton'
                         startIcon={<AccountBoxSharpIcon style={{
-                            marginRight: BUTTON_ICON_MARGIN_RIGHT, paddingTop: "1vw",
-                            paddingBottom: "1vw"
-                        }} />} fullWidth>
+                            marginRight: BUTTON_ICON_MARGIN_RIGHT}} />} fullWidth>
                         About & Resume
                     </Button>
                 </ButtonGroup>}
