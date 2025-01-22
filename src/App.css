@@ -711,10 +711,9 @@ p {
   top: 0;
   z-index: 1;
   width: 100%;
-  /* background-color: black; */
   overflow: hidden;
   margin: auto;
-  height: 200px;
+  min-height: 48px;
 }
 
 .NavBarStickyHeader {
@@ -727,6 +726,7 @@ p {
 
 .NavBarButton {
   background-image: radial-gradient(rgba(44, 44, 44, 1), black);
+  min-height: 48px;
 }
 
 .NavBarButton:hover {
@@ -1369,4 +1369,8 @@ p {
 
 .width200 {
   width: 200%;
+}
+
+.height100 {
+  height: 20vh;
 }
