@@ -4,6 +4,7 @@ import { Grid } from '@mui/material';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Dashboard } from './pages/Dashboard';
+import { SteamGame01 } from './pages/SteamGame01';
 import { DungeonsAndDragonsOverhaul } from './pages/DungeonsAndDragonsOverhaul';
 import { VideoGamePrototypes } from './pages/VideoGamePrototypes';
 import { GameJamCrackedGlass } from './pages/GameJamCrackedGlass';
@@ -38,6 +39,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/PublishedDnDContent" element={<DungeonsAndDragonsContent />} />
+              <Route path="/ArcadianSeaSteamGame" element={<SteamGame01 />} />
               <Route path="/SWWLevelingOverhaul" element={<DungeonsAndDragonsOverhaul />} />
               <Route path="/SWWLevelingOverhaulTutorial" element={<DungeonsAndDragonsOverhaulTutorial />} />
               <Route path="/MapGenerator" element={<MapGenerator />} />
