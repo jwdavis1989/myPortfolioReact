@@ -4,7 +4,8 @@ import SourceIcon from '@mui/icons-material/Source';
 import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
 import { Button, ButtonGroup, Grid } from '@mui/material';
 import React from 'react';
-import IdeaCameraGif from '../resources/images/ArcadianSea/ArcadianSeaIdeaCamClip.gif';
+import IdeaCameraDemoGif from '../resources/images/ArcadianSea/ArcadianSeaIdeaCamClip.gif';
+import MasterWorkInDarkDemo from '../resources/images/ArcadianSea/MasterworkInDarkDemo.gif';
 import TitleScreen from '../resources/images/ArcadianSea/ArcadianSeaTitleScreenPlaceholder.png';
 
 function SteamGame01() {
@@ -85,7 +86,8 @@ function SteamGame01() {
                             </b>
                             <br />
                             <p>
-                                <img src={IdeaCameraGif} className='width50' alt='Idea Camera Demo' />
+                                <img src={MasterWorkInDarkDemo} className='width50' alt='Idea Camera Demo' />
+                                <img src={IdeaCameraDemoGif} className='width50' alt='Idea Camera Demo' />
                             </p>
                             <p>
                                 Submission for Gamemaker's Toolkit 2024 for the theme, Built to Scale.
