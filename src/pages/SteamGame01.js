@@ -5,8 +5,12 @@ import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
 import { Button, ButtonGroup, Grid } from '@mui/material';
 import React from 'react';
 import IdeaCameraDemoGif from '../resources/images/ArcadianSea/ArcadianSeaIdeaCamClip.gif';
-import MasterWorkInDarkDemo from '../resources/images/ArcadianSea/MasterworkInDarkDemo.gif';
-import TitleScreen from '../resources/images/ArcadianSea/ArcadianSeaTitleScreenPlaceholder.png';
+import TitleScreen from '../resources/images/ArcadianSea/ArcadianSeaLogo.gif';
+import ScreenshotMateoFront from '../resources/images/ArcadianSea/ArcadianSeaMateoFront.png';
+import ScreenshotRunningOverGreenHills from '../resources/images/ArcadianSea/ArcadianSeaRunningOverGreenHills.png';
+import ScreenshotRunningThroughTheChoppedForest from '../resources/images/ArcadianSea/ArcadianSeaRunningThroughTheChoppedForest.png';
+import ScreenshotLavaRoomSwordSwing from '../resources/images/ArcadianSea/ArcadianSeaLavaSwing.png';
+import ScreenshotAlphaWeaponTinkeringScreen from '../resources/images/ArcadianSea/WeaponTinkeringPlaceHolderMenu.png';
 
 function SteamGame01() {
 
@@ -19,9 +23,9 @@ function SteamGame01() {
                     <hr className="HorizontalLineBlue" />
                 </h3>
                 <Grid className="textAlignCenter" container direction="row" justifyContent="center" alignItems="center" >
-                    <Grid item xs={12}>
+                    <Grid item xs={6}>
                         <img className="NewBannerImageLearnMore" src={TitleScreen}
-                            alt="Silverwind Workshop's Skill Trees - D&D Tabletop Game Addon Banner" />
+                            alt="Arcadian Sea - In-Devevlopment Steam Game Title" />
                     </Grid>
                 </Grid>
                 <p>
@@ -71,7 +75,7 @@ function SteamGame01() {
                                 save/load system, User Interface, and particle effects.
                                 <br />
                                 <br />
-                                <span className='ContributionsCardArt'>Writer:</span> Wrote setting lore and in-game story.
+                                <span className='ContributionsCardArt'>Writer:</span> Wrote entirety of the setting lore, characters, and in-game events.
                                 <br />
                                 <br />
                                 <span className='ContributionsCardScrumMaster'>Scrum Master:</span> Lead weekly stand-ups to ensure team efficiency and remove
@@ -85,41 +89,95 @@ function SteamGame01() {
                                 Overview:
                             </b>
                             <br />
-                            <p>
-                                <img src={MasterWorkInDarkDemo} className='width50' alt='Idea Camera Demo' />
-                                <img src={IdeaCameraDemoGif} className='width50' alt='Idea Camera Demo' />
-                            </p>
-                            <p>
-                                Submission for Gamemaker's Toolkit 2024 for the theme, Built to Scale.
-                            </p>
-                            <p>
-                                You're a lost cat that is also a car, and you've been separated from the other motorcats!
-                                <br />
-                                Use your power to grow or shrink dynamically and your noggin to return to the Motorcat Singularity before it closes!
-                            </p>
-                            <p>
-                                Mighty Morphin Motorcat is a Puzzle-Racing game where you must use your ability to shrink or grow to handle all obstacles in your path.
-                                Float on the wind and fit through small holes as smol Motorcat, build up speed as Maximum-Mediumness Motorcat, Smash through Cardboard, resist wind,
-                                and maintain traction as the <i>BEEG</i> Motorcat!
-                            </p>
+                            Arcadian Sea is the working-title for our upcoming Dungeon Crawler Action RPG set to be released on Steam starring Mateo,
+                            an adventurous young Artificer with a knack for invention, and his partner Rose.
+                            <br />
+                            Combining a unique invention system, expansive pokemon-like weapon evolution trees, in-depth weapon customization,
+                            and a post-flooded world of deluvian mystery, we're very excited to bring this unique game to market.
                         </p>
                         <p>
                             <b className='textColorBlue'>
-                                Design Goals:
+                                Weapon Leveling & Evolution Tree System:
                             </b>
+                            <br />
+                            I designed our weapon system to act as the home of all of the player's offensive stats as part of an effort
+                            to create a spiritual successor to Dark Cloud's weapon system.
+                            <br />
+                            Will you try to make the ultimate custom weapon, or try to invent them all?
                             <ul>
                                 <li>
-                                    Form a team of 4 and lead them through entering a game jam designed around the theme of "Built to Scale".
+                                    Weapons contain a total of 13 different attributes. (e.g. Attack, Durability, Wind, Beast)
                                 </li>
                                 <li>
-                                    Design and implement a 3d Puzzle-Racer hybrid game in Unity using an interdisciplinary team.
+                                    Upon level-up, weapons gain Tinkering points which allow Mateo to customize his weapons using
+                                    various components found in dungeons and from monsters that permanently raise their
+                                    attributes. (e.g. Bolts, Plating, Wind Prism, Diamond)
                                 </li>
                                 <li>
-                                    Demonstrate skills in Teamwork, Leadership, Gameplay Design, Programming,
-                                    and converting an idea into a full game within a finite time limit
-                                    while using SCRUM best-practices.
+                                    As a weapon's attributes increase, they will eventually meet the requirements to evolve into a
+                                    new weapon. Many weapons have branching paths they may evolve, ensuring no play through is the same!
+                                </li>
+                                <li>
+                                    Once a weapon is level 5 or higher, it may be broken down into a tinkering component to be merged into other weapons.
+                                    This means that if you ever want to try a new weapon,
+                                    <br />
+                                    <i>it's easy to swap without losing too much!</i>
+                                </li>
+                                <li>
+                                    Many Weapon evolutions also come with interesting new special abilities that carry forward to any further evolutions of the weapon.
+                                    These unique skills can even be combined into other weapons via breaking the weapon down into a tinkering component.
+                                    <br />
+                                    <i>Create your own unique ultimate weapon, or use Skills to remove weaknesses from a weapon family!</i>
                                 </li>
                             </ul>
+                        </p>
+                        <br />
+                        <p>
+                            <b className='textColorBlue'>
+                                Invention, Ideas, & Camera System:
+                            </b>
+                            <br />
+                            <Grid container direction="row" justifyContent="center" alignItems="flex-start">
+                                <Grid item xs={6}>
+                                    I designed our invention, idea, and photography systems to give the player a sense of artifice that is sorely
+                                    lacking in most modern games.
+                                    <br />
+                                    Inventions serve as the primary means of improving the utility and defensive aspects of gameplay,
+                                    such as new boosters for your armor, an Elixir of Stoneskin for defense, or even a Treasure Scanner!
+                                    <ul>
+                                        <li>
+                                            Use your drone's camera to take pictures of objects. If the object is an Idea, it gets added
+                                            to your idea journal.
+                                        </li>
+                                        <li>
+                                            Ideas are the "ingredients" of a new invention. Combine three ideas, and if they match an undiscovered invention,
+                                            you'll invent a new item!
+                                        </li>
+                                        <li>
+                                            Try out different combinations of ideas, talk to NPCs or read books to give Mateo hints for new invention combinations.
+                                            Just like real-life, inspiration can come from many different places so get out there and see the world and its people!
+                                        </li>
+                                        <li>
+                                            If you get 2 out of 3 ideas right for a combination, you'll get the first letter and length of the missing ingredient, as if the
+                                            idea was on the tip of your tongue!
+                                        </li>
+                                        <li>
+                                            Sometimes, even dungeon treasure will give you new ideas!
+                                        </li>
+                                        <li>
+                                            You begin the game with one free invention of your choice from a list, to further differentiate everyone's character playstyle.
+                                            You'll be able to eventually invent all of the other starting inventions if you can figure out their Idea combination!
+                                        </li>
+                                    </ul>
+                                </Grid>
+                                <Grid item xs={1}>
+
+                                </Grid>
+                                <Grid item xs={5} className='textAlignCenter'>
+                                    <img src={IdeaCameraDemoGif} className='width90' alt='Idea Camera Demo' />
+                                    <i>Capturing an idea in a photo.</i>
+                                </Grid>
+                            </Grid>
                         </p>
                         <p>
                             <b className='textColorBlue'>
@@ -217,34 +275,19 @@ function SteamGame01() {
                                     </li>
                                 </ol>
                             </div>
-                            <br />
-                            <br />
-                            <div>
-                                <b className="textColorBlue">
-                                    Credits:
-                                </b>
-                                <ul>
-                                    <li>
-                                        <a href='https://www.silverwindworkshop.com/' target="_blank" rel="noreferrer"><b>Jerry Davis:</b> Game Director, Product Owner, Scrum Master, Game Designer, Lead Programmer</a>
-                                    </li>
-                                    <li>
-                                        <a href='https://itch.io/profile/alekstr' target="_blank" rel="noreferrer"><b>Alec Straw:</b> Programmer</a>
-                                    </li>
-                                    <li>
-                                        <a href='https://itch.io/profile/drolavellan' target="_blank" rel="noreferrer"><b>Chelsea Davis:</b> 3D Artist</a>
-                                    </li>
-                                    <li>
-                                        <a href='https://itch.io/profile/cytechflow' target="_blank" rel="noreferrer"><b>David Wilson:</b> Sound Designer, Music Composer, and Trailer Editor</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <br />
-                            <b>Game Jam: </b> <a href='https://itch.io/jam/gmtk-2024' target="_blank" rel="noreferrer">GMTK Game Jam (August 2024)</a>
-                            <br />
                         </p>
                     </div>
                 </p>
             </div>
+
+            <p>
+                <img src={IdeaCameraDemoGif} className='' alt='Idea Camera Demo' />
+                <img src={ScreenshotMateoFront} className='width50' alt='Idea Camera Demo' />
+                <img src={ScreenshotRunningOverGreenHills} className='width50' alt='Idea Camera Demo' />
+                <img src={ScreenshotRunningThroughTheChoppedForest} className='width50' alt='Idea Camera Demo' />
+                <img src={ScreenshotLavaRoomSwordSwing} className='width50' alt='Idea Camera Demo' />
+                <img src={ScreenshotAlphaWeaponTinkeringScreen} className='width50' alt='Idea Camera Demo' />
+            </p>
         </div>
     );
 }
