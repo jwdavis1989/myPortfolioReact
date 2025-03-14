@@ -6,7 +6,7 @@ import { Button, ButtonGroup, Grid } from '@mui/material';
 import React from 'react';
 import IdeaCameraDemoGif from '../resources/images/ArcadianSea/ArcadianSeaIdeaCamClip.gif';
 import TitleScreen from '../resources/images/ArcadianSea/ArcadianSeaLogo.gif';
-import ScreenshotMateoFront from '../resources/images/ArcadianSea/ArcadianSeaMateoFront.png';
+import ScreenshotMateoFront from '../resources/images/ArcadianSea/ArcadianSeaMateoFrontMed.png';
 import ScreenshotRunningOverGreenHills from '../resources/images/ArcadianSea/ArcadianSeaRunningOverGreenHills.png';
 import ScreenshotRunningThroughTheChoppedForest from '../resources/images/ArcadianSea/ArcadianSeaRunningThroughTheChoppedForest.png';
 import ScreenshotLavaRoomSwordSwing from '../resources/images/ArcadianSea/ArcadianSeaLavaSwing.png';
@@ -95,42 +95,6 @@ function SteamGame01() {
                             Combining a unique invention system, expansive pokemon-like weapon evolution trees, in-depth weapon customization,
                             and a post-flooded world of deluvian mystery, we're very excited to bring this unique game to market.
                         </p>
-                        <p>
-                            <b className='textColorBlue'>
-                                Weapon Leveling & Evolution Tree System:
-                            </b>
-                            <br />
-                            I designed our weapon system to act as the home of all of the player's offensive stats as part of an effort
-                            to create a spiritual successor to Dark Cloud's weapon system.
-                            <br />
-                            Will you try to make the ultimate custom weapon, or try to invent them all?
-                            <ul>
-                                <li>
-                                    Weapons contain a total of 13 different attributes. (e.g. Attack, Durability, Wind, Beast)
-                                </li>
-                                <li>
-                                    Upon level-up, weapons gain Tinkering points which allow Mateo to customize his weapons using
-                                    various components found in dungeons and from monsters that permanently raise their
-                                    attributes. (e.g. Bolts, Plating, Wind Prism, Diamond)
-                                </li>
-                                <li>
-                                    As a weapon's attributes increase, they will eventually meet the requirements to evolve into a
-                                    new weapon. Many weapons have branching paths they may evolve, ensuring no play through is the same!
-                                </li>
-                                <li>
-                                    Once a weapon is level 5 or higher, it may be broken down into a tinkering component to be merged into other weapons.
-                                    This means that if you ever want to try a new weapon,
-                                    <br />
-                                    <i>it's easy to swap without losing too much!</i>
-                                </li>
-                                <li>
-                                    Many Weapon evolutions also come with interesting new special abilities that carry forward to any further evolutions of the weapon.
-                                    These unique skills can even be combined into other weapons via breaking the weapon down into a tinkering component.
-                                    <br />
-                                    <i>Create your own unique ultimate weapon, or use Skills to remove weaknesses from a weapon family!</i>
-                                </li>
-                            </ul>
-                        </p>
                         <br />
                         <p>
                             <b className='textColorBlue'>
@@ -154,7 +118,7 @@ function SteamGame01() {
                                             you'll invent a new item!
                                         </li>
                                         <li>
-                                            Try out different combinations of ideas, talk to NPCs or read books to give Mateo hints for new invention combinations.
+                                            Experiment with different combinations of ideas, talk to NPCs or read books to give Mateo hints for new invention combinations.
                                             Just like real-life, inspiration can come from many different places so get out there and see the world and its people!
                                         </li>
                                         <li>
@@ -170,15 +134,71 @@ function SteamGame01() {
                                         </li>
                                     </ul>
                                 </Grid>
-                                <Grid item xs={1}>
-
-                                </Grid>
+                                <Grid item xs={1} />
                                 <Grid item xs={5} className='textAlignCenter'>
                                     <img src={IdeaCameraDemoGif} className='width90' alt='Idea Camera Demo' />
+                                    <br />
                                     <i>Capturing an idea in a photo.</i>
                                 </Grid>
                             </Grid>
                         </p>
+                        <br />
+                        <p>
+                            <Grid container direction="row" justifyContent="center" alignItems="flex-start">
+                                <Grid item xs={6} />
+                                <Grid item xs={6} className='textAlignLeft'>
+                                    <b className='textColorBlue'>
+                                        Weapon Leveling & Evolution Tree System:
+                                    </b>
+                                    <br />
+                                </Grid>
+                            </Grid>
+                            <Grid container direction="row" justifyContent="center" alignItems="flex-start">
+                                <Grid item xs={5} className='textAlignCenter'>
+                                    <img src={ScreenshotAlphaWeaponTinkeringScreen} className='width90' alt='Idea Camera Demo' />
+                                    <br />
+                                    <i>
+                                        Alpha Weapon Upgrade and Evolution Screen.
+                                        <br />
+                                        (Graphics are placeholders and not final.)
+                                    </i>
+                                </Grid>
+                                <Grid item xs={1} />
+                                <Grid item xs={6}>
+                                    I designed our weapon system to act as the home of all of the player's offensive stats as part of an effort
+                                    to create a spiritual successor to Dark Cloud's weapon system.
+                                    <br />
+                                    Will you try to make the ultimate custom weapon, or try to invent them all?
+                                    <ul>
+                                        <li>
+                                            Weapons contain a total of 13 different attributes. (e.g. Attack, Durability, Wind, Beast)
+                                        </li>
+                                        <li>
+                                            Upon level-up, weapons gain Tinkering points which allow Mateo to customize his weapons using
+                                            various components found in dungeons and from monsters that permanently raise their
+                                            attributes. (e.g. Bolts, Plating, Wind Prism, Diamond)
+                                        </li>
+                                        <li>
+                                            As a weapon's attributes increase, they will eventually meet the requirements to evolve into a
+                                            new weapon. Many weapons have branching paths they may evolve, ensuring no play through is the same!
+                                        </li>
+                                        <li>
+                                            Once a weapon is level 5 or higher, it may be broken down into a tinkering component to be merged into other weapons.
+                                            This means that if you ever want to try a new weapon,
+                                            <br />
+                                            <i>it's easy to swap without losing too much!</i>
+                                        </li>
+                                        <li>
+                                            Many Weapon evolutions also come with interesting new special abilities that carry forward to any further evolutions of the weapon.
+                                            These unique skills can even be combined into other weapons via breaking the weapon down into a tinkering component.
+                                            <br />
+                                            <i>Create your own unique ultimate weapon, or use Skills to remove weaknesses from a weapon family!</i>
+                                        </li>
+                                    </ul>
+                                </Grid>
+                            </Grid>
+                        </p>
+                        <br />
                         <p>
                             <b className='textColorBlue'>
                                 Learning Outcomes:
@@ -206,87 +226,17 @@ function SteamGame01() {
                                 </li>
                             </ul>
                         </p>
-                        <p>
-                            <br />
-                            <div>
-                                <b className="textColorBlue">
-                                    Controls:
-                                </b>
-                                <ul>
-                                    <li>
-                                        <b>W: </b> Go Forward
-                                    </li>
-                                    <li>
-                                        <b>S:</b> Reverse
-                                    </li>
-                                    <li>
-                                        <b>A:</b> Turn Left
-                                    </li>
-                                    <li>
-                                        <b>D:</b> Turn Right
-                                    </li>
-                                    <li>
-                                        <b>Space:</b> Jump
-                                    </li>
-                                    <li>
-                                        <b>Q:</b> Shrink
-                                    </li>
-                                    <li>
-                                        <b>E:</b> Enlarge
-                                    </li>
-                                    <li>
-                                        <b>Escape:</b> Pause Menu
-                                    </li>
-                                </ul>
-                            </div>
-                            <br />
-                            <div>
-                                <b className="textColorBlue">
-                                    Tips:
-                                </b>
-                                <br />
-                                <ol>
-                                    <li>
-                                        Shrink to fit through Cheese!
-                                    </li>
-                                    <li>
-                                        Enlarge to smash through Boxes!
-                                    </li>
-                                    <li>
-                                        Shrink to fly across Fan gaps!
-                                    </li>
-                                    <li>
-                                        Enlarge to keep traction on Ice!
-                                    </li>
-                                    <li>
-                                        Stay Medium to build speed, somehow!
-                                    </li>
-                                    <li>
-                                        After smashing through boxes, consider shrinking to fit through gaps if needed.
-                                    </li>
-                                    <li>
-                                        Enlarge to pass by Windmills without being blown away!
-                                    </li>
-                                    <li>
-                                        Change sizes to flip over when stuck!
-                                    </li>
-                                    <li>
-                                        Hitting [Q] and [E] repeatably creates beautiful rainbow waves. (This one's just for fun)
-                                    </li>
-                                </ol>
-                            </div>
-                        </p>
                     </div>
                 </p>
             </div>
 
             <p>
-                <img src={IdeaCameraDemoGif} className='' alt='Idea Camera Demo' />
-                <img src={ScreenshotMateoFront} className='width50' alt='Idea Camera Demo' />
-                <img src={ScreenshotRunningOverGreenHills} className='width50' alt='Idea Camera Demo' />
-                <img src={ScreenshotRunningThroughTheChoppedForest} className='width50' alt='Idea Camera Demo' />
-                <img src={ScreenshotLavaRoomSwordSwing} className='width50' alt='Idea Camera Demo' />
-                <img src={ScreenshotAlphaWeaponTinkeringScreen} className='width50' alt='Idea Camera Demo' />
+                <div className='width50'>
+                    <img src={ScreenshotMateoFront} className='width50' alt='Mateo in The Dark' />
+                </div>
+                <img src={ScreenshotRunningOverGreenHills} className='width50' alt='Running Over Green Hills Demo' />
+                <img src={ScreenshotRunningThroughTheChoppedForest} className='width50' alt='Running Through Chopped Forest demo' />
+                <img src={ScreenshotLavaRoomSwordSwing} className='width50' alt='Lava Room Demo' />
             </p>
         </div>
     );
