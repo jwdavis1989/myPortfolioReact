@@ -13,7 +13,6 @@ import ScreenshotLavaRoomSwordSwing from '../resources/images/ArcadianSea/Arcadi
 import ScreenshotAlphaWeaponTinkeringScreen from '../resources/images/ArcadianSea/WeaponTinkeringPlaceHolderMenu.png';
 
 function SteamGame01() {
-
     return (
         <div>
             <div className='NavBarSectionPadding' />
@@ -89,7 +88,7 @@ function SteamGame01() {
                                 Overview:
                             </b>
                             <br />
-                            Arcadian Sea is the working-title for our upcoming Dungeon Crawler Action RPG set to be released on Steam starring Mateo,
+                            Arcadian Sea is the working-title for our upcoming Dungeon Crawler Action RPG being developed in Unity for Steam starring Mateo,
                             an adventurous young Artificer with a knack for invention, and his partner Rose.
                             <br />
                             Combining a unique invention system, expansive pokemon-like weapon evolution trees, in-depth weapon customization,
@@ -98,7 +97,7 @@ function SteamGame01() {
                         <br />
                         <p>
                             <b className='textColorBlue'>
-                                Invention, Ideas, & Camera System:
+                                Designing the Invention, Ideas, & Camera System:
                             </b>
                             <br />
                             <Grid container direction="row" justifyContent="center" alignItems="flex-start">
@@ -148,7 +147,7 @@ function SteamGame01() {
                                 <Grid item xs={6} />
                                 <Grid item xs={6} className='textAlignLeft'>
                                     <b className='textColorBlue'>
-                                        Weapon Leveling & Evolution Tree System:
+                                        Designing the Weapon Leveling & Evolution Tree System:
                                     </b>
                                     <br />
                                 </Grid>
@@ -201,28 +200,72 @@ function SteamGame01() {
                         <br />
                         <p>
                             <b className='textColorBlue'>
-                                Learning Outcomes:
+                                Programming & Designing the Action RPG Entity Controllers and Combat:
+                            </b>
+                            <br />
+                            <Grid container direction="row" justifyContent="center" alignItems="flex-start">
+                                <Grid item xs={6}>
+                                    I programmed and designed our entity controlling suite of scripts, animations, and combat. This includes the player, monsters, 
+                                    and NPCs (except the NPC dialogue system) that utilize inheritence to ensure their code is robust, maintainable, 
+                                    expandable, and re-usable.
+                                    <ul>
+                                        <li>
+                                            Players can walk, sprint, roll, jump, and air-boost through the air briefly by utilizing a stamina system similar to Dark Souls.
+                                        </li>
+                                        <li>
+                                            The Weapon system is accentuated by multi-attack combinations that vary by weapon type, post-roll attacks, post-back-step attacks, 
+                                            sprinting attacks, chargeable power attacks, and an intuitive lock-on system.
+                                        </li>
+                                        <li>
+                                            The Player controller utilizes Input Queues to ensure gameplay feels fluid to the user when performing multi-attack 
+                                            combinations.
+                                        </li>
+                                        <li>
+                                            Entities take advantage of Animation Blend Trees and Layers to organically blend between different animations.
+                                        </li>
+                                        <li>
+                                            Non-Player entities utilize Unity's navigation meshes to traverse both the sunny surface, as well as the 
+                                            gloomy forgotten tunnels of the old world.
+                                        </li>
+                                        <li>
+                                            Weapons play immersive sound effects when swung, and when striking entities to increase game-feel and player feedback. This is
+                                            furthered by entities playing "Hurt" animations once damaged depending on the angle of attack.
+                                        </li>
+                                    </ul>
+                                </Grid>
+                                <Grid item xs={1} />
+                                <Grid item xs={5} className='textAlignCenter'>
+                                    <img src={IdeaCameraDemoGif} className='width90' alt='Idea Camera Demo' />
+                                    <br />
+                                    <i>REPLACE WITH IMAGE/GIF/VIDEO OF GAMEPLAY!</i>
+                                </Grid>
+                            </Grid>
+                        </p>
+                        <br />
+                        <p>
+                            <b className='textColorBlue'>
+                                Design Process & Challenges:
                             </b>
                             <ul>
                                 <li>
-                                    I gained experience in creating a Unity game that runs in-browser.
-                                    This came with new restrictions that taught me a lot about alternate ways to structure different stages of a game to fit in one scene.
+                                    LOREM EPSIM EVERYBODY!
+                                </li>
+                            </ul>
+                        </p>
+                        <br />
+                        <p>
+                            <b className='textColorBlue'>
+                                Tools & Technologies:
+                            </b>
+                            <ul>
+                                <li>
+                                    <b>Game Engine:</b> Unity
                                 </li>
                                 <li>
-                                    By creating a game that runs in-browser, it showed me an excellent example of how making your game accessable to your audience
-                                    demographic is critical to getting more people to play and enjoy your game.
+                                    <b>Programming Language:</b> C#
                                 </li>
                                 <li>
-                                    I have a better understanding of how the Unity physics system can simultaneously create an intuitive character controller,
-                                    while also acting as a black box that can sometimes cause unexpected physics behavior.
-                                    This has improved my ability to create and predict character physics behavior, even in situations where the character model changes rapidly.
-                                </li>
-                                <li>
-                                    As with Black Friday, I received great experience in game programming, leadership,
-                                    and communicating artistic ideas to our 3d artist and sound designer.
-                                </li>
-                                <li>
-                                    Our team has gained the experience and confidence needed to begin work on our first independent commercial game planned to release on Steam.
+                                    <b>3D Modeling Software:</b> Blender
                                 </li>
                             </ul>
                         </p>
@@ -231,6 +274,8 @@ function SteamGame01() {
             </div>
 
             <p>
+                Gallery:
+                <br />
                 <div className='width50'>
                     <img src={ScreenshotMateoFront} className='width50' alt='Mateo in The Dark' />
                 </div>
