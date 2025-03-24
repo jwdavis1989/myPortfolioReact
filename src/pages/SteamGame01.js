@@ -11,6 +11,10 @@ import ScreenshotRunningOverGreenHills from '../resources/images/ArcadianSea/Arc
 import ScreenshotRunningThroughTheChoppedForest from '../resources/images/ArcadianSea/ArcadianSeaRunningThroughTheChoppedForest.png';
 import ScreenshotLavaRoomSwordSwing from '../resources/images/ArcadianSea/ArcadianSeaLavaSwing.png';
 import ScreenshotAlphaWeaponTinkeringScreen from '../resources/images/ArcadianSea/WeaponTinkeringPlaceHolderMenu.png';
+import DiagramIdeaPotion from '../resources/images/ArcadianSea/Idea_Potion.png';
+import DiagramIdeaRock from '../resources/images/ArcadianSea/Idea_Rock.png';
+import DiagramIdeaDiamond from '../resources/images/ArcadianSea/Idea_Diamond.png';
+import DiagramInventionStoneSkinFlask from '../resources/images/ArcadianSea/Invention_StoneSkinFlask.png';
 
 function SteamGame01() {
     return (
@@ -88,8 +92,8 @@ function SteamGame01() {
                                 Overview:
                             </b>
                             <br />
-                            Arcadian Sea is the working-title for our upcoming Dungeon Crawler Action RPG being developed in Unity for Steam starring Mateo,
-                            an adventurous young Artificer with a knack for invention, and his partner Rose.
+                            Arcadian Sea is the working-title for our upcoming Dungeon Crawler Action RPG being developed in Unity for Steam inspired by Dark Cloud
+                            and Megaman Legends. It stars Mateo and Rose, two adventurous young Artificers with a knack for invention.
                             <br />
                             Combining a unique invention system, expansive pokemon-like weapon evolution trees, in-depth weapon customization,
                             and a post-flooded world of deluvian mystery, we're very excited to bring this unique game to market.
@@ -138,6 +142,38 @@ function SteamGame01() {
                                     <img src={IdeaCameraDemoGif} className='width90' alt='Idea Camera Demo' />
                                     <br />
                                     <i>Capturing an idea in a photo.</i>
+                                </Grid>
+                            </Grid>
+
+                            <Grid container direction="row" justifyContent="center" alignItems="center" className='textAlignCenter'>
+                                <Grid item xs={1}>
+                                    <img src={DiagramIdeaPotion} alt='Idea 1: Potion' />
+                                    <br />
+                                    Potion
+                                </Grid>
+                                <Grid item xs={1}>
+                                    +
+                                </Grid>
+                                <Grid item xs={1}>
+                                    <img src={DiagramIdeaRock} alt='Idea 2: Rock' />
+                                    <br />
+                                    Rock
+                                </Grid>
+                                <Grid item xs={1}>
+                                    +
+                                </Grid>
+                                <Grid item xs={1}>
+                                    <img src={DiagramIdeaDiamond} alt='Idea 3: Diamond' />
+                                    <br />
+                                    Diamond
+                                </Grid>
+                                <Grid item xs={1}>
+                                    =
+                                </Grid>
+                                <Grid item xs={1}>
+                                    <img src={DiagramInventionStoneSkinFlask} alt='Invention Result: Stoneskin Flask' />
+                                    <br />
+                                    Stoneskin Flask (+10% Health)
                                 </Grid>
                             </Grid>
                         </p>
@@ -205,26 +241,26 @@ function SteamGame01() {
                             <br />
                             <Grid container direction="row" justifyContent="center" alignItems="flex-start">
                                 <Grid item xs={6}>
-                                    I programmed and designed our entity controlling suite of scripts, animations, and combat. This includes the player, monsters, 
-                                    and NPCs (except the NPC dialogue system) that utilize inheritence to ensure their code is robust, maintainable, 
+                                    I programmed and designed our entity controlling suite of scripts, animations, and combat. This includes the player, monsters,
+                                    and NPCs (except the NPC dialogue system) that utilize inheritence to ensure their code is robust, maintainable,
                                     expandable, and re-usable.
                                     <ul>
                                         <li>
                                             Players can walk, sprint, roll, jump, and air-boost through the air briefly by utilizing a stamina system similar to Dark Souls.
                                         </li>
                                         <li>
-                                            The Weapon system is accentuated by multi-attack combinations that vary by weapon type, post-roll attacks, post-back-step attacks, 
+                                            The Weapon system is accentuated by multi-attack combinations that vary by weapon type, post-roll attacks, post-back-step attacks,
                                             sprinting attacks, chargeable power attacks, and an intuitive lock-on system.
                                         </li>
                                         <li>
-                                            The Player controller utilizes Input Queues to ensure gameplay feels fluid to the user when performing multi-attack 
+                                            The Player controller utilizes Input Queues to ensure gameplay feels fluid to the user when performing multi-attack
                                             combinations.
                                         </li>
                                         <li>
                                             Entities take advantage of Animation Blend Trees and Layers to organically blend between different animations.
                                         </li>
                                         <li>
-                                            Non-Player entities utilize Unity's navigation meshes to traverse both the sunny surface, as well as the 
+                                            Non-Player entities utilize Unity's navigation meshes to traverse both the sunny surface, as well as the
                                             gloomy forgotten tunnels of the old world.
                                         </li>
                                         <li>
@@ -260,6 +296,9 @@ function SteamGame01() {
                             <ul>
                                 <li>
                                     <b>Game Engine:</b> Unity
+                                </li>
+                                <li>
+                                    <b>Render Pipeline:</b> Built-In Render Pipeline with Aura 2
                                 </li>
                                 <li>
                                     <b>Programming Language:</b> C#
