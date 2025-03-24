@@ -64,7 +64,7 @@ function SteamGame01() {
                     </p>
                     <div className="textAlignLeft animationFadeIn SectionCard">
                         <p>
-                            <b className='textColorBlue'>Contributions:</b>
+                            <b className='textColorBlue DiagramHeader'>Contributions:</b>
                             <p>
                                 <span className='ContributionsCardLeadership'>Game Director:</span> Directed our 6-man team of 4 Programmers, 1 3D Artist, and 1 Sound Designer
                                 towards fulfilling the creative vision of the game.
@@ -88,7 +88,7 @@ function SteamGame01() {
                             </p>
                         </p>
                         <p>
-                            <b className='textColorBlue'>
+                            <b className='textColorBlue DiagramHeader'>
                                 Overview:
                             </b>
                             <br />
@@ -100,7 +100,7 @@ function SteamGame01() {
                         </p>
                         <br />
                         <p>
-                            <b className='textColorBlue'>
+                            <b className='textColorBlue DiagramHeader'>
                                 Designing the Invention, Ideas, & Camera System:
                             </b>
                             <br />
@@ -145,44 +145,73 @@ function SteamGame01() {
                                 </Grid>
                             </Grid>
 
-                            <Grid container direction="row" justifyContent="center" alignItems="center" className='textAlignCenter'>
-                                <Grid item xs={1}>
-                                    <img src={DiagramIdeaPotion} alt='Idea 1: Potion' />
+                            <br />
+                            <Grid container id='Invention System Diagram'>
+                                <Grid item xs={1} />
+                                <Grid item xs={10} className='backgroundColorBlackTransparent'>
                                     <br />
-                                    Potion
-                                </Grid>
-                                <Grid item xs={1}>
-                                    +
-                                </Grid>
-                                <Grid item xs={1}>
-                                    <img src={DiagramIdeaRock} alt='Idea 2: Rock' />
+                                    <Grid container direction="row" justifyContent="center" alignItems="center" className='textAlignCenter'>
+                                        <Grid item xs={5}>
+                                            <b className='textColorBlue DiagramHeader'>
+                                                <u>
+                                                    Photographed Ideas
+                                                </u>
+                                            </b>
+                                        </Grid>
+                                        <Grid item xs={1} />
+                                        <Grid item xs={2}>
+                                            <b className='textColorBlue DiagramHeader'>
+                                                <u>
+                                                    Invention
+                                                </u>
+                                            </b>
+                                        </Grid>
+                                    </Grid>
+
+                                    <Grid container direction="row" justifyContent="center" alignItems="center" className='textAlignCenter'>
+                                        <Grid item xs={1}>
+                                            <img src={DiagramIdeaPotion} alt='Idea 1: Potion' />
+                                            <br />
+                                            Potion
+                                        </Grid>
+                                        <Grid item xs={1}>
+                                            <b className='DiagramHeaderLarge'>+</b>
+                                        </Grid>
+                                        <Grid item xs={1}>
+                                            <img src={DiagramIdeaRock} alt='Idea 2: Rock' />
+                                            <br />
+                                            Rock
+                                        </Grid>
+                                        <Grid item xs={1}>
+                                            <b className='DiagramHeaderLarge'>+</b>
+                                        </Grid>
+                                        <Grid item xs={1}>
+                                            <img src={DiagramIdeaDiamond} alt='Idea 3: Diamond' />
+                                            <br />
+                                            Diamond
+                                        </Grid>
+                                        <Grid item xs={1}>
+                                            <b className='DiagramHeaderLarge'>=</b>
+                                        </Grid>
+                                        <Grid item xs={2}>
+                                            <img src={DiagramInventionStoneSkinFlask} alt='Invention Result: Stoneskin Flask' />
+                                            <br />
+                                            Stoneskin Flask 
+                                            <br />
+                                            (+10% Health)
+                                        </Grid>
+                                    </Grid>
                                     <br />
-                                    Rock
-                                </Grid>
-                                <Grid item xs={1}>
-                                    +
-                                </Grid>
-                                <Grid item xs={1}>
-                                    <img src={DiagramIdeaDiamond} alt='Idea 3: Diamond' />
-                                    <br />
-                                    Diamond
-                                </Grid>
-                                <Grid item xs={1}>
-                                    =
-                                </Grid>
-                                <Grid item xs={1}>
-                                    <img src={DiagramInventionStoneSkinFlask} alt='Invention Result: Stoneskin Flask' />
-                                    <br />
-                                    Stoneskin Flask (+10% Health)
                                 </Grid>
                             </Grid>
                         </p>
+                        <br />
                         <br />
                         <p>
                             <Grid container direction="row" justifyContent="center" alignItems="flex-start">
                                 <Grid item xs={6} />
                                 <Grid item xs={6} className='textAlignLeft'>
-                                    <b className='textColorBlue'>
+                                    <b className='textColorBlue DiagramHeader'>
                                         Designing the Weapon Leveling & Evolution Tree System:
                                     </b>
                                     <br />
@@ -235,8 +264,10 @@ function SteamGame01() {
                         </p>
                         <br />
                         <p>
-                            <b className='textColorBlue'>
-                                Programming & Designing the Action RPG Entity Controllers and Combat:
+                            <b className='textColorBlue DiagramHeader'>
+                                Programming & Designing the Action RPG Entity
+                                <br />
+                                Controllers and Combat:
                             </b>
                             <br />
                             <Grid container direction="row" justifyContent="center" alignItems="flex-start">
@@ -279,7 +310,7 @@ function SteamGame01() {
                         </p>
                         <br />
                         <p>
-                            <b className='textColorBlue'>
+                            <b className='textColorBlue DiagramHeader'>
                                 Design Process & Challenges:
                             </b>
                             <ul>
@@ -290,7 +321,7 @@ function SteamGame01() {
                         </p>
                         <br />
                         <p>
-                            <b className='textColorBlue'>
+                            <b className='textColorBlue DiagramHeader'>
                                 Tools & Technologies:
                             </b>
                             <ul>

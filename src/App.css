@@ -143,6 +143,14 @@ a:hover {
   background-color: black;
 }
 
+.backgroundColorBlackTransparent {
+  background-color: rgba(0, 0, 10, 0.5);
+  outline-width: 4px;
+  outline-color: darkgrey;
+  outline-style: outset;
+  border-radius: 20px;
+}
+
 .backgroundRadialBlack {
   background-image: radial-gradient(rgba(22, 22, 22, 0.5), black);
 }
@@ -253,6 +261,13 @@ Button:hover {
   color: #0099ff;
 }
 
+.DiagramHeader {
+  font-size: 1.5rem;
+}
+
+.DiagramHeaderLarge {
+  font-size: 2rem;
+}
 
 .Footer {
   height: 25vh;
