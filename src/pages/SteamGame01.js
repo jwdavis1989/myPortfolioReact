@@ -92,10 +92,10 @@ function SteamGame01() {
                                 Overview:
                             </b>
                             <br />
-                            Arcadian Sea is the working-title for our upcoming Dungeon Crawler Action RPG being developed in Unity for Steam inspired by Dark Cloud
-                            and Megaman Legends. It stars Mateo and Rose, two adventurous young Artificers with a knack for invention.
+                            Arcadian Sea is the working-title for our upcoming Dungeon Crawler Invention Action RPG being developed in Unity for Steam inspired by Dark Cloud
+                            and Megaman Legends. It stars Mateo and Rose, two adventurous young Artificers with a knack for invention, and is currently in the alpha stage of development.
                             <br />
-                            Combining a unique invention system, expansive pokemon-like weapon evolution trees, in-depth weapon customization,
+                            Combining a unique invention system, expansive Pokemon-like weapon evolution trees, in-depth weapon customization,
                             and a post-flooded world of deluvian mystery, we're very excited to bring this unique game to market.
                         </p>
                         <br />
@@ -196,7 +196,7 @@ function SteamGame01() {
                                         <Grid item xs={2}>
                                             <img src={DiagramInventionStoneSkinFlask} alt='Invention Result: Stoneskin Flask' />
                                             <br />
-                                            Stoneskin Flask 
+                                            Stoneskin Flask
                                             <br />
                                             (+10% Health)
                                         </Grid>
@@ -266,14 +266,15 @@ function SteamGame01() {
                         <p>
                             <b className='textColorBlue DiagramHeader'>
                                 Programming & Designing the Action RPG Entity
+                                Controllers 
                                 <br />
-                                Controllers and Combat:
+                                and Combat:
                             </b>
                             <br />
                             <Grid container direction="row" justifyContent="center" alignItems="flex-start">
                                 <Grid item xs={6}>
                                     I programmed and designed our entity controlling suite of scripts, animations, and combat. This includes the player, monsters,
-                                    and NPCs (except the NPC dialogue system) that utilize inheritence to ensure their code is robust, maintainable,
+                                    and NPCs (except the NPC dialogue system) that utilize inheritance to ensure their code is robust, maintainable,
                                     expandable, and re-usable.
                                     <ul>
                                         <li>
@@ -291,7 +292,7 @@ function SteamGame01() {
                                             Entities take advantage of Animation Blend Trees and Layers to organically blend between different animations.
                                         </li>
                                         <li>
-                                            Non-Player entities utilize Unity's navigation meshes to traverse both the sunny surface, as well as the
+                                            Non-Player entities utilize Unity's navigation meshes to traverse both the adventurous and sunny surface, as well as the
                                             gloomy forgotten tunnels of the old world.
                                         </li>
                                         <li>
@@ -302,9 +303,17 @@ function SteamGame01() {
                                 </Grid>
                                 <Grid item xs={1} />
                                 <Grid item xs={5} className='textAlignCenter'>
-                                    <img src={IdeaCameraDemoGif} className='width90' alt='Idea Camera Demo' />
+                                    <div class="auto-resizable-iframe MaxWidth100">
+                                        <div>
+                                            <iframe width="792" height="294" src="https://www.youtube.com/watch?v=x7bIjsn-jcE"
+                                                title="Arcadian Sea Character Controller Demo" frameborder="1"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
+                                                allowfullscreen>
+                                            </iframe>
+                                        </div>
+                                    </div>
                                     <br />
-                                    <i>REPLACE WITH IMAGE/GIF/VIDEO OF GAMEPLAY!</i>
+                                    <i>Short demo showing Character Controller.</i>
                                 </Grid>
                             </Grid>
                         </p>

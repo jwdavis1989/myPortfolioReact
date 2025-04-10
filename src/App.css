@@ -657,6 +657,10 @@ html::-webkit-scrollbar-thumb {
   margin-left: 45vw;
 }
 
+.MaxWidth100 {
+  max-width: 100%;
+}
+
 h1 {
   font-size: 2.5rem;
 }
