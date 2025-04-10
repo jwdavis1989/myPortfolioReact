@@ -305,8 +305,8 @@ function SteamGame01() {
                                 <Grid item xs={5} className='textAlignCenter'>
                                     <div class="auto-resizable-iframe MaxWidth100">
                                         <div>
-                                            <iframe width="792" height="294" src="https://www.youtube.com/watch?v=x7bIjsn-jcE"
-                                                title="Arcadian Sea Character Controller Demo" frameborder="1"
+                                            <iframe width="792" height="294" src="https://www.youtube.com/embed/x7bIjsn-jcE"
+                                                title="Arcadian Sea (Alpha) - Character Controller Demo 01" frameborder="1"
                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
                                                 allowfullscreen>
                                             </iframe>
