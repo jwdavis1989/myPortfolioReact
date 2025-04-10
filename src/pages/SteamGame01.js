@@ -6,7 +6,7 @@ import { Button, ButtonGroup, Grid } from '@mui/material';
 import React from 'react';
 import IdeaCameraDemoGif from '../resources/images/ArcadianSea/ArcadianSeaIdeaCamClip.gif';
 import TitleScreen from '../resources/images/ArcadianSea/ArcadianSeaLogo.gif';
-import ScreenshotMateoFront from '../resources/images/ArcadianSea/ArcadianSeaMateoFrontMed.png';
+import ScreenshotMateoFront from '../resources/images/ArcadianSea/ArcadianSeaMateoFrontHeadShot.png';
 import ScreenshotRunningOverGreenHills from '../resources/images/ArcadianSea/ArcadianSeaRunningOverGreenHills.png';
 import ScreenshotRunningThroughTheChoppedForest from '../resources/images/ArcadianSea/ArcadianSeaRunningThroughTheChoppedForest.png';
 import ScreenshotLavaRoomSwordSwing from '../resources/images/ArcadianSea/ArcadianSeaLavaSwing.png';
@@ -198,7 +198,7 @@ function SteamGame01() {
                                             <br />
                                             Stoneskin Flask
                                             <br />
-                                            (+10% Health)
+                                            (+10% Max Health)
                                         </Grid>
                                     </Grid>
                                     <br />
@@ -265,10 +265,10 @@ function SteamGame01() {
                         <br />
                         <p>
                             <b className='textColorBlue DiagramHeader'>
-                                Programming & Designing the Action RPG Entity
-                                Controllers 
+                                Programming & Designing the Entity
+                                Controllers
                                 <br />
-                                and Combat:
+                                and Action RPG Combat:
                             </b>
                             <br />
                             <Grid container direction="row" justifyContent="center" alignItems="flex-start">
@@ -313,20 +313,46 @@ function SteamGame01() {
                                         </div>
                                     </div>
                                     <br />
-                                    <i>Short demo showing Character Controller.</i>
+                                    <i>Short demo showing Character Controller.
+                                        <br />
+                                        Enemy model is an evil placeholder clown.
+                                    </i>
                                 </Grid>
                             </Grid>
                         </p>
                         <br />
                         <p>
                             <b className='textColorBlue DiagramHeader'>
-                                Design Process & Challenges:
+                                Programming the Gameplay Camera and Lock-On System:
                             </b>
                             <ul>
                                 <li>
-                                    LOREM EPSIM EVERYBODY!
+                                    Dynamic 3rd person camera that does not clip through walls by moving closer to the player when colliding with walls.
+                                </li>
+                                <li>
+                                    Player may Lock-On to a target similar to Dark Souls or Zelda by pushing in the Right Stick.
+                                    When doing so, the camera shifts upward to allow the player to see over Mateo more easily.
+                                </li>
+                                <li>
+                                    Player may change lock-on target easily with either Tab or by moving the Right Joystick left or right.
+                                </li>
+                                <li>
+                                    Camera Field of View changes during sprinting to give the player the feeling of an extreme rush of speed.
                                 </li>
                             </ul>
+                            <br />
+                            <Grid container direction="row" justifyContent="center" alignItems="center" className='textAlignCenter' spacing={2}>
+                                <Grid item xs={6}>
+                                    <img src={ScreenshotRunningThroughTheChoppedForest} className='width100' alt='Running Through Chopped Forest demo' />
+                                    <br />
+                                    <i>Normal Running Camera Field of View.</i>
+                                </Grid>
+                                <Grid item xs={6}>
+                                    <img src={ScreenshotRunningOverGreenHills} className='width100' alt='Running Over Green Hills Demo' />
+                                    <br />
+                                    <i>Sprinting Camera Field of View.</i>
+                                </Grid>
+                            </Grid>
                         </p>
                         <br />
                         <p>
@@ -348,20 +374,35 @@ function SteamGame01() {
                                 </li>
                             </ul>
                         </p>
+                        <br />
+                        <p>
+                            <b className='textColorBlue DiagramHeader'>
+                                Extras:
+                            </b>
+                            <br />
+                            <br />
+                            <Grid container direction="row" justifyContent="center" alignItems="center" className='textAlignCenter'>
+                                <Grid item xs={6}>
+                                    <img src={ScreenshotLavaRoomSwordSwing} className='width100' alt='Lava Room Demo' />
+                                    <br />
+                                    <i>
+                                        Lava Chamber found within an Old World Ruin.
+                                    </i>
+                                </Grid>
+                                <Grid item xs={4} className='textAlignCenter'>
+                                    <img src={ScreenshotMateoFront} className='width50' alt='Mateo in The Dark' />
+                                    <br />
+                                    <i>Mateo, a young Inventor and Delver
+                                        <br />
+                                        from a Steampunk Tex-Mex culture.
+                                    </i>
+                                </Grid>
+                            </Grid>
+                            <br />
+                        </p>
                     </div>
                 </p>
             </div>
-
-            <p>
-                Gallery:
-                <br />
-                <div className='width50'>
-                    <img src={ScreenshotMateoFront} className='width50' alt='Mateo in The Dark' />
-                </div>
-                <img src={ScreenshotRunningOverGreenHills} className='width50' alt='Running Over Green Hills Demo' />
-                <img src={ScreenshotRunningThroughTheChoppedForest} className='width50' alt='Running Through Chopped Forest demo' />
-                <img src={ScreenshotLavaRoomSwordSwing} className='width50' alt='Lava Room Demo' />
-            </p>
         </div>
     );
 }
