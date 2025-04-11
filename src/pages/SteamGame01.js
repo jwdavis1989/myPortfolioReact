@@ -71,7 +71,7 @@ function SteamGame01() {
                                 <br />
                                 <br />
                                 <span className='ContributionsCardGameDesign'>Game Designer:</span> Designed the primary gameplay loop involving action-RPG dungeon crawling,
-                                weapon upgrading, weapon evolution, photography, idea gathering, invention through combining ideas, dungeon layouts, User Interface, enemy behaviors.
+                                weapon upgrading, weapon evolution, photography, idea gathering, invention through combining ideas, dungeon layouts, User Interface, and enemy behaviors.
                                 <br />
                                 <br />
                                 <span className='ContributionsCardProgramming'>Lead Programmer:</span> Programmed player controller, enemy controller/AI, character animation trees, horror-style lighting,
@@ -96,7 +96,7 @@ function SteamGame01() {
                             and Megaman Legends. It stars Mateo and Rose, two adventurous young Artificers with a knack for invention, and is currently in the alpha stage of development.
                             <br />
                             Combining a unique invention system, expansive Pokemon-like weapon evolution trees, in-depth weapon customization,
-                            and a post-flooded world of deluvian mystery, we're very excited to bring this unique game to market.
+                            and a post-flooded steampunk world of deluvian mystery, we're very excited to bring this unique game to market.
                         </p>
                         <br />
                         <p>
@@ -316,6 +316,8 @@ function SteamGame01() {
                                     <i>Short demo showing Character Controller.
                                         <br />
                                         Enemy model is an evil placeholder clown.
+                                        <br />
+                                        Do not be fooled by his charm.
                                     </i>
                                 </Grid>
                             </Grid>
@@ -394,7 +396,9 @@ function SteamGame01() {
                                     <br />
                                     <i>Mateo, a young Inventor and Delver
                                         <br />
-                                        from a Steampunk Tex-Mex culture.
+                                        from a Steampunk Tex-Mex-inspired 
+                                        <br />
+                                        culture.
                                     </i>
                                 </Grid>
                             </Grid>
