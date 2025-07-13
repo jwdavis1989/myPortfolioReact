@@ -6,10 +6,10 @@ import { Button, ButtonGroup, Grid } from '@mui/material';
 import React from 'react';
 import IdeaCameraDemoGif from '../resources/images/ArcadianSea/ArcadianSeaIdeaCamClip.gif';
 import TitleScreen from '../resources/images/ArcadianSea/ArcadianSeaLogo.gif';
-import ScreenshotMateoFront from '../resources/images/ArcadianSea/ArcadianSeaMateoFrontHeadShot.png';
-import ScreenshotRunningOverGreenHills from '../resources/images/ArcadianSea/ArcadianSeaRunningOverGreenHills.png';
-import ScreenshotRunningThroughTheChoppedForest from '../resources/images/ArcadianSea/ArcadianSeaRunningThroughTheChoppedForest.png';
-import ScreenshotLavaRoomSwordSwing from '../resources/images/ArcadianSea/ArcadianSeaLavaSwing.png';
+import ScreenshotMateoFront from '../resources/images/ArcadianSea/ArcadianSeaMateoCloseUpSurface.png';
+import ScreenshotMateoRunning from '../resources/images/ArcadianSea/ArcadianSeaMateoRun.png';
+import ScreenshotMateoSprinting from '../resources/images/ArcadianSea/ArcadianSeaMateoSprintWithMotionLines.png';
+import ScreenshotLavaRoomSwordSwing from '../resources/images/ArcadianSea/ArcadianSeaLavaSwing2.png';
 import ScreenshotAlphaWeaponTinkeringScreen from '../resources/images/ArcadianSea/WeaponTinkeringPlaceHolderMenu.png';
 import DiagramIdeaPotion from '../resources/images/ArcadianSea/Idea_Potion.png';
 import DiagramIdeaRock from '../resources/images/ArcadianSea/Idea_Rock.png';
@@ -74,7 +74,7 @@ function SteamGame01() {
                                 weapon upgrading, weapon evolution, photography, idea gathering, invention through combining ideas, dungeon layouts, User Interface, and enemy behaviors.
                                 <br />
                                 <br />
-                                <span className='ContributionsCardProgramming'>Lead Programmer:</span> Programmed player controller, enemy controller/AI, character animation trees, horror-style lighting,
+                                <span className='ContributionsCardProgramming'>Lead Programmer:</span> Programmed player controller, camera/Lock-On, enemy controller/AI, character animation trees, Minimap, horror-style lighting,
                                 save/load system, User Interface, and particle effects.
                                 <br />
                                 <br />
@@ -278,7 +278,7 @@ function SteamGame01() {
                                     expandable, and re-usable.
                                     <ul>
                                         <li>
-                                            Players can walk, sprint, roll, jump, and air-boost through the air briefly by utilizing a stamina system similar to Dark Souls.
+                                            Characters can walk, sprint, block, roll, jump, and air-boost through the air briefly by utilizing a stamina system similar to Dark Souls.
                                         </li>
                                         <li>
                                             The Weapon system is accentuated by multi-attack combinations that vary by weapon type, post-roll attacks, post-back-step attacks,
@@ -339,20 +339,20 @@ function SteamGame01() {
                                     Player may change lock-on target easily with either Tab or by moving the Right Joystick left or right.
                                 </li>
                                 <li>
-                                    Camera Field of View changes during sprinting to give the player the feeling of an extreme rush of speed.
+                                    The camera Field of View increases, motion lines zoom by, and booster SFX play during sprinting give the player the feeling of an exhilarating rush of speed.
                                 </li>
                             </ul>
                             <br />
                             <Grid container direction="row" justifyContent="center" alignItems="center" className='textAlignCenter' spacing={2}>
                                 <Grid item xs={6}>
-                                    <img src={ScreenshotRunningThroughTheChoppedForest} className='width100' alt='Running Through Chopped Forest demo' />
+                                    <img src={ScreenshotMateoRunning} className='width100' alt='Running Through Chopped Forest demo' />
                                     <br />
                                     <i>Normal Running Camera Field of View.</i>
                                 </Grid>
                                 <Grid item xs={6}>
-                                    <img src={ScreenshotRunningOverGreenHills} className='width100' alt='Running Over Green Hills Demo' />
+                                    <img src={ScreenshotMateoSprinting} className='width100' alt='Running Over Green Hills Demo' />
                                     <br />
-                                    <i>Sprinting Camera Field of View.</i>
+                                    <i>Sprinting Camera Field of View and Motion Lines.</i>
                                 </Grid>
                             </Grid>
                         </p>
@@ -391,7 +391,7 @@ function SteamGame01() {
                                         Lava Chamber found within an Old World Ruin.
                                     </i>
                                 </Grid>
-                                <Grid item xs={4} className='textAlignCenter'>
+                                <Grid item xs={6} className='textAlignCenter'>
                                     <img src={ScreenshotMateoFront} className='width50' alt='Mateo in The Dark' />
                                     <br />
                                     <i>Mateo, a young Inventor and Delver
