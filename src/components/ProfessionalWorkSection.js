@@ -45,7 +45,10 @@ function ProfessionalWorkSection() {
                             <span className='ContributionsCardScrumMaster'>Scrum Master</span>
                         </p>
                         <p>
-                            <b>Team: </b>Jerry Davis, Alec Straw, Jacob Baltazar, David Wilson, Chelsea Davis, Logan Allen
+                            <b>Team: </b>Jerry Davis, Alec Straw, Jacob Baltazar, David Wilson, Chelsea Davis, Cameron Asselin
+                        </p>
+                        <p>
+                            <b>Development Status: </b>Alpha
                         </p>
                         <p>
                             Arcadian Sea is the working-title for our upcoming Dungeon Crawler Invention Action RPG being developed in Unity for Steam inspired by Dark Cloud
