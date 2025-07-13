@@ -10,7 +10,11 @@ import ScreenshotMateoFront from '../resources/images/ArcadianSea/ArcadianSeaMat
 import ScreenshotMateoRunning from '../resources/images/ArcadianSea/ArcadianSeaMateoRun.png';
 import ScreenshotMateoSprinting from '../resources/images/ArcadianSea/ArcadianSeaMateoSprintWithMotionLines.png';
 import ScreenshotLavaRoomSwordSwing from '../resources/images/ArcadianSea/ArcadianSeaLavaSwing2.png';
-import ScreenshotAlphaWeaponTinkeringScreen from '../resources/images/ArcadianSea/WeaponTinkeringPlaceHolderMenu.png';
+import ScreenshotAlphaWeaponTinkeringScreen from '../resources/images/ArcadianSea/WeaponTinkeringPlaceHolderMenu2.png';
+import ScreenshotEnemyDeathVFX1 from '../resources/images/ArcadianSea/ArcadianSeaEnemyDeathExplosionVFX1.png';
+import ScreenshotEnemyDeathVFX2 from '../resources/images/ArcadianSea/ArcadianSeaEnemyDeathExplosionVFX2.png';
+import ScreenshotExplosionPuffVFX1 from '../resources/images/ArcadianSea/ArcadianSeaExplosionPuffVFX1.png';
+import ScreenshotExplosionPuffVFX2 from '../resources/images/ArcadianSea/ArcadianSeaExplosionPuffVFX2.png';
 import DiagramIdeaPotion from '../resources/images/ArcadianSea/Idea_Potion.png';
 import DiagramIdeaRock from '../resources/images/ArcadianSea/Idea_Rock.png';
 import DiagramIdeaDiamond from '../resources/images/ArcadianSea/Idea_Diamond.png';
@@ -66,7 +70,7 @@ function SteamGame01() {
                         <p>
                             <b className='textColorBlue DiagramHeader'>Contributions:</b>
                             <p>
-                                <span className='ContributionsCardLeadership'>Game Director:</span> Directed our 6-man team of 4 Programmers, 1 3D Artist, and 1 Sound Designer
+                                <span className='ContributionsCardLeadership'>Game Director:</span> Directed our 6-man team of 3 Programmers, 2 3D Artist, and 1 Sound Designer/Composer
                                 towards fulfilling the creative vision of the game.
                                 <br />
                                 <br />
@@ -278,7 +282,7 @@ function SteamGame01() {
                                     expandable, and re-usable.
                                     <ul>
                                         <li>
-                                            Characters can walk, sprint, block, roll, jump, and air-boost through the air briefly by utilizing a stamina system similar to Dark Souls.
+                                            Characters can walk, sprint, block, open doors, roll, jump, and air-boost through the air briefly by utilizing a stamina system similar to Dark Souls.
                                         </li>
                                         <li>
                                             The Weapon system is accentuated by multi-attack combinations that vary by weapon type, post-roll attacks, post-back-step attacks,
@@ -305,7 +309,7 @@ function SteamGame01() {
                                 <Grid item xs={5} className='textAlignCenter'>
                                     <div class="auto-resizable-iframe MaxWidth100">
                                         <div>
-                                            <iframe width="792" height="294" src="https://www.youtube.com/embed/x7bIjsn-jcE"
+                                            <iframe width="792" height="294" src="https://www.youtube.com/embed/in9meSFo6zQ"
                                                 title="Arcadian Sea (Alpha) - Character Controller Demo 01" frameborder="1"
                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
                                                 allowfullscreen>
@@ -379,19 +383,54 @@ function SteamGame01() {
                         <br />
                         <p>
                             <b className='textColorBlue DiagramHeader'>
-                                Extras:
+                                Extra Screenshots:
                             </b>
                             <br />
                             <br />
-                            <Grid container direction="row" justifyContent="center" alignItems="center" className='textAlignCenter'>
-                                <Grid item xs={6}>
+                            <Grid container direction="row" justifyContent="center" alignItems="top" className='textAlignCenter'>
+                                <Grid item xs={5}>
+                                    <img src={ScreenshotExplosionPuffVFX1} className='width100' alt='Lava Room Demo' />
+                                    <br />
+                                    <i>
+                                        Bomb Explosion VFX (Part 1)
+                                    </i>
+                                </Grid>
+                                <Grid item xs={1} />
+                                <Grid item xs={5} className='textAlignCenter'>
+                                    <img src={ScreenshotExplosionPuffVFX2} className='width100' alt='Mateo in The Dark' />
+                                    <br />
+                                    <i>
+                                        Bomb Explosion VFX (Part 2)
+                                    </i>
+                                </Grid>
+                                <Grid item xs={5}>
+                                    <br />
+                                    <img src={ScreenshotEnemyDeathVFX1} className='width100' alt='Lava Room Demo' />
+                                    <br />
+                                    <i>
+                                        Enemy Death Explosion VFX (Part 1)
+                                    </i>
+                                </Grid>
+                                <Grid item xs={1} />
+                                <Grid item xs={5} className='textAlignCenter'>
+                                    <br />
+                                    <img src={ScreenshotEnemyDeathVFX2} className='width90' alt='Mateo in The Dark' />
+                                    <br />
+                                    <i>
+                                        Enemy Death Explosion VFX (Part 2)
+                                    </i>
+                                </Grid>
+                                <Grid item xs={5}>
+                                    <br />
                                     <img src={ScreenshotLavaRoomSwordSwing} className='width100' alt='Lava Room Demo' />
                                     <br />
                                     <i>
                                         Lava Chamber found within an Old World Ruin.
                                     </i>
                                 </Grid>
-                                <Grid item xs={6} className='textAlignCenter'>
+                                <Grid item xs={1} />
+                                <Grid item xs={5} className='textAlignCenter'>
+                                    <br />
                                     <img src={ScreenshotMateoFront} className='width50' alt='Mateo in The Dark' />
                                     <br />
                                     <i>Mateo, a young Inventor and Delver
