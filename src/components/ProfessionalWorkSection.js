@@ -4,7 +4,6 @@ import { Grid, Button } from '@mui/material';
 import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import ZoomInIcon from '@mui/icons-material/ZoomIn';
-import TitleScreen from '../resources/images/ArcadianSea/ArcadianSeaLogo.gif';
 import { BUTTON_ICON_MARGIN_RIGHT } from "../constants/constants.js";
 
 function ProfessionalWorkSection() {
@@ -16,19 +15,21 @@ function ProfessionalWorkSection() {
             </h3>
             <p className="NormalPageLayoutWide">
                 <Grid container direction="row" justifyContent="space-around" alignItems="flex-start" className='SectionCard'>
-                    <Grid item xs={5.5} className="width100">
-                        <Link to="/ArcadianSeaSteamGame" onClick={() => window.scrollTo(0, 0)}>
-                            <img className="NewBannerImageCard outlineBorderOnHover" src={TitleScreen}
-                            alt="Arcadian Sea - In-Devevlopment Steam Game Title" />
-                        </Link>
-                        <br />
+                    <Grid item xs={5.5} className="auto-resizable-iframe">
+                        <div>
+                            <iframe width="792" height="294" src="https://www.youtube.com/embed/in9meSFo6zQ"
+                                title="Arcadian Sea Combat/Movement Demo" frameborder="1"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
                     </Grid>
                     <Grid item xs={5.5} className='SectionSubCard'>
                         <div className="SectionHeaderCard">
                             <h3>
                                 Arcadian Sea
                                 <br />
-                                In-Development Steam Game
+                                Steam Game (In-Development)
                                 <hr className="HorizontalLineBlue" />
                             </h3>
                         </div>
@@ -52,7 +53,7 @@ function ProfessionalWorkSection() {
                         </p>
                         <p>
                             Arcadian Sea is the working-title for our upcoming Dungeon Crawler Invention Action RPG being developed in Unity for Steam inspired by Dark Cloud
-                            and Megaman Legends. It stars Mateo and Rose, two adventurous young Artificers with a knack for invention, and is currently in the alpha stage of development.
+                            and Megaman Legends. It stars Mateo and Rose, two adventurous young Artificers with a knack for invention.
                             <br />
                             <br />
                             Combining a unique invention system, expansive Pokemon-like weapon evolution trees, in-depth weapon customization,
