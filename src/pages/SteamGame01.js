@@ -10,11 +10,12 @@ import ScreenshotMateoFront from '../resources/images/ArcadianSea/ArcadianSeaMat
 import ScreenshotMateoRunning from '../resources/images/ArcadianSea/ArcadianSeaMateoRun.png';
 import ScreenshotMateoSprinting from '../resources/images/ArcadianSea/ArcadianSeaMateoSprintWithMotionLines.png';
 import ScreenshotLavaRoomSwordSwing from '../resources/images/ArcadianSea/ArcadianSeaLavaSwing2.png';
-import ScreenshotAlphaWeaponTinkeringScreen from '../resources/images/ArcadianSea/WeaponTinkeringPlaceHolderMenu2.png';
 import ScreenshotEnemyDeathVFX1 from '../resources/images/ArcadianSea/ArcadianSeaEnemyDeathExplosionVFX1.png';
 import ScreenshotEnemyDeathVFX2 from '../resources/images/ArcadianSea/ArcadianSeaEnemyDeathExplosionVFX2.png';
 import ScreenshotExplosionPuffVFX1 from '../resources/images/ArcadianSea/ArcadianSeaExplosionPuffVFX1.png';
 import ScreenshotExplosionPuffVFX2 from '../resources/images/ArcadianSea/ArcadianSeaExplosionPuffVFX2.png';
+import ScreenshotRoseFront from '../resources/images/ArcadianSea/ArcadianSeaRoseFront.png';
+import ScreenshotShortswordFamily from '../resources/images/ArcadianSea/ArcadianSeaUntexturedSwordFamily.png';
 import DiagramIdeaPotion from '../resources/images/ArcadianSea/Idea_Potion.png';
 import DiagramIdeaRock from '../resources/images/ArcadianSea/Idea_Rock.png';
 import DiagramIdeaDiamond from '../resources/images/ArcadianSea/Idea_Diamond.png';
@@ -213,26 +214,21 @@ function SteamGame01() {
                         <br />
                         <p>
                             <Grid container direction="row" justifyContent="center" alignItems="flex-start">
-                                <Grid item xs={6} />
-                                <Grid item xs={6} className='textAlignLeft'>
+                                <Grid item xs={4} className='textAlignCenter'>
+                                    <img src={ScreenshotShortswordFamily} className='width100 OutlineGray' alt='Weapon Evolution Tree Demo' />
+                                    <br />
+                                    <i>
+                                        Tier 1 & 2 Untextured Shortsword branching family tree.
+                                        <br />
+                                        (Evolution Trees are Planned to be 7-8 Tiers Deep.)
+                                    </i>
+                                </Grid>
+                                <Grid item xs={1} />
+                                <Grid item xs={6} className=''>
                                     <b className='textColorBlue DiagramHeader'>
                                         Designing the Weapon Leveling & Evolution Tree System:
                                     </b>
                                     <br />
-                                </Grid>
-                            </Grid>
-                            <Grid container direction="row" justifyContent="center" alignItems="flex-start">
-                                <Grid item xs={5} className='textAlignCenter'>
-                                    <img src={ScreenshotAlphaWeaponTinkeringScreen} className='width90' alt='Idea Camera Demo' />
-                                    <br />
-                                    <i>
-                                        Alpha Weapon Upgrade and Evolution Screen.
-                                        <br />
-                                        (Graphics are placeholders and not final.)
-                                    </i>
-                                </Grid>
-                                <Grid item xs={1} />
-                                <Grid item xs={6}>
                                     I designed our weapon system to act as the home of all of the player's offensive stats as part of an effort
                                     to create a spiritual successor to Dark Cloud's weapon system.
                                     <br />
@@ -261,6 +257,9 @@ function SteamGame01() {
                                             These unique skills can even be combined into other weapons via breaking the weapon down into a tinkering component.
                                             <br />
                                             <i>Create your own unique ultimate weapon, or use Skills to remove weaknesses from a weapon family!</i>
+                                        </li>
+                                        <li>
+                                            Obtained weapons will also be added to a "PokeDex"-like Catalogue, to help collection-focused players collect them all.
                                         </li>
                                     </ul>
                                 </Grid>
@@ -414,10 +413,33 @@ function SteamGame01() {
                                 <Grid item xs={1} />
                                 <Grid item xs={5} className='textAlignCenter'>
                                     <br />
-                                    <img src={ScreenshotEnemyDeathVFX2} className='width90' alt='Mateo in The Dark' />
+                                    <img src={ScreenshotEnemyDeathVFX2} className='width100' alt='Mateo in The Dark' />
                                     <br />
                                     <i>
                                         Enemy Death Explosion VFX (Part 2)
+                                    </i>
+                                </Grid>
+                                <Grid item xs={5} className='textAlignCenter'>
+                                    <br />
+                                    <img src={ScreenshotMateoFront} className='width80' alt='Mateo in The Dark' />
+                                    <br />
+                                    <i>Mateo, a young Inventor and Delver
+                                        <br />
+                                        from a Steampunk Tex-Mex-inspired 
+                                        <br />
+                                        culture.
+                                    </i>
+                                </Grid>
+                                <Grid item xs={1} />
+                                <Grid item xs={5} className='textAlignCenter'>
+                                    <br />
+                                    <img src={ScreenshotRoseFront} className='width80' alt='Mateo in The Dark' />
+                                    <br />
+                                    <i>Rose, a young Spotter and Pilot
+                                        <br />
+                                        from a Steampunk Tex-Mex-inspired 
+                                        <br />
+                                        culture.
                                     </i>
                                 </Grid>
                                 <Grid item xs={5}>
@@ -426,18 +448,6 @@ function SteamGame01() {
                                     <br />
                                     <i>
                                         Lava Chamber found within an Old World Ruin.
-                                    </i>
-                                </Grid>
-                                <Grid item xs={1} />
-                                <Grid item xs={5} className='textAlignCenter'>
-                                    <br />
-                                    <img src={ScreenshotMateoFront} className='width50' alt='Mateo in The Dark' />
-                                    <br />
-                                    <i>Mateo, a young Inventor and Delver
-                                        <br />
-                                        from a Steampunk Tex-Mex-inspired 
-                                        <br />
-                                        culture.
                                     </i>
                                 </Grid>
                             </Grid>
