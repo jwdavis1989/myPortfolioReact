@@ -23,6 +23,7 @@ function GameJamBlackFriday() {
                             <iframe width="792" height="294" src="https://www.youtube.com/embed/Gkng-3ep7_A"
                                 title="Black Friday Game Jam Demo" frameborder="1"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
+                                referrerpolicy="strict-origin-when-cross-origin"
                                 allowfullscreen></iframe>
                         </div>
                     </div>

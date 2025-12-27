@@ -311,6 +311,7 @@ function SteamGame01() {
                                             <iframe width="792" height="294" src="https://www.youtube.com/embed/in9meSFo6zQ"
                                                 title="Arcadian Sea (Alpha) - Character Controller Demo 01" frameborder="1"
                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
+                                                referrerpolicy="strict-origin-when-cross-origin"
                                                 allowfullscreen>
                                             </iframe>
                                         </div>
