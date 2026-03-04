@@ -47,7 +47,7 @@ function ProfessionalWorkSection() {
                             <span className='ContributionsCardScrumMaster'>Scrum Master</span>
                         </p>
                         <p>
-                            <b>Team: </b>Jerry Davis, Alec Straw, Jacob Baltazar, David Wilson, Chelsea Davis, Cameron Asselin
+                            <b>Team: </b>Jerry Davis, Alec Straw, David Wilson, Chelsea Davis, Cameron Asselin
                         </p>
                         <p>
                             <b>Development Status: </b>Alpha
