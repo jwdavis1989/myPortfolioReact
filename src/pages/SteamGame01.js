@@ -71,7 +71,7 @@ function SteamGame01() {
                         <p>
                             <b className='textColorBlue DiagramHeader'>Contributions:</b>
                             <p>
-                                <span className='ContributionsCardLeadership'>Game Director:</span> Directed our 6-man team of 3 Programmers, 2 3D Artist, and 1 Sound Designer/Composer
+                                <span className='ContributionsCardLeadership'>Game Director:</span> Directed our 5-man team of 3 Programmers, 2 3D Artist, and 1 Sound Designer/Composer
                                 towards fulfilling the creative vision of the game.
                                 <br />
                                 <br />
