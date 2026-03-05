@@ -27,7 +27,7 @@ function AboutMe() {
                         was 11. I've always loved creating gameplay experiences that challenge players,
                         while letting them shine in their own unique way.
                         <p>
-                            Silverwind Workshop is my independent game development company of 6 employees, currently working hard to bring our first
+                            Silverwind Workshop is my independent game development company of 5 employees, currently working hard to bring our first
                             indie video game to Steam.
                         </p>
                         <p>
