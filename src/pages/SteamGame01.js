@@ -31,7 +31,7 @@ function SteamGame01() {
                 </h3>
                 <Grid className="textAlignCenter" container direction="row" justifyContent="center" alignItems="center" >
                     <Grid item xs={10}>
-                        <iframe width="792" height="588" src="https://www.youtube.com/embed/1N0VRkYRj0o"
+                        <iframe width="853" height="505" src="https://www.youtube.com/embed/1N0VRkYRj0o"
                             title="Stygian Sea | &quot;The Book of Stone 3:27&quot; Official Teaser (Mega Man Legends &amp; Dark Cloud Inspired)" frameborder="1"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
                             referrerpolicy="strict-origin-when-cross-origin"
@@ -320,7 +320,7 @@ function SteamGame01() {
                                         </div>
                                     </div>
                                     <br />
-                                    <i>Short demo showing Character Controller.
+                                    <i>Old Alpha Demo showing Character Controller.
                                         <br />
                                         Enemy model is an evil placeholder clown.
                                         <br />
