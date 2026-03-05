@@ -11,8 +11,13 @@ function Dashboard() {
                     Game Developer | Game Designer
                 </b>
                 <p>
-                    I'm Jerry Davis, a game developer and game designer with over 2 years of programming experience working on large code bases serving 4.5 million users
-                    while winning several awards along the way due to my strong work ethic. I created Silverwind Workshop, an independent Video Game and Dungeons & Dragons delevopment
+                    I'm Jerry Davis, a game developer and game designer with over 4 years of professional programming experience, including 2+ years of game programming, systems
+                    design, and indie studio leadership for a dungeon-running title. I've managed a high-concurrency codebase for 4.5M users, directed
+                    interdisciplinary teams through the full dev-lifecycle, and shipped commercial systems design expansion for Dungeons & Dragons
+                    while winning several awards along the way due to my strong work ethic.
+                </p>
+                <p>
+                    I created Silverwind Workshop, an independent Video Game and Dungeons & Dragons delevopment
                     company. We're currently developing our first commercial video game set to be released on Steam. My Dungeons and Dragons design work is published and for sale on the marketplace of the popular online virtual
                     tabletop, Roll20. Click "Free Demo" below to see it's free interactive demo.
                 </p>

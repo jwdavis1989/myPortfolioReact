@@ -17,8 +17,8 @@ function ProfessionalWorkSection() {
                 <Grid container direction="row" justifyContent="space-around" alignItems="flex-start" className='SectionCard'>
                     <Grid item xs={5.5} className="auto-resizable-iframe">
                         <div>
-                            <iframe width="792" height="294" src="https://www.youtube.com/embed/in9meSFo6zQ"
-                                title="Arcadian Sea Combat/Movement Demo" frameborder="1"
+                            <iframe width="792" height="294" src="https://www.youtube.com/embed/1N0VRkYRj0o"
+                                title="Stygian Sea | &quot;The Book of Stone 3:27&quot; Official Teaser (Mega Man Legends &amp; Dark Cloud Inspired)" frameborder="1"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
                                 referrerpolicy="strict-origin-when-cross-origin"
                                 allowfullscreen>
@@ -28,7 +28,7 @@ function ProfessionalWorkSection() {
                     <Grid item xs={5.5} className='SectionSubCard'>
                         <div className="SectionHeaderCard">
                             <h3>
-                                Arcadian Sea
+                                Stygian Sea
                                 <br />
                                 Steam Game (In-Development)
                                 <hr className="HorizontalLineBlue" />
@@ -53,7 +53,7 @@ function ProfessionalWorkSection() {
                             <b>Development Status: </b>Alpha
                         </p>
                         <p>
-                            Arcadian Sea is the working-title for our upcoming Dungeon Crawler Invention Action RPG being developed in Unity for Steam inspired by Dark Cloud
+                            Stygian Sea is the working-title for our upcoming Dungeon Crawler Invention Action RPG being developed in Unity for Steam inspired by Dark Cloud
                             and Megaman Legends. It stars Mateo and Rose, two adventurous young Artificers with a knack for invention.
                             <br />
                             <br />
