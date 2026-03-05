@@ -5,7 +5,6 @@ import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
 import { Button, ButtonGroup, Grid } from '@mui/material';
 import React from 'react';
 import IdeaCameraDemoGif from '../resources/images/ArcadianSea/ArcadianSeaIdeaCamClip.gif';
-import TitleScreen from '../resources/images/ArcadianSea/ArcadianSeaLogo.gif';
 import ScreenshotMateoFront from '../resources/images/ArcadianSea/ArcadianSeaMateoCloseUpSurface.png';
 import ScreenshotMateoRunning from '../resources/images/ArcadianSea/ArcadianSeaMateoRun.png';
 import ScreenshotMateoSprinting from '../resources/images/ArcadianSea/ArcadianSeaMateoSprintWithMotionLines.png';
@@ -15,7 +14,7 @@ import ScreenshotEnemyDeathVFX2 from '../resources/images/ArcadianSea/ArcadianSe
 import ScreenshotExplosionPuffVFX1 from '../resources/images/ArcadianSea/ArcadianSeaExplosionPuffVFX1.png';
 import ScreenshotExplosionPuffVFX2 from '../resources/images/ArcadianSea/ArcadianSeaExplosionPuffVFX2.png';
 import ScreenshotRoseFront from '../resources/images/ArcadianSea/ArcadianSeaRoseFront.png';
-import ScreenshotShortswordFamily from '../resources/images/ArcadianSea/ArcadianSeaUntexturedSwordFamily.png';
+import ScreenshotShortswordFamily from '../resources/images/ArcadianSea/WeaponEvolutionDiagram.png';
 import DiagramIdeaPotion from '../resources/images/ArcadianSea/Idea_Potion.png';
 import DiagramIdeaRock from '../resources/images/ArcadianSea/Idea_Rock.png';
 import DiagramIdeaDiamond from '../resources/images/ArcadianSea/Idea_Diamond.png';
@@ -27,13 +26,17 @@ function SteamGame01() {
             <div className='NavBarSectionPadding' />
             <div>
                 <h3 className="SectionHeader">
-                    Arcadian Sea (In-Development Steam Game)
+                    Stygian Sea (In-Development Steam Game)
                     <hr className="HorizontalLineBlue" />
                 </h3>
                 <Grid className="textAlignCenter" container direction="row" justifyContent="center" alignItems="center" >
-                    <Grid item xs={6}>
-                        <img className="NewBannerImageLearnMore" src={TitleScreen}
-                            alt="Arcadian Sea - In-Devevlopment Steam Game Title" />
+                    <Grid item xs={10}>
+                        <iframe width="792" height="588" src="https://www.youtube.com/embed/1N0VRkYRj0o"
+                            title="Stygian Sea | &quot;The Book of Stone 3:27&quot; Official Teaser (Mega Man Legends &amp; Dark Cloud Inspired)" frameborder="1"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen>
+                        </iframe>
                     </Grid>
                 </Grid>
                 <p>
@@ -97,7 +100,7 @@ function SteamGame01() {
                                 Overview:
                             </b>
                             <br />
-                            Arcadian Sea is the working-title for our upcoming Dungeon Crawler Invention Action RPG being developed in Unity for Steam inspired by Dark Cloud
+                            Stygian Sea is the working-title for our upcoming Dungeon Crawler Invention Action RPG being developed in Unity for Steam inspired by Dark Cloud
                             and Megaman Legends. It stars Mateo and Rose, two adventurous young Artificers with a knack for invention, and is currently in the alpha stage of development.
                             <br />
                             Combining a unique invention system, expansive Pokemon-like weapon evolution trees, in-depth weapon customization,
@@ -218,7 +221,7 @@ function SteamGame01() {
                                     <img src={ScreenshotShortswordFamily} className='width100 OutlineGray' alt='Weapon Evolution Tree Demo' />
                                     <br />
                                     <i>
-                                        Tier 1 & 2 Untextured Shortsword branching family tree.
+                                        Tier 1 & 2 Shortsword branching family tree.
                                         <br />
                                         (Evolution Trees are Planned to be 7-8 Tiers Deep.)
                                     </i>
@@ -426,7 +429,7 @@ function SteamGame01() {
                                     <br />
                                     <i>Mateo, a young Inventor and Delver
                                         <br />
-                                        from a Steampunk Tex-Mex-inspired 
+                                        from a Steampunk Tex-Mex-inspired
                                         <br />
                                         culture.
                                     </i>
@@ -438,7 +441,7 @@ function SteamGame01() {
                                     <br />
                                     <i>Rose, a young Spotter and Pilot
                                         <br />
-                                        from a Steampunk Tex-Mex-inspired 
+                                        from a Steampunk Tex-Mex-inspired
                                         <br />
                                         culture.
                                     </i>
