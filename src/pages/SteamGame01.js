@@ -303,7 +303,7 @@ function SteamGame01() {
                                         </li>
                                         <li>
                                             Weapons play immersive sound effects when swung, and when striking entities to increase game-feel and player feedback. This is
-                                            furthered by entities playing "Hurt" animations once damaged depending on the angle of attack.
+                                            furthered by entities playing "Hurt" animations once damaged depending on the angle and severity of attack.
                                         </li>
                                     </ul>
                                 </Grid>
@@ -311,8 +311,8 @@ function SteamGame01() {
                                 <Grid item xs={5} className='textAlignCenter'>
                                     <div class="auto-resizable-iframe MaxWidth100">
                                         <div>
-                                            <iframe width="792" height="294" src="https://www.youtube.com/embed/in9meSFo6zQ"
-                                                title="Arcadian Sea (Alpha) - Character Controller Demo 01" frameborder="1"
+                                            <iframe width="792" height="294" src="https://www.youtube.com/embed/RAb-tTRJ0jk"
+                                                title="Jerry Davis Portfolio: StygianSea Character Controller Demo" frameborder="1"
                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
                                                 referrerpolicy="strict-origin-when-cross-origin"
                                                 allowfullscreen>
@@ -320,12 +320,7 @@ function SteamGame01() {
                                         </div>
                                     </div>
                                     <br />
-                                    <i>Old Alpha Demo showing Character Controller.
-                                        <br />
-                                        Enemy model is an evil placeholder clown.
-                                        <br />
-                                        Do not be fooled by his charm.
-                                    </i>
+                                    <i>Character Controller Demo.</i>
                                 </Grid>
                             </Grid>
                         </p>
