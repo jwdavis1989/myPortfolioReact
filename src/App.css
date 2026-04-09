@@ -1183,6 +1183,16 @@ p {
   padding-right: 4px;
 }
 
+.SectionHeaderCard:hover {
+  text-align: left;
+  color: #ffffff;
+  outline-width: 6px;
+  outline-color: #444444;
+  padding-left: 6px;
+  padding-right: 4px;
+  margin-top: 4px;
+}
+
 .SmallHeaderBox {
   text-align: center;
   align-self: center;
