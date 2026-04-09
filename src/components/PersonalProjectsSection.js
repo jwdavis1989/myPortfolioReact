@@ -24,14 +24,20 @@ function PersonalProjectsSection() {
                     </div>
                 </Grid>
                 <Grid item xs={5.5} className='SectionSubCard'>
-                    <div className="SectionHeaderCard">
-                        <h3>
-                            Mighty Morphin' Motorcat
-                            <br />
-                            GMTK Game Jam 2024
-                            <hr className="HorizontalLineBlue" />
-                        </h3>
-                    </div>
+                    <Link
+                        to="/MMM"
+                        className="SectionHeaderLink"
+                        onClick={() => window.scrollTo(0, 0)}
+                        style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <div className="SectionHeaderCard">
+                            <h3>
+                                Mighty Morphin' Motorcat
+                                <br />
+                                GMTK Game Jam 2024
+                                <hr className="HorizontalLineBlue" />
+                            </h3>
+                        </div>
+                    </Link>
                     <p>
                         <span className='ContributionsCardGameDesign'>Game Designer</span>
                         &nbsp;
@@ -75,14 +81,20 @@ function PersonalProjectsSection() {
                     </div>
                 </Grid>
                 <Grid item xs={5.5} className='SectionSubCard'>
-                    <div className="SectionHeaderCard">
-                        <h3>
-                            Black Friday: The Last Stand
-                            <br />
-                            GameDev.TV Game Jam 2024
-                            <hr className="HorizontalLineBlue" />
-                        </h3>
-                    </div>
+                    <Link
+                        to="/BlackFriday"
+                        className="SectionHeaderLink"
+                        onClick={() => window.scrollTo(0, 0)}
+                        style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <div className="SectionHeaderCard">
+                            <h3>
+                                Black Friday: The Last Stand
+                                <br />
+                                GameDev.TV Game Jam 2024
+                                <hr className="HorizontalLineBlue" />
+                            </h3>
+                        </div>
+                    </Link>
                     <p>
                         <span className='ContributionsCardGameDesign'>Game Designer</span>
                         &nbsp;
@@ -126,14 +138,20 @@ function PersonalProjectsSection() {
                     </div>
                 </Grid>
                 <Grid item xs={5.5} className='SectionSubCard'>
-                    <div className="SectionHeaderCard">
-                        <h3>
-                            Cracked Glass
-                            <br />
-                            Underwater Horror Jam 2024
-                            <hr className="HorizontalLineBlue" />
-                        </h3>
-                    </div>
+                    <Link
+                        to="/CrackedGlass"
+                        className="SectionHeaderLink"
+                        onClick={() => window.scrollTo(0, 0)}
+                        style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <div className="SectionHeaderCard">
+                            <h3>
+                                Cracked Glass
+                                <br />
+                                Underwater Horror Jam 2024
+                                <hr className="HorizontalLineBlue" />
+                            </h3>
+                        </div>
+                    </Link>
                     <p>
                         <span className='ContributionsCardGameDesign'>Game Designer</span>
                         &nbsp;
@@ -178,6 +196,11 @@ function PersonalProjectsSection() {
                     </div>
                 </Grid>
                 <Grid item xs={5.5} className='SectionSubCard'>
+                    <Link
+                        to="/VideoGamePrototypes"
+                        className="SectionHeaderLink"
+                        onClick={() => window.scrollTo(0, 0)}
+                        style={{ textDecoration: 'none', color: 'inherit' }}>
                     <div className="SectionHeaderCard">
                         <h3>
                             Phoenix Walker
@@ -186,6 +209,7 @@ function PersonalProjectsSection() {
                             <hr className="HorizontalLineBlue" />
                         </h3>
                     </div>
+                    </Link>
                     <p>
                         <span className='ContributionsCardGameDesign'>Game Designer</span>
                         &nbsp;
@@ -225,6 +249,11 @@ function PersonalProjectsSection() {
                     <br />
                 </Grid>
                 <Grid item xs={5.5} className='SectionSubCard'>
+                    <Link
+                        to="/DesignExercises"
+                        className="SectionHeaderLink"
+                        onClick={() => window.scrollTo(0, 0)}
+                        style={{ textDecoration: 'none', color: 'inherit' }}>
                     <div className="SectionHeaderCard">
                         <h3>
                             Yingyue the Jiangshi
@@ -233,6 +262,7 @@ function PersonalProjectsSection() {
                             <hr className="HorizontalLineBlue" />
                         </h3>
                     </div>
+                    </Link>
                     <p>
                         <span className='ContributionsCardGameDesign'>Game Designer</span>
                         &nbsp;
@@ -246,7 +276,7 @@ function PersonalProjectsSection() {
                         </i>
                     </p>
                     <p>
-                        Yingyue was designed because League of Legends does not have any support characters that utilize the Lifesteal mechanic. 
+                        Yingyue was designed because League of Legends does not have any support characters that utilize the Lifesteal mechanic.
                         I wanted to create a very aggressive support character that would be very true to
                         her theme as a Chinese Vampire.
                         <br /><br />

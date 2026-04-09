@@ -26,14 +26,20 @@ function ProfessionalWorkSection() {
                         </div>
                     </Grid>
                     <Grid item xs={5.5} className='SectionSubCard'>
-                        <div className="SectionHeaderCard">
-                            <h3>
-                                Stygian Sea
-                                <br />
-                                Steam Game (In-Development)
-                                <hr className="HorizontalLineBlue" />
-                            </h3>
-                        </div>
+                        <Link
+                            to="/ArcadianSeaSteamGame"
+                            className="SectionHeaderLink"
+                            onClick={() => window.scrollTo(0, 0)}
+                            style={{ textDecoration: 'none', color: 'inherit' }}>
+                            <div className="SectionHeaderCard" component={Link} to="/ArcadianSeaSteamGame" onClick={() => window.scrollTo(0, 0)}>
+                                <h3>
+                                    Stygian Sea
+                                    <br />
+                                    Steam Game (In-Development)
+                                    <hr className="HorizontalLineBlue" />
+                                </h3>
+                            </div>
+                        </Link>
                         <p>
                             <span className='ContributionsCardLeadership'>Game Director</span>
                             &nbsp;
@@ -79,6 +85,11 @@ function ProfessionalWorkSection() {
                         <br />
                     </Grid>
                     <Grid item xs={5.5} className='SectionSubCard'>
+                        <Link
+                            to="/SWWLevelingOverhaul"
+                            className="SectionHeaderLink"
+                            onClick={() => window.scrollTo(0, 0)}
+                            style={{ textDecoration: 'none', color: 'inherit' }}>
                         <div className="SectionHeaderCard">
                             <h3>
                                 Silverwind Skill Trees
@@ -87,6 +98,7 @@ function ProfessionalWorkSection() {
                                 <hr className="HorizontalLineBlue" />
                             </h3>
                         </div>
+                        </Link>
                         <p>
                             <span className='ContributionsCardGameDesign'>Game Designer</span>
                             &nbsp;
@@ -119,7 +131,7 @@ function ProfessionalWorkSection() {
                     </Grid>
                 </Grid>
             </p>
-        </div>
+        </div >
     );
 }
 

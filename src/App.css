@@ -1085,9 +1085,14 @@ p {
 
 .OutlineGray {
   border: rgb(22, 22, 22);
-  border-width: 2px;
-  border-style: double;
-  border-collapse: separate;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.OutlineGray:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 .OutlineBlue {
@@ -1181,6 +1186,16 @@ p {
   outline-color: white;
   padding-left: 4px;
   padding-right: 4px;
+}
+
+.SectionHeaderCard:hover {
+  text-align: left;
+  color: #ffffff;
+  outline-width: 6px;
+  outline-color: #444444;
+  padding-left: 6px;
+  padding-right: 4px;
+  margin-top: 4px;
 }
 
 .SmallHeaderBox {
