@@ -5,7 +5,7 @@ import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
 import { Button, ButtonGroup, Grid } from '@mui/material';
 import React from 'react';
 import IdeaCameraDemoGif from '../resources/images/ArcadianSea/ArcadianSeaIdeaCamClip.gif';
-import ScreenshotMateoFront from '../resources/images/ArcadianSea/ArcadianSeaMateoCloseUpSurface.png';
+import ScreenshotMateoFront from '../resources/images/ArcadianSea/StygianSea_MateoPortrait_01.png';
 import ScreenshotMateoRunning from '../resources/images/ArcadianSea/ArcadianSeaMateoRun.png';
 import ScreenshotMateoSprinting from '../resources/images/ArcadianSea/ArcadianSeaMateoSprintWithMotionLines.png';
 import ScreenshotLavaRoomSwordSwing from '../resources/images/ArcadianSea/ArcadianSeaLavaSwing2.png';
@@ -14,6 +14,7 @@ import ScreenshotEnemyDeathVFX2 from '../resources/images/ArcadianSea/ArcadianSe
 import ScreenshotExplosionPuffVFX1 from '../resources/images/ArcadianSea/ArcadianSeaExplosionPuffVFX1.png';
 import ScreenshotExplosionPuffVFX2 from '../resources/images/ArcadianSea/ArcadianSeaExplosionPuffVFX2.png';
 import ScreenshotRoseFront from '../resources/images/ArcadianSea/ArcadianSeaRoseFront.png';
+import ScreenshotSkeletonyFront from '../resources/images/ArcadianSea/StygianSea_SkeleTonyPortrait_01.png';
 import ScreenshotShortswordFamily from '../resources/images/ArcadianSea/WeaponEvolutionDiagram.png';
 import DiagramIdeaPotion from '../resources/images/ArcadianSea/Idea_Potion.png';
 import DiagramIdeaRock from '../resources/images/ArcadianSea/Idea_Rock.png';
@@ -95,18 +96,173 @@ function SteamGame01() {
                                 <br />
                             </p>
                         </p>
+                        <br />
+                        <br />
                         <p>
-                            <b className='textColorBlue DiagramHeader'>
-                                Overview:
-                            </b>
-                            <br />
-                            Stygian Sea is the working-title for our upcoming Dungeon Crawler Invention Action RPG being developed in Unity for Steam inspired by Dark Cloud
-                            and Megaman Legends. It stars Mateo and Rose, two adventurous young Artificers with a knack for invention, and is currently in the alpha stage of development.
-                            <br />
-                            Combining a unique invention system, expansive Pokemon-like weapon evolution trees, in-depth weapon customization,
-                            and a post-flooded steampunk world of deluvian mystery, we're very excited to bring this unique game to market.
+                            <Grid container direction="row" justifyContent="center" alignItems="flex-start">
+                                <Grid item xs={4} className='textAlignCenter'>
+                                    <img src={ScreenshotMateoFront} className='width100 OutlineGray' alt='Weapon Evolution Tree Demo' />
+                                    <br />
+                                    <i>Mateo, a young Inventor and Delver
+                                        <br />
+                                        from a Steampunk Tex-Mex-inspired
+                                        <br />
+                                        culture.
+                                    </i>
+                                </Grid>
+                                <Grid item xs={1} />
+                                <Grid item xs={6} className=''>
+                                    <b className='textColorBlue DiagramHeader'>
+                                        Overview:
+                                    </b>
+                                    <br />
+                                    Stygian Sea is the working-title for our upcoming Dungeon Crawler Invention Action RPG being developed in Unity for Steam inspired by Dark Cloud
+                                    and Megaman Legends.
+                                    <p>
+                                        It stars Mateo and Rose, two adventurous young Artificers with a knack for invention, and is currently in the alpha stage of development.
+                                    </p>
+                                    <p>
+                                        Combining a unique invention system, expansive Pokemon-like weapon evolution trees, in-depth weapon customization,
+                                        and a post-flooded steampunk world of deluvian mystery, we're very excited to bring this unique game to market.
+                                    </p>
+                                    <b className='textColorBlue DiagramHeader'>
+                                        Three Pillars of Gameplay:
+                                    </b>
+                                    <ul>
+                                        <li>
+                                            <b>Explore a Drowned World:</b> Discover hidden secrets and lore throughout the vast, interconnected world of Stygian Sea, each area offering unique challenges and rewards.
+                                        </li>
+                                        <li>
+                                            <b>Invent Gadgets:</b> Capture ideas in the world with your drone's camera, and combine them to invent new items that improve your utility and defense.
+                                        </li>
+                                        <li>
+                                            <b>Evolve Weapons:</b> Collect and upgrade a wide variety of weapons with branching evolution paths to suit your playstyle, and create your own unique ultimate weapon by combining the best attributes and special abilities!
+                                        </li>
+                                    </ul>
+
+                                </Grid>
+                                
+                                <Grid item xs={1} />
+                            </Grid>
                         </p>
                         <br />
+                        <p>
+                            <b className='textColorBlue DiagramHeader'>
+                                Programming & Designing the Entity
+                                Controllers
+                                <br />
+                                and Action RPG Combat:
+                            </b>
+                            <br />
+                            <Grid container direction="row" justifyContent="center" alignItems="flex-start">
+                                <Grid item xs={6}>
+                                    I programmed and designed our entity controlling suite of scripts, animations, and combat. This includes the player, monsters,
+                                    and NPCs that utilize inheritance to ensure their code is robust, maintainable,
+                                    expandable, and re-usable.
+                                    <ul>
+                                        <li>
+                                            Characters can walk, sprint, block, open doors, roll, jump, and air-boost through the air briefly by utilizing a stamina system and fuel system.
+                                        </li>
+                                        <li>
+                                            The Weapon system is accentuated by multi-attack combinations that vary by weapon type, post-roll attacks, post-back-step attacks,
+                                            sprinting attacks, chargeable power attacks, jump attacks, powerful elemental meteor strike attacks, and an intuitive lock-on system.
+                                        </li>
+                                        <li>
+                                            Characters can also utilize several classes of special weapons including Magic spells, Guns, and Daggers, each as customizable as the main weapon system with their own upgrade paths.
+                                        </li>
+                                        <li>
+                                            The Player controller utilizes Input Queues to ensure gameplay feels fluid to the user when performing multi-attack
+                                            combinations.
+                                        </li>
+                                        <li>
+                                            Entities take advantage of Animation Blend Trees and Layers to organically blend between different animations.
+                                        </li>
+                                        <li>
+                                            Non-Player entities utilize Unity's navigation meshes to traverse both the adventurous and sunny surface, as well as the
+                                            gloomy forgotten tunnels of the old world.
+                                        </li>
+                                        <li>
+                                            Weapons play immersive sound effects when swung, and when striking entities to increase game-feel and player feedback. This is
+                                            furthered by entities playing "Hurt" animations once damaged depending on the angle and severity of attack.
+                                        </li>
+                                        <li>
+                                            Entities take poise damage from attacks, and if their poise is fully depleted, they will be staggered and vulnerable to follow-up attacks 
+                                            until their poise regenerates.
+                                        </li>
+                                    </ul>
+                                </Grid>
+                                <Grid item xs={1} />
+                                <Grid item xs={5} className='textAlignCenter'>
+                                    <div class="auto-resizable-iframe MaxWidth100">
+                                        <div>
+                                            <iframe width="792" height="294" src="https://www.youtube.com/embed/RAb-tTRJ0jk"
+                                                title="Jerry Davis Portfolio: StygianSea Character Controller Showcase" frameborder="1"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
+                                                referrerpolicy="strict-origin-when-cross-origin"
+                                                allowfullscreen>
+                                            </iframe>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <i>Character Controller Showcase.</i>
+                                </Grid>
+                            </Grid>
+                        </p>
+                        <br />
+                        <br />
+                        <p>
+                            <Grid container direction="row" justifyContent="center" alignItems="flex-start">
+                                <Grid item xs={4} className='textAlignCenter'>
+                                    <img src={ScreenshotShortswordFamily} className='width100 OutlineGray' alt='Weapon Evolution Tree Demo' />
+                                    <br />
+                                    <i>
+                                        Tier 1 & 2 Shortsword branching family tree.
+                                        <br />
+                                        (Evolution Trees are Planned to be 7-8 Tiers Deep.)
+                                    </i>
+                                </Grid>
+                                <Grid item xs={1} />
+                                <Grid item xs={6} className=''>
+                                    <b className='textColorBlue DiagramHeader'>
+                                        Designing the Weapon Leveling & Evolution Tree System:
+                                    </b>
+                                    <br />
+                                    I designed our weapon system to act as the home of all of the player's offensive stats as part of an effort
+                                    to create a spiritual successor to Dark Cloud's weapon system.
+                                    <br />
+                                    Will you try to make the ultimate custom weapon, or try to invent them all?
+                                    <ul>
+                                        <li>
+                                            Weapons contain a total of 13 different attributes. (e.g. Attack, Durability, Wind, Beast)
+                                        </li>
+                                        <li>
+                                            Upon level-up, weapons gain Tinkering points which allow Mateo to customize his weapons using
+                                            various components found in dungeons and from monsters that permanently raise their
+                                            attributes. (e.g. Bolts, Plating, Wind Prism, Diamond)
+                                        </li>
+                                        <li>
+                                            As a weapon's attributes increase, they will eventually meet the requirements to evolve into a
+                                            new weapon. Many weapons have branching paths they may evolve, ensuring no play through is the same!
+                                        </li>
+                                        <li>
+                                            Once a weapon is level 5 or higher, it may be broken down into a tinkering component to be merged into other weapons.
+                                            This means that if you ever want to try a new weapon,
+                                            <br />
+                                            <i>it's easy to swap without losing too much!</i>
+                                        </li>
+                                        <li>
+                                            Many Weapon evolutions also come with interesting new special abilities that carry forward to any further evolutions of the weapon.
+                                            These unique skills can even be combined into other weapons via breaking the weapon down into a tinkering component.
+                                            <br />
+                                            <i>Create your own unique ultimate weapon, or use Skills to remove weaknesses from a weapon family!</i>
+                                        </li>
+                                        <li>
+                                            Obtained weapons will also be added to a "PokeDex"-like Catalogue, to help collection-focused players collect them all.
+                                        </li>
+                                    </ul>
+                                </Grid>
+                            </Grid>
+                        </p>
                         <p>
                             <b className='textColorBlue DiagramHeader'>
                                 Designing the Invention, Ideas, & Camera System:
@@ -133,8 +289,8 @@ function SteamGame01() {
                                             Just like real-life, inspiration can come from many different places so get out there and see the world and its people!
                                         </li>
                                         <li>
-                                            If you get 2 out of 3 ideas right for a combination, you'll get the first letter and length of the missing ingredient, as if the
-                                            idea was on the tip of your tongue!
+                                            If you get 2 out of 3 ideas right for a combination, you'll get a hint about the first letter and length of the missing idea, as if the
+                                            missing idea was on the tip of your tongue!
                                         </li>
                                         <li>
                                             Sometimes, even dungeon treasure will give you new ideas!
@@ -216,116 +372,6 @@ function SteamGame01() {
                         <br />
                         <br />
                         <p>
-                            <Grid container direction="row" justifyContent="center" alignItems="flex-start">
-                                <Grid item xs={4} className='textAlignCenter'>
-                                    <img src={ScreenshotShortswordFamily} className='width100 OutlineGray' alt='Weapon Evolution Tree Demo' />
-                                    <br />
-                                    <i>
-                                        Tier 1 & 2 Shortsword branching family tree.
-                                        <br />
-                                        (Evolution Trees are Planned to be 7-8 Tiers Deep.)
-                                    </i>
-                                </Grid>
-                                <Grid item xs={1} />
-                                <Grid item xs={6} className=''>
-                                    <b className='textColorBlue DiagramHeader'>
-                                        Designing the Weapon Leveling & Evolution Tree System:
-                                    </b>
-                                    <br />
-                                    I designed our weapon system to act as the home of all of the player's offensive stats as part of an effort
-                                    to create a spiritual successor to Dark Cloud's weapon system.
-                                    <br />
-                                    Will you try to make the ultimate custom weapon, or try to invent them all?
-                                    <ul>
-                                        <li>
-                                            Weapons contain a total of 13 different attributes. (e.g. Attack, Durability, Wind, Beast)
-                                        </li>
-                                        <li>
-                                            Upon level-up, weapons gain Tinkering points which allow Mateo to customize his weapons using
-                                            various components found in dungeons and from monsters that permanently raise their
-                                            attributes. (e.g. Bolts, Plating, Wind Prism, Diamond)
-                                        </li>
-                                        <li>
-                                            As a weapon's attributes increase, they will eventually meet the requirements to evolve into a
-                                            new weapon. Many weapons have branching paths they may evolve, ensuring no play through is the same!
-                                        </li>
-                                        <li>
-                                            Once a weapon is level 5 or higher, it may be broken down into a tinkering component to be merged into other weapons.
-                                            This means that if you ever want to try a new weapon,
-                                            <br />
-                                            <i>it's easy to swap without losing too much!</i>
-                                        </li>
-                                        <li>
-                                            Many Weapon evolutions also come with interesting new special abilities that carry forward to any further evolutions of the weapon.
-                                            These unique skills can even be combined into other weapons via breaking the weapon down into a tinkering component.
-                                            <br />
-                                            <i>Create your own unique ultimate weapon, or use Skills to remove weaknesses from a weapon family!</i>
-                                        </li>
-                                        <li>
-                                            Obtained weapons will also be added to a "PokeDex"-like Catalogue, to help collection-focused players collect them all.
-                                        </li>
-                                    </ul>
-                                </Grid>
-                            </Grid>
-                        </p>
-                        <br />
-                        <p>
-                            <b className='textColorBlue DiagramHeader'>
-                                Programming & Designing the Entity
-                                Controllers
-                                <br />
-                                and Action RPG Combat:
-                            </b>
-                            <br />
-                            <Grid container direction="row" justifyContent="center" alignItems="flex-start">
-                                <Grid item xs={6}>
-                                    I programmed and designed our entity controlling suite of scripts, animations, and combat. This includes the player, monsters,
-                                    and NPCs (except the NPC dialogue system) that utilize inheritance to ensure their code is robust, maintainable,
-                                    expandable, and re-usable.
-                                    <ul>
-                                        <li>
-                                            Characters can walk, sprint, block, open doors, roll, jump, and air-boost through the air briefly by utilizing a stamina system similar to Dark Souls.
-                                        </li>
-                                        <li>
-                                            The Weapon system is accentuated by multi-attack combinations that vary by weapon type, post-roll attacks, post-back-step attacks,
-                                            sprinting attacks, chargeable power attacks, and an intuitive lock-on system.
-                                        </li>
-                                        <li>
-                                            The Player controller utilizes Input Queues to ensure gameplay feels fluid to the user when performing multi-attack
-                                            combinations.
-                                        </li>
-                                        <li>
-                                            Entities take advantage of Animation Blend Trees and Layers to organically blend between different animations.
-                                        </li>
-                                        <li>
-                                            Non-Player entities utilize Unity's navigation meshes to traverse both the adventurous and sunny surface, as well as the
-                                            gloomy forgotten tunnels of the old world.
-                                        </li>
-                                        <li>
-                                            Weapons play immersive sound effects when swung, and when striking entities to increase game-feel and player feedback. This is
-                                            furthered by entities playing "Hurt" animations once damaged depending on the angle and severity of attack.
-                                        </li>
-                                    </ul>
-                                </Grid>
-                                <Grid item xs={1} />
-                                <Grid item xs={5} className='textAlignCenter'>
-                                    <div class="auto-resizable-iframe MaxWidth100">
-                                        <div>
-                                            <iframe width="792" height="294" src="https://www.youtube.com/embed/RAb-tTRJ0jk"
-                                                title="Jerry Davis Portfolio: StygianSea Character Controller Demo" frameborder="1"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
-                                                referrerpolicy="strict-origin-when-cross-origin"
-                                                allowfullscreen>
-                                            </iframe>
-                                        </div>
-                                    </div>
-                                    <br />
-                                    <i>Character Controller Demo.</i>
-                                </Grid>
-                            </Grid>
-                        </p>
-                        <br />
-                        <p>
                             <b className='textColorBlue DiagramHeader'>
                                 Programming the Gameplay Camera and Lock-On System:
                             </b>
@@ -347,12 +393,12 @@ function SteamGame01() {
                             <br />
                             <Grid container direction="row" justifyContent="center" alignItems="center" className='textAlignCenter' spacing={2}>
                                 <Grid item xs={6}>
-                                    <img src={ScreenshotMateoRunning} className='width100' alt='Running Through Chopped Forest demo' />
+                                    <img src={ScreenshotMateoRunning} className='width100 OutlineGray' alt='Running Through Chopped Forest demo' />
                                     <br />
                                     <i>Normal Running Camera Field of View.</i>
                                 </Grid>
                                 <Grid item xs={6}>
-                                    <img src={ScreenshotMateoSprinting} className='width100' alt='Running Over Green Hills Demo' />
+                                    <img src={ScreenshotMateoSprinting} className='width100 OutlineGray' alt='Running Over Green Hills Demo' />
                                     <br />
                                     <i>Sprinting Camera Field of View and Motion Lines.</i>
                                 </Grid>
@@ -386,8 +432,27 @@ function SteamGame01() {
                             <br />
                             <br />
                             <Grid container direction="row" justifyContent="center" alignItems="top" className='textAlignCenter'>
+                                <Grid item xs={6} className='textAlignCenter'>
+                                    <br />
+                                    <img src={ScreenshotRoseFront} className='width80 OutlineGray' alt='Mateo in The Dark' />
+                                    <br />
+                                    <i>Rose, Mateo's partner who is an experienced Spotter and Pilot. 
+                                    </i>
+                                </Grid>
+                                <Grid item xs={6} className='textAlignCenter'>
+                                    <br />
+                                    <img src={ScreenshotSkeletonyFront} className='width80 OutlineGray' alt='Mateo in The Dark' />
+                                    <br />
+                                    <i>Skele-Tony, an undead monster from the Skele-Mafia family of enemies.
+                                        <br />
+                                        Uses a butterfly comb for a weapon and is weak to Light element. Nyeh!
+                                    </i>
+                                    <br />
+                                    <br />
+                                    <br />
+                                </Grid>
                                 <Grid item xs={5}>
-                                    <img src={ScreenshotExplosionPuffVFX1} className='width100' alt='Lava Room Demo' />
+                                    <img src={ScreenshotExplosionPuffVFX1} className='width100 OutlineGray' alt='Lava Room Demo' />
                                     <br />
                                     <i>
                                         Bomb Explosion VFX (Part 1)
@@ -395,7 +460,7 @@ function SteamGame01() {
                                 </Grid>
                                 <Grid item xs={1} />
                                 <Grid item xs={5} className='textAlignCenter'>
-                                    <img src={ScreenshotExplosionPuffVFX2} className='width100' alt='Mateo in The Dark' />
+                                    <img src={ScreenshotExplosionPuffVFX2} className='width100 OutlineGray' alt='Mateo in The Dark' />
                                     <br />
                                     <i>
                                         Bomb Explosion VFX (Part 2)
@@ -403,7 +468,7 @@ function SteamGame01() {
                                 </Grid>
                                 <Grid item xs={5}>
                                     <br />
-                                    <img src={ScreenshotEnemyDeathVFX1} className='width100' alt='Lava Room Demo' />
+                                    <img src={ScreenshotEnemyDeathVFX1} className='width100 OutlineGray' alt='Lava Room Demo' />
                                     <br />
                                     <i>
                                         Enemy Death Explosion VFX (Part 1)
@@ -412,38 +477,15 @@ function SteamGame01() {
                                 <Grid item xs={1} />
                                 <Grid item xs={5} className='textAlignCenter'>
                                     <br />
-                                    <img src={ScreenshotEnemyDeathVFX2} className='width100' alt='Mateo in The Dark' />
+                                    <img src={ScreenshotEnemyDeathVFX2} className='width100 OutlineGray' alt='Mateo in The Dark' />
                                     <br />
                                     <i>
                                         Enemy Death Explosion VFX (Part 2)
                                     </i>
                                 </Grid>
-                                <Grid item xs={5} className='textAlignCenter'>
-                                    <br />
-                                    <img src={ScreenshotMateoFront} className='width80' alt='Mateo in The Dark' />
-                                    <br />
-                                    <i>Mateo, a young Inventor and Delver
-                                        <br />
-                                        from a Steampunk Tex-Mex-inspired
-                                        <br />
-                                        culture.
-                                    </i>
-                                </Grid>
-                                <Grid item xs={1} />
-                                <Grid item xs={5} className='textAlignCenter'>
-                                    <br />
-                                    <img src={ScreenshotRoseFront} className='width80' alt='Mateo in The Dark' />
-                                    <br />
-                                    <i>Rose, a young Spotter and Pilot
-                                        <br />
-                                        from a Steampunk Tex-Mex-inspired
-                                        <br />
-                                        culture.
-                                    </i>
-                                </Grid>
                                 <Grid item xs={5}>
                                     <br />
-                                    <img src={ScreenshotLavaRoomSwordSwing} className='width100' alt='Lava Room Demo' />
+                                    <img src={ScreenshotLavaRoomSwordSwing} className='width100 OutlineGray' alt='Lava Room Demo' />
                                     <br />
                                     <i>
                                         Lava Chamber found within an Old World Ruin.
