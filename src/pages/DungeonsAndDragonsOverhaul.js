@@ -50,7 +50,7 @@ function DungeonsAndDragonsOverhaul() {
             </h3>
             <br />
             <Grid className="textAlignCenter" container direction="row" justifyContent="center" alignItems="center" >
-                <Grid item xs={8}>
+                <Grid item xs={9}>
                     <img className="NewBannerImageLearnMore" src={SWWOverhaulBanner}
                         alt="Silverwind Workshop's Skill Trees - D&D Tabletop Game Addon Banner" />
                 </Grid>
