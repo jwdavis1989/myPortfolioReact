@@ -50,14 +50,14 @@ function DungeonsAndDragonsOverhaul() {
             </h3>
             <br />
             <Grid className="textAlignCenter" container direction="row" justifyContent="center" alignItems="center" >
-                <Grid item xs={12}>
+                <Grid item xs={8}>
                     <img className="NewBannerImageLearnMore" src={SWWOverhaulBanner}
                         alt="Silverwind Workshop's Skill Trees - D&D Tabletop Game Addon Banner" />
                 </Grid>
             </Grid>
             <p>
                 <Grid container direction="row" justifyContent="center" alignItems="center" >
-                    <Grid item xs={10}>
+                    <Grid item xs={8}>
                         <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
                             <Button className="ImageLogo" startIcon={<LocalGroceryStoreIcon style={{ marginRight: BUTTON_ICON_MARGIN_RIGHT }} />}
                                 component="a" href="https://marketplace.roll20.net/browse/gameaddon/14629/silverwind-workshops-skill-trees-and-leveling-overhaul" target="_blank" rel="noreferrer">

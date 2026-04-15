@@ -17,18 +17,22 @@ function GameJamBlackFriday() {
                     Black Friday: The Last Stand - GameDev.TV Game Jam 2024
                 </h3>
                 <p>
-                    <div class="auto-resizable-iframe">
-                        <div>
-                            <iframe width="792" height="294" src="https://www.youtube.com/embed/Gkng-3ep7_A"
-                                title="Black Friday Game Jam Demo" frameborder="1"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen></iframe>
-                        </div>
-                    </div>
+                    <Grid className="textAlignCenter" container direction="row" justifyContent="center" alignItems="center" >
+                        <Grid item xs={10}>
+                            <div class="auto-resizable-iframe">
+                                <div>
+                                    <iframe width="853" height="505" src="https://www.youtube.com/embed/Gkng-3ep7_A"
+                                        title="Black Friday Game Jam Demo" frameborder="1"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
+                                        referrerpolicy="strict-origin-when-cross-origin"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </Grid>
+                    </Grid>
                     <p>
                         <Grid container direction="row" justifyContent="center" alignItems="center" >
-                            <Grid item xs={6}>
+                            <Grid item xs={5}>
                                 <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
                                     <Button className="ImageLogo" startIcon={<SourceIcon />}
                                         component="a" href="https://github.com/jwdavis1989/GameDevTvGameJam2024" target="_blank" rel="noreferrer">
@@ -42,7 +46,7 @@ function GameJamBlackFriday() {
                             </Grid>
                         </Grid>
                         <Grid container direction="row" justifyContent="center" alignItems="center" >
-                            <Grid item xs={6}>
+                            <Grid item xs={5}>
                                 <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
                                     <Button className="ImageLogo" startIcon={<DownloadIcon />}
                                         component="a" href={"https://docs.google.com/document/d/1oLtc68ixtdXaahR2DjMnLqkFSzS7oAtWkp_1t3Xv1-k/edit?usp=sharing"} target="_blank" rel="noreferrer">
@@ -56,9 +60,9 @@ function GameJamBlackFriday() {
                             </Grid>
                         </Grid>
                         <Grid container direction="row" justifyContent="center" alignItems="center" >
-                            <Grid item xs={6}>
+                            <Grid item xs={5}>
                                 <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
-                                <Button className="ImageLogo" startIcon={<DownloadIcon />}
+                                    <Button className="ImageLogo" startIcon={<DownloadIcon />}
                                         component="a" href={BlackFridayDownload} target="_blank" rel="noreferrer">
                                         Download
                                     </Button>
@@ -68,7 +72,7 @@ function GameJamBlackFriday() {
                     </p>
                     <div className="textAlignLeft animationFadeIn SectionCard">
                         <p>
-                        <b className='textColorBlue'>Contributions:</b>
+                            <b className='textColorBlue'>Contributions:</b>
                             <p>
                                 <span className='ContributionsCardLeadership'>Game Director:</span> Directed our 6-man team of 3 Programmers, 1 Game Designer 1 3D Artist, and 1 Sound Designer towards fulfilling the creative vision of the game.
                                 <br />
@@ -76,7 +80,7 @@ function GameJamBlackFriday() {
                                 <span className='ContributionsCardGameDesign'>Game Designer:</span> Designed the primary gameplay loop, map layout, and theming.
                                 <br />
                                 <br />
-                                <span className='ContributionsCardProgramming'>Lead Programmer:</span> Programmed the turret building, turret abilities, and User Interface. 
+                                <span className='ContributionsCardProgramming'>Lead Programmer:</span> Programmed the turret building, turret abilities, and User Interface.
                                 Assisted in programming and bugfixing character movement and melee attack.
                                 <br />
                                 <br />

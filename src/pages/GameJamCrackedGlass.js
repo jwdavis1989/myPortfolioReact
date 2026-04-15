@@ -20,18 +20,22 @@ function GameJamCrackedGlass() {
                     Cracked Glass - Underwater Horror Jam 2024
                 </h3>
                 <p>
-                    <div class="auto-resizable-iframe">
-                        <div>
-                            <iframe width="792" height="294" src="https://www.youtube.com/embed/GNVOkna3ZhM"
+                    <Grid className="textAlignCenter" container direction="row" justifyContent="center" alignItems="center" >
+                        <Grid item xs={10}>
+                            <div class="auto-resizable-iframe">
+                                <div>
+                                    <iframe width="853" height="505" src="https://www.youtube.com/embed/GNVOkna3ZhM"
                                 title="Cracked Glass Game Jam Demo" frameborder="1"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
                                 referrerpolicy="strict-origin-when-cross-origin"
                                 allowfullscreen></iframe>
-                        </div>
-                    </div>
+                                </div>
+                            </div>
+                        </Grid>
+                    </Grid>
                     <p>
                         <Grid container direction="row" justifyContent="center" alignItems="center" >
-                            <Grid item xs={6}>
+                            <Grid item xs={5}>
                                 <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
                                     <Button className="ImageLogo" startIcon={<SourceIcon />}
                                         component="a" href="https://github.com/jwdavis1989/GameJamLloydAlecJerryTemplateRepo" target="_blank" rel="noreferrer">
@@ -45,7 +49,7 @@ function GameJamCrackedGlass() {
                             </Grid>
                         </Grid>
                         <Grid container direction="row" justifyContent="center" alignItems="center" >
-                            <Grid item xs={6}>
+                            <Grid item xs={5}>
                                 <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
                                     <Button className="ImageLogo" startIcon={<DownloadIcon />}
                                         component="a" href={CrackedGlassDesignDocument} target="_blank" rel="noreferrer">
@@ -59,7 +63,7 @@ function GameJamCrackedGlass() {
                             </Grid>
                         </Grid>
                         <Grid container direction="row" justifyContent="center" alignItems="center" >
-                            <Grid item xs={6}>
+                            <Grid item xs={5}>
                                 <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
                                     <Button className="ImageLogo" startIcon={<DownloadIcon />}
                                         component="a" href={CrackedGlassDownload} target="_blank" rel="noreferrer">

@@ -17,10 +17,10 @@ function GameJamMightyMorphinMotorcat() {
                 </h3>
                 <br />
                 <Grid className="textAlignCenter" container direction="row" justifyContent="center" alignItems="center" >
-                    <Grid item xs={12}>
+                    <Grid item xs={10}>
                         <div class="auto-resizable-iframe">
                             <div>
-                                <iframe width="792" height="294" src="https://www.youtube.com/embed/NS3pbhwq57w"
+                                <iframe width="853" height="505" src="https://www.youtube.com/embed/NS3pbhwq57w"
                                     title="Mighty Morphin' Motorcat Game Jam Demo" frameborder="1"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
                                     referrerpolicy="strict-origin-when-cross-origin"
@@ -32,7 +32,7 @@ function GameJamMightyMorphinMotorcat() {
                 <p>
                     <p>
                         <Grid container direction="row" justifyContent="center" alignItems="center" >
-                            <Grid item xs={6}>
+                            <Grid item xs={5}>
                                 <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
                                     <Button className="ImageLogo" startIcon={<SourceIcon />}
                                         component="a" href="https://github.com/jwdavis1989/GamemakersToolkitGameJam2024Repo" target="_blank" rel="noreferrer">
@@ -46,7 +46,7 @@ function GameJamMightyMorphinMotorcat() {
                             </Grid>
                         </Grid>
                         <Grid container direction="row" justifyContent="center" alignItems="center" >
-                            <Grid item xs={6}>
+                            <Grid item xs={5}>
                                 <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
                                     <Button className="ImageLogo" startIcon={<DownloadIcon />}
                                         component="a" href={"https://docs.google.com/document/d/1NhMGPbC-oTsWm-WK7naAFokrysBu1TwzgsNT9qDsBWk/edit?usp=sharing"} target="_blank" rel="noreferrer">
@@ -60,7 +60,7 @@ function GameJamMightyMorphinMotorcat() {
                             </Grid>
                         </Grid>
                         <Grid container direction="row" justifyContent="center" alignItems="center" >
-                            <Grid item xs={6}>
+                            <Grid item xs={5}>
                                 <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
                                     <Button className="ImageLogo" startIcon={<PlayArrowIcon />}
                                         component="a" href="https://silverwindworkshop.itch.io/mighty-morphin-motorcat" target="_blank" rel="noreferrer">
