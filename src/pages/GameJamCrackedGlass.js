@@ -18,7 +18,6 @@ function GameJamCrackedGlass() {
             <div>
                 <h3 className="SectionHeader">
                     Cracked Glass - Underwater Horror Jam 2024
-                    <hr className="HorizontalLineBlue" />
                 </h3>
                 <p>
                     <div class="auto-resizable-iframe">

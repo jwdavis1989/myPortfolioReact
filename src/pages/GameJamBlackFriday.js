@@ -15,7 +15,6 @@ function GameJamBlackFriday() {
             <div>
                 <h3 className="SectionHeader">
                     Black Friday: The Last Stand - GameDev.TV Game Jam 2024
-                    <hr className="HorizontalLineBlue" />
                 </h3>
                 <p>
                     <div class="auto-resizable-iframe">

@@ -129,8 +129,8 @@ function PyromancyTalentTreeComponent(props) {
             <div>
                 <h3 id="TreeHeaderSection" className="SectionHeader">
                     Pyromancy Tree Demo
-                    <hr className="HorizontalLineBlue" />
                 </h3>
+                <br />
                 <p className="NormalPageLayout">
                     <Grid container spacing={0} id="Logo and Overview">
                         <Grid item xs={4}>

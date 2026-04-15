@@ -47,9 +47,8 @@ function DungeonsAndDragonsOverhaul() {
             <div className='NavBarSectionPadding' />
             <h3 className="SectionHeader">
                 Silverwind Workshop's Skill Trees - D&D Tabletop Game Addon
-                <hr className="HorizontalLineBlue" />
             </h3>
-            <p />
+            <br />
             <Grid className="textAlignCenter" container direction="row" justifyContent="center" alignItems="center" >
                 <Grid item xs={12}>
                     <img className="NewBannerImageLearnMore" src={SWWOverhaulBanner}
@@ -148,8 +147,8 @@ function DungeonsAndDragonsOverhaul() {
                     <p>
                         <h4 id="Skill Tree Demos" className="SectionHeader">
                             Interactive Skill Tree Demonstration & Design Insights:
-                            <hr className="HorizontalLineBlue" />
                         </h4>
+                        <br />
                         <div className='SectionCard'>
                             <Grid container spacing={0} id="Row 3 Example Tree Icons Reworked">
                                 <Grid item xs={3}>

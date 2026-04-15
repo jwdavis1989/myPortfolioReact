@@ -12,14 +12,14 @@ function AboutMe() {
             <div className='NavBarSectionPadding' />
             <h3 className="SectionHeader">
                 About Me
-                <hr className="HorizontalLineBlue" />
             </h3>
+            <br />
             <p className="NormalPageLayout">
                 <Grid container spacing={0} className='SectionCard'>
                     <Grid item xs={2}>
                         <img className="NewPortraitImage" src={profilePicture}
                             alt="Profile" />
-                        
+
                     </Grid>
                     <Grid item xs={1} />
                     <Grid item xs={9} className='textAlignLeft'>
@@ -41,15 +41,14 @@ function AboutMe() {
                             Download:
                         </b>
                         &nbsp;
-                            <Button variant="outlined" component="a" href={gameDesignPDF} target="_blank" rel="noreferrer">
-                                <PictureAsPdfIcon alt="Download Resume" className="" />
-                            </Button>
+                        <Button variant="outlined" component="a" href={gameDesignPDF} target="_blank" rel="noreferrer">
+                            <PictureAsPdfIcon alt="Download Resume" className="" />
+                        </Button>
                     </Grid>
                 </Grid>
                 <p>
                     <h4 className="SectionHeader">
                         <SchoolIcon fontSize='inherit' /> Education
-                        <hr className="HorizontalLineBlue" />
                     </h4>
                     <p className="NormalPageLayout SectionCard">
                         <b>Bachelor's of Computer Science with a Minor in Business</b>
@@ -60,7 +59,6 @@ function AboutMe() {
                     </p>
                     <h4 className="SectionHeader">
                         <EmojiEventsIcon fontSize='inherit' /> Awards
-                        <hr className="HorizontalLineBlue" />
                     </h4>
                     <p className="NormalPageLayout SectionCard">
                         2nd Place - Figerox Underwater Horror Jam 2024
@@ -75,7 +73,6 @@ function AboutMe() {
                     </p>
                     <h4 className="SectionHeader">
                         <SportsEsportsIcon fontSize='inherit' /> I Love Games That . . .
-                        <hr className="HorizontalLineBlue" />
                     </h4>
                     <p className="NormalPageLayoutLeft SectionCard">
                         <p>

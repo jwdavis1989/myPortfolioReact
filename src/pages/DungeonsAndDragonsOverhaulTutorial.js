@@ -10,7 +10,6 @@ function DungeonsAndDragonsOverhaulTutorial() {
             <div>
                 <h3 className="SectionHeader">
                     Tutorial - Silverwind Workshop's Skill Trees
-                    <hr className="HorizontalLineBlue" />
                 </h3>
                 <p className="NormalPageLayout">
                     <div className="textAlignLeft animationFadeIn">

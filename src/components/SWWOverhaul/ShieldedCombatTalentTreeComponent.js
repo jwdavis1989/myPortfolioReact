@@ -128,8 +128,8 @@ function ShieldedCombatTalentTreeComponent(props) {
             <div>
                 <h3 id="TreeHeaderSection" className="SectionHeader">
                     Shield Mastery Tree Demo
-                    <hr className="HorizontalLineBlue" />
                 </h3>
+                <br />
                 <p className="NormalPageLayout">
                     <Grid container spacing={0} id="Logo and Overview">
                         <Grid item xs={4}>

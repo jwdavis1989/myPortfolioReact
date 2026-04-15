@@ -11,8 +11,8 @@ function ProfessionalWorkSection() {
         <div>
             <h3 className="SectionHeader">
                 PROFESSIONAL WORK
-                <hr className="HorizontalLineBlue" />
             </h3>
+            <br />
             <p className="NormalPageLayoutWide">
                 <Grid container direction="row" justifyContent="space-around" alignItems="flex-start" className='SectionCard'>
                     <Grid item xs={5.5} className="auto-resizable-iframe">
@@ -90,14 +90,14 @@ function ProfessionalWorkSection() {
                             className="SectionHeaderLink"
                             onClick={() => window.scrollTo(0, 0)}
                             style={{ textDecoration: 'none', color: 'inherit' }}>
-                        <div className="SectionHeaderCard">
-                            <h3>
-                                Silverwind Skill Trees
-                                <br />
-                                <b>D&D Tabletop Game Addon</b>
-                                <hr className="HorizontalLineBlue" />
-                            </h3>
-                        </div>
+                            <div className="SectionHeaderCard">
+                                <h3>
+                                    Silverwind Skill Trees
+                                    <br />
+                                    <b>D&D Tabletop Game Addon</b>
+                                    <hr className="HorizontalLineBlue" />
+                                </h3>
+                            </div>
                         </Link>
                         <p>
                             <span className='ContributionsCardGameDesign'>Game Designer</span>

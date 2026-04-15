@@ -14,8 +14,8 @@ function GameJamMightyMorphinMotorcat() {
             <div>
                 <h3 className="SectionHeader">
                     Mighty Morphin' Motorcat - GMTK Game Jam 2024
-                    <hr className="HorizontalLineBlue" />
                 </h3>
+                <br />
                 <Grid className="textAlignCenter" container direction="row" justifyContent="center" alignItems="center" >
                     <Grid item xs={12}>
                         <div class="auto-resizable-iframe">

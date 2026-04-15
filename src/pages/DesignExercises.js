@@ -115,8 +115,8 @@ function DesignExercises() {
             <div>
                 <h3 className="SectionHeader">
                     Yingyue the Jiangshi - League of Legends Character Concept
-                    <hr className="HorizontalLineBlue" />
                 </h3>
+                <br />
                 <p>
                     <img className="NormalPageLayout" src={ChineseVampireBanner}
                         alt="Yingyue the Jiangshi - League of Legends Character Concept" />
@@ -195,8 +195,8 @@ function DesignExercises() {
                 <p>
                     <h4 id="InteractiveDemoHeader" className="SectionHeader">
                         Interactive Abilities & Design Insights:
-                        <hr className="HorizontalLineBlue" />
                     </h4>
+                    <br />
                     <div className='SectionCard'>
 
                     
