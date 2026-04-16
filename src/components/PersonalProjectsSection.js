@@ -10,8 +10,8 @@ function PersonalProjectsSection() {
         <div>
             <h3 className="SectionHeader">
                 GAME JAMS & PERSONAL PROJECTS
-                <hr className="HorizontalLineBlue" />
             </h3>
+            <br />
             <Grid container direction="row" justifyContent="space-around" alignItems="flex-start" className='SectionCard'>
                 <Grid item xs={5.5} className="auto-resizable-iframe">
                     <div>
@@ -201,14 +201,14 @@ function PersonalProjectsSection() {
                         className="SectionHeaderLink"
                         onClick={() => window.scrollTo(0, 0)}
                         style={{ textDecoration: 'none', color: 'inherit' }}>
-                    <div className="SectionHeaderCard">
-                        <h3>
-                            Phoenix Walker
-                            <br />
-                            Game Prototype
-                            <hr className="HorizontalLineBlue" />
-                        </h3>
-                    </div>
+                        <div className="SectionHeaderCard">
+                            <h3>
+                                Phoenix Walker
+                                <br />
+                                Game Prototype
+                                <hr className="HorizontalLineBlue" />
+                            </h3>
+                        </div>
                     </Link>
                     <p>
                         <span className='ContributionsCardGameDesign'>Game Designer</span>
@@ -254,14 +254,14 @@ function PersonalProjectsSection() {
                         className="SectionHeaderLink"
                         onClick={() => window.scrollTo(0, 0)}
                         style={{ textDecoration: 'none', color: 'inherit' }}>
-                    <div className="SectionHeaderCard">
-                        <h3>
-                            Yingyue the Jiangshi
-                            <br />
-                            League of Legends Character Concept
-                            <hr className="HorizontalLineBlue" />
-                        </h3>
-                    </div>
+                        <div className="SectionHeaderCard">
+                            <h3>
+                                Yingyue the Jiangshi
+                                <br />
+                                League of Legends Character Concept
+                                <hr className="HorizontalLineBlue" />
+                            </h3>
+                        </div>
                     </Link>
                     <p>
                         <span className='ContributionsCardGameDesign'>Game Designer</span>

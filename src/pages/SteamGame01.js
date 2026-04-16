@@ -15,6 +15,8 @@ import ScreenshotExplosionPuffVFX1 from '../resources/images/ArcadianSea/Arcadia
 import ScreenshotExplosionPuffVFX2 from '../resources/images/ArcadianSea/ArcadianSeaExplosionPuffVFX2.png';
 import ScreenshotRoseFront from '../resources/images/ArcadianSea/ArcadianSeaRoseFront.png';
 import ScreenshotSkeletonyFront from '../resources/images/ArcadianSea/StygianSea_SkeleTonyPortrait_01.png';
+import ScreenshotFabricatorFront from '../resources/images/ArcadianSea/StygianSea_FabricatorPortrait_01.png';
+import ScreenshotFabricantFront from '../resources/images/ArcadianSea/StygianSea_FabricantPortrait_01.png';
 import ScreenshotShortswordFamily from '../resources/images/ArcadianSea/WeaponEvolutionDiagram.png';
 import DiagramIdeaPotion from '../resources/images/ArcadianSea/Idea_Potion.png';
 import DiagramIdeaRock from '../resources/images/ArcadianSea/Idea_Rock.png';
@@ -28,8 +30,8 @@ function SteamGame01() {
             <div>
                 <h3 className="SectionHeader">
                     Stygian Sea (In-Development Steam Game)
-                    <hr className="HorizontalLineBlue" />
                 </h3>
+                <br />
                 <Grid className="textAlignCenter" container direction="row" justifyContent="center" alignItems="center" >
                     <Grid item xs={10}>
                         <iframe width="853" height="505" src="https://www.youtube.com/embed/1N0VRkYRj0o"
@@ -434,18 +436,47 @@ function SteamGame01() {
                             <Grid container direction="row" justifyContent="center" alignItems="top" className='textAlignCenter'>
                                 <Grid item xs={6} className='textAlignCenter'>
                                     <br />
-                                    <img src={ScreenshotRoseFront} className='width80 OutlineGray' alt='Mateo in The Dark' />
+                                    <img src={ScreenshotRoseFront} className='width80 OutlineGray' alt='Rose model' />
                                     <br />
                                     <i>Rose, Mateo's partner who is an experienced Spotter and Pilot. 
                                     </i>
                                 </Grid>
                                 <Grid item xs={6} className='textAlignCenter'>
                                     <br />
-                                    <img src={ScreenshotSkeletonyFront} className='width80 OutlineGray' alt='Mateo in The Dark' />
+                                    <img src={ScreenshotSkeletonyFront} className='width80 OutlineGray' alt='Skeletony model (untextured)' />
                                     <br />
                                     <i>Skele-Tony, an undead monster from the Skele-Mafia family of enemies.
                                         <br />
                                         Uses a butterfly comb for a weapon and is weak to Light element. Nyeh!
+                                        <br />
+                                        (Untextured)
+                                    </i>
+                                    <br />
+                                    <br />
+                                    <br />
+                                </Grid>
+                                <Grid item xs={5.5} className='textAlignCenter'>
+                                    <br />
+                                    <img src={ScreenshotFabricatorFront} className='width80 OutlineGray' alt='Fabricator model (untextured)' />
+                                    <br />
+                                    <i>Fabricator, an ancient class of machine that uses raw materials 
+                                        <br />to 3D-print flying worker drones.
+                                        <br />
+                                        (Untextured)
+                                        <br />
+                                        <br />
+                                        <br />
+                                    </i>
+                                </Grid>
+                                <Grid item xs={6.5} className='textAlignCenter'>
+                                    <br />
+                                    <img src={ScreenshotFabricantFront} className='width80 OutlineGray' alt='Fabricant model (untextured)' />
+                                    <br />
+                                    <i>Fabricant Swarm, the ancient worker drones created by Fabricants.
+                                        <br />
+                                        Able to spontaneously explode if provoked.
+                                        <br />
+                                        (Untextured)
                                     </i>
                                     <br />
                                     <br />

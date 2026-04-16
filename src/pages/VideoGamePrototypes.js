@@ -15,7 +15,6 @@ function VideoGamePrototypes() {
             <div>
                 <h3 className="SectionHeader">
                     Phoenix Walker - Game Prototype
-                    <hr className="HorizontalLineBlue" />
                 </h3>
                 <p>
                     <div class="auto-resizable-iframe">

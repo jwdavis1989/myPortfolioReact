@@ -47,18 +47,17 @@ function DungeonsAndDragonsOverhaul() {
             <div className='NavBarSectionPadding' />
             <h3 className="SectionHeader">
                 Silverwind Workshop's Skill Trees - D&D Tabletop Game Addon
-                <hr className="HorizontalLineBlue" />
             </h3>
-            <p />
+            <br />
             <Grid className="textAlignCenter" container direction="row" justifyContent="center" alignItems="center" >
-                <Grid item xs={12}>
+                <Grid item xs={9}>
                     <img className="NewBannerImageLearnMore" src={SWWOverhaulBanner}
                         alt="Silverwind Workshop's Skill Trees - D&D Tabletop Game Addon Banner" />
                 </Grid>
             </Grid>
             <p>
                 <Grid container direction="row" justifyContent="center" alignItems="center" >
-                    <Grid item xs={10}>
+                    <Grid item xs={8}>
                         <ButtonGroup className='NavBarButtonGroup NewContentBody' fullWidth>
                             <Button className="ImageLogo" startIcon={<LocalGroceryStoreIcon style={{ marginRight: BUTTON_ICON_MARGIN_RIGHT }} />}
                                 component="a" href="https://marketplace.roll20.net/browse/gameaddon/14629/silverwind-workshops-skill-trees-and-leveling-overhaul" target="_blank" rel="noreferrer">
@@ -148,8 +147,8 @@ function DungeonsAndDragonsOverhaul() {
                     <p>
                         <h4 id="Skill Tree Demos" className="SectionHeader">
                             Interactive Skill Tree Demonstration & Design Insights:
-                            <hr className="HorizontalLineBlue" />
                         </h4>
+                        <br />
                         <div className='SectionCard'>
                             <Grid container spacing={0} id="Row 3 Example Tree Icons Reworked">
                                 <Grid item xs={3}>
